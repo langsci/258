@@ -1,0 +1,29 @@
+\documentclass[output=paper]{langscibook}
+
+\author{Change author in chapters/02.tex}
+\title{Change title in chapters/02.tex} 
+\abstract{Change the  abstract in chapters/02.tex}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+ 
+ 
+\section*{Abbreviations}
+\begin{tabularx}{.45\textwidth}{lQ}
+... & \\
+... & \\
+\end{tabularx}
+\begin{tabularx}{.45\textwidth}{lQ}
+... & \\
+... & \\
+\end{tabularx}
+
+
+\section*{Acknowledgements}
+\citet{Nordhoff2018} is useful for compiling bibliographies.
+
+\sloppy
+\printbibliography[heading=subbibliography,notkeyword=this]
+\end{document}
