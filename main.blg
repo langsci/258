@@ -1,0 +1,431 @@
+[0] Config.pm:302> INFO - This is Biber 2.9
+[0] Config.pm:305> INFO - Logfile is 'main.blg'
+[21] biber:313> INFO - === Mon Sep 30, 2019, 17:27:32
+[42] Biber.pm:371> INFO - Reading 'main.bcf'
+[120] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[120] Biber.pm:857> INFO - Found 61 citekeys in bib section 1
+[120] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[120] Biber.pm:857> INFO - Found 35 citekeys in bib section 2
+[121] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[121] Biber.pm:857> INFO - Found 34 citekeys in bib section 3
+[121] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[121] Biber.pm:857> INFO - Found 1 citekeys in bib section 4
+[121] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[122] Biber.pm:857> INFO - Found 19 citekeys in bib section 5
+[122] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[122] Biber.pm:857> INFO - Found 60 citekeys in bib section 6
+[122] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[123] Biber.pm:857> INFO - Found 50 citekeys in bib section 7
+[123] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[123] Biber.pm:857> INFO - Found 35 citekeys in bib section 8
+[123] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[123] Biber.pm:857> INFO - Found 2 citekeys in bib section 9
+[123] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[124] Biber.pm:857> INFO - Found 16 citekeys in bib section 10
+[124] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[124] Biber.pm:857> INFO - Found 18 citekeys in bib section 11
+[124] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[124] Biber.pm:857> INFO - Found 1 citekeys in bib section 12
+[124] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[124] Biber.pm:857> INFO - Found 32 citekeys in bib section 13
+[125] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[125] Biber.pm:857> INFO - Found 44 citekeys in bib section 14
+[125] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[125] Biber.pm:857> INFO - Found 3 citekeys in bib section 15
+[125] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[198] Biber.pm:3981> INFO - Processing section 1
+[206] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 1
+[212] bibtex.pm:1479> INFO - LaTeX decoding ...
+[467] bibtex.pm:1305> INFO - Found BibTeX data source 'localbibliography.bib'
+[470] Utils.pm:169> WARN - Duplicate entry key: 'Cuervo2003' in file 'localbibliography.bib', skipping ...
+[493] Utils.pm:169> WARN - Duplicate entry key: 'Jackendoff1990' in file 'localbibliography.bib', skipping ...
+[495] Utils.pm:169> WARN - Duplicate entry key: 'WoodMarantz2017' in file 'localbibliography.bib', skipping ...
+[496] Utils.pm:169> WARN - Duplicate entry key: 'BellettiRizzi1988' in file 'localbibliography.bib', skipping ...
+[496] Utils.pm:169> WARN - Duplicate entry key: 'BonehNash2011' in file 'localbibliography.bib', skipping ...
+[496] Utils.pm:169> WARN - Duplicate entry key: 'Cuervo2003' in file 'localbibliography.bib', skipping ...
+[496] Utils.pm:169> WARN - Duplicate entry key: 'Cuervo2015' in file 'localbibliography.bib', skipping ...
+[497] Utils.pm:169> WARN - Duplicate entry key: 'Demonte1995' in file 'localbibliography.bib', skipping ...
+[497] Utils.pm:169> WARN - Duplicate entry key: 'Fournier2010' in file 'localbibliography.bib', skipping ...
+[497] Utils.pm:169> WARN - Duplicate entry key: 'Kratzer1996' in file 'localbibliography.bib', skipping ...
+[498] Utils.pm:169> WARN - Duplicate entry key: 'Masullo1992' in file 'localbibliography.bib', skipping ...
+[498] Utils.pm:169> WARN - Duplicate entry key: 'McGinnis2001' in file 'localbibliography.bib', skipping ...
+[498] Utils.pm:169> WARN - Duplicate entry key: 'MiyagawaTsujioka2004' in file 'localbibliography.bib', skipping ...
+[499] Utils.pm:169> WARN - Duplicate entry key: 'Pineda2016' in file 'localbibliography.bib', skipping ...
+[499] Utils.pm:169> WARN - Duplicate entry key: 'Pujalte2009' in file 'localbibliography.bib', skipping ...
+[499] Utils.pm:169> WARN - Duplicate entry key: 'Pylkkänen2002' in file 'localbibliography.bib', skipping ...
+[500] Utils.pm:169> WARN - Duplicate entry key: 'Pylkkänen2008' in file 'localbibliography.bib', skipping ...
+[500] Utils.pm:169> WARN - Duplicate entry key: 'WoodMarantz2017' in file 'localbibliography.bib', skipping ...
+[501] Utils.pm:169> WARN - Duplicate entry key: 'Cornilescu2017' in file 'localbibliography.bib', skipping ...
+[502] Utils.pm:169> WARN - Duplicate entry key: 'Baker1988' in file 'localbibliography.bib', skipping ...
+[502] Utils.pm:169> WARN - Duplicate entry key: 'Bruening2010' in file 'localbibliography.bib', skipping ...
+[503] Utils.pm:169> WARN - Duplicate entry key: 'Cuervo2003' in file 'localbibliography.bib', skipping ...
+[503] Utils.pm:169> WARN - Duplicate entry key: 'Cuervo2010' in file 'localbibliography.bib', skipping ...
+[503] Utils.pm:169> WARN - Duplicate entry key: 'Diaconescu2007' in file 'localbibliography.bib', skipping ...
+[503] Utils.pm:169> WARN - Duplicate entry key: 'Larson1988' in file 'localbibliography.bib', skipping ...
+[503] Utils.pm:169> WARN - Duplicate entry key: 'Marantz1993' in file 'localbibliography.bib', skipping ...
+[504] Utils.pm:169> WARN - Duplicate entry key: 'Marantz2013' in file 'localbibliography.bib', skipping ...
+[504] Utils.pm:169> WARN - Duplicate entry key: 'Pylkkänen2002' in file 'localbibliography.bib', skipping ...
+[504] Utils.pm:169> WARN - Duplicate entry key: 'Svenonius2003' in file 'localbibliography.bib', skipping ...
+[504] Utils.pm:169> WARN - Duplicate entry key: 'Svenonius2004' in file 'localbibliography.bib', skipping ...
+[505] Utils.pm:169> WARN - Duplicate entry key: 'Wood2012' in file 'localbibliography.bib', skipping ...
+[505] Utils.pm:169> WARN - Duplicate entry key: 'Wood2015' in file 'localbibliography.bib', skipping ...
+[505] Utils.pm:169> WARN - Duplicate entry key: 'Bruening2010' in file 'localbibliography.bib', skipping ...
+[506] Utils.pm:169> WARN - Duplicate entry key: 'Harley2002' in file 'localbibliography.bib', skipping ...
+[506] Utils.pm:169> WARN - Duplicate entry key: 'Larson1988' in file 'localbibliography.bib', skipping ...
+[507] Utils.pm:169> WARN - Duplicate entry key: 'Pesetsky1995' in file 'localbibliography.bib', skipping ...
+[507] Utils.pm:169> WARN - Duplicate entry key: 'Pylkkänen2002' in file 'localbibliography.bib', skipping ...
+[507] Utils.pm:169> WARN - Duplicate entry key: 'Svenonius2004' in file 'localbibliography.bib', skipping ...
+[507] Utils.pm:169> WARN - Duplicate entry key: 'Barðdal2001' in file 'localbibliography.bib', skipping ...
+[508] Utils.pm:169> WARN - Duplicate entry key: 'Barðdal2008' in file 'localbibliography.bib', skipping ...
+[508] Utils.pm:169> WARN - Duplicate entry key: 'Maling2002' in file 'localbibliography.bib', skipping ...
+[508] Utils.pm:169> WARN - Duplicate entry key: 'Svenonius2002' in file 'localbibliography.bib', skipping ...
+[509] Utils.pm:169> WARN - Duplicate entry key: 'Wood2015' in file 'localbibliography.bib', skipping ...
+[511] Utils.pm:169> WARN - Duplicate entry key: 'naess09' in file 'localbibliography.bib', skipping ...
+[511] Utils.pm:169> WARN - Duplicate entry key: 'sportiche96' in file 'localbibliography.bib', skipping ...
+[513] Utils.pm:169> WARN - Duplicate entry key: 'cuervo03' in file 'localbibliography.bib', skipping ...
+[690] Utils.pm:169> WARN - BibTeX subsystem: /tmp/Z4724yypXb/localbibliography.bib_1977.utf8, line 2138, warning: 445 characters of junk seen at toplevel
+[690] Utils.pm:169> WARN - BibTeX subsystem: /tmp/Z4724yypXb/localbibliography.bib_1977.utf8, line 2430, warning: 164 characters of junk seen at toplevel
+[690] Utils.pm:169> WARN - BibTeX subsystem: /tmp/Z4724yypXb/localbibliography.bib_1977.utf8, line 2502, warning: 348 characters of junk seen at toplevel
+[690] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[691] Utils.pm:169> WARN - BibTeX subsystem: editor, warning: comma(s) at end of name (removing)
+[691] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[691] Utils.pm:169> WARN - BibTeX subsystem: author, warning: comma(s) at end of name (removing)
+[691] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[691] Utils.pm:169> WARN - BibTeX subsystem: editor, warning: comma(s) at end of name (removing)
+[691] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[691] Utils.pm:169> WARN - BibTeX subsystem: editor, warning: comma(s) at end of name (removing)
+[692] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 1
+[693] bibtex.pm:1479> INFO - LaTeX decoding ...
+[711] bibtex.pm:1305> INFO - Found BibTeX data source 'collection_tmp.bib'
+[719] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/cuervo' is not an integer - this will probably not sort properly.
+[720] Utils.pm:169> WARN - I didn't find a database entry for 'BonehNash2012' (section 1)
+[720] Utils.pm:169> WARN - I didn't find a database entry for 'Snyder1995' (section 1)
+[720] Utils.pm:169> WARN - I didn't find a database entry for 'Cuervo2015a' (section 1)
+[720] Utils.pm:169> WARN - I didn't find a database entry for 'Alcalde2014' (section 1)
+[720] Utils.pm:169> WARN - I didn't find a database entry for 'Villamar2018' (section 1)
+[721] Utils.pm:169> WARN - I didn't find a database entry for 'Troberg2009' (section 1)
+[721] Utils.pm:169> WARN - I didn't find a database entry for 'Marantz2017' (section 1)
+[721] Utils.pm:169> WARN - I didn't find a database entry for 'MatellánMateu2015' (section 1)
+[721] Utils.pm:169> WARN - I didn't find a database entry for 'Matellán2017' (section 1)
+[721] Utils.pm:169> WARN - I didn't find a database entry for 'Rizzi1988' (section 1)
+[721] Utils.pm:169> WARN - I didn't find a database entry for 'Miguel2015' (section 1)
+[721] Utils.pm:169> WARN - I didn't find a database entry for 'Tullio2015' (section 1)
+[768] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[768] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[768] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[768] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[801] Biber.pm:3981> INFO - Processing section 2
+[801] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 2
+[876] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 2
+[883] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/antonyuk' is not an integer - this will probably not sort properly.
+[883] Utils.pm:169> WARN - I didn't find a database entry for 'HarbertToribio1991' (section 2)
+[883] Utils.pm:169> WARN - I didn't find a database entry for 'GreenbergFranks1991' (section 2)
+[884] Utils.pm:169> WARN - I didn't find a database entry for 'Yudina2006' (section 2)
+[884] Utils.pm:169> WARN - I didn't find a database entry for 'AntonyukLarson2016' (section 2)
+[884] Utils.pm:169> WARN - I didn't find a database entry for 'Hovav1995' (section 2)
+[884] Utils.pm:169> WARN - I didn't find a database entry for 'HovavLevin2001' (section 2)
+[884] Utils.pm:169> WARN - I didn't find a database entry for 'AlexiadouEtAl2006' (section 2)
+[884] Utils.pm:169> WARN - I didn't find a database entry for 'Richard2014' (section 2)
+[911] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[911] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[911] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[911] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[930] Biber.pm:3981> INFO - Processing section 3
+[930] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 3
+[996] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 3
+[1002] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/calindro' is not an integer - this will probably not sort properly.
+[1002] Utils.pm:169> WARN - I didn't find a database entry for 'Morais2007' (section 3)
+[1003] Utils.pm:169> WARN - I didn't find a database entry for 'MoraisBerlinck2006' (section 3)
+[1003] Utils.pm:169> WARN - I didn't find a database entry for 'MoraisSalles2010' (section 3)
+[1003] Utils.pm:169> WARN - I didn't find a database entry for 'AlsinaMchombo1993' (section 3)
+[1003] Utils.pm:169> WARN - I didn't find a database entry for 'Pylkkännen2002' (section 3)
+[1003] Utils.pm:169> WARN - I didn't find a database entry for 'CarvalhoCalindro2018' (section 3)
+[1003] Utils.pm:169> WARN - I didn't find a database entry for 'KatoEtAl2009' (section 3)
+[1003] Utils.pm:169> WARN - I didn't find a database entry for 'FlorianopolisFreire2005' (section 3)
+[1003] Utils.pm:169> WARN - I didn't find a database entry for 'Silva2007' (section 3)
+[1003] Utils.pm:169> WARN - I didn't find a database entry for 'Galves2018' (section 3)
+[1003] Utils.pm:169> WARN - I didn't find a database entry for 'CarvalhoCalindro2017' (section 3)
+[1003] Utils.pm:169> WARN - I didn't find a database entry for 'MoraisBerlinck2007' (section 3)
+[1003] Utils.pm:169> WARN - I didn't find a database entry for 'BiberauerRoberts2015' (section 3)
+[1004] Utils.pm:169> WARN - I didn't find a database entry for 'Pujalte2010' (section 3)
+[1004] Utils.pm:169> WARN - I didn't find a database entry for 'HaleKeyser2002' (section 3)
+[1004] Utils.pm:169> WARN - I didn't find a database entry for 'Matéllan2010' (section 3)
+[1026] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1026] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1026] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1026] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1040] Biber.pm:3981> INFO - Processing section 4
+[1041] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 4
+[1041] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 4
+[1050] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/cepeda' is not an integer - this will probably not sort properly.
+[1057] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1057] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1057] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1057] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1058] Biber.pm:3981> INFO - Processing section 5
+[1059] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 5
+[1095] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 5
+[1103] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/cornilescu' is not an integer - this will probably not sort properly.
+[1103] Utils.pm:169> WARN - I didn't find a database entry for 'Mondoñedo2007' (section 5)
+[1103] Utils.pm:169> WARN - I didn't find a database entry for 'RobertsRoussou2003' (section 5)
+[1104] Utils.pm:169> WARN - I didn't find a database entry for 'ManziniFranco2016' (section 5)
+[1104] Utils.pm:169> WARN - I didn't find a database entry for 'HillMardale2017' (section 5)
+[1104] Utils.pm:169> WARN - I didn't find a database entry for 'Sorin1994' (section 5)
+[1104] Utils.pm:169> WARN - I didn't find a database entry for 'Tb2017' (section 5)
+[1104] Utils.pm:169> WARN - I didn't find a database entry for 'PesetskyTorrego2007' (section 5)
+[1104] Utils.pm:169> WARN - I didn't find a database entry for 'Preminger2017' (section 5)
+[1118] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1119] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1119] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1119] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1127] Biber.pm:3981> INFO - Processing section 6
+[1128] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 6
+[1177] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 6
+[1184] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/sheehan' is not an integer - this will probably not sort properly.
+[1184] Utils.pm:169> WARN - I didn't find a database entry for 'Postal1989' (section 6)
+[1185] Utils.pm:169> WARN - I didn't find a database entry for 'Bonet1991' (section 6)
+[1185] Utils.pm:169> WARN - I didn't find a database entry for 'Wal2018' (section 6)
+[1185] Utils.pm:169> WARN - I didn't find a database entry for 'OrmazabalRomero2007' (section 6)
+[1185] Utils.pm:169> WARN - I didn't find a database entry for 'Bianchi2006' (section 6)
+[1185] Utils.pm:169> WARN - I didn't find a database entry for 'Stegovec2017' (section 6)
+[1185] Utils.pm:169> WARN - I didn't find a database entry for 'Perlmutter1971' (section 6)
+[1185] Utils.pm:169> WARN - I didn't find a database entry for 'Albizu1997' (section 6)
+[1185] Utils.pm:169> WARN - I didn't find a database entry for 'Rezac2008' (section 6)
+[1185] Utils.pm:169> WARN - I didn't find a database entry for 'Haspelmath2004' (section 6)
+[1185] Utils.pm:169> WARN - I didn't find a database entry for 'AdgerHarbour2007' (section 6)
+[1185] Utils.pm:169> WARN - I didn't find a database entry for 'Bonet2007' (section 6)
+[1185] Utils.pm:169> WARN - I didn't find a database entry for 'Kayne1975' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'Postal1981' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'OrmazabalRomero2010' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'Quicoli1984' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'SimpsonWithgott1986' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'Anagnostopoulou2005' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'Laka1996' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'Preminger2019' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'HarleyMiyagawa2017' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'Strozer1976' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'Torrego2010' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'Guasti1996' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'SheehanCyrino2016' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'Burzio1986' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'Guasti1993' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'SchifanoSheehan2017' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'Treviño1992' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'Blanco2011' (section 6)
+[1186] Utils.pm:169> WARN - I didn't find a database entry for 'SchifanoSheehan2018' (section 6)
+[1187] Utils.pm:169> WARN - I didn't find a database entry for 'Rivas1977' (section 6)
+[1187] Utils.pm:169> WARN - I didn't find a database entry for 'Bordelois1978' (section 6)
+[1187] Utils.pm:169> WARN - I didn't find a database entry for 'OrdóñezSaab2018' (section 6)
+[1187] Utils.pm:169> WARN - I didn't find a database entry for 'Nevins2007' (section 6)
+[1187] Utils.pm:169> WARN - I didn't find a database entry for 'BéjarRezac2003' (section 6)
+[1187] Utils.pm:169> WARN - I didn't find a database entry for 'Harbour2007' (section 6)
+[1187] Utils.pm:169> WARN - I didn't find a database entry for 'Ordóñez2008' (section 6)
+[1187] Utils.pm:169> WARN - I didn't find a database entry for 'PitteroffCampanini2014' (section 6)
+[1187] Utils.pm:169> WARN - I didn't find a database entry for 'BellettiRizzi2012' (section 6)
+[1187] Utils.pm:169> WARN - I didn't find a database entry for 'Harley2007' (section 6)
+[1187] Utils.pm:169> WARN - I didn't find a database entry for 'Wal2017' (section 6)
+[1187] Utils.pm:169> WARN - I didn't find a database entry for 'Postal1990' (section 6)
+[1187] Utils.pm:169> WARN - I didn't find a database entry for 'Romance2017' (section 6)
+[1206] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1206] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1206] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1206] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1217] Biber.pm:3981> INFO - Processing section 7
+[1217] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 7
+[1244] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 7
+[1252] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/franco' is not an integer - this will probably not sort properly.
+[1253] Utils.pm:169> WARN - I didn't find a database entry for 'ManziniSavoia2011' (section 7)
+[1253] Utils.pm:169> WARN - I didn't find a database entry for 'ManziniFranco2016' (section 7)
+[1253] Utils.pm:169> WARN - I didn't find a database entry for 'Dikken1997' (section 7)
+[1253] Utils.pm:169> WARN - I didn't find a database entry for 'BeckJohnson2004' (section 7)
+[1253] Utils.pm:169> WARN - I didn't find a database entry for 'FrancoManzini2017a' (section 7)
+[1253] Utils.pm:169> WARN - I didn't find a database entry for 'FrancoManzini2017b' (section 7)
+[1253] Utils.pm:169> WARN - I didn't find a database entry for 'Caha2009' (section 7)
+[1253] Utils.pm:169> WARN - I didn't find a database entry for 'StolzEtAl2006' (section 7)
+[1253] Utils.pm:169> WARN - I didn't find a database entry for 'Levinson2011' (section 7)
+[1253] Utils.pm:169> WARN - I didn't find a database entry for 'ManziniEtAl2017' (section 7)
+[1253] Utils.pm:169> WARN - I didn't find a database entry for 'Jóhannsdóttir2012' (section 7)
+[1253] Utils.pm:169> WARN - I didn't find a database entry for 'BerwickChomsky2011' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Landman1992' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Comrie1976' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Bach1986' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Filip1999' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'MateuAmadas1999' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Etxebarria1997' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Dikken1998' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Gallego2010' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Franco2015' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'BybeeEtAl1994' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Cinque2017' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Hatz1992' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'HeineKuteva2002' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Kawasha2003' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Kayne2003' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Rohlfs1969' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Ledgeway2016' (section 7)
+[1254] Utils.pm:169> WARN - I didn't find a database entry for 'Fábregas2015' (section 7)
+[1255] Utils.pm:169> WARN - I didn't find a database entry for 'Bertinetto2000' (section 7)
+[1255] Utils.pm:169> WARN - I didn't find a database entry for 'Vendler1967' (section 7)
+[1255] Utils.pm:169> WARN - I didn't find a database entry for 'Higginbotham2004' (section 7)
+[1255] Utils.pm:169> WARN - I didn't find a database entry for 'Higginbotham2009' (section 7)
+[1255] Utils.pm:169> WARN - I didn't find a database entry for 'Parson1989' (section 7)
+[1255] Utils.pm:169> WARN - I didn't find a database entry for 'Rothstein2004' (section 7)
+[1255] Utils.pm:169> WARN - I didn't find a database entry for 'Shirai1998' (section 7)
+[1255] Utils.pm:169> WARN - I didn't find a database entry for 'Mateu2002' (section 7)
+[1255] Utils.pm:169> WARN - I didn't find a database entry for 'Casalicchio2013' (section 7)
+[1255] Utils.pm:169> WARN - I didn't find a database entry for 'FrancoManzini2017' (section 7)
+[1269] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1269] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1269] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1269] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1276] Biber.pm:3981> INFO - Processing section 8
+[1277] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 8
+[1327] Utils.pm:169> WARN - Name "Wayles Browne, Miloje Despić, Naomi Enzinna, Simone Harmath-de Lemos, Robin Karlin" has too many commas: skipping name
+[1382] Utils.pm:169> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[1382] Utils.pm:169> WARN - BibTeX subsystem: editor, warning: comma(s) at end of name (removing)
+[1384] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 8
+[1398] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/tsedryk' is not an integer - this will probably not sort properly.
+[1399] Utils.pm:169> WARN - I didn't find a database entry for 'Cowper2016' (section 8)
+[1399] Utils.pm:169> WARN - I didn't find a database entry for 'Marantz2017' (section 8)
+[1399] Utils.pm:169> WARN - I didn't find a database entry for 'Kratzer1998' (section 8)
+[1400] Utils.pm:169> WARN - I didn't find a database entry for 'Pylkkänen2007' (section 8)
+[1400] Utils.pm:169> WARN - I didn't find a database entry for 'Arregui2012' (section 8)
+[1432] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1432] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1432] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1432] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1452] Biber.pm:3981> INFO - Processing section 9
+[1452] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 9
+[1455] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 9
+[1463] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/fabregas' is not an integer - this will probably not sort properly.
+[1470] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1470] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1470] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1470] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1472] Biber.pm:3981> INFO - Processing section 10
+[1472] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 10
+[1485] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 10
+[1492] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/basilico' is not an integer - this will probably not sort properly.
+[1492] Utils.pm:169> WARN - I didn't find a database entry for 'Pyllkänen2008' (section 10)
+[1492] Utils.pm:169> WARN - I didn't find a database entry for 'Dunn1999' (section 10)
+[1492] Utils.pm:169> WARN - I didn't find a database entry for 'Polinsky2016' (section 10)
+[1492] Utils.pm:169> WARN - I didn't find a database entry for 'Basilico2017' (section 10)
+[1493] Utils.pm:169> WARN - I didn't find a database entry for 'Spreng2012' (section 10)
+[1493] Utils.pm:169> WARN - I didn't find a database entry for 'Levin1999' (section 10)
+[1493] Utils.pm:169> WARN - I didn't find a database entry for 'PolinskajaNedjalkov1987' (section 10)
+[1493] Utils.pm:169> WARN - I didn't find a database entry for 'NedjalkovPolinskaja1988' (section 10)
+[1493] Utils.pm:169> WARN - I didn't find a database entry for 'Polinskaja1988' (section 10)
+[1493] Utils.pm:169> WARN - I didn't find a database entry for 'Spencer1995' (section 10)
+[1493] Utils.pm:169> WARN - I didn't find a database entry for 'Aissen1993' (section 10)
+[1493] Utils.pm:169> WARN - I didn't find a database entry for 'Aissen1983' (section 10)
+[1502] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1502] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1502] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1502] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1505] Biber.pm:3981> INFO - Processing section 11
+[1505] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 11
+[1515] Utils.pm:169> WARN - year field '2013a' in entry 'Jónsson2013a' is not an integer - this will probably not sort properly.
+[1520] Utils.pm:169> WARN - year field '2013b' in entry 'Jónsson2013b' is not an integer - this will probably not sort properly.
+[1542] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 11
+[1549] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/jonsson' is not an integer - this will probably not sort properly.
+[1550] Utils.pm:169> WARN - I didn't find a database entry for 'MalingJackendoff1987' (section 11)
+[1550] Utils.pm:169> WARN - I didn't find a database entry for 'JónssonEythórsson2011' (section 11)
+[1550] Utils.pm:169> WARN - I didn't find a database entry for 'MalingThráinsson1985' (section 11)
+[1550] Utils.pm:169> WARN - I didn't find a database entry for 'HovavLevin2008' (section 11)
+[1569] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1569] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1569] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1569] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1579] Biber.pm:3981> INFO - Processing section 12
+[1579] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 12
+[1579] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 12
+[1588] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/ledgeway' is not an integer - this will probably not sort properly.
+[1594] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1594] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1594] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1595] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1596] Biber.pm:3981> INFO - Processing section 13
+[1596] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 13
+[1616] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 13
+[1623] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/manzini' is not an integer - this will probably not sort properly.
+[1623] Utils.pm:169> WARN - I didn't find a database entry for 'Bossong1985' (section 13)
+[1623] Utils.pm:169> WARN - I didn't find a database entry for 'Kiparsky2008' (section 13)
+[1623] Utils.pm:169> WARN - I didn't find a database entry for 'Torrego1998' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'Torrego2010' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'Salles2016' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'BeckJohnson2005' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'Pineda2014' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'ManziniSavoia2010' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'Manzini2012' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'ManziniFranco2016' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'CulicoverJackendoff2005' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'Dikken1997' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'Loporcaro1988' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'ManziniSavoia2014' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'FrancoManzini2017' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'Kayne1989' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'ManziniEtAl2015' (section 13)
+[1624] Utils.pm:169> WARN - I didn't find a database entry for 'Masica1991' (section 13)
+[1625] Utils.pm:169> WARN - I didn't find a database entry for 'Khokhlova2002' (section 13)
+[1625] Utils.pm:169> WARN - I didn't find a database entry for 'Sportiche1996' (section 13)
+[1625] Utils.pm:169> WARN - I didn't find a database entry for 'Rohlfs1969' (section 13)
+[1625] Utils.pm:169> WARN - I didn't find a database entry for 'Chomsky2000' (section 13)
+[1625] Utils.pm:169> WARN - I didn't find a database entry for 'Suñer1989' (section 13)
+[1625] Utils.pm:169> WARN - I didn't find a database entry for 'ManziniFranco2019' (section 13)
+[1636] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1636] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1636] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1637] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1643] Biber.pm:3981> INFO - Processing section 14
+[1643] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 14
+[1694] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 14
+[1701] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/royo' is not an integer - this will probably not sort properly.
+[1701] Utils.pm:169> WARN - I didn't find a database entry for 'Ginebra2003' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'April2017' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'Giró2005' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'MarínMcNally2011' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'Ynglès1991' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'Hovav1995' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'Rosselló2008' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'Bouchard1995' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'MatellánMateu2015' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'Voorst1992' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'Arad1999' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'Fábregas2015' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'FábregasMarín2012' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'MarínMcNally2012' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'Marco2012' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'Ganeshan2014' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'Puig2014' (section 14)
+[1702] Utils.pm:169> WARN - I didn't find a database entry for 'Ramos2004' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'Puig2017' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'Ganeshan2019' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'December2012' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'May2015' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'Demonte1989' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'Soriano2004' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'Cuervo1999' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'Campos1999' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'Alsina2008' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'Ginebra2005' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'Bilous2011' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'Ramos2002' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'Ynglès2011' (section 14)
+[1703] Utils.pm:169> WARN - I didn't find a database entry for 'Pineda2012' (section 14)
+[1719] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1719] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1719] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1719] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1728] Biber.pm:3981> INFO - Processing section 15
+[1728] Biber.pm:4154> INFO - Looking for bibtex format file 'localbibliography.bib' for section 15
+[1729] Biber.pm:4154> INFO - Looking for bibtex format file 'collection_tmp.bib' for section 15
+[1737] Utils.pm:169> WARN - year field '\protect \kern +.1667em\relax 2019' in entry 'chapters/cabre' is not an integer - this will probably not sort properly.
+[1738] Utils.pm:169> WARN - I didn't find a database entry for 'January2017' (section 15)
+[1738] Utils.pm:169> WARN - I didn't find a database entry for 'October2017' (section 15)
+[1744] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1744] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1744] Biber.pm:3809> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1744] Biber.pm:3815> INFO - No sort tailoring available for locale 'en-US'
+[1746] bbl.pm:617> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1808] bbl.pm:720> INFO - Output to main.bbl
+[1808] Biber.pm:110> INFO - WARNINGS: 284
