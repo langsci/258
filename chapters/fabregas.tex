@@ -1,20 +1,867 @@
-\documentclass[output=paper]{langsci/langscibook} 
+\documentclass[output=paper,modfonts,nonflat]{langsci/langscibook} 
 \author{Antonio Fábregas\affiliation{}\lastand 
 Rafael Marín\affiliation{}}
 \title{Datives and stativity in psych predicates}
 
-% \ChapterDOI{} %will be filled in at production
- 
-\abstract{Change the  abstract in chapters/myname.tex}
-\maketitle
+\abstract{}
+\IfFileExists{../localcommands.tex}{
+  \input{../localpackages}
+  \input{../localcommands} 
+  \input{../localhyphenation}
+  \bibliography{../localbibliography}
+  \togglepaper[1]%%chapternumber
+}{}
 
 \begin{document}
+\maketitle 
 
-\section{Introduction}  
- 
-\section*{Abbreviations}
-\section*{Acknowledgements}
+\title{Datives and stativity in psych predicates}
 
-\sloppy
-\printbibliography[heading=subbibliography,notkeyword=this] 
-\end{document}
+\textbf{Antonio} \textbf{Fábregas}
+
+\textbf{\textit{UiT-Norway's} \textit{Arctic} \textit{University}}
+
+\textbf{Rafael} \textbf{Marín}
+
+\textbf{\textit{Université} \textit{Lille} \textit{3}}
+
+\begin{stylelsAbstract}
+\textbf{Abstract.} This article discusses the question of how the meaning contribution of a dative is obtained. Despite the different formal instantiations that a dative can take, its semantics is typically very stable cross-linguistically. In particular, datives typically express goals of motion and experiencers; importantly, in experiencer contexts they are associated with a stative reading of the predicate, which in principle clashes with the goal semantics. In this chapter we argue that datives are semantically defined as initial boundaries, but specifically, when interpreted as experiencers, they are introduced by a prepositional layer that prevents the boundary semantics from extending to the whole predicate.
+\end{stylelsAbstract}
+
+\begin{itemize}
+\item \section{A correlation between datives and stativity}
+\end{itemize}
+
+As noted by many, dative-experiencer psych verbs are systematically stative, while reflexively-marked ones involve some form of dynamicity (cf. {\textbackslash}citet\{bellettirizzi88, marinmcnally11\}). The contrast can be shown through several tests: dative marked verbs reject speed adverbials \REF{ex:key:1}, and \textit{parar} \textit{de} 'stop' \REF{ex:key:3}, which select dynamic predicates. Reflexively-marked psych predicates are compatible with all of these \REF{ex:key:2}, \REF{ex:key:4}.
+
+\ea%1
+    \label{ex:key:1}
+    \gll\\
+        \\
+    \glt
+    \z
+
+            
+
+a. A Juan   le       agrada   París (*rápidamente).          DAT
+
+  \textit{to} \textit{Juan}   \textit{him.}\textsc{dat}   \textit{pleases}   \textit{Paris} \textit{(*quickly)} 
+
+b. A Juan   le       gusta Sandra (*rápidamente).          DAT
+
+      \textit{to} \textit{Juan}   \textit{him.}\textsc{dat}   \textit{likes}   \textit{Sandra} \textit{(*quickly)}  
+
+c. A Juan   le       duele la cabeza (*rápidamente).          DAT
+
+   \textit{to} \textit{Juan}   \textit{him.}\textsc{dat}   \textit{hurts} \textit{the} \textit{head} \textit{(*quickly)}
+
+\ea%2
+    \label{ex:key:2}
+    \gll\\
+        \\
+    \glt
+    \z
+
+            
+
+a.   Juan  se  olvida   de todo   (rápidamente).                REFL
+
+      \textit{Juan} \textit{SE} \textit{forgets}   \textit{of}   \textit{all}   \textit{(quickly)} 
+
+b.   Juan  se  acuerda     de todo   (rápidamente).              REFL
+
+      \textit{Juan} \textit{SE} \textit{remembers}   \textit{of}   \textit{all}   \textit{(quickly)}
+
+c.   Juan  se desentiende        de todo   (rápidamente).        REFL
+
+    \textit{Juan} \textit{SE} \textit{pretends.not.to.know} \textit{of} \textit{all}   \textit{(quickly)}  
+
+‘Juan quickly pretends not to know anything’ 
+
+\ea%3
+    \label{ex:key:3}
+    \gll\\
+        \\
+    \glt
+    \z
+
+            
+
+a. *A Juan paró     de agradarle   París.                  DAT
+
+     \textit{to} \textit{Juan} \textit{stopped}   \textit{of}   \textit{loving}     \textit{Paris} 
+
+b. *A Juan paró     de gustarle     María.                DAT
+
+      \textit{to} \textit{Juan}  \textit{stopped}  \textit{of} \textit{liking}      \textit{María}
+
+c. *A Juan  paró     de dolerle la   cabeza.                DAT
+
+       \textit{to} \textit{Juan} \textit{stopped}   \textit{of} \textit{hurting} \textit{the} \textit{head}  
+
+\ea%4
+    \label{ex:key:4}
+    \gll\\
+        \\
+    \glt
+    \z
+
+            
+
+a.   Juan paró      de olvidarse   de pagar   las facturas.          REFL
+
+      \textit{Juan} \textit{stopped} \textit{of} \textit{forgetting} \textit{of} \textit{paying} \textit{the} \textit{bills}
+
+b.   Juan paró      de acordarse    de todos los cumpleaños.      REFL
+
+      \textit{Juan} \textit{stopped} \textit{of} \textit{remembering} \textit{of} \textit{all}      \textit{the} \textit{birthdays}
+
+c.   Juan paró       de desentenderse         de sus hijos.      REFL
+
+      \textit{Juan} \textit{stopped}   \textit{of} \textit{pretending.not.to.know}   \textit{of} \textit{his}  \textit{children}
+
+This is not a lexical accident, but a real property of datives: several predicates compatible with both reflexive and dative marking show that the dative version is systematically stative according to the same tests.
+
+\ea%5
+    \label{ex:key:5}
+    \gll\\
+        \\
+    \glt
+    \z
+
+            a. A Juan  le       preocupan   las cosas (*rápidamente).        DAT
+
+          \textit{to} \textit{Juan} \textit{him.}\textsc{dat} \textit{worry}      \textit{the} \textit{things} \textit{(*quickly)}
+
+    b. Juan  se   preocupa por las cosas (rápidamente).            REFL
+
+          \textit{Juan} \textit{SE} \textit{worries}   \textit{for}  \textit{the} \textit{things} \textit{(quickly)}
+
+\ea%6
+    \label{ex:key:6}
+    \gll\\
+        \\
+    \glt
+    \z
+
+            a. *A Juan  pararon de preocuparle las cosas.              DAT
+
+          \textit{to} \textit{Juan} \textit{stopped} \textit{of} \textit{worry-him}   \textit{the} \textit{things}
+
+    b. Juan paró      de preocuparse siempre por sus hijos.            REFL
+
+        \textit{Juan} \textit{stopped} \textit{of} \textit{worry-SE}    \textit{always}  \textit{for}  \textit{his} \textit{children}
+
+Importantly for our purposes, the reflexive pronoun has been analysed as a remnant of the accusative case {\textbackslash}citep\{medova09\}. The question is, then, whether the dative- vs. reflexive-marking contrast can be understood as a specific instance of the more general dative- vs. accusative-marking contrast in psych predicates {\textbackslash}citep\{fernandezordonez99, landau10, cifuentes15, fabregasetal17\}, among many others. As is well-known for Spanish, the accusative construal is dynamic, and the dative one is static.
+
+\ea%7
+    \label{ex:key:7}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a.   A María sus hermanas   la       asustan (rápidamente).      ACC
+
+          to María her sisters     her.acc   frighten (quickly)
+
+    b. A María la oscuridad   le       asusta (*rápidamente).      DAT
+
+          to María the darkness   her.dat   frightens (*quickly)
+
+\ea%8
+    \label{ex:key:8}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a.   A María paró     de asustarla su hermano.              ACC
+
+          to María stopped of scare-her her brother
+
+    b. *A María paró   de asustarle   la economía.            DAT
+
+           to María stopped of scare-her   the economy  
+
+The generalisation is robust, at the very least for Spanish: with psychological verbs, dative marking imposes a stative reading.\footnote{See, however, {\textbackslash}citet\{fabregasmarin15\} for the observation that accusative-marking psych verbs such as \textit{amar} 'love' or \textit{odiar} 'hate' are also stative, but display slightly different aspectual properties. Note that we do not claim that there is a biunivocal relation between stativity and dativisation, but rather that it is unexpected for datives to appear within truly stative predicates.} Accusative marking –and reflexive marking, which we take to be an instance of the accusative– is related to a dynamic construal. 
+
+So far so good; the problem, however, emerges when we ask ourselves what the contribution of a dative is under the light of examples like \REF{ex:key:9}, which are also attested in the same languages. 
+
+\ea%9
+    \label{ex:key:9}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          A Juan le       entregué el  paquete.
+
+    \textit{to} \textit{Juan} \textit{him.}\textsc{dat}   \textit{gave}    \textit{the} \textit{package}
+
+    {}'I gave Juan the package'
+
+In \REF{ex:key:9}, the dative argument is interpreted dynamically; in particular, it is taken to be a path of transference through which the package travels. It is not only that the dative marking is not associated with stativity in such cases: the dynamicity of the predicate involves an alleged path that is apparently introduced by dative marking.
+
+The problem then is how one can make cases like \REF{ex:key:9} compatible in terms of the semantic contribution of the dative with examples like \REF{ex:key:1} or \REF{ex:key:3}: we seem to need a path reading that dynamises the predicate in \REF{ex:key:9}, but just the opposite in the other cases.\footnote{One anonymous reviewer proposes that this should not be so problematic given that predicates have some independence with respect to their arguments in terms of aspectual definition (eg., a predicate can be dynamic even if it combines with a stative preposition). Note, however, that here we have the opposite problem: on the assumption that stativity is obtained by lack of dynamicity and other aspectual properties {\textbackslash}citet\{jaque14\}, the situation here reduces to how some dynamic object provided by an argument fails to compose with the predicate to produce a non-stative construal. Remember that in current theoretical assumptions, structures add information, but cannot remove previously added information or substitute it.} 
+
+We take it as the default option in linguistic analysis to expect that the same formal marking carries the same semantic interpretation (that is, we do not think that the Distributed Morphology view of case as dummy morphological marking without interpretation should be blindly assumed). Once we adopt the stronger option that dative marking should make the same contribution across structures, this alternation is a serious puzzle for the semantics of a dative, and note that if we remove the semantic criterion to identify a dative, we are left with very little in order to characterise datives as a cross-linguistic class (see Cabré \& Fábregas, this volume). The formal instantiation of datives varies across languages, but their semantics are fairly stable. Cross-linguistic accounts of the prototypical semantic values of datives (such as {\textbackslash}citet\{naess09\}) mention that the main values are recipients, goals and benefactives, but also experiencers. The first two values are dynamic, or at least strongly suggest a transference scenario where there is dynamic event, while the last one is clearly stative, given the facts we saw. All these values are expressed (among others) by the Spanish dative:
+
+\ea%10
+    \label{ex:key:10}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a.   A María le     dieron el  premio.          RECIPIENT
+
+         \textit{to} \textit{María} \textit{her} \textit{gave}  \textit{the} \textit{prize}
+
+    {}'They gave the prize to María' 
+
+    b.   A María  no  se  le   acercó     nadie.    GOAL OF MOTION
+
+          \textit{to} \textit{María} \textit{not} \textit{SE} \textit{her} \textit{approached} \textit{nobody}
+
+    {}'Nobody approached María'
+
+    c.   A María le     preparamos un pastel.      BENEFACTIVE
+
+          \textit{to} \textit{María} \textit{her}   \textit{prepared}     \textit{a}   \textit{pie}
+
+    {}'We made a pie for María'
+
+    d.   A María le     gusta Jorge.            EXPERIENCER
+
+          \textit{to} \textit{María} \textit{her}   \textit{likes} \textit{Jorge}
+
+    {}'María likes Jorge'
+
+One possible way out of the puzzle would be to say that in the dynamic cases, it is actually the accusative argument that defines dynamicity. There is some initial plausibility to the claim: with psychological predicates that have both a form of accusative and a dative, the accusative overrides the dative's association to stativity, as \REF{ex:key:11} shows. 
+
+\ea%11
+    \label{ex:key:11}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          A Juan  se   le       olvidan las cosas (rápidamente).      DAT+REFL
+
+    \textit{to} \textit{Juan} \textit{SE} \textit{him.}\textsc{dat}   \textit{forget}   \textit{the} \textit{things} \textit{(quickly)}
+
+    {}'Juan forgets things quickly'
+
+This approach would not be enough, though: stativity is not imposed by default on verbs whose only (overt) argument {\textbackslash}citep\{pineda16, pinedainpress\} is marked as dative.
+
+\ea%12
+    \label{ex:key:12}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a.   A María le       estuve   gritando en mi despacho.
+
+          \textit{to} \textit{María} \textit{her.}\textsc{dat}   \textit{was}      \textit{shouting} \textit{in} \textit{my} \textit{office}
+
+    {}'I was shouting at María in my office'
+
+    b.   A Juan le       estuvieron   pegando en la calle.
+
+          \textit{to} \textit{Juan} \textit{him.dat}   \textit{were}          \textit{hitting}    \textit{in} \textit{the} \textit{street}
+
+    {}'Someone was hitting Juan in the street'
+
+This pattern of data is, then, quite complex; here are the main generalisations: (i) outside psychological predicates, datives can be associated with dynamic interpretations; (ii) inside psychological predicates, arguments with a dative and no form of accusative are systematically stative
+
+The main question is then what kind of unified interpretation of datives in semantic terms can account for this apparently conflicting behaviour. The next section is devoted to this problem, specifically what kind of semantic contribution a dative makes so that both stative and non-stative readings are allowed. In the course of this section we will see that there is a reduced number of non-psychological predicates that can appear with dative marking, but we will also show that their behaviour is less prototypically stative than dative-marked psych predicates. \sectref{sec:key:3}, then, will analyse the specific case of psych predicates with dative arguments, and will argue that the semantic contribution of the dative is made opaque in such contexts by the presence of a locative silent preposition that introduces them, à la {\textbackslash}citet\{landau10\}. \sectref{sec:key:4} presents the consequences and conclusions of the approach.
+
+\begin{itemize}
+\item \section{The analysis, step one: the denotation of a dative}
+\end{itemize}
+
+We believe that one crucial aspect of the theory needed to approach this phenomenon is that it should contain a set of primitives that can be shared by different grammatical categories, as we believe this is the most direct way of explaining how the information contained in one argument can be read by the predicate to define its aspectual information. We therefore start the analysis from the assumption that an ontology of semantic primitives codifying aspect as a form of boundedness that can also be present in nouns contains the following objects, defined in {\textbackslash}citet\{pinon97\}:
+
+\ea%13
+    \label{ex:key:13}
+    \gll\\
+        \\
+    \glt
+    \z
+
+            a. Bodies: -{}-{}-{}-{}-{}-{}-{}-
+
+        b. Boundaries: {\textbar}
+
+In {\textbackslash}citet\{pinon97\} the boundary and the body differ in that the latter lacks any extension; only the body has some particular 'length', which in the temporoaspectual domain is translated as denoting a time interval. The boundary itself is a point in a geometric sense, that is, it lacks any extension and an addition of several boundaries does not add up to a body.
+
+When the body is instantiated in verbal categories, and therefore translates into aspectual information, two types of body are differentiated: stative bodies, which do not involve any form of dynamicity, and dynamic bodies. 
+
+Boundaries come in two flavours: left boundaries \REF{ex:key:14a}, which can be translated as an initiation subevent in the aspectual domain, and right boundaries \REF{ex:key:14b}, which can be translated as the termination, inside the same domain. Importantly, these two flavours are not necessarily derived configurationally from their relative position with respect to a body. The ontology allows boundaries, left or right, to appear independently of bodies, so that the denotation of some predicates can involve a pure boundary denotation {\textbackslash}citep\{marinmcnally11\}.\footnote{To be precise, {\textbackslash}citet\{pinon97\} assumes that boundaries must be relational elements and therefore treats them as only existing when adjacent to bodies. We here follow {\textbackslash}citet\{marinmcnally11\} proposal, where the two ontological types are independent of each other and individual predicates might correspond only to boundaries, or only to bodies.} \REF{ex:key:15} gives just some of the potential configurations that can be obtained with this system.
+
+\ea%14
+    \label{ex:key:14}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a. [
+
+      b. ]
+
+\ea%15
+    \label{ex:key:15}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a. [-{}-{}-{}-{}-{}-{}-]
+
+      b. [-{}-{}-{}-{}-{}-{}-
+
+      c. ]-{}-{}-{}-{}-{}-{}-
+
+      d. []
+
+      e. ]
+
+Within this system, if the dative semantics was really associated with a transference semantics, it would display the combination in \REF{ex:key:16a} –if the starting point were included in its denotation– or \REF{ex:key:16b} –if only the path and the goal of the transference were denoted. Either way, containing a final boundary we would expect that combined with a predicate it will give rise to a telic interpretation.
+
+\ea%16
+    \label{ex:key:16}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a. [-{}-{}-{}-{}-{}-{}-]
+
+      b. -{}-{}-{}-{}-{}-{}-]
+
+Instead, we will argue that datives are associated with a single left boundary \REF{ex:key:17}. This boundary contains three ingredients that contextually give meaning to dative-interpretations beyond prototypical goal cases: (i) it does not impose telicity, because the boundary is the initial one and it does not entail movement or arrival to a goal; (ii) it involves an orientation, because the left boundary forces a transition towards a goal; (iii) by combination of the previous two properties, it can denote extended contact with an external entity, because the oriented transition is directed towards an entity and it does not arrive at its location, but approaches its margins.
+
+\ea%17
+    \label{ex:key:17}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          [
+
+Let us start the analysis by presenting our evidence for this. 
+
+\begin{itemize}
+\item \begin{itemize}
+\item \subsection{Evidence that datives mean 'contact'}
+\end{itemize}
+\end{itemize}
+
+One first point of evidence comes from non-psychological verbs that select a dative. In them, although with differences with respect to psychological predicates that we will discuss later, stative readings are also possible. If the denotation of the dative is anything like \REF{ex:key:16}, there should be a mismatch. The alternative would be to arbitrarily decide that datives never count for the aspectual denotation of the predicate with which they combine, something that we will see cannot be true in \sectref{sec:key:2.2} and \sectref{sec:key:3.1.}
+
+Consider the reasoning step by step. Incremental theme verbs {\textbackslash}citep\{tenny97, krifka89\}, among others) illustrate the situation where a denotation built with the primitives in \REF{ex:key:16} triggers a telic interpretation involving development in time. In a predicate like \textit{to} \textit{eat} \textit{an} \textit{apple}, the only internal argument is a bounded entity with extension, and as such it corresponds to the representation in \REF{ex:key:18a}, trivially meaning that an apple is an entity that occupies space beyond a point, and has a beginning and an end. Correspondingly, the predicate \REF{ex:key:18b} composed by a combination of this internal argument and the verb has the equivalent internal structure by object-event isomorphism {\textbackslash}citep\{ramchand08\}: \textit{to} \textit{eat} \textit{an} \textit{apple} is an eventuality that has temporal extension (beyond a point), a beginning and an end –which correspond to the beginning and the end of the apple that is consumed.\footnote{An anonymous reviewer suggests that the solution to the puzzle could be to accept that specifiers do not intervene in the aspectual definition of a predicate (assumption that is also made in {\textbackslash}citet\{ramchand08\}); we will not adopt it here because we want to treat specifiers as second complements of heads, and in this sense specifiers should not be ontologically different from objects with respect to semantics.} 
+
+\ea%18
+    \label{ex:key:18}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a. una manzana       =       [-{}-{}-{}-{}-]
+
+            \textit{an}   \textit{apple}
+
+      b. comer una manzana  =      [-{}-{}-{}-{}-]
+
+          \textit{to.eat}  \textit{an}   \textit{apple}
+
+Consider now \REF{ex:key:19}. This predicate is not stative in the same sense that \textit{gustar} or other dative-marked psych verbs are (cf. \sectref{sec:key:3.1.}), but clearly the predicate is not telic \REF{ex:key:19b}, as one should expect if the denotation of the dative \REF{ex:key:20} were \REF{ex:key:16}. We are thus faced with only two options: either we impose (arbitrarily) that datives do not interact at all with their predicates in terms of aspect, or the denotation of the dative is not \REF{ex:key:16}.
+
+\ea%19
+    \label{ex:key:19}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a. Le       falta   una silla.
+
+        \textit{him.}\textsc{dat}  \textit{lack}  \textit{one} \textit{chair}
+
+      {}'He lacks one chair'    
+
+      b. *Le           faltó     una silla  en diez minutos.
+
+              him.\textsc{dat}    lacked  one chair in  ten  minutes
+
+      Intended: 'It took him ten minutes to lack one chair'
+
+\ea%20
+    \label{ex:key:20}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a. le              =     [-{}-{}-{}-]
+
+      b. faltarle una silla    =    [-{}-{}-{}-] (counterfactually)
+
+Instead, if the denotation of datives were just contact, and specifically contact as a left boundary ('[') not imposing any form of telicity, \REF{ex:key:19} would follow: the dative would just mean that there is some kind of contact between the dative-marked element and the verb, but no transfer would be entailed. 
+
+Our second piece of evidence that '[' is indeed the denotation of the dative comes from its marking in Spanish. It is well-known that the preposition used for datives \REF{ex:key:21a} is the same one that one sees to mark spatial goals \REF{ex:key:21b} –among other functions–.
+
+\ea%21
+    \label{ex:key:21}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a.   Le     envié     un libro  a  María.
+
+           \textit{her.}\textsc{dat}  \textit{sent.1}\textsc{sg}     \textit{a}   \textit{book} \textit{to} \textit{María}
+
+      {}'I sent a book to María'
+
+    b.   Envié     un libro a  Berlín.
+
+        \textit{sent.1}\textsc{sg}    \textit{a}  \textit{book} \textit{to} \textit{Berlin}
+
+      {}'I sent a book to Berlin'
+
+This could be interpreted as an argument that datives are paths of transfer, but {\textbackslash}citet\{fabregas07el\} shows that for Spanish, that preposition acts as a place P. It can combine with stative predicates, and in such cases the interpretation associated with it is contact –as opposed to inclusion within a region. The use of \textit{a} in stative contexts is favoured with DPs that express limits, boundaries and points inside scales.
+
+\ea%22
+    \label{ex:key:22}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a. Juan está a   la    orilla.
+
+        \textit{Juan} \textit{is}    \textit{at} \textit{the} \textit{shore}
+
+    b. Juan está al      borde.
+
+        \textit{Juan} \textit{is}    \textit{at-the} \textit{edge}
+
+    c. El   pan    está   a  cuatro   euros.
+
+        \textit{the} \textit{bread} \textit{is}   \textit{at} \textit{four}    \textit{euros}
+
+    {}'The bread costs four euros'  
+
+    d. El   pollo     está a cuatro grados.
+
+        \textit{the}  \textit{chicken}   \textit{is}    \textit{at} \textit{four}     \textit{degrees}
+
+    {}'The chicken is at a temperature of four degrees'
+
+In other words, \REF{ex:key:22} shows that \textit{a} is more similar to English \textit{at} than \textit{to}. The semantics of contact without implying telicity {\textbackslash}citep\{marinmcnally11\}, as in \REF{ex:key:22}, force a reading where the contribution of the element marked as \textit{a} is '[' and not any of the representations in \REF{ex:key:16}. 
+
+Let us go now to the third piece of evidence. Different works, but significantly {\textbackslash}citet\{romero97\}, have argued that Spanish datives –at least those that involve clitic doubling– codify a form of telicity whereby the intended transfer has been completed. {\textbackslash}citet\{pineda16\}, however, has shown that even with clitic doubling there is no real distinction in terms of telicity with datives. Here we will just concentrate on showing that under no circumstances does the dative marked argument entail full transfer. Consider \REF{ex:key:23}, which are completely natural instances where one explicitly denies that there was full transfer and cause no contradiction. 
+
+\ea%23
+    \label{ex:key:23}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          
+
+a.   Le escribí un poema a alguien que nunca lo recibirá.
+
+\textit{him.}\textsc{dat} \textit{wrote} \textit{a} \textit{poem} \textit{to} \textit{someone} \textit{that} \textit{never} \textit{it} \textit{will.receive}
+
+{}'I wrote a poem to someone that will never receive it'
+
+b.   Le preparé una tarta a Pilar, pero nunca llegó a verla porque murió.
+
+      \textit{her.}\textsc{dat}   \textit{prepared} \textit{a} \textit{cake} \textit{to} \textit{Pilar,} \textit{but}  \textit{never}  \textit{arrived} \textit{to} \textit{see.it} \textit{because} \textit{died}
+
+    {}'I made Pilar a cake, but she never saw it because she died'
+
+At best, given \REF{ex:key:23}, the full transfer has to be understood as a cancellable implicature. What the datives in \REF{ex:key:23} express, given that full transfer is not included here, is that there is an intention to transfer it, or to put it in slightly more technical terms, that the actions are conceived as oriented towards an entity, marked with the dative. However, this result is obtained if datives denote left boundaries '[' that entail that there is the initiation of a movement oriented with respect to a goal. In this case –where the verbs do involve some path– the only entailment is that there is an intended goal, but without any claim about whether there is an entity that arrives at that goal.
+
+Consider now our fourth piece of evidence: this account allows for an elegant unification between the many uses of datives in a language like Spanish {\textbackslash}citep\{rae09\}. There are at least five different cases beyond dative experiencers, which we leave for \sectref{sec:key:3}:
+
+\ea%24
+    \label{ex:key:24}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a.   A María le     dieron el   premio.    
+
+         \textit{at} \textit{María} \textit{her}   \textit{gave}    \textit{the}  \textit{prize}
+
+    {}'They gave the prize to María' 
+
+    b.   A María  no  se  le   acercó      nadie.    
+
+          \textit{at} \textit{María} \textit{not} \textit{SE} \textit{her} \textit{approached} \textit{nobody}
+
+    {}'Nobody approached María'
+
+    c.   A María  le   preparamos un pastel.    
+
+          \textit{at} \textit{María} \textit{her}   \textit{prepared}      \textit{a}   \textit{pie}
+
+    {}'We made a pie for María'
+
+    d.   Le  faltan sillas.        
+
+          \textit{her} \textit{lacks}  \textit{chairs}
+
+    {}'She lacks chairs'
+
+    e.  Le   es fiel.          
+
+         \textit{him} \textit{is}  \textit{faithful}
+
+    {}'She is faithful to him'
+
+(24a) is a predicate of transfer. \REF{ex:key:24b} is one instance of a locative dative, where the dative-marked argument is interpreted as a position towards which something moves. \REF{ex:key:24c} is a benefactive. \REF{ex:key:24d} shows one case of a dative with a stative predicate unable to express telicity. \REF{ex:key:24e} is one instance of a dative within a copular structure, associated to the property expressed by the adjective \textit{faithful}. 
+
+The notion of transfer is evidently not fit to account, at least, for the last two cases. In these cases, instead, the abstract contact reading with '[', where the eventuality is denoted as being intended or directed towards the dative-marked argument, intuitively captures the meaning of the predicate. \REF{ex:key:24e} trivially means that the infidelity was directed towards him, while \REF{ex:key:24d} means that the lack of chairs is not absolute, but oriented to the needs or expectations of the dative-marked argument. Similarly, the benefactive is the entity towards which the event is directed \REF{ex:key:24c}; the movement in \REF{ex:key:24b} is directed towards the dative-marked argument, and the transfer –which might take place or not– is directed towards the same entity in \REF{ex:key:24a}. Of relevance also is the fact that in at least three cases there is no need to define a path: \REF{ex:key:24c} is compatible with a scenario where neither the cake nor María move from their positions, and there is no need to transfer in either of the last two types of verbs.  
+
+In other words, associating the dative to a transfer denotation as in \REF{ex:key:16} simply does not allow for a unified account of all these uses of the dative in Spanish, does not explain the use of the preposition that marks it in Spanish, and makes the wrong predictions in terms of aspectual impact and composition. Treating it as meaning contact and orientation directly captures the intuitions and the spirit of the applicative analysis {\textbackslash}citep\{cuervo03\}, with the possibility that the two related entities are defined configurationally depending on the height at which the applicative is introduced and the nature of the complement of the applicative.
+
+\begin{itemize}
+\item \section{The analysis, step two: what makes experiencers special}
+\end{itemize}
+
+However, this is not enough for dative-marked experiencers. In this section we will show that with dative-marked psych predicates, not even the left boundary is transferred to the whole predicate. We will show first that even in a stative verb like \textit{faltar} 'to lack', this left boundary has an impact on its aspectual definition (\sectref{sec:key:3.1}), something that further argues against arbitrarily deciding that datives do not contribute to the aspectual make-up of their predicates. Second, we will focus on psych predicates and discuss why even the boundary is excluded from the predicate as a whole (\sectref{sec:key:3.2}). We will propose that {\textbackslash}citet\{landau10\} is right in the claim that experiencers are introduced by Ps, and we will argue that it is this P that isolates the dative from the predicate, making its aspectual contribution invisible for the verb.
+
+\begin{itemize}
+\item \begin{itemize}
+\item \subsection{Faltar vs. gustar}
+\end{itemize}
+\end{itemize}
+
+Even though they are both stative (25, {\textbackslash}citet\{carrascoetal06\}), \textit{faltar} {}'lack' displays some properties of behaviour that suggest that it should be considered at least a stage-level stative verb. This verb expresses an eventuality that can be located in space \REF{ex:key:26} and it can restrict a temporoaspectual operator, producing a reading where the eventuality expressed by the verb holds only at some time periods between the same two entities x and y, both specific ({\textbackslash}citet\{kratzer95\}, cf. 27),\footnote{Note that here we avoid indefinite or non-specific arguments so as not to have them be taken as variables to license quantification over situations. In other words: \textit{Whenever} \textit{he} \textit{likes} \textit{a} \textit{movie,} \textit{she} \textit{recommends} \textit{it} does not quantify over time periods where the liking relation holds between one specific x and one specific y, but over situations where different y's (movies) produce different situations with respect to x.} things that are impossible with the dative-marked psych predicates.
+
+\ea%25
+    \label{ex:key:25}
+    \gll\\
+        \\
+    \glt
+    \z
+
+        *A Juan  pararon de \{faltarle / gustarle\} las  sillas.  
+
+          \textit{at} \textit{Juan} \textit{stopped} \textit{of}   \textit{lack-him} \textit{/} \textit{like-him} \textit{the} \textit{chairs}
+
+    Intended: 'Juan does not lack / like chairs anymore'
+
+\ea%26
+    \label{ex:key:26}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          A Juan le    faltan   sillas   en el  despacho.
+
+    \textit{at} \textit{Juan} \textit{him} \textit{lack.}\textsc{3pl}  \textit{chairs} \textit{in} \textit{the} \textit{office}
+
+    {}'Juan lacks chairs in the office'
+
+\ea%27
+    \label{ex:key:27}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a. Cada vez que le   falta   su ayudante,   Juan  usa al mío.
+
+       \textit{each} \textit{time} \textit{that} \textit{him} \textit{lack.sg} \textit{his} \textit{assistant,} \textit{Juan} \textit{uses} \textit{the} \textit{mine}
+
+    {}'Whenever Juan assistant isn't there, he uses mine'
+
+    b. *Cada vez  que le   gusta que venga,  Juan me  da    un beso.
+
+         each time that him likes   that I.come, Juan me gives a     kiss
+
+    Intended: 'Whenever he is pleased that I come, Juan kisses me'
+
+Our claim is that \textit{faltar}, and other verbs like it (\textit{sobrar} 'to have too many', \textit{quedarle} \textit{bien} \textit{algo} 'to have something fit someone well'), are not pure individual-level states because of the boundary contribution of the dative, which at least provides some information in addition to the stative body that the verb denotes. For explicitness, assume a structure like \REF{ex:key:28} for such verbs, with Init(iation)P as the stative head that relates the two entities; the dative-marked argument contributes the boundary and Init contributes the stative body.
+
+\ea%28
+    \label{ex:key:28}
+    \gll\\
+        \\
+    \glt
+    \z
+
+                      InitP    = [-{}-{}-{}-{}-  
+
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+
+    Dat-DP                  Init
+
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+    [
+
+                    Init                DP   
+
+                {}-{}-{}-{}-{}-{}-{}-{}-{}-{}-{}-
+
+This means, then, that with a verb like \textit{gustar}, where the dative is an experiencer, the boundary cannot be accessible for the verbal predicate. How do we obtain this result? The next section explains how.
+
+\begin{itemize}
+\item \begin{itemize}
+\item \subsection{Experiencers as covert P-locatives}
+\end{itemize}
+\end{itemize}
+
+{\textbackslash}citet\{landau10\} has argued that dative experiencers have more structure than it seems at first sight; specifically, he has argued that they are introduced by a silent P. The initial evidence comes from a set of facts pointed out by Landau where experiencers behave differently from other internal arguments that should in principle be identical to them. \REF{ex:key:29} illustrates one such case: an apparently plain accusative argument cannot be anaphoric to the c-commanding subject if it is an experiencer.  
+
+\ea%29
+    \label{ex:key:29}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a. John and Mary resemble each other.    NON-EXPERIENCER
+
+      b. *John and Mary concern each other.    EXPERIENCER
+
+Experiencers are, in a sense, more isolated from their syntactic context than equivalent non-experiencer arguments. The following contrast, which to the best of our knowledge was first noticed by Alejo Alcaraz (p.c.), is an instance of the same general situation. With a verb like \textit{venir} 'come', a dative can trigger a PCC violation in interaction with the subject \REF{ex:key:30a}; however, the effect disappears if the verb is interpreted as a psych predicate \REF{ex:key:30b}.\footnote{We are grateful to a second anonymous reviewer who pointed out to us that the choice of constructions we had at an initial stage could make the constraint be misinterpreted as an effect of possessive datives. Note that the structures with \textit{venir} 'come' and \textit{caer} 'fall' do not contain constituents which could be taken to be as possessed by the dative argument.}
+
+\ea%30
+    \label{ex:key:30}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a. *Nos     vinisteis   tarde.
+
+            \textit{us}\textsc{.dat}   \textit{came.2}\textsc{pl}   \textit{late}
+
+    {}'You came late (and that affected us)
+
+    b.   Nos     vinisteis     bien.
+
+          \textit{us}\textsc{.dat}  \textit{came.2}\textsc{pl}   \textit{well}
+
+    {}'You produced a positive effect on us'
+
+Similarly, compare *\textit{(Os)} \textit{nos} \textit{caísteis} \textit{por} \textit{las} \textit{escaleras} ('You fell down the stairs, and that affected us') with \textit{Nos} \textit{caísteis} \textit{bien} ('You became dear to us'), or *\textit{Nos} \textit{llegasteis} \textit{tarde} 'You arrived late on us' with \textit{Nos} \textit{llegasteis} \textit{al} \textit{alma} 'You became dear to us'. The generalisation is that experiencer internal arguments are 'protected' by something that prevents them from checking features with the outside environment, something that at the same time avoids the PCC effect in \REF{ex:key:30} and blocks the anaphora in \REF{ex:key:29}. \citet{Landau2010} analyses internal argument experiencers as arguments of a silent P.
+
+Thus, in contrast with \REF{ex:key:28}, the structure of a dative-marked psych verb would be the one in \REF{ex:key:31}, where the P makes the boundary denotation of the dative inaccessible. Thus, just the stative body (-{}-{}-{}-) contributed by Init is relevant. 
+
+\ea%31
+    \label{ex:key:31}
+    \gll\\
+        \\
+    \glt
+    \z
+
+                                 InitP  = -{}-{}-{}-{}-{}-{}-
+
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+
+         PP                                       Init    
+
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+
+P                  Dat-DP            Init                DP
+
+                  ([)                  {}-{}-{}-{}-{}-{}-{}-
+
+Even though datives denote boundaries, when they are projected as experiencers they are contained within a PP that isolates the aspectual contribution of the dative from the rest of the predicate. Stativity, then, is an epiphenomenon in which the experiencer structure prevents the dative from introducing primitives beyond what Init defines. 
+
+Similarly, we correctly expect that if there is a second internal argument beyond the dative –as was the case with dative + reflexive predicates– the result is not stative, because that second argument can add further aspectual information. It is just the dative that is unable to do so in experiencer contexts because it is contained within the prepositional structure.
+
+What happens with accusative marked experiencers, such as the dynamic structures presented in \sectref{sec:key:1}? Crucially, {\textbackslash}citet\{landau10\} shows that these predicates are not psychological in the grammatical sense –they denote psych-eventualities conceptually, but their grammatical behaviour is identical to any other change of state verb in terms of aspectual contribution, binding, passivisation, etc.– In other words, the argument conceptually interpreted as experiencer is an affected argument in such cases, and it is not introduced by a P layer because it is not an experiencer in grammatical or structural terms. It then receives whatever case the verb assigns to it, and makes the aspectual contribution expected from that case marking in the relevant syntactic position (cf. Royo, this volume, for an alternative view).
+
+Finally, is it a matter of chance that the dative in our analysis appears only in the context of P in psychological verbs, or is there a more principled reason for this? In theory, any other case would have been treated in the same way under P, and would have been interpreted statively because of the role of P, so the deep connection cannot be in this sense. One property of datives vs. accusatives, however, makes it plausible that the dative would be the case that emerges when the argument is dissociated from the verb by a PP layer: in contrast to accusative, Spanish datives act as inherent case –for instance, in rejecting conversion to nominative in passive structures–, so we expect that it will be the one to emerge compulsorily in cases where the verb does not establish a direct licensing relation with the argument, as it is with PP-embedded experiencer arguments.
+
+\begin{itemize}
+\item \section{Conclusions}
+\end{itemize}
+
+In this chapter we have argued that the right denotation for a dative is not a whole transfer or even the end-point of an intended transfer process, but rather the opposite: the initial orientation towards a goal, expressed through a left boundary [. We have shown that this denotation is more compatible with the marking facts in Spanish and the various uses of the dative in this language. We have furthermore argued that this boundary makes an aspectual contribution to the whole predicate, except for the case of psych predicates, which are purely stative. In such cases, we have argued that {\textbackslash}citet\{landau10\} is right in the claim that experiencers are protected by PP layers; this, we argued, explains the close relation between stativity and dative-marking in psych predicates.
+\begin{verbatim}%%move bib entries to  localbibliography.bib
+@article{BellettiBelletti1988,
+	author = {Belletti, Adriana and Luigi Rizzi},
+	journal = {\textit{Natural} \textit{Language} \textit{and} \textit{Linguistic} \textit{Theory.}},
+	note = {.}},
+	pages = {291--352},
+	title = {{Psych verbs and theta-theory},
+	volume = {6},
+	year = {1988}
+}
+
+
+{Cifuentes Honrubia, José Luis. 2015. Causativity and psychological verbs in Spanish. In Elisa Barrajón et al. (eds.), \textit{Verb} \textit{classes} \textit{and} \textit{aspect}. Amsterdam, John Benjamins, 110-131.}
+
+@misc{{Cuervo2003,
+	author = {{Cuervo, M. Cristina},
+	note = {Ph. D. thesis, MIT.}},
+	title = {\textit{Datives} \textit{at} \textit{large}},
+	year = {2003}
+}
+
+
+@article{{Diaconescu{Diaconescu2007,
+	author = {{Diaconescu, Constanta R. and María Luisa \citet{Rivero},
+	journal = {An applicative analysis of double object constructions in Romanian. \textit{Probus}},
+	note = {.}},
+	pages = {171--195},
+	sortname = {{Diaconescu, Constanta R. and Maria Luisa \citet{Rivero},
+	title = {}},
+	volume = {19},
+	year = {2007}
+}
+
+
+{Fábregas, Antonio, Ángel Jiménez Fernández \& Mercedes Tubino (in press). What's up with dative experiencers. \textit{Proceedings} \textit{of} \textit{the} \textit{46th} \textit{LSRL}.}
+
+@article{{Fábregas2007,
+	author = {{Fábregas, Antonio},
+	journal = {\textit{Nordlyd}},
+	note = {.}},
+	pages = {165--199},
+	sortname = {{Fabregas, Antonio},
+	title = {The exhaustive lexicalisation principle},
+	volume = {34},
+	year = {2007}
+}
+
+
+@misc{{FernándezOrdóñez1999,
+	author = {{Fernández Ordóñez, Inés},
+	note = {In Ignacio Bosque \& Violeta Demonte (dirs.), \textit{Gramática} \textit{descriptiva} \textit{de} \textit{la} \textit{lengua} \textit{española}. Madrid, Espasa, .}},
+	title = {Leísmo, laísmo y loísmo},
+	urldate = {1317-1398},
+	year = {1999}
+}
+
+
+@misc{{GarcíaFernández{García Fernández2006,
+	author = {{García Fernández, Luis, Carrasco Gutiérrez, Ángeles, Bruno Camus and María Martínez-Atienza},
+	note = {Madrid, Gredos.}},
+	title = {\textit{Diccionario} \textit{de} \textit{perífrasis} \textit{verbales}},
+	year = {2006}
+}
+
+
+Kratzer, Angelika. 1995. Stage-level and individual-level predicates. In G.N. Carlson \& F.J. Pelletier (eds.), \textit{The} \textit{Generic} \textit{Book}, Chicago, Chicago University Press, 125-175.
+
+\begin{stylesubbibentry}
+Krifka, Manfred. 1989. Nominal reference, temporal constitution and quantification in event semantics. In R. Bartsch, J. van Benthem, and P. von Emde Boas (eds.), \textit{Semantics} \textit{and} \textit{contextual} \textit{expression}. Dordrecht, Foris, 75-115.
+\end{stylesubbibentry}
+
+@misc{{Landau2010,
+	author = {{Landau, Idan},
+	note = {Cambridge (Mass.), MIT Press.}},
+	title = {\textit{The} \textit{locative} \textit{syntax} \textit{of} \textit{experiencers}},
+	year = {2010}
+}
+
+
+@misc{{Levin{Levin2005,
+	author = {{Levin, Beth and Malka Rappaport-Hovav},
+	note = {Cambridge, Cambridge University Press.}},
+	title = {\textit{Argument} \textit{realization}},
+	year = {2005}
+}
+
+
+@article{{Marín{Marín2011,
+	author = {{Marín, Rafael and Louise McNally},
+	journal = {\textit{Natural} \textit{Language} \textit{and} \textit{Linguistic} \textit{Theory}},
+	note = {.}},
+	pages = {467--502},
+	sortname = {{Marin, Rafael and Louise McNally},
+	title = {Inchoativity, change of state and telicity: {{{E}}}vidence from {Spanish} reflexive psychological verbs},
+	volume = {29},
+	year = {2011}
+}
+
+
+@misc{Medová2009,
+	author = {Medová, Lucie},
+	note = {A Comparative View from an Antipassive Perspective. Ph.D. dissertation, Princeton University.},
+	title = {Reflexive Clitics in the {Slavic} and {Romance} Languages},
+	year = {2009}
+}
+
+
+{Næss, Åshild. 2009. Varieties of dative. In A. Spencer \& A. Malchukov (eds.), \textit{The} \textit{Oxford} \textit{Handbook} \textit{of} \textit{Case}. Oxford, Oxford University press, 572-581.}
+
+@misc{{Pineda2016,
+	author = {{Pineda, Anna},
+	note = {} \textit{Estudi} \textit{dels} \textit{aplicatius} \textit{en} \textit{llengües} \textit{romàniques} \textit{i} \textit{basc}. Barcelona, Mon Juïc.}},
+	title = {\textit{Les} \textit{fronteres} \textit{de} \textit{la} \textit{(in)transitivitat},
+	year = {2016}
+}
+
+
+Pineda, Anna. In press. ‘From Dative to Accusative. An Ongoing Syntactic Change in Romance’. \textit{Probus.} \textit{International} \textit{Journal} \textit{of} \textit{Romance} \textit{Linguistics.}
+
+{Piñón, Christopher. 1997. Achievements in an event semantics. In A. Lawson (ed.), \textit{Proceedings} \textit{of} \textit{SALT} \textit{VII}. Ithaca, CLC publications, 276-293.}
+
+@misc{RAE\&ASALEASALE2009,
+	author = {RAE and ASALE},
+	note = {Madrid, Espasa.},
+	title = {\textit{Nueva} \textit{gramática} \textit{de} \textit{la} \textit{lengua} \textit{española}},
+	year = {2009}
+}
+
+
+@book{{Ramchand2008,
+	address = {Cambridge},
+	author = {{Ramchand, Gillian},
+	note = {}},
+	publisher = {Cambridge University Press},
+	title = {\textit{First} \textit{phase} \textit{syntax}},
+	year = {2008}
+}
+
+
+@misc{{Romero1997,
+	author = {{Romero, Juan},
+	note = {Ph. D. thesis, UAM.}},
+	title = {\textit{Construcciones} \textit{de} \textit{doble} \textit{objeto} \textit{y} \textit{gramática} \textit{universal}},
+	year = {1997}
+}
+
+
+{Sportiche, Dominique. 1996. Clitic constructions. In Johan Rooryck \& Laura Zaring (eds.), \textit{Phrase} \textit{structure} \textit{and} \textit{the} \textit{lexicon}. Dordrecht, Kluwer, 213-276.}
+
+{Svenonius, Peter. 2010. Spatial P in English. In Guglielmo Cinque \& Luigi Rizzi (eds.), \textit{Mapping} \textit{spatial} \textit{PP}. Oxford, Oxford University Press, 127-160.}
+
+\begin{stylesubbibentry}
+@misc{Tenny1987,
+	author = {Tenny, Carol L.},
+	note = {Ph.D. dissertation, MIT.},
+	title = {\textit{Grammaticalizing} \textit{Aspect} \textit{and} \textit{Affectedness}},
+	year = {1987}
+}
+
+\end{stylesubbibentry}
+
+\end{verbatim}
+\sloppy\printbibliography[heading=subbibliography,notkeyword=this]\end{document}
