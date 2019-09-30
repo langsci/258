@@ -1,19 +1,1396 @@
-\documentclass[output=paper]{langsci/langscibook} 
+\documentclass[output=paper,modfonts,nonflat]{langsci/langscibook} 
 \author{M. Cristina Cuervo\affiliation{}}
-\title{Applicatives without borders}
-
-% \ChapterDOI{} %will be filled in at production
- 
-\abstract{Change the  abstract in chapters/myname.tex}
-\maketitle
+\title{Datives as applicatives}
+\abstract{}
+\IfFileExists{../localcommands.tex}{
+  \input{../localpackages}
+  \input{../localcommands} 
+  \input{../localhyphenation}
+  \bibliography{../localbibliography}
+  \togglepaper[1]%%chapternumber
+}{}
 
 \begin{document}
+\maketitle 
+{I thank two anonymous reviewers for useful comments and suggestions. I am also grateful to Taylor Roberts and the editors of this volume. This work was supported by a Jackman Humanities Institute Fellowship.} 
 
-\section{Introduction}  
+\textbf{María} \textbf{Cristina} \textbf{Cuervo}
+
+\textbf{University} \textbf{of} \textbf{Toronto}
+
+\textbf{\textit{Abstract}}\textit{:} \textit{This} \textit{work} \textit{investigates} \textit{dative} \textit{arguments} \textit{within} \textit{a} \textit{theory} \textit{of} \textit{applicative} \textit{arguments.} \textit{The} \textit{focus} \textit{is} \textit{on} \textit{what} \textit{dative} \textit{arguments} \textit{have} \textit{in} \textit{common} \textit{as} \textit{a} \textit{class—well} \textit{beyond} \textit{the} \textit{most} \textit{typical} \textit{datives} \textit{in} \textit{ditransitive} \textit{constructions—and} \textit{as} \textit{subcases} \textit{of} \textit{applied} \textit{arguments,} \textit{as} \textit{found} \textit{in} \textit{both} \textit{languages} \textit{with} \textit{a} \textit{rich} \textit{case} \textit{system,} \textit{and} \textit{languages} \textit{without} \textit{overt} \textit{case} \textit{marking.}
+
+\textit{A} \textit{typology} \textit{of} \textit{applicative} \textit{constructions} \textit{that} \textit{directly} \textit{associates} \textit{with} \textit{dative} \textit{arguments} \textit{is} \textit{developed.} \textit{The} \textit{various} \textit{subtypes} \textit{of} \textit{applicatives} \textit{are} \textit{derived} \textit{from} \textit{a} \textit{restricted} \textit{set} \textit{of} \textit{structural} \textit{properties} \textit{and} \textit{syntactic-semantic} \textit{features} \textit{(the} \textit{type} \textit{of} \textit{complement} \textit{of} \textit{the} \textit{Appl} \textit{head,} \textit{the} \textit{dynamic/stative} \textit{nature} \textit{of} \textit{its} \textit{complement,} \textit{and} \textit{the} \textit{presence/absence} \textit{of} \textit{an} \textit{external} \textit{argument,} \textit{and} \textit{of} \textit{a} \textit{verbal} \textit{head} \textit{above} \textit{the} \textit{applicative).}
+
+\textit{The} \textit{various} \textit{interpretations} \textit{of} \textit{applied} \textit{arguments} \textit{(e.g.,} \textit{possessors,} \textit{bene/malefactives,} \textit{recipients,} \textit{experiencers,} \textit{affected,} \textit{causees)} \textit{are} \textit{configurationally} \textit{derived,} \textit{and} \textit{do} \textit{not} \textit{require} \textit{encoding} \textit{as} \textit{part} \textit{of} \textit{the} \textit{denotation} \textit{of} \textit{the} \textit{applicative} \textit{head} \textit{beyond} \textit{the} \textit{traditional,} \textit{minimal} \textit{notion} \textit{of} \textit{Appl} \textit{as} \textit{introducing} \textit{an} \textit{argument} \textit{“oriented”} \textit{towards} \textit{its} \textit{complement.} \textit{This} \textit{richness} \textit{of} \textit{interpretations} \textit{sets} \textit{applied} \textit{arguments} \textit{apart} \textit{from} \textit{the} \textit{narrow} \textit{range} \textit{of} \textit{interpretations} \textit{for} \textit{arguments} \textit{of} \textit{v/Voice,} \textit{on} \textit{the} \textit{one} \textit{hand,} \textit{and} \textit{the} \textit{practically} \textit{unconstrained} \textit{interpretations} \textit{of} \textit{arguments} \textit{of} \textit{lexical} \textit{verbs/roots,} \textit{on} \textit{the} \textit{other.} 
+
+\textbf{\textit{Keywords:} } \textit{dative} \textit{arguments,} \textit{applicatives,} \textit{experiencers,} \textit{possessors}
+
+\begin{itemize}
+\item \section{Datives and applicatives}
+
+\begin{itemize}
+\item \subsection{Introduction}
+\end{itemize}
+\end{itemize}
+
+Dative arguments appear in many languages as the third morphological case, after nominative and accusative, or ergative and absolutive. Although the most common role of datives seems to be that of indirect object with transitive verbs—typically as recipients—arguments in dative case can combine with all classes of predicates, and can express sources, experiencers, possessors, benefactives, malefactives, causees, locations, affectees, non-volitional agents or dispositionals. Both inter- and intra-linguistically a dative argument can alternate with accusative, genitive, and nominative DPs, or with prepositional phrases. 
+
+It is possible to consider that such variety of meanings and constructions prevents us from finding a common core, and that dative case can be unpredictable, or a default case.  There has been, however, a lot of work seeking unification either at the semantic or the syntactic levels. Sometimes the unification has proposed that all true datives are extensions of prototypical indirect objects in ditransitive constructions. 
+
+In this work I present an approach to the investigation of dative arguments within a theory of applicative arguments. In order to develop this approach, I start with the hypothesis that dative arguments are applicative arguments, and focus on the syntactic context into which an applicative head is merged, with particular attention to certain properties of the complement and the head that selects the applicative phrase. This is done for two reasons:
+
+\begin{itemize}
+\item \begin{styleListParagraph}
+the belief that both the complement structure and the structure immediately above the applicative are relevant for a typology of applicative constructions that accounts for their syntax and provides a base on which to develop a systematic account of their crosslinguistic distribution.
+\end{styleListParagraph}
+\item \begin{styleListParagraph}
+the belief that dative/applicative arguments—like subjects and unlike direct objects—have structural meanings; that is, that their interpretation is predictable (beyond certain idiosyncrasies related to the meaning of verbal roots) on the basis of their structural position and properties of the licensing head. 
+\end{styleListParagraph}
+\end{itemize}
+
+By studying dative structures as applicatives—that is, employing the theoretical, empirical and methodological tools employed for the study of applicative constructions—it is possible to explore generalizations and theoretical proposals that can abstract away from case marking, word order and other language-particular morphosyntactic properties. 
+
+Another crucial issue that applicatives bring to the forefront is the head that licenses a dative argument, questioning the assumption that datives, as internal arguments, are licensed by the verb. In a language like Spanish, for instance, in which a dative argument can appear with practically any kind of verbal predicate (\citealt{Cuervo2003}, see \sectref{sec:key:3} below), an approach to licensing of datives on the basis of lexical properties of verbs is not tenable. The study of datives as applicatives provides a framework which can potentially capture all datives as a class, beyond their shared morphology, in terms of the type of licensing, while allowing for restricted variation in terms of structural position and thematic interpretation. 
+
+What emerges, then, is a broader approach to the study of dative constructions which, while it takes case seriously and ponders what all dative arguments have in common (beyond the most typical datives in ditransitive constructions), also disregards case and considers what subsets of dative arguments have in common with arguably similar constructions marked by various cases (Finnish) or not marked by case at all (Bantu). 
+
+Studying datives as applicatives places the investigation in the context of an articulated theory of argument licensing heads, which is an independently needed component in a general theory of syntax.
+
+I discuss below various parallels between applicatives and datives, and, in \sectref{sec:key:2}, potential counterarguments to analyzing datives as applicatives. A typology of applicative constructions that directly associates with dative arguments in many languages is developed in \sectref{sec:key:3.} In \sectref{sec:key:4} I illustrate how the various subtypes of applicatives (and datives) are derived from a restricted set of structural properties and from syntactic-semantic features of the applicative head. The various interpretations of applied arguments are configurationally derived, and do not require encoding as part of the denotation of the applicative head. Dative experiencers, in \sectref{sec:key:4.4}, are presented in a case study on the domains which contribute to the morphosyntactic properties and interpretation of these dative-applicatives. Conclusions are presented in \sectref{sec:key:5.}
+
+\begin{itemize}
+\item \begin{itemize}
+\item \subsection{Datives as applicatives}
+\end{itemize}
+\end{itemize}
+
+Although not all applicatives are datives and not all datives are applicatives, both involve the notion of an argument distinct from canonical or ‘core’ arguments (i.e., subjects and objects), which nevertheless exhibit characteristics of “regular” arguments.\footnote{As a reviewer points out, applied arguments are characterized as ‘non-core’ arguments as opposed to canonical subjects and objects. Later, I will discuss the distinction of core/non-core as a distinction between selected arguments (core) and extra, non-selected arguments (non-core), assumed in other work.}  Intra- and inter-linguistically, both applicatives and datives are characterized by morphosyntactic properties that span various constructions and interpretations. 
+
+When we ask the central question of what type of argument dative arguments are, we note that they can be similar to objects in properties of word order, case, and cliticization. They also can be similar to subjects in their interpretation being quite regular and structurally determined, mostly falling within the realm of possession, location/direction and affectedness.\footnote{I am being very general here. This is not a comprehensive list (the notions of accidental and non-volitional causers and doers, and causees are relevant for many languages, such as Russian, Korean, Spanish, German, Pashto, etc.) and relatively vague notions like these overlap and have various nuances. Issues of interpretations and how they can be derived are discussed in \sectref{sec:key:3} and \sectref{sec:key:4.} See also Fábregas \& Marín (this volume), Franco \& Lorusso (this volume), and Tsedryk (this volume) for (partial) unification of the semantics of dative arguments.}   
+
+In their syntactic behaviour and interpretation, dative arguments display strong parallels with applicatives, which are argued to be licensed as specifiers of a specialized functional head, like subjects, but usually pattern with objects in case licensing, object agreement, and movement in passive.
+
+Datives also seem to occupy a category between direct objects and arguments of adpositions. That is exactly what applicatives seem to be as well (at least morphologically): the (direct) objects of a derived verb, or of a predicate which includes an incorporated adposition.. 
+
+Another property common to datives and applicatives is their ability to participate in varied argument structures under the same guise, and to receive a wide range of thematic interpretations. As such, the challenge of providing a unified account of datives and applicatives includes developing an analysis rich enough to account for this latitude, while constrained enough to derive their particular interpretations in particular constructions, as well as the attested cross-linguistic variation.  
+
+Much of the work on applicatives in the last thirty years has involved teasing apart different types of applicatives and deriving their interpretations; distinguishing applied objects from prepositional objects (as in studies of the dative alternation); establishing how observed syntactic behaviour (such as word order, movement, scope, etc.) derives from structural properties or, alternatively, from language-particular morphosyntactic coding; determining the source of the applied argument (e.g. is it an independent, specialized head, the result of preposition incorporation, a general transformational rule?). This type of work has also been done for dative arguments both within and outside an applicative framework. 
+
+Although there is no general agreement about their defining properties, applicatives have been identified across languages in spite of differences of approach and theoretical persuasion, differences in word order, in morphological marking on the head and the applied DP, in possible interpretations, and in availability with different types of verbs or constructions. In the spirit of \citegen{Svenonious2007} work on adpositions, this suggests that applicatives must be a good way for language to do something (e.g., licensing an argument), and a good way of doing something differently (e.g., differently from subject licensors Voice/v, from object licensors Verb/root, and adpositions).
+
+Although crosslinguistic variation in dative arguments might appear less dramatic than variation in applicatives, the general differences in word order, morphological marking on the verb and the argument, and availability and interpretation also apply to datives. It makes sense to ask of datives, as of applicatives, how much of the syntactic and semantic behaviour depends on properties of the licensing head, of the structural environment, of the argument itself, and how much is left to be determined by lexical, idiosyncratic properties of the verb, and knowledge of the world (For approaches quite different from, but still relevant to, those discussed here, see \citealt{Grimm2011}, \citealt{Maling2001}.). \sectref{sec:key:3} is an attempt to address this central question. 
+
+In preparation to addressing this question for datives as applicatives, I discuss some of the arguments that have been presented against taking such an approach.
+
+\begin{itemize}
+\item \section{Difficulties in equating datives and applicatives} 
+\end{itemize}
+
+The need for a theory of dative arguments that accounts for their licensing and interpretation in other than canonical ditransitive constructions is uncontroversial. What remains debatable (and this volume provides good examples of how this issue is alive) is whether such a theory should also account for so-called \textit{canonical} \textit{ditransitive} constructions. 
+
+A central issue in this debate is the contrast between core and non-core arguments, or arguments of the verb versus arguments of a functional head. If such a distinction is made between core and non-core datives, then, in principle, only non-core datives would be applicatives, since all applicatives are, under this definition, non-core. 
+
+Another argument for rejecting an applicative analysis of (some) datives is based on a comparison of dative arguments, either intra- or crosslinguistically. The idea is that if a certain type of dative argument differs in syntactic or semantic behaviour from another type of dative which is analyzed as an applicative, then some authors conclude that the contrasting dative cannot be an applicative as well. This is, schematically, the view in \citealt{BonehNash2012} for French datives, in \citet{Tubino2012} for Spanish dative causees, \citet{FolliHarley2006} for Italian benefactives and goals, and Cépeda \& Cyrino, (this volume) for Portuguese datives. 
+
+Another counterargument to treating datives as applicatives arises when certain coding aspects of applicative constructions are taken as definitional, such as morphological exponence of argument and head. \citet{Snyder1995}, for instance, contrasts double-object constructions—as in English— with dative constructions—as in Spanish— taking them to be different structures. Within Romance, whether the dative \textit{a,} \textit{pe} or \textit{à} heads a prepositional phrase or signals a dative DP has also been part of the ‘datives as applicatives’ debates (Sheehan, this volume; see Calindro, this volume, for an analysis of diachronic change of ditransitives in Brazilian Portuguese). For \citet{Polinsky2013}, overt morphological marking on the predicate is a crucial property of applicatives, which leads to negating applicative status to most dative constructions. As I have noted in previous work \citep[131]{Cuervo2015a}, the identification of applicatives with a particular morphosyntactic coding, rather than with formal semantic or structural properties, has resulted in common but questionable claims that languages like English, German, Russian, Finnish, Japanese, Basque, Guaraní, Spanish, and Kiowa lack applicative constructions.
+
+Dative arguments fail some diagnostics for applicatives based on certain syntactic asymmetries, and on alternation with prepositional constructions, as discussed in \sectref{sec:key:2.4.} Finally, the interpretation of certain datives has also been suggested as a reason not to consider them applicatives, as in the case of agentive causees \citep{Tubino2012} and experiencers.  These semantic, morphological and syntactic difficulties are discussed in turn below. 
+
+\begin{itemize}
+\item \begin{itemize}
+\item \subsection{Core vs. non-core arguments}
+\end{itemize}
+\end{itemize}
+
+One difficulty in identifying dative arguments with applicatives has been the argued contrast among dative arguments between those that appear to be required arguments of the verb, and those that are not. Within Romance, for example, \citet{Pujalte2009} distinguishes between datives with lexically ditransitive verbs such as Spanish \textit{dar} ‘give’ and \textit{enviar} ‘send’ from monotransitives such as \textit{comprar} ‘buy’; \citet{BonehNash2012} contrast French \textit{à}{}-datives in canonically ditransitive ‘motion’ verbs such as \textit{envoyer} ‘send’ and \textit{dire} ‘say’ with datives (clitics) associated with verbs such as \textit{massacrer} ‘destroy’ or \textit{vider} ‘empty’. In these two works, the notion of ‘core dative’ comprises both a notion of ‘thematic argument of the verb’ and of an ‘obligatory’ argument DP.  
+
+This distinction, however, is problematic. On the one hand, the notion of thematic argument of the verb is vague at best if it is not tightly related to the requirement for the argument to be overtly expressed or some other exclusively syntactic behaviour.\footnote{See Fernández \citet{Alcalde2014} for further arguments against \citegen{Pujalte2009} distinction between core and non-core datives.}  With the exception of the verb \textit{give}, which is practically a light verb, and some verbs of direct, physical transfer such as English \textit{hand}, dative recipients can be omitted as easily with canonical ditransitives \REF{ex:key:1} as with monotransitives \REF{ex:key:2}.
+
+\ea%1
+    \label{ex:key:1}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a.  \textit{Los} \textit{empleados} \textit{(le)} \textit{enviaron}  \textit{la} \textit{carta} \textit{(a} \textit{la} \textit{directora).} 
+
+       the employees sent the letter to the director
+
+       ‘The employees sent (the director) the letter’
+
+  b.  \textit{Il} \textit{a} \textit{dit} \textit{la} \textit{vérité} \textit{(à} \textit{Jean)} 
+
+       He has said the truth to Jean
+
+       ‘He told the truth (to Jean)’    (\citealt{BonehNash2012})
+
+\ea%2
+    \label{ex:key:2}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          a.  \textit{Los} \textit{empleados} \textit{(le)} \textit{compraron} \textit{un} \textit{reloj} \textit{(a} \textit{la} \textit{directora)}. 
+
+       the employees bought a watch to the director 
+
+       ‘The employees bought (the director) a watch’
+
+  b.  \textit{Il} \textit{a} \textit{acheté} \textit{des} \textit{bonbons} \textit{(à} \textit{Jean)}.
+
+       He has bought candy (for Jean)
+
+       ‘He bought (Jean) some candy’
+
+Although the distinction between lexically ditransitive verbs and monotransitives might be syntactically relevant at some level, that does not mean that when a dative argument appears with a monotransitive the resulting construction must be different from that of a ditransitive like \textit{enviar} ‘send’ or \textit{poner} ‘put’.  This is standardly assumed for English: the structure attributed to double-objects related to so-called lexically ditransitive verbs (which take \textit{to}{}-DPs in their PP variant, such as \textit{send}) is also attributed to double-objects with monotransitives whose PP variant take \textit{for}{}-DPs (such as \textit{buy}).
+
+There is an additional confusion intertwined in work that argues for an applicative analysis only of non-core datives. It is sometimes the case that differences in morphosyntactic properties have been observed between core and non-core datives. Noted differences concern the case of the applied argument, the exponence of the applicative head (null, or optionally or obligatorily overt), the (im)possibility of the dative to be expressed as a full DP in argument position,and so on. These differences, however, can be the result of there being different sub-types of applicatives within the same language rather than entailing that one argument is licensed by an applicative head, but the other is not (see \citealt{BonehNash2012}, and \citealt{Cuervo2003}, 2015b, \citealt{Diaconescu2004}, \citealt{Pineda2016}, \citealt{RobergeTroberg2009}, for intra-linguistic morphosyntactic differences among dative/applied arguments). 
+
+The other class of dative arguments claimed to be selected, core arguments of the verb, are datives experiencers found with the \textit{piacere}{}-class, famously analyzed as unaccusative double-object constructions by \citealt{BellettiRizzi1988}.\footnote{This class of psychological predicates corresponds to Belletti \& Rizzi’s Class III, which comprises verbs like Italian \textit{piacere} and Spanish \textit{gustar} which take a dative experiencer and a nominative theme. The dative argument typically appears preverbally, and the nominative DP after the verb.}  The ‘core argument’ label makes sense within an analysis like that of Belletti \& Rizzi, who propose the two arguments of \textit{piacere}{}-type verbs are internal arguments of the verb on a par with the internal arguments of canonical ditransitive constructions (double-object constructions).  But the parallel between ditransitive constructions and dative experiencer constructions gets blurry when we go beyond the verb \textit{piacere/gustar} ‘like’ itself and consider psych expressions (e.g. Spanish \textit{dar} \textit{miedo} ‘give fear’) and non-psych expressions (e.g. Spanish \textit{quedar} \textit{bien/mal} ‘go well/badly with’), which cannot be easily analyzed as unaccusative dative experiencer–nominative theme (see \citealt{Cuervo2011}). The ‘core’ analysis of these dative experiencers also faces difficulty when predicates beyond \textit{gustar} are considered: \textit{interesar} ‘interest’, \textit{molestar} ‘bother’ and \textit{importar} ‘matter’ can all easily appear without a dative argument, in which case they merely ascribe a property to an entity, without restricting the ascription to a certain individual. The existence of adjectives with the same roots (\textit{interesante} ‘interesting’, \textit{molesto} ‘bothersome’, \textit{importante} ‘important’) similarly suggests that the lexical content of the root does not require licensing of an experiencer argument (see \sectref{sec:key:4.4} for further discussion and an applicative analysis of these constructions).
+
+\begin{itemize}
+\item \begin{itemize}
+\item \subsection{Coding properties}
+\end{itemize}
+\end{itemize}
+
+Another difficulty in identifying datives as applicatives has been the belief that because applicatives—even low applicatives in double object constructions—are hierarchically higher than the direct object, only languages in which the dative appears linearly before the direct object are languages with applicatives. Numerous studies, however, have shown that the relative word order between a theme and an applicative, or a dative and an accusative DP, is not always a reliable indication of underlying hierarchical asymmetries (Antonyuk, this volume; Cornilescu, this volume; \citealt{Cuervo2003}; \citealt{Demonte1995}; \citealt{MiyagawaTsujioka2004}; and see \citealt{McGinnis2018} for data and discussion).   
+
+Morphological marking on the argument DP has also been thought to indicate whether it is an applicative. On the one hand, in the tradition of Bantu studies, applicatives have no case marking. On the other hand, applicatives and double-object constructions have been proposed for languages in which two internal arguments appear with the same case (typically accusative), as argued for English and Korean. There also exist (unambiguously) high applicative constructions (that is, an argument applied to a vP, and therefore not double-objects in \citegen{Pylkkänen2008} sense) in which both the applied and the direct object or causee have accusative case, as argued for Hiaki by \citet{Harley2013}. An additional issue concerns the morphological shape of dative case and, potentially, the syntactic category of the dative (DP or PP), particularly in languages in which arguably dative marking is syncretic with an existing adposition, as in the case of Japanese \textit{ni}, Hindi \textit{ko} and Spanish, Catalan, Italian and French \textit{a/à}.
+
+This would seem to leave dative arguments (as well as arguments in other cases, such as allative, adhesive, etc.) as poor candidates for an applicative analysis. Morphological case, however, as arguably a post-syntactic phenomenon, can sometimes obscure underlying syntactic relations, such as hierarchical relations and licensing \citep{McGinnis2018}. Additionally, while languages can vary dramatically in their case systems, variation in argument structure is tightly constrained (\citealt{Marantz2013}, \citealt{WoodMarantz2017}, among others). Finally, dative arguments have been shown to behave as DPs rather than PPs, with dative markers such as Romance \textit{a}/\textit{à} more akin to a case marker or differential object marker than an adposition (see Calindro, this volume; \citealt{Pineda2016}; Sheehan, this volume). 
+
+With respect to morphological marking on the applicative head, for many authors, special marking on the verb is expected; as stated by \citet{Polinsky2013}: “It is customary to restrict the designation \textit{applicative} to those cases where the addition of an object is overtly marked on the predicate.”  This association dates back to \citegen{Carochi1645} original description of Nahuatl “applicative verbs” as “derived verbs”, and has been central in Bantu studies. The form of the applicative head, however, is not a definitional property. Applicatives can have more than one form, even in the same language, as is the case of Inuktitut, in which an applicative head can be a verbal affix or be null.\footnote{The variation between and overt and a null head can also be seen in French, and Catalan and certain varieties of Spanish, as argued by \citet{Fournier2010} and \citet{Pineda2016} respectively.}  Applicative heads can be spelled out by morphology with person features, such as datives clitics in Romance, and verbal affixes in P’urhépecha (Moreno \citealt{Villamar2018}). They have been claimed to take the form of a \textit{dative} \textit{flag} in Basque (an affix preceding a dative agreement affix on the verb, which signals the presence of a dative argument; see Etxepare and Oyharçabal 2012 and cites within), or cliticized directional pronouns, such as \textit{raa} ‘to me/us’ in Pashto \citep{Babrakzai1999}.
+
+This brief discussion of morphological properties of applicative constructions across languages shows that there is a continuum of marking from head to the argument: from one extreme being a bound morpheme on the verb (Bantu) to a bound case morpheme on the applied argument (Finnish, Latin) on the other.\footnote{Roberge \& \citet[286]{Troberg2009} expect complementarity between marking on the head or the argument: “We assume that the productive morphological case-marking that existed in Latin made it possible for the [Appl] head to be devoid of overt morphological content.”}  In the middle, and sometimes in combination, marking can be a verbal clitic (Spanish, Pashto), an adposition, or a case marker. 
+
+\begin{itemize}
+\item \begin{itemize}
+\item \subsection{Syntactic properties}
+\end{itemize}
+\end{itemize}
+
+Some syntactic behaviour associated with certain applicative constructions is usually not found in dative constructions.  This is particularly the case for datives in ditransitive constructions. 
+
+Low Applicatives in ditransitive constructions have been shown to be asymmetric applicatives:  of the two internal arguments, only the applied argument shows a full range of object properties \citep[203]{Pylkkänen2000}\footnote{The association of low applicatives with asymmetric applicatives and high applicatives with symmetric ones—although it has been shown not to hold of several languages in which direct objects retained their object properties in applicative constructions—continues to be used as an argument against applicative analyses of (at least) Romance datives. See McGinnis (2004, 2008) for discussion.}. For instance, a low applicative DP is expected to raise in passive, be extracted, require adjacency to the verb, trigger object agreement, and receive the same case as would a direct object of a monotransitive. However, this is not the behaviour of dative arguments in Romance, which typically do not become subjects nor get nominative case in passives, as direct objects do in both transitive and ditransitive constructions. This lack of direct object behaviour, however, can be attributed to particular properties of dative case in particular languages—such as dative being inherent case—which, in turn, interact with passives and movement.  
+
+In the case of high applicatives with transitive predicates (symmetric applicatives), object properties are expected to be exhibited by both the internal argument and the applied argument. Again, this is not the case in Romance, but the same reservations with respect to this reasoning for low applicatives apply to high applicative constructions. 
+
+Dative arguments in Romance and many other languages do perform on a par with DPs standardly analyzed as applicatives on other syntactic properties more directly related to structural position, such as  binding, scope, and agreement (see Antonyuk, this volume; \citealt{BonehNash2017}; \citealt{Bruening2010}; \citealt{Cuervo2003}; \citealt{Demonte1995}; \citealt{Pineda2016}, among others). 
+
+On the basis of the arguments for studying datives as applicatives presented in \sectref{sec:key:1.2}, and having shown that the arguments against doing this are not compelling, I continue in the next sections to show that the analysis of applicatives directly sheds light on the analysis of dative arguments.
+
+\begin{itemize}
+\item \section{Types of datives; types of applicatives}
+\end{itemize}
+
+In many languages, dative arguments are compatible with various types of predicates, from ditransitive activity verbs to anticausative change-of-state verbs, and psychological stative predicates. In previous work, I have proposed a classification of predicates that is relevant for a typology of applicatives, which can equally be applied to the study of dative arguments (see \figref{fig:key:1}).
+
  
-\section*{Abbreviations}
-\section*{Acknowledgements}
+%%please move the includegraphics inside the {figure} environment
+%%\includegraphics[width=\textwidth]{figures/cuervo-img001.png}
+\begin{figure}
+\caption{Subtypes of predicates as relevant for a typology of applicatives \citep[130]{Cuervo2015a}}
+\label{fig:key:1}
+\end{figure}
 
-\sloppy
-\printbibliography[heading=subbibliography,notkeyword=this] 
-\end{document}
+The classification in \figref{fig:key:1} predicts some of the contrasts among dative arguments in terms of subtypes of applicatives (such as affected datives with causative verbs versus recipient datives with non-causative transitives). The way the predicates are subdivided, however, does not directly parallel the typology proposed by Pylkkänen (2002, 2008)\footnote{From this point on, I cite \citealt{Pylkkänen2008}, but most issues discuss appeared first in \citealt{Pylkkänen2002}.}  and later enriched by \citealt{BonehNash2011}, \citealt{Cuervo2003}, 2010, \citealt{Kim2011}, \citealt{McGinnis2001}, 2008, \citealt{McGinnisGerdts2004}, \citealt{RobergeTroberg2009}, among others. Additionally, the classification based on predicate type does not capture certain proposed implications or correlations among subtypes of applicatives. For instance, if a language allows dative/applicative possessors or recipients with unaccusatives, it also does with transitives, but the reverse does not necessarily hold, as in English. The classification cannot express the intra-linguistic correlation between having (or not having) datives with “lexically” causative verbs (v.g., \textit{break,} \textit{melt}), and (not) allowing for datives with anticausatives (see \citealt{Peterson2007} and \citealt{Cuervo2015a} for discussion). 
+
+What is needed is a classification based on structural properties directly relevant for the subtypes of applicatives described in the literature, with the potential to systematically derive the interpretation of the various applicatives/datives, and the “natural classes” of crosslinguistic variation in the availability of applicatives.
+
+In Pylkkänen’s work, the crucial distinction in height is actually a distinction between the category or type of the complement of the applicative head\footnote{This distinction could be reinterpreted in other terms. For example, McGinnis distinguisges symmetrical and asymmetrical applicatives in terms of phases. See also \citet{BonehNash2017} for a scalar approach to high and low datives in Russian.} . To the basic distinction between applicatives taking nominal complements or entities (LowAppl) and applicatives taking verbal complements or events (HighAppl), further distinctions have been developed, particularly among the verbal complements. 
+
+\citet{Kim2011} proposed that in addition to the applicatives which take verbal complements to the exclusion of the subject (vP), there are those which take a larger verbal projection including the subject (VoiceP). This is the case of Peripheral Applicatives which introduce a nominative affectee in Korean and Japanese passives.\footnote{In Korean passives, a nominative affectee is the only argument that can trigger honorific agreement with the verb. In the example below, \citet{Kim2012} analyzes \textit{apeci-ka} ‘father’ as a Peripheral Applicative: a high applicative merged above VoiceP.
+
+\begin{itemize}
+\item \begin{styleFootnote}
+\textit{apeci\textsubscript{1}}\textit{{}-ka}       \textit{Minswu\textsubscript{2}}\textit{{}-eykey   pal-ul       palp-hi-si}\textit{\textsubscript{1/*2}}\textit{{}-ess-t}
+\end{styleFootnote}
+\end{itemize}
+  father-NOM  Minsu-DAT       foot-ACC   step-PASS-HON-PAST-DEC  ‘Father\textsubscript{1} was adversely affected by Minsu’s stepping on his\textsubscript{1} foot.’   \citep{Kim2012}} \citet{Tsai2018} proposes an even higher applicative for Mandarin, which licenses an argument above the inflectional domain and is “involved in the arrangement of the information strucutre” \citep[18]{Tsai2018}. 
+
+Cuervo (2003, 2011, 2015a) proposed that applicative heads taking verbal complements are sensitive to the eventive (dynamic) or stative nature of the vP. Benefactives are prototypical cases of high applicatives taking a dynamic vP as complement; experiencers are prototypical cases of high applicatives taking (psychological) stative vPs. 
+
+Further, in previous work I have argued that the interpretation of applied arguments not only depends on the (type of) complement of the applicative head and properties of the head, but is also affected by the structure \textit{above} the Appl head\footnote{A reviewer wonders whether this interpretation is countercyclic, and should be restricted to occur within a phase. Indeed, the relevant interpretation discussed here is thematic interpretation at the level of argument structure, which is arguably restricted to the domain limited by VoiceP at the edge. The view that structure above a head is relevant for interpretation, although initially surprising, is compatible with Wood and \citegen{Marantz2017} unification of argument-introducing heads into one, whose distinct interpretations arise as cases of contextual allosemy, that is, configurational meanings within the extended projection of the verb. See below for discussion.}. Specifically, I have argued that the interpretation of a high applicative is affected by the structure above the applicative phrase, in particular by whether there is another vP above it, embedding or selecting the ApplP, as in the case of Affected Applicatives with (bi-eventive) causatives and anticausatives/inchoatives. For example, Affected Applicatives \REF{ex:key:3} and Experiencers \REF{ex:key:4} are both high applicatives which take a stative vP as complement; the predictable contrast in interpretation arises from the Experiencers being non-embedded high applicatives \REF{ex:key:4c} and the Affected Appl being embedded under a dynamic vP (agentive v\textsc{\textsubscript{do}} in causatives or non-agentive v\textsc{\textsubscript{go}} in inchoatives), as in \REF{ex:key:3c}.
+
+\ea%3
+    \label{ex:key:3}
+    \gll\\
+        \\
+    \glt
+    \z
+
+           Affected datives 
+
+a. With causatives: French  
+
+  \textit{Le} \textit{teinturier} \textit{lui} \textit{a} \textit{massacré} \textit{une} \textit{chemise.} 
+
+  the dry-cleaner \textsc{cl.dat} has destroyed a shirt
+
+  ‘The dry-cleaner ruined her/his shirt (on her/him).’  (\citealt{BonehNash2012})    
+
+b. With anticausatives: Spanish 
+
+  \textit{A} \textit{Carolina}     \textit{se}         \textit{le}        \textit{rompió}   \textit{la} \textit{radio} 
+
+Carolina.\textsc{dat} \textsc{cl.ref} \textsc{cl.dat}    broke     the radio 
+
+‘The radio broke on Carolina’
+
+c. Structure of Affected Appl in causatives \citep[113]{Cuervo2003}
+
+                 VoiceP
+
+         3  
+
+      DP\textsubscript{Subj}      3  \textit{v}P
+
+        Voice    3  \textbf{ApplP}
+
+        \textit{v}\textsc{\textsubscript{do}      }   3 
+
+               \textbf{DP\textsubscript{Dat}}    \textbf{3}  \textbf{\textit{v}}\textbf{P\textsc{\textsubscript{be}}}
+
+                                    \textbf{Appl}        \textbf{3} 
+
+                            DP\textsubscript{Obj}     \textbf{6} 
+
+                      \textit{v}+Root    
+
+\ea%4
+    \label{ex:key:4}
+    \gll\\
+        \\
+    \glt
+    \z
+
+             Dative experiencers    
+
+a.   \textit{A} \textit{Rosa}      \textit{le}            \textit{molesta}   \textit{el} \textit{humo}
+
+  Rosa.\textsc{dat}   \textsc{cl.dat}  bother  the smoke
+
+  ‘Smoke bothers Rosa’   (Acedo-\citealt{MatellánMateu2015}: 90)
+
+b.   \textit{A} \textit{Emilio}      \textit{le} \textit{parecen}   \textit{difíciles} \textit{esas} \textit{decisiones}
+
+  Emilio.\textsc{dat}  \textsc{cl.dat} seem   difficult those decisions   
+
+  ‘Emilio finds those decisions difficult’ 
+
+c. Structure of dative experiencers   
+
+\textbf{ApplP}
+
+            3 
+
+  \textbf{DP\textsubscript{Dat}}         3   \textbf{\textit{v}}\textbf{P\textsc{\textsubscript{be}}}
+
+                 \textbf{Appl}    3  
+
+                           DP           3  
+
+                              \textit{v}\textsc{\textsubscript{be}         }    Root    \citep[145]{Cuervo2003}
+
+This way, Affected Applicatives are distinguished from LowAppl by the structure \textit{below} them: they appear above the root, and take a verbal complement. In turn, they are distinguished from Experiencers by the structure \textit{above} them within the extended verbal projection.     
+
+The structure above the applicative is also responsible for the contrast between “instrumentals” and “causees”, two types of arguments analyzed as high applicatives taking a dynamic vP as complement. “Causee” is the interpretation assigned to an instrumental high applicative embedded under a dynamic vP (v\textsubscript{cause}  or v\textsubscript{do}).\footnote{Some dative causees have been argued to be volitional agents, compatible with agent-oriented adverbials, as in the case of Spanish \textit{hacer}{}-infinitive constructions (parallel to the French \textit{faire}{}-\textit{infinitif}. In this case, there is no agreement whether these should be considered applicatives (as in \citealt{Torrego2011}) or not (\citealt{Kim2011}, \citealt{Tubino2012}). See \sectref{sec:key:4.3} for further discussion.} Unlike an instrumental applicative—embedded directly under Voice which is related to the same event as the agent—a causee is the only external argument related to the embedded event. Although putting together these two types of arguments might initially seem questionable, Jerro observes that “several genetically unrelated and geographically non-contiguous languages have morphological forms that subsume both causative and applicative uses” \citep[752]{Jerro2017}, and proposes for Kinyarwanda a common origin for both types of arguments.  \citet{Kim2011} proposes an explanation for the causee-instrumental syncretism in Korean and Niuean arguing that “in morphological causatives, a causer uses a causee as an instrument to make a relevant event take place” (2011: 499). According to Kim, the Niuean instrumental applicative morpheme \textit{aki} introduces the causee under causative \textit{faka}{}-. She further observes that in Middle Korean morphological causatives, a causee was marked with the instrumental –(\textit{u)lo}, as illustrated in \REF{ex:key:5}, and that an “animate dative DP in morphological causatives and adversity clauses can also be interpreted as an instrument” \citep[499]{Kim2011}. 
+
+\ea%5
+    \label{ex:key:5}
+    \gll\\
+        \\
+    \glt
+    \z
+
+           \textit{ai-lo} \textit{hwenhi} \textit{tung-ul} \textit{kulk-hi-ko}
+
+  child\textsubscript{{}-ACTIVE.INSTR} cool back\textsubscript{{}-ACC} scratch-i-and
+
+  ‘[I] had\textsubscript{caus} my child scratch my back cool [i.e. relieving the   itch].’         (\citealt{Park1994}, in \citealt{Kim2011}:499)
+
+With respect to low applicatives, merged under the verbal root, the distinction between dynamic and stative applicatives also seems to play a role. Pylkkänen defined two sub-types of low applicatives, Low Appl\textsc{\textsubscript{to}}\textsubscript{} and Appl\textsc{\textsubscript{from}}, based on languages whose double-object constructions require a transfer-of-possession predicate, such as English and, arguably, Hebrew.\footnote{The verb itself can denote a transfer or it can be a creation verb which is interpreted as a transfer event in combination with a LowAppl.}  These constructions are doubly dynamic, in the sense that both the transfer predicate (arguably requiring a \textsc{path} structure) and the applicative head encode dynamic relations.  
+
+Besides those merged under dynamic verbs of transfer of possession, in some languages a low applicative can also appear under transitive or unaccusative verbs that do not denote \textit{transfer} of possession (either dynamic or stative verbs). This is \citegen{Cuervo2003} LowAppl\textsc{\textsubscript{at}}, which expresses a non-dynamic possession relation. LowAppl\textsc{\textsubscript{at}} can take  a DP, a PP or a small clause-type of structure as complement, the applied argument being interpreted as different sub-types of possessors: possessor \REF{ex:key:6}, locative \REF{ex:key:7}, or experiencer \REF{ex:key:8}.
+
+\ea%6
+    \label{ex:key:6}
+    \gll\\
+        \\
+    \glt
+    \z
+
+             a.  DP complement: possessor dative (transitive; French)
+
+  \textit{Michele}    \textit{lui}       \textit{a} \textit{lavé}     \textit{les} \textit{cheveux}   
+
+  Michele   \textsc{cl.dat} has washed   the hairs
+
+  ‘Michele washed his hair’ 
+
+  b.  DP complement: possessor dative (unaccusative; Spanish)
+
+  \textit{A} \textit{la} \textit{casa}      \textit{le}     \textit{faltan}     \textit{ventanas} 
+
+  the house.\textsc{dat} \textsc{cl.dat}   miss.\textsc{pl}  windows
+
+  ‘The house lacks (some) windows’
+
+\ea%7
+    \label{ex:key:7}
+    \gll\\
+        \\
+    \glt
+    \z
+
+             a. DP-PP complement: locative-possessor dative (Spanish)
+
+  \textit{Gabi}   \textit{le}         \textit{puso}   \textit{el} \textit{bebé}    \textit{en} \textit{los} \textit{brazos}   \textit{a} \textit{Emilio}
+
+  Gabi    \textsc{cl.dat} put   the baby  in the arms    Emilio.\textsc{dat}  
+
+  ‘Gabi placed the baby in Emilio’s arms’ 
+
+  b. PP complement: locative-possessor dative (transitive; French)
+
+  \textit{Elle} \textit{lui}   \textit{a} \textit{tiré}      \textit{dans} \textit{le} \textit{ventre.}
+
+  she  \textsc{cl.dat}   has shot   in the belly
+
+  ‘She shot her/him in the belly’   (\citealt{BonehNash2012})
+
+\ea%8
+    \label{ex:key:8}
+    \gll\\
+        \\
+    \glt
+    \z
+
+             a. SC complement: experiencer/locative-possessor dative   (Spanish)
+
+  \textit{Emilio} \textit{le} \textit{puso} \textit{la} \textit{mano} \textit{encima} \textit{a} \textit{Lucila}\footnote{Following \citealt{Cuervo2003}, I assume here that the particle \textit{encima} acts as the predicate in a small-clause-type of structure, which the applicative head takes as its complement. Unlike there, however, I take the datives in \REF{ex:key:8} to be low applicatives because they are merged as a complement of the verb. See Acedo-\citet{Matellán2017} for an Affected Appl analysis of special datives in Latin.}     
+
+  Emilio.\textsc{nom}  \textsc{cl.dat} put   the hand on-top  Lucila.\textsc{dat}    ‘Emilio laid a hand on Lucila’ 
+
+  b. DP complement: experiencer-possessor dative (Spanish)
+
+  \textit{A} \textit{Emilio}      \textit{le}   \textit{duele} \textit{una} \textit{muela}     
+
+  Emilio.\textsc{dat}  \textsc{cl.dat} hurt   a molar  
+
+  ‘Emilio’s molar hurts’  
+
+Sentences (7a-b) show that a dative argument can be the possessor of a body part or location expressed as the DP complement of a preposition. For \REF{ex:key:7a}, a dative co-appearing with a direct object and a locative PP, one can wonder what the complement of the applicative head is, that is, whether the dative takes the [direct object + locative] or just the locative PP as its complement (as it arguably does in \REF{ex:key:7b}). While it is true that there is a possession relation between the dative and the locative that excludes the direct object (this is evident in the English translation), the entailment of the sentence is expressed as a possessive construction with the dative as external argument and the theme and locative as internal arguments of \textit{tener} ‘have’ (e.g. \textit{Emilio} \textit{tiene} \textit{el} \textit{bebé} \textit{en} \textit{(los)} \textit{brazos} ‘Emilio has the baby on his arms’).  This shows that the part-whole relation between \textit{Emilio} and \textit{the} \textit{arms} does not require a syntactic relation between the two to the exclusion of the theme \textit{the} \textit{baby}.\footnote{If this were the case, one would expect the entailment to be a location of the theme, expressed as subject, with respect to the dative and PP as internal arguments: \textit{El} \textit{bebé} \textit{está} \textit{en} \textit{los} \textit{brazos} \textit{de} \textit{Emilio} ‘The baby is on Emilio’s arms’.}     
+
+In the examples above, the dative argument is interpreted primarily as the possessor of a body part; in each case, however, there is an “extra” layer of meaning arising from the structure, the meaning of the verb and world knowledge: benefactive \REF{ex:key:6a}, malefactive or affected \REF{ex:key:7b}, locative (6b, 7a), experiencer in \REF{ex:key:8}. 
+
+The interpretation that is secondary in the examples above (affected, experiencer) becomes primary—and the possession interpretation is not entailed, although it might arise as secondary—for other types of dative/applicatives. This is the case of dative experiencers, which are possessors of a mental state, as seen in \REF{ex:key:4}, and Affected Applicatives in \REF{ex:key:3}, which are affected by the change of state of an object (expressed as the direct object). In the case of Affected Applicatives, many times the dative argument is also understood as the possessor of that object, and what aretermed Affected or Middle Applicatives are sometimes classified as possessors (e.g., Fernández \citealt{Alcalde2014}; see \citealt{Cuervo2003} for arguments to distinguish possessors from affected datives both syntactically and semantically). 
+
+As a result of these three distinctions (category of complement, stativity/dynamicity of complement, and embedding structure), a more articulated typology of applicatives can be constructed that accounts for subgroups of applicatives attested in particular languages, as well as the various interpretations that applicative arguments can have inter- and intra-linguistically. Ideally, the typology should also be a good base to account for the morphological form of the Appl head—in particular whether it is overt or null—as well as for the observed syncretisms between applicatives, causatives, adpositions and case markers.
+
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+        Complement
+
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+        Non-verbal                  Verbal (vP)
+
+%%[Warning: Draw object ignored]
+
+Dynamic (\textsc{to-from})  Stative (\textsc{at})                  
+
+[\textsc{recipient}]           [\textsc{possessor}]
+
+[\textsc{source}]                     
+
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+                Dynamic                                 Stative
+
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+%%[Warning: Draw object ignored]
+    Embedded         Non-embedded      Embedded           Non-embedded
+
+     [\textsc{causee}]       [\textsc{instrumental}]  
+
+                                      [\textsc{benefactive}]\footnote{The label \textsc{benefactive} here represents datives with a benefactive, malefactive, or ethical interpretation, as well as ‘substitutive’ applicatives \citep{Peterson2007}.}   Causative   Anticaus\footnote{I assume here a bi-eventive analysis of anticausative constructions whereby a dynamic event—a vP\textsc{go} expressing the change—embeds a state—a vP\textsc{be} (see \citealt{Cuervo2003}, 2015b). Thus, an \textsc{affected} applicative taking a stative vP as complement is embedded under the dynamic vP both in causative and anticausative constructions.}  Psych   Non-psych        
+
+                        [\textsc{affected}]             [\textsc{experiencer}]
+
+\textit{\figref{fig:key:2}: Subtypes of applicatives according to their position in structure and properties of their complement}
+
+\figref{fig:key:2} presents a typology of applicatives organized on the basis of configurational properties. As the diagram represents an inventory of Appl heads, it is possible to associate each node in the tree with particular features on the Appl head, both substantive and selectional. Thus, the splits proposed should reflect intrinsic properties of the Appl head or properties of its complement, but should not reflect properties of the structure that appears above the ApplP (which ‘selects’ the ApplP), as discussed below. Additionally, in an ideal geometry, we would expect that node labels and splits will not repeat within the diagram, and that each division will delineate a particular subtype of Appl. The diagram fulfills this to an important extent, but fails in two places, as discussed below.
+
+The classification in \figref{fig:key:2} captures Pylkkänen’s idea that there are two types of applicatives. The two types are distinguished mainly in terms of their height within the extended verbal projection, in reference to being above or below the verb (specifically the root). This distinction results in the first split between Appls taking a verbal complement, HighAppl, and a non-verbal complement (but not necessarily a DP), LowAppl.\footnote{I remain agnostic with respect to the existence of applicatives that merge higher than vP (such as peripheral applicatives proposed by \citealt{Kim2011} and \citealt{Tsai2018}), as opposed to applicatives found outside the extended verbal domain as a result of movement, and, therefore they are not represented n this typology.} 
+
+The contrast between dynamicity and stativity is further introduced as a distinction relevant for both applicatives taking verbal and non-verbal complements. Within (non-embedded) high applicatives, this split captures the contrast between \textsc{benefactives} and \textsc{instrumentals}—related to dynamic events—on one hand, and \textsc{experiencers}—related to a state—on the other.\footnote{As noted by a reviewer, \citet{Pylkkänen2008} argued that benefactive high applicatives can combine with static verbs such as \textit{hold}. This “static verb” is eventive and “dynamic” in the relevant sense, however, as suggested by the reviewer, at least in the context of a benefactive applicative. The notion of “static” is presented in Pylkkänen in opposition to dynamic verbs of transfer.} The label \textsc{experiencer} covers the notion of possessors of (mental) states with psychological or non-psychological predicates (see section 4.4 for data and discussion). Among applicatives embedded under a causative, \textsc{causees} correspond to those taking a dynamic event—analytical causatives in many languages—while \textsc{affected} are those related to a change of state—lexical causatives in many languages, and anticausatives/ inchoatives. 
+
+Given that their complement is non-verbal, the contrast in dynamicity in LowAppl is encoded as a property of the sub-type of LowAppl head itself (\textsc{to} and \textsc{from} are dynamic for \textsc{recipients} and \textsc{sources}, respectively; \textsc{at}, for \textsc{possessors} is a stative relation). The contrast between dynamic and stative low applicatives cannot be obtained by simple reference to the embedding verb. Specifically, a stative Appl-\textsc{at} is compatible with both dynamic, eventive verbs (as for Spanish \textit{wash} and \textit{sell}) and stative verbs (\textit{admire,} \textit{envy}).\footnote{In contrast, a stative verb (e.g., \textit{admirar} ‘admire’, \textit{faltar} ‘lack’) is only compatible with a stative applicative (LowAppl\textsc{at}).}  In the case of LowAppl, what is either dynamic or stative is the (possessive) relationship between the applicative DP and the theme object DP. 
+
+Another distinction is introduced among verbal (high) applicatives: whether the applicative taking a vP as complement is itself embedded under another (dynamic) vP. As mentioned above, \textsc{causees} and \textsc{affected} applicatives appear between two vPs, in contrast to, for example, non-embedded \textsc{benefactives} and \textsc{instrumentals}, which appear between VoiceP and a dynamic vP. 
+
+The split between non-embedded Appls and Appls embedded under another vP refers to the structure immediately above the ApplP, that is, to the head the Appl is a complement of. It is unusual for a feature of the Appl head to allude to its selecting head or phrase, and this appears to be an imperfection of the typology.  
+
+Another instance of reference to the structure selecting for the Appl could be found in Appls that select a non-verbal complement, that is, LowAppl. The issue is that Appl exclusively appears as a complement of a verb: Appl needs a verbal environment either above or below it, as it is incompatible in the nominal domain.  This means that even if we eliminate explicit reference to selecting structure for Appls taking a verbal complement, there will always be implicit reference to a verbal projection above the LowAppl. This property of the classification, rather than being a problem, expresses a central property of applicatives, as opposed to their close relatives, adpositions. In contrast with adpositions, which can typically appear as PP modifiers in the clausal, verbal and nominal domains, Appl is only licensed in a verbal environment. This could be expressed as a feature or variable that needs valuation by a v feature. This proposal accords with \citegen{Svenonious2007} treatment of verbs containing an eventive variable \textit{e} that is bound by Tense because Appl islike a more restricted Path PP which also “must be linked to verbal structure, hence ultimately bound by tense” \citep[35]{Svenonious2007}. 
+
+As noted earlier, reference to the structure above Appl seems difficult to reconcile with an attempt to capture the various subtypes of applicatives in terms of a geometry of features encoded by the Appl head. These distinctions are better captured by an approach whereby an Appl head is defined as an introducer of an event participant minimally specified as a possessor(-orientation), with its varying interpretations arising contextually. \sectref{sec:key:4} develops this approach by deriving the “typology” in \figref{fig:key:2} on the basis of configurational properties. Further specification, possibly of a lexical nature, is needed to capture contrasts among low applicatives, and between benefactives and instrumentals.  
+
+\begin{itemize}
+\item \section{Deriving the sub-types}
+
+\begin{itemize}
+\item \subsection{Below the verb: low applicatives}
+\end{itemize}
+\end{itemize}
+
+This section briefly discusses the properties of low applicatives which take a non-verbal complement, typically a DP. Arguments of this type of Appl are interpreted as \textsc{recipients}, \textsc{possessors}, \textsc{sources} or \textsc{locations}. 
+
+The contrast among subtypes of LowAppl has been accounted for in terms of subtypes of heads: \textsc{to} and \textsc{from} for recipients and sources, respectively \citep{Pylkkänen2008} and \textsc{at} for possessors \citep{Cuervo2003}.\footnote{In some languages, including Spanish, locatives and other special arguments can also be expressed as LowAppl.} Although dynamicity (or directionality) is at the core of the three sub-types, this constrast cannot be simply derived from differences in the complement of the Appl head, or other configurational properties.  As such, the distinction might require encoding as a feature on the applicative head (+/- dynamic, or [Path], for instance); alternatively, the distinction can be captured as a root element associated with the applicative head (as proposed by \citealt{WoodMarantz2017} for high applicatives and Prepositions).\footnote{A reviewer asks whether this difference in encoding is predicted to have empirical consequences. One consequence concerns whether variation in semantics is systematic or unconstrained, which is a central part of my future research. In addition to semantics, intra- and crosslinguistic variation in morphological overtness and shape of heads will be an important topic.} Individual languages could, in principle, choose freely among these heads, although \textsc{to} is the most widespread and basic LowAppl (also the least morphologically marked, \citealt{Cuervo2015a}).
+
+Although in Pylkkänen (2002, 2008), LowAppl was defined as an applicative merged under a transitive verb expressing transfer of possession, I have shown in previous work that the same relation can take place under unaccusative verbs, as well attested in Spanish with both dynamic verbs (e.g., \textit{crecer} ‘grow’, \textit{caer} \textit{‘}fall’, \textit{llegar} \textit{‘}arrive’, \textit{doler} \textit{‘}hurt’\textsubscript{Intr}) and stative, existential verbs (e.g., \textit{faltar} ‘lack’, \textit{quedar} \textit{‘}remain’, \textit{sobrar} \textit{‘}be extra’), contra \citet{Baker1996}. 
+
+The defining feature of low applicatives is therefore their position as complements of the verb and their possession relation (with an entity or location), rather than the transfer meaning, or the transitivity of the verb. With respect to the category of their complement, LowAppls do not necessarily select a DP: all that is required is that they take a non-verbal complement. As such, cases in which an applicative takes a prepositional phrase or a small clause as complement, as illustrated in (7-8), would be cases of low applicatives (LowAppl\textsc{\textsubscript{at}}, specifically).
+
+\begin{itemize}
+\item \begin{itemize}
+\item \subsection{Benefactives, instrumentals and other dynamic high applicatives}
+\end{itemize}
+\end{itemize}
+
+This section discusses the properties of high applicatives which take a dynamic, eventive vP as complement, and appear under a Voice head. These high applied arguments are typically interpreted as benefactives, malefactives, or instrumentals. 
+
+Benefactives seem to be the most widespread type of high applicatives \citep{Polinsky2013}: applicatives that license an argument related to a dynamic event in a non-actor role. Malefactives and so-called ‘ethical datives’ can be captured in the same way structurally. The different interpretations could be associated with different subtypes of applicative heads, or could be derived as a combination of a ‘factive’ meaning of the Appl head, lexical meaning of the verb, and world knowledge. This seems to be the case for ‘ethical datives’ in Romance (\textit{dativus} \textit{commodi/incommod}i, see \citealt{RobergeTroberg2009} for discussion of terms for the various datives labelled ‘ethical’ or ‘dative of interest’), in which arguments with the same morphosyntax can be alternatively understood as benefactives \REF{ex:key:9a} or malefactives \REF{ex:key:9b}; examples from \citealt{RobergeTroberg2009}.
+
+\ea%9
+    \label{ex:key:9}
+    \gll\\
+        \\
+    \glt
+    \z
+
+             Bene/malefactive applicatives: vP\textsc{do} complement
+
+a. Portuguese benefactive
+
+  \textit{Elle} \textit{ligou-lhes}     \textit{amavelmente} \textit{a} \textit{luz}
+
+  he   connected-\textsc{cl.dat.3pl} kindly   the light
+
+  ‘He kindly switched on the light for them’
+
+b. Italian malefactive
+
+  \textit{Gli} \textit{invitati} \textit{gli} \textit{hanno} \textit{mangiato} \textit{tutto} \textit{quello} \textit{che} \textit{rimaneva} \textit{nel} \textit{frigo.} 
+
+  the guests  \textsc{cl.dat}  have eaten all that which remained in-the fridge  
+
+  ‘The guests ate everything that was left in the fridge on him’
+
+Instrumental applicatives have also been assigned the same structural properties, but are thematically related to the event in a more active initiator or actor-like role. If the same position is assigned to instrumental applicatives, then a featural analysis of argument introducing heads could distinguish them from (bene/male)factives with a +actor/initiator specification. Interestingly, in Kinyarwanda, benefactives and instrumentals are introduced with the same applicative morphology, but contrast in terms of the relative word order between the applicative and the direct object (benefactives appear before, instrumentals after; \citealt{McGinnisGerdts2004}).
+
+Causees are also introduced by an Appl which takes a dynamic vP as complement. As we have seen, the contrast between instrumentals and causees reduces in this approach to a contrast between being embedded under another dynamic v (Causees) or not (Instrumentals, merged under Voice). Given the semantic and syntactic similarity, and the syncretisms between causatives and instrumentals discussed in section 3 for Niuean, Korean and Kinyarwanda, this is a welcome result.\footnote{Syncretic forms between benefactives and causatives are found in Hualapai \citep{Peterson2007}.} 
+
+This classification, which considers the structure below and above the Appl head, can also capture “accidental causers” in unaccusative change-of-state verbs (inchoatives), as well as non-volitional agents with activity verbs.  
+
+In the case of dative arguments with anticausative predicates, a dative argument is usually ambiguous between an affected reading and an unintentional or accidental causer reading. This is the case for Spanish and German, among other languages. Cuervo (2003, 2014) and \citet{Schäfer2008} propose that the accidental causer reading is the interpretation of a high applicative which takes the bi-eventive inchoative structure as its complement (v\textsc{go}{}-v\textsc{be}), and which crucially does not merge under an agentive Voice head (example and structure from \citealt{Cuervo2003}: 166-7). 
+
+\ea%10
+    \label{ex:key:10}
+    \gll\\
+        \\
+    \glt
+    \z
+
+           a.   Dative with inchoative
+
+\textit{Al} \textit{tintorero} \textit{se} \textit{le} \textit{quemaron} \textit{los} \textit{pantalones} \textit{de} \textit{Carolina}
+
+  the dry-cleaner\textsc{.dat}   \textsc{se}  \textsc{cl.dat}  burnt.\textsc{pl} the trousers of Carolina
+
+  ‘Carolina’s trousers got burnt on the dry-cleaners’ or
+
+  ‘The dry-cleaner accidentally burnt Carolina’s trousers’    
+
+b.  Structure of accidental causer high applicative
+
+                        \textbf{ApplP}
+
+%%[Warning: Draw object ignored]
+    \textbf{3} 
+
+  \textbf{DP\textsubscript{Dat}}        \textbf{3} \textit{v}P\textsc{\textsubscript{go}}\textsubscript{2}
+
+                            \textbf{Appl}       3  \textit{v}P\textsc{\textsubscript{be}}\textsubscript{1}
+
+                                                \textit{v}\textsc{\textsubscript{go} }            3 
+
+                                   DP\textsubscript{Obj}         5    
+
+               \textit{v}+Root
+
+On the same basis, “non-volitional agents” expressed as dative arguments, as in Russian impersonal constructions, could be introduced by a high applicative which takes a dynamic v\textsc{do} as complement, but no Voice head is projected above it.\footnote{Alternatively, a Voice head is projected but it is somehow defective and does not project an argument in its specifier (morphologically expressed as a reflexive).}  Except for the structure above them, these arguments are like instrumentals: an entity or individual involved agentively in an event, but without volition (see \citealt{Skorniakova2009} for discussion).
+
+\ea%11
+    \label{ex:key:11}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          \textit{Boris-u} \textit{xorošo} \textit{pe-l-o-s’} \textit{(\#} \textit{toby} \textit{zarabota-t’} \textit{denegi).}
+
+  Boris\textsc{\textsubscript{dat.masc}}   well sing\textsc{\textsubscript{past-neut-refl}}   in-order make\textsc{\textsubscript{inf}} money
+
+  ‘Boris (felt like) singing well in order to make money.’   (adapted from \citealt{Skorniakova2009}:189)
+
+\begin{itemize}
+\item \begin{itemize}
+\item \subsection{Embedded high applicatives: affected applicatives and causees}
+\end{itemize}
+\end{itemize}
+
+This section briefly discusses the properties of two kinds of high applicatives embedded under a dynamic, eventive vP: those which take another eventive vP as complement (applied DP interpreted as Causee), and those which take a stative vP (their applied argument interpreted as Affected). 
+
+Affected Applicatives are defined as those which appear in change-of-state constructions, both transitive causatives and intransitive anticausative/inchoatives (\citealt{Cuervo2003}, 2010, 2015b), as illustrated in \REF{ex:key:3}, repeated as \REF{ex:key:12} below. 
+
+\ea%12
+    \label{ex:key:12}
+    \gll\\
+        \\
+    \glt
+    \z
+
+           a.    \textit{Le} \textit{teinturier} \textit{lui} \textit{a} \textit{massacré} \textit{une} \textit{chemise.} 
+
+    the dry-cleaner \textsc{cl.dat} has destroyed a shirt
+
+    ‘The dry-cleaner ruined her/his shirt (on her/him).’  (\citealt{BonehNash2012})    
+
+b.   \textit{A} \textit{Carolina}     \textit{se}         \textit{le}      \textit{rompió}   \textit{la} \textit{radio} 
+
+    Carolina.\textsc{dat} \textsc{cl.ref} \textsc{cl.dat}    broke   the radio 
+
+  ‘The radio broke on Carolina’
+
+These applicatives take a state as complement and, in this sense, are the “possessors” of a state. In this they resemble experiencer applicatives, which also relate to a state, as expressed by \figref{fig:key:2}.  As possessors or recipients, they can be confused with low applicatives, but two types of evidence suggest a structural as well as an interpretational difference. First, there are languages (e.g., English) in which double objects/low applicatives are productive, but are systematically disallowed in constructions involving an embedded state, such as causative constructions and resultatives (*\textit{The} \textit{storm} \textit{broke} \textit{them} \textit{the} \textit{radio}, *\textit{They} \textit{drank} \textit{me} \textit{the} \textit{teapot} \textit{empty}). Secondly, Affected applicatives do not need to be the possessors of the theme, although a possession relation might be an inferred component of the interpretation (see \citealt{Cuervo2003} for further arguments). 
+
+As argued in \sectref{sec:key:3}, it is the projection above the applicative that distinguishes affected from experiencer applicatives, in particular the fact that there is a dynamic event above Appl that signals the initiation of the state in causatives and inchoatives. An experiencer, by contrast, is the highest argument within the extended verbal projection, as represented in \REF{ex:key:4c} (see \sectref{sec:key:4.4} for more detailed discussion).  
+
+Causees are also derived as a type of high applicative, which, like Affected Appl, is “sandwiched” between two verbal layers.\footnote{In this sense, Causees are a sub-type of Affected Applicatives. However, I reserve the term Affected Appl for those taking a (verbal) state as complement, as a distinction that may be relevant to capture systematic crosslinguistic variation in the availability of applicative constructions.}  Unlike Affected Appl, Causees take a dynamic, eventive vP as complement. One of the arguments advanced against analysing causees as applicatives has been the interpretation of causees not only as the entity or individual acted upon (or “affected”) but also as agentive. This is the semantic argument based on which \citet{Tubino2012} rejects an applicative account of Italian and Spanish causees. In fact, \citegen{Kim2012} conclusion is exactly that the difference in agentivity is what distinguishes high applicatives from arguments of Voice, the contrast being encoded as a feature +/- agentive in the licensing head. \citet{BonehNash2011} also propose that affectedness is the central meaning of applied arguments, while causees are licenced as regular agents, in the specifier of vP. 
+
+The framework presented here reconciles the affectedness and the agentivity components of the interpretation of causees. On the one hand, affectedness—a prominent interpretation of causees in the “obligation” reading of causatives (as in the Romance \textit{faire} \textit{infinitif} constructions, \citealt{FolliHarley2007})—could be derived as the meaning of the High Appl head directly. Alternatively, it can arise as the configurational meaning of an argument that participates in two events: the object of the higher verb \textit{faire} and the ‘instrument’ or ‘bene/malefactive’ of the lower predicate, as in \citegen{Ippolito2000} applicative analysis and in Affected Appls. On the other hand, the agentive or ‘doer’ interpretation of the relation between the dative causee and the lower event can be derived by the applicative being the highest argument within the extended verbal projection of the lower vP (as in accidental causers with unaccusatives, illustrated in \REF{ex:key:11} above).\footnote{The Voice projection that licenses the causer relates it to a \textit{different} vP, which merges above the applicative, and it is typically spelled out by a causative affix or light verb.} In other words, agentivity might arise also as the interpretation of an animate argument DP above a dynamic vP for which Voice is not projected.\footnote{\citet{TollanOxford2018} argue that external arguments of activity verbs can be licensed either as arguments of Voice (for transitives) or v (for unergatives). In a parallel fashion to dative causees receiving an interpretation associated with Voice, dative experiencers as the highest argument within the extended projection of a stative vP also receive an interpretation as the argument of stative Voice: that of holder of a state \citep{Kratzer1996}. See \sectref{sec:key:4.4} for further discussion of experiencer DPs as applied arguments.} This is possible if the meaning of the applied argument is specified more configurationally than determined by the denotation of the head (see \citealt{Cuervo2015a}, and \citealt{WoodMarantz2017}). 
+
+\begin{itemize}
+\item \begin{itemize}
+\item \subsection{Dative experiencers as stative high applicatives}
+\end{itemize}
+\end{itemize}
+
+This section discusses several structural and semantic properties of dative experiencers as the last type of applicative in the typology schematized in \figref{fig:key:2}: unembedded high applicatives which take a stative vP as complement, and introduce the highest argument in the extended verbal projection (that is, Voice is not projected). 
+
+Dative experiencers have received much attention following Belletti and \citegen{Rizzi1988} seminal work on Romance. An important puzzle they  recognize is the apparent reversal of the usual thematic mapping: the theme is the nominative subject while the experiencer is coded as object, as illustrated below in Spanish and Pashto. Another important characteristic is the stative nature of dative experiencer constructions.\footnote{Their stative nature has been claimed to cover even cases of eventive interpretations, such as when the verb is in past tense (see Fábregas \& Marín, this volume), and of psychological expressions with light verbs of movement or transfer of possession (as illustrated in Pashto \REF{ex:key:14}).}
+
+ \REF{ex:key:13}   Spanish 
+
+  \textit{A} \textit{Daniela}    \textit{le}       \textit{gustan}  \textit{las} \textit{películas} \textit{suecas}      Daniela.\textsc{dat}   \textsc{cl.dat} like.PL  the movies Swedish
+
+  ‘Daniela likes Swedish movies’ 
+
+  (Lit. ‘Swedish movies are appealing to Daniela’)
+
+ \REF{ex:key:14}  Pashto 
+
+  \textit{Meena} \textit{taa}   \textit{de}  \textit{pradi}     \textit{khelko} \textit{na}   \textit{sharem}         \textit{wer-z-i}   
+
+  Meena \textsc{dat} of   strange people \textsc{abl} shyness.\textsc{nom} to.3\textsc{rd}{}-go-3
+
+  ‘Meena feels shy of/from strangers.’           \citep{Babrakzai1999}
+
+  (Lit. ‘Shyness goes to Meena from strange people.’)      
+
+The nature and source of dative case has been debated, but here the two central questions are 1) where does the “experiencer” interpretation come from? and 2) what kind of arguments are dative experiencers?
+
+With respect to their interpretation, experiencer datives with psych predicates have been characterized as possessors or locations, or holders of psychological states. \citet{Parsons1995}, for instance, subsumes experiencers as a case of the more general “in-ness relation” of subjects of states: “x is \textit{in} s” by observing that “when the verb is one of psychology or perception, the \textit{In}{}-ness relation coincides with (…) the Experiencer relation” (1995: 664). For \citet{Landau2010}, experiencers are locations of mental states. In de \citegen{Miguel2015} words, experiencers “combine the values of location and possession” (2015: 243; my translation). This characterization of the meaning of dative experiencers in terms of possessors or locations of states resembles characterizations of stative low applicatives, and makes dative experiencers good candidates for an applicative analysis. Cuervo (2003, 2011) developed a high applicative analysis of dative experiencers: the experiencer DP is external to the state specified by the verbal root, of which the nominative DP is the holder. In this sense, there are two “subjects” in the construction in \REF{ex:key:15}.\footnote{Other evidence that the nominative argument is also a ‘subject’ is that psychological verbs taking dative experiencers are acceptable without the experiencer, in which case the nominative DP typically appears pre-verbally, as illustrated in (i). See \citealt{Cuervo2011} for further arguments and data.
+
+\begin{itemize}
+\item \begin{styleFootnote}
+\textit{Los} \textit{ruidos} \textit{de} \textit{la} \textit{calle} \textit{no} \textit{importan/} \textit{molestan/gustan}.  
+\end{styleFootnote}
+\end{itemize}
+         the noises of the street not matter/ bother/ appeal               ‘Street noise is not important/ bothersome/ appealing.’} Dative case and morphological expression of the Appl head as a pronominal clitic are the usual forms for applicative constructions in Spanish. 
+
+\ea%15
+    \label{ex:key:15}
+    \gll\\
+        \\
+    \glt
+    \z
+
+         Dative experiencers as high applicatives (for example \REF{ex:key:13}
+
+\begin{styleNormalWeb}
+               ApplP
+\end{styleNormalWeb}
+
+         \textsc{\textsubscript{} }   3 
+
+    \textbf{DP\textsubscript{Dat}}          3   \textbf{\textit{v}}\textbf{P\textsc{\textsubscript{be}}}
+
+    \textit{a} \textit{Daniela}       Appl       \textbf{3}  
+
+                      \textit{le}         DP         \textbf{3}   
+
+                     \textit{las} \textit{películas}    \textit{v}\textsc{\textsubscript{be}               }Root 
+
+                      \textit{gust}{}-    
+
+The high applicative analysis contrasts with previous analyses that equate (the initial position of) dative experiencers with datives in canonical ditransitive constructions, whether treated as double-object, incorporation, low applicative constructions or locatives (\citealt{BellettiRizzi1988}, \citealt{Masullo1992}, among others).\textsuperscript{} \footnote{Acedo-\citealt{MatellánMateu2015}, \citealt{Pujalte2015} adopt the unaccusative analysis with the dative experiencer as HighAppl and the usual dative case (but change the licensing position of the lower DP).}   Unlike those analyses, \REF{ex:key:15} expresses the fact that the dative DP is not directly related to the other argument, and that there is no possession relation between the two DPs: crucially, the “possession” relation is between the dative DP and the state (the vP complement of the Appl head). 
+
+Dative experiencer constructions reveal semantic crosslinguistic variation based on availability of particular constructions. The structure and meaning of the transitive English sentence \textit{Daniela} \textit{likes} \textit{Swedish} \textit{movies} contrast with its translation equivalent in a language with dative experiencers as in \REF{ex:key:13}, in which the psych predicate expresses a property of the nominative argument (\textit{Las} \textit{películas} \textit{suecas} \textit{gustan}, ‘Swedish movies are appealing’), a predication that is lacking in the English sentence.\footnote{Not all psych constructions display this variation, however. English also has psych constructions formed with prepositional phrases, such as \textit{to}{}-DPs with psych predicates such as \textit{appeal}, \textit{seem}, and \textit{be} \textit{important}.} 
+
+As mentioned earlier, experiencers are related to possessors and (human) locations, but are not taken to be affected arguments. This is consistent with the proposal that affectedness in dative or applicative arguments arises as a configurational meaning involving two verbal layers. However, proposing that dative experiencers are unembedded high applicatives which take a stative vP as complement does not directly derive the ‘experiencer’ interpretation. In principle, the interpretation could arise as a result of the lexical meaning of the psych verb, of the denotation of the Appl head or some other specialized head, or the extended verbal configuration as a whole. 
+
+It could be argued that the meaning of the experiencer as a specialized type of possessor or location arises from the meaning of the psych verb, in virtue of the dative DP being one of its arguments. Regardless of whether one has any general reservations against a lexically-based approach to argument structure, there are empirical arguments against deriving the interpretation of the dative experiencer from the lexical meaning of a verb. These arguments are presented below fromSpanish, but other languages provide similar evidence. 
+
+First, not every experiencer is the subject of a \textit{psychological} experience, there also being physical states associated to an experiencer argument, as in \REF{ex:key:16}.\footnote{The interpretation of the dative in \REF{ex:key:16} and \REF{ex:key:19} is not perfectly captured by its English translation. As in the case of other applicatives, such as low and affected applicatives, a dative argument is understood as more than a goal or location, and typically only animate entities are licensed (therefore, the dative in \REF{ex:key:16} could not be replaced by \textit{the} \textit{mannequin}) or inanimate entities in a part-whole relation, as in \REF{ex:key:19b}. The contrast between Spanish \REF{ex:key:16} and its English translation is perhaps similar to the contrast in English between \textit{That} \textit{is} \textit{important} \textit{to} \textit{Amir/*the} \textit{lawn} and \textit{That} \textit{is} \textit{important} \textit{for} \textit{Amir/the} \textit{lawn}.} Second, intra- and inter-linguistically, many experiencers appear with psychological predicates formed as light verb constructions in which the psych meaning comes from a nominal element, not from the verb, and the dative argument is arguably associated with the light verb, as in \REF{ex:key:17}, and in \REF{ex:key:14} above. Finally, as noted by di \citet{Tullio2015}, there are dative DPs interpreted as experiencers in combination with idiomatic psychological expressions formed without any psych words, as in \REF{ex:key:18}. 
+
+\ea%16
+    \label{ex:key:16}
+    \gll\\
+        \\
+    \glt
+    \z
+
+           \textit{A} \textit{Daniela}   \textit{le}     \textit{aprietan}  \textit{los} \textit{zapatos} 
+
+  Daniela.\textsc{dat} \textsc{cl.dat} squeeze.\textsc{pl}   the shoes
+
+  ‘Those shoes are too tight for Daniela’
+
+\ea%17
+    \label{ex:key:17}
+    \gll\\
+        \\
+    \glt
+    \z
+
+           \textit{A} \textit{Daniela}   \textit{le}     \textit{dan}     \textit{miedo}  \textit{las} \textit{tormentas} 
+
+  Daniela.\textsc{dat} \textsc{cl.dat} give.\textsc{pl}  fear  the storms 
+
+  ‘Daniela is afraid of storms’ lit., ‘Storms give fear to Daniela’
+
+\ea%18
+    \label{ex:key:18}
+    \gll\\
+        \\
+    \glt
+    \z
+
+           \textit{A} \textit{Daniela} \textit{le}   \textit{dan} \textit{cosa/}   \textit{no} \textit{sé} \textit{qué} \textit{las} \textit{arañas} 
+
+  Daniela.\textsc{dat}   \textsc{cl.dat} give.\textsc{pl} thing/ not know.1\textsc{sg} what the spiders 
+
+  ‘Daniela feels uneasy about spiders’ 
+
+  Lit., ‘Spiders give Daniela stuff/I don’t know what’ (adapted from Di   \citealt{Tullio2015})
+
+These data provide evidence against a lexical source of the experiencer interpretation, since experiencers do not require a lexical psychological verb. An alternative explanation is that the interpretation derives directly from the denotation of a specialized, more functional head, whose contribution is to licence an experiencer both syntactically and semantically (as Voice does for Agents). Within an applicative approach, this head would be the Appl head. It can be proposed that there is a specialized Experiencer ‘flavour’ or feature specification of HighAppl (as has been proposed for LowAppl in order to derive the recipient, source and possessor interpretation). A specialized head, rather than the verb, as the source of the experiencer interpretation has also been proposed by \citet{Landau2010}, and argued by Fábregas \& Marín (this volume): a prepositional head P which takes the dative DP as its argument and relates it to the state. The non-psychological experiencers illustrated in \REF{ex:key:16} are potential problems for this “all-in-the-head” approach, since it is not clear whether these cases would require a different P head than the one which combines with psychological predicates. Additional issues arise with arguably experiencer arguments that are hard to classify as either psychological or physical, particularly in the case of inanimate datives, as in \REF{ex:key:19b}.   
+
+\ea%19
+    \label{ex:key:19}
+    \gll\\
+        \\
+    \glt
+    \z
+
+           a.   \textit{A} \textit{Daniela}   \textit{le}   \textit{quedan} \textit{mal}  \textit{los} \textit{zapatos} 
+
+    Daniela.\textsc{dat} \textsc{cl.dat} stay.\textsc{pl} bad  the shoes
+
+    ‘Those shoes look bad on Daniela’
+
+  b.   \textit{Al} \textit{regalo}       \textit{le}   \textit{queda} \textit{mal}  \textit{ese} \textit{moño}
+
+    the present.\textsc{dat} \textsc{cl.dat} stay bad  that bow 
+
+    ‘That bow looks bad on the present’          
+
+Even more importantly, a problem with the proposal that experiencer is the meaning assigned by a dedicated applicative (or P) head is that, as noted by Wechsler (this volume), an unconstrained quantity of different heads would be required to account for the other interpretations. The resulting system would be unable to express or account for the systematicity between the structure of the verbal domain and interpretation of arguments.   
+
+A third, intermediate possibility can be developed within a more explanatory applicative analysis: “experiencer” is a configurational meaning which takes into account the Appl head and its position within the extended verbal projection, properties of the complement of Appl, as well as idiosyncratic meanings of vocabulary items, and idiomatic expressions.\footnote{Such a configurational approach could also be developed on the basis of \citegen{Landau2010} functional P head, but I do not pursue that line here. See Acedo-\citet{MatellánMateu2015} for an account of properties of psychological predicates based on characteristics of the root.}  Ideally, the semantic contribution of the Appl head is minimal and constant as far as the interpretation of its argument is concerned, although \citegen{Pylkkänen2008} distinction between High and Low in terms of semantic composition must be maintained.
+
+As specifiers of a high applicative, dative experiencers are related to a vP, and share properties with bene/malefactives, instrumentals, causees, and affected applicatives (\figref{fig:key:2}). Unlike bene/malefactives, Affected Appls and causees, experiencers are not typically affected arguments. Unlike instrumentals, experiencers are not related to an event in a ‘doer’ capacity; if anything, they are closer to undergoers than to agents. Can these different interpretations be derived without postulating “experiencer” directly as the denotation of a particular HighAppl head?
+
+As discussed in section 3, experiencers are structurally distinguishable from both Affected Appls and Causees, as represented in \figref{fig:key:2} by the “embedded/non-embedded” contrast. Since affectedness arises from the applicative argument participating in two (sub)events, the lack of affectedness reading for dative experiencers follows. The contrast between experiencers and bene/malefactives and instrumentals is based, in \figref{fig:key:2}, on the dynamic or stative nature of the complement vP. Stativity is a crucial component of our understanding (or definition) of an experiencer as the possessor of a mental state. Another property of the structure of dative experiencer constructions, however, is crucial: the experiencer is the highest argument, there not being another external argument licensing head (such as v or Voice) above Appl. 
+
+In order to test whether these two structural components are needed to obtain an “experiencer” reading (of a high applicative), they should be isolated. First, stative verbs that are not unaccusative, such as Spanish \textit{vivir} ‘live’, usually appear in unergative structures with a nominative subject alone, or with a locative as well. A dative argument may be added to the sentence with a locative, as in \REF{ex:key:20}.\footnote{The resulting sentence is colloquial, and not accepted by all speakers. In any case, the relevance of the example is the interpretation obtained by those speakers who accept it.} 
+
+\ea%20
+    \label{ex:key:20}
+    \gll\\
+        \\
+    \glt
+    \z
+
+          \textit{Emilio} \textit{le} \textit{vive} \textit{en} \textit{el} \textit{jardín} (\textit{a} \textit{Vera}). 
+
+  Emilio \textsc{cl.dat}   live in the garden (Vera.\textsc{dat)}
+
+  ‘Emilio is living in Vera’s garden (on her)’
+
+The interpretation of the dative argument \textit{Vera} in \REF{ex:key:20} is not that of an experiencer, but more specifically a bene/malefactive, arguably due to the presence of the external argument, merged above the high applicative, which, in turn, takes a stative vP as complement. 
+
+The other test is an unaccusative structure in which the dative is the highest argument, but in which the vP complement is dynamic rather than stative. Would such dative be interpreted as an experiencer?  Fábregas \& Marín (this volume) probe this question and suggest that a dative argument with a reflexive dynamic predicate i a potential experiencer:
+
+\ea%21
+    \label{ex:key:21}
+    \gll\\
+        \\
+    \glt
+    \z
+
+           \textit{A} \textit{Juan} \textit{se} \textit{le} \textit{olvidan} \textit{las} \textit{cosas} \textit{(rápidamente)}.
+
+  Juan.\textsc{dat} \textsc{se} \textsc{cl.dat} forget.\textsc{pl} the things quickly
+
+  ‘Juan forgets things (quickly)
+
+This sentence is in present tense, just like the typical stative in \REF{ex:key:13}, but here the present is understood as episodic or habitual, as an activity verb would. Interestingly, what Fábregas \& Marín consider an experiencer could be the result of the psychological nature of the predicate in an inchoative structure, in which a dative argument would typically be read as an accidental causer. This highlights the interaction between structural properties and lexical meaning in the interpretation of a dative DP. Note in the examples below how the interpretation of the dative is somewhat different in the absence of a psychological reading of the predicate. In the unintentional causer reading, the underlying structure is that of a high applicative merged above a (non agentive) dynamic vP\textsc{go} (\citealt{Cuervo2003}, 2014; \citealt{Schäfer2008}; see \sectref{sec:key:4.2}).
+
+\ea%22
+    \label{ex:key:22}
+    \gll\\
+        \\
+    \glt
+    \z
+
+           \textit{A} \textit{Juan} \textit{se} \textit{le} \textit{pierden/queman} \textit{las} \textit{cosas}. 
+
+  Juan.\textsc{dat} \textsc{se} \textsc{cl.dat}   lose.\textsc{pl} / burn.\textsc{pl}  the things
+
+  ‘Juan (accidentally) loses/burns things’ 
+
+These data support the view that the interpretation of a (dative) argument as an “experiencer” is better captured as a configurational meaning rather than a meaning dependent on the denotation of a licensing head or a lexical element. In particular, the data show that both stativity of the verbal complement, and absence of an external argument above the dative DP, are crucial components for the experiencer interpretation to arise as the most salient.\footnote{\citegen{Kim2011} analysis of Korean adversity passives as experiencer \textit{have} constructions (as in English \textit{Peter} \textit{had} \textit{the} \textit{children} \textit{laugh} \textit{at} \textit{him}) is also crucially based on the “affected experiencer” being the highest external argument in the extended verbal domain. Interestingly, these two properties also hold of the arguably other way of licensing experiencer subjects: as Holder arguments licensed by Voice in the context of a psychological predicate, as in \textit{Natasha} \textit{fears} \textit{lighting}.} 
+
+\begin{itemize}
+\item \section{Conclusions}
+\end{itemize}
+
+Classical Nahuatl grammarian Horacio Carochi characterized applicatives as those which “orient the action of the verb towards another person, or thing, attributing it to him by way of harm, or benefit, taking it away from him, or putting it on him, or relating it to him in some way or another, as shall be understood through the examples; e.g., \textit{nitlaqua}, ‘I eat something’; its applicative is \textit{nictlaquaia} \textit{in} \textit{notàtsin}, ‘I eat my father something’, as if he has fruit, or something else, and I eat it from him...”: 
+
+VERBO aplicativo es el que ordena la acción del verbo a otra persona, o cosa, atribuyéndosela por via de daño, o provecho, quitándosela, o poniéndosela, o refiriéndosela de qualquiera manera que sea, como se entenderá por los exemplos; verbi gracia: \textit{nitlaqua}, ‘como algo’, su aplicativo es \textit{nictlaquaia} \textit{in} \textit{notàtsin}, ‘como algo a mi Padre’, como si tenía fruta, o otra cosa, y se la como. \citep[466]{Carochi1645}
+
+Carochi’s translation of the Náhuatl applicative into Spanish involved the addition of a dative argument (\textit{a} \textit{mi} \textit{Padre}, and \textit{se} in \textit{se} \textit{la} \textit{como} above),  illustrating the overlap between applicative and dative arguments. Although the overlap may be imperfect, it is significant and systematic. The study of datives as applicatives provides a framework to capture datives as a class beyond their morphology in terms of the type of licensing, while allowing for systematic variation in terms of structural position and thematic interpretation. 
+
+This broader approach to the study of dative constructions goes well beyond the most typical datives in ditransitive constructions. By putting aside case as a domain where languages can vary, I have focused on what dative arguments have in common as a class and as subcases of applicative arguments, as found in both languages with a rich case system and languages without overt case marking. Going beyond morphosyntactic coding is necessary in the quest to make crosslinguistic generalizations and to articulate a theory of argument structure.
+
+\citegen{Carochi1645} notion of applicatives as derived verbs captures the intuition that there must be some extra piece in a verb that co-occurs with—and licenses—an applied argument. In order to systematically derive the subtypes of dative/applied arguments, it is crucial to take into account the way this extra piece integrates into the extended verbal projection of the clause. In describing its integration, not only the merge position (i.e., the complement) of the Appl head is relevant, but also the dynamic/stative nature of its complement, and the presence/absence of an external argument, and of a verbal head (intruducing a (sub)event) above the applicative. Once such a detailed proposal is developed, broad empirical coverage can be maintained while featural and lexical specification of the Appl head is drastically reduced. This minimal notion of Appl as introducing an argument “oriented” towards its complement accords well with the fact that in so many languages applicatives are expressed as dative arguments, analyzed themselves as an argument “in contact” with the rest of the predicate (Fábregas \& Marín, this volume) via a directional or locative morpheme, such as Romance \textit{a/à}. Appl is thus akin to the more grammatical adpositions whose complement is interpreted contextually \citep{Svenonious2007}. In this view of semantically underspecified Appl, a distinction remains between applied arguments and arguments of Voice (cf. \citealt{WoodMarantz2017}). 
+
+The richness of interpretations of applicative and dative arguments, in spite of their being licensed by a functional head with minimal semantics, sets them apart from the narrow range of interpretations for arguments of \textit{v}/Voice, on the one hand, and the practically unconstrained interpretations of arguments of lexical verbs/roots, on the other. Applicatives are, in this sense, an “efficient” way of generating diversity of meaning with limited resources by making use of various properties of the syntactic structures with which they combine.
+\begin{verbatim}%%move bib entries to  localbibliography.bib
+@article{Acedo-Matellán2017,
+	author = {Acedo-Matellán, Víctor},
+	journal = {\textit{Catalan} \textit{Journal} \textit{of} \textit{Linguistics}},
+	pages = {19–49},
+	sortname = {Acedo-Matellan, Victor},
+	title = {{Latin} datives with prefixed verbs and beyond: {{A}} view from the theory of applicatives},
+	volume = {16},
+	year = {2017}
+}
+
+
+Acedo-Matellán, Víctor \& Jaume Mateu. 2015. Los verbos psicológicos: raíces especiales en estructuras corrientes. In Rafael Marín (ed.) \textit{Los} \textit{predicados} \textit{psicológicos,} 81–109. Madrid: Visor.
+
+@misc{Babrakzai1999,
+	author = {Babrakzai, Farooq},
+	note = {Doctoral dissertation, University of Hawai.},
+	title = {Topics in the syntax of {Pashto}},
+	year = {1999}
+}
+
+
+@incollection{Baker1996,
+	address = {Dordrecht},
+	author = {Baker, Mark},
+	booktitle = {\textit{Phrase} \textit{Structure} \textit{and} \textit{the} \textit{Lexicon}},
+	editor = {Johan Rooryck and Laurie Zaring},
+	pages = {7–34},
+	publisher = {Kluwer},
+	title = {On the structural position of themes and goals},
+	year = {1996}
+}
+
+
+@book{BellettiRizzi1988,
+	address = {\textit{Natural} \textit{Language} \textit{and} \textit{Linguistic} \textit{Theory} 6 \REF{ex:key:3}},
+	author = {Belletti, Adriana, and Luigi Rizzi},
+	note = {https://doi.org/10.1007/BF00133902.},
+	publisher = {291–352},
+	title = {Psych-verbs and θ{}-Theory},
+	year = {1988}
+}
+
+
+@book{BonehBoneh2011,
+	address = {High and higher applicatives},
+	author = {Boneh, Nora and Nash, Lea},
+	note = {In \textit{Proceedings} \textit{of} \textit{the} \textit{28th} \textit{West} \textit{Coast} \textit{Conference} \textit{on} \textit{Formal} \textit{Linguistics}, 60–68. \url{},
+	publisher = {The case of French non-core datives},
+	url = {http://www.lingref.com/cpp/wccfl/28/paper2436.pdf}},
+	year = {2011}
+}
+
+
+@incollection{BonehNash2013,
+	address = {Oxford},
+	author = {Boneh, Nora and Lea Nash},
+	booktitle = {\textit{Variation} \textit{in} \textit{datives:} \textit{a} \textit{microcomparative} \textit{perspective}},
+	editor = {Beatriz Fernández and Ricardo Etxepare},
+	pages = {22–49},
+	publisher = {Oxford University Press},
+	title = {Core and non-core datives},
+	year = {2013}
+}
+
+
+@article{BonehBoneh2017,
+	author = {Boneh, Nora and Nash, Lea},
+	journal = {\textit{Natural} \textit{language} \textit{and} \textit{linguist} \textit{theory}},
+	pages = {899–953},
+	title = {The syntax and semantics of dative {DP}s in {Russian} ditransitives},
+	volume = {35},
+	year = {2017}
+}
+
+
+@article{Bruening2010,
+	author = {Bruening, Benjamin},
+	journal = {\textit{Linguistic} \textit{Inquiry}},
+	pages = {519–562},
+	title = {Ditransitive asymmetries and a theory of idiom formation},
+	volume = {41},
+	year = {2010}
+}
+
+
+@book{Carochi1645,
+	address = {Mexico},
+	author = {Carochi, Horacio},
+	note = {(Reprint)},
+	publisher = {Museo Nacional de México},
+	title = {El arte de la lengua mexicana con la declaración de los adverbios della},
+	year = {1645}
+}
+
+
+@misc{Carrier2014,
+	author = {Carrier, Julien},
+	note = {Ms., University of Toronto.},
+	title = {Applicatives in Inuktitut and transitivity},
+	year = {2014}
+}
+
+
+@misc{Cuervo2003,
+	author = {Cuervo, María Cristina},
+	note = {Doctoral dissertation, MIT.},
+	title = {Datives at large},
+	year = {2003}
+}
+
+
+@article{Cuervo2010,
+	author = {Cuervo, María Cristina},
+	journal = {\textit{Probus}},
+	pages = {151–180},
+	sortname = {Cuervo, Maria Cristina},
+	title = {Against ditransitivity},
+	volume = {22},
+	year = {2010}
+}
+
+
+@incollection{Cuervo2011,
+	address = {Somerville, Mass.},
+	author = {Cuervo, María Cristina},
+	booktitle = {\textit{Selected} \textit{Proceedings} \textit{of} \textit{the} \textit{{Hispanic}} \textit{Linguistic} \textit{\citealt{Symposium2008}}},
+	editor = {Claudia Borgonovo, Manuel Español-Echevarría and Philippe Prévost},
+	pages = {26–37},
+	publisher = {Cascadilla Press},
+	sortname = {Cuervo, Maria Cristina},
+	title = {Some dative subjects are born, some are made},
+	year = {2011}
+}
+
+
+@article{Cuervo2014,
+	author = {Cuervo, María Cristina},
+	journal = {\textit{Lingua}},
+	note = {. https://doi.org/10.1016/j.lingua.2013.12.001.},
+	pages = {48–70},
+	sortname = {Cuervo, Maria Cristina},
+	title = {Alternating unaccusatives and the distribution of roots},
+	volume = {141},
+	year = {2014}
+}
+
+
+@incollection{Cuervo2015,
+	address = {London},
+	author = {Cuervo, María Cristina},
+	booktitle = {\textit{Contemporary} \textit{Linguistic} \textit{Parameters}},
+	editor = {Antonio Fábregas, Jaume Mateu and Michael T. Putnam},
+	pages = {123--145},
+	publisher = {Bloomsbury Academic},
+	sortname = {Cuervo, Maria Cristina},
+	title = {Parameters in argument structure {II}: {{C}}ausatives and applicatives},
+	year = {2015a}
+}
+
+
+@book{Cuervo2015,
+	address = {\textit{Syntax} 18 \REF{ex:key},
+	author = {Cuervo, María Cristina},
+	note = {https://doi.org/10.1111/synt.12115.},
+	publisher = {4}, 388–424},
+	sortname = {Cuervo, Maria Cristina},
+	title = {Causation without a cause},
+	year = {2015b}
+}
+
+
+De Miguel, Elena. 2015. Los nombres psicológicos: propuesta de análisis en términos sub-léxicos. In Rafael Marín (ed.) \textit{Los} \textit{predicados} \textit{psicológicos,} 211–248. Madrid: Visor.
+
+@article{Demonte1995,
+	author = {Demonte, Violeta},
+	journal = {\textit{Probus}},
+	pages = {5–30},
+	title = {{Dative} alternation in {Spanish}},
+	volume = {7},
+	year = {1995}
+}
+
+
+@misc{Diaconescu2004,
+	author = {Diaconescu, Rodica},
+	note = {Doctoral dissertation, University of Ottawa.},
+	title = {Romanian applicative constructions},
+	year = {2004}
+}
+
+
+Di Tullio, Ángela. 2015. Variantes sintéticas y analíticas de los predicados psicológicos. In Rafael Marín (ed.) \textit{Los} \textit{predicados} \textit{psicológicos,} 185{}-210. Madrid: Visor.
+
+@incollection{EtxepareEtxepare2013,
+	address = {Oxford: Oxford University Press. DOI:10.1093/acprof},
+	author = {Etxepare, Ricardo and Bernard Oyharçabal},
+	booktitle = {\textit{Variation} \textit{in} \textit{datives:} \textit{a} \textit{microcomparative} \textit{perspective}},
+	editor = {Beatriz Fernandez and Ricardo Etxepare},
+	note = {003.0003},
+	pages = {50--95},
+	publisher = {oso/9780199937363},
+	sortname = {Etxepare, Ricardo and Bernard Oyharcabal},
+	title = {Datives and adpositions in Northeastern {Basque}},
+	year = {2013}
+}
+
+
+@article{FernándezAlcalde2014,
+	author = {Fernández Alcalde, Héctor. \REF{ex:key:},
+	journal = {Two types of datives in Spanish: Caused possession vs. possessor raising. \textit{Acta} \textit{Linguistica} \textit{Hungarica} Vol},
+	note = {. DOI: 10.1556/ALing.61.2014.1.3},
+	number = {1},
+	pages = {69–90},
+	sortname = {Fernandez Alcalde, Hector. \REF{ex:key:},
+	title = {}},
+	volume = {61},
+	year = {2014}
+}
+
+
+Folli, Raffaella \& Heidi Harley. 2006.  Benefactives aren’t goals in Italian. In Jenny Doetjes and Paz González (eds.), \textit{Romance} \textit{Languages} \textit{and} \textit{Linguistic} \textit{\citealt{Theory2004}: Selected Papers from Going Romance,} 121-142. Amsterdam: John Benjamins Publishing.
+
+@book{FolliFolli2007,
+	address = {\textit{Linguistic} \textit{Inquiry} 38 \REF{ex:key},
+	author = {Folli, Raffaella and Heidi Harley},
+	note = {\url{https://doi.org/10.1162/ling.2007.38.2.197}.},
+	publisher = {2}, 197–238},
+	title = {Causation, obligation, and argument structure: {{O}}n the nature of little v},
+	year = {2007}
+}
+
+
+@book{Fournier2010,
+	address = {La structure du prédicat verbal},
+	author = {Fournier, David},
+	note = {Doctoral Dissertation, University of Toronto.},
+	publisher = {Une étude de la construction à double objet en français},
+	year = {2010}
+}
+
+
+@article{Grimm2011,
+	author = {Grimm, Scott},
+	journal = {\textit{Morphology}},
+	pages = {515--544},
+	title = {Semantics of case},
+	volume = {21},
+	year = {2011}
+}
+
+
+@book{Kim2011,
+	address = {\textit{Lingua} 121 \REF{ex:key},
+	author = {Kim, Kyumin},
+	note = {\url{https://doi.org/10.1016/j.lingua.2010.10.001}.},
+	publisher = {3}, 487–510},
+	title = {High Applicatives in {Korean} causatives and passives},
+	year = {2011}
+}
+
+
+@book{Kim2012,
+	address = {\textit{The} \textit{Canadian} \textit{Journal} \textit{of} \textit{Linguistics} \textit{/} \textit{La} \textit{Revue} \textit{Canadienne} \textit{de} \textit{Linguistique} 57 \REF{ex:key:1}},
+	author = {Kim, Kyumin},
+	note = {{https://doi.org/10.1353/cjl.2012.0002}.},
+	publisher = {77–107},
+	title = {Affectees in subject position and applicative theory},
+	year = {2012}
+}
+
+
+@incollection{Kratzer1996,
+	address = {Dordrecht},
+	author = {Kratzer, Angelika},
+	booktitle = {\textit{Phrase} \textit{structure} \textit{and} \textit{the} \textit{lexicon}},
+	editor = {Johan Rooryck and Laurie Zaring},
+	pages = {109–137},
+	publisher = {Kluwer},
+	title = {Severing the external argument from its verb},
+	year = {1996}
+}
+
+
+@article{Harley2013,
+	author = {Harley, Heidi},
+	journal = {\textit{Lingua}},
+	pages = {34–57},
+	title = {External arguments and the mirror principle: {{O}}n the distinctness of Voice and v},
+	volume = {125},
+	year = {2013}
+}
+
+
+@misc{Ippolito2000,
+	author = {Ippolito, Michela},
+	note = {Ms., MIT.},
+	title = {Remarks on the argument structure of {Romance} causatives},
+	year = {2000}
+}
+
+
+@book{Jerro2017,
+	address = {\textit{Journal} \textit{of} \textit{Linguistics} \textit{53}, 751–788. DOI},
+	author = {Jerro, Kyle},
+	note = {1017/S7000044.},
+	publisher = {10},
+	title = {The causative-instrumental syncretism},
+	urldate = {002222671},
+	year = {2017}
+}
+
+
+@book{Landau2010,
+	address = {\textit{The} \textit{locative} \textit{syntax} \textit{of} \textit{experiencers.} Cambridge, Mass},
+	author = {Landau, Idan},
+	publisher = {MIT Press},
+	year = {2010}
+}
+
+
+@article{Maling2001,
+	author = {Maling, Joan},
+	journal = {\textit{Lingua}},
+	pages = {419–464},
+	title = {{Dative}: {{T}}he heterogeneity of the mapping among morphological case, grammatical functions, and thematic roles},
+	volume = {111},
+	year = {2001}
+}
+
+
+@article{Marantz2013,
+	author = {Marantz, Alec},
+	journal = {\textit{Lingua}},
+	note = {. http://dx.doi.org/10.1016/j.lingua.2012.10.012},
+	pages = {152–168},
+	title = {Verbal argument structure: {{{E}}}vents and participants},
+	volume = {130},
+	year = {2013}
+}
+
+
+@book{Masullo1992,
+	address = {Incorporation and case theory in Spanish},
+	author = {Masullo, Pascual},
+	note = {Doctoral dissertation, University of Washington.},
+	publisher = {A crosslinguistic perspective},
+	year = {1992}
+}
+
+
+@book{McGinnis2001,
+	address = {\textit{Linguistic} \textit{Variation} \textit{Yearbook} 1 \REF{ex:key:1}},
+	author = {McGinnis, Martha},
+	publisher = {105–46},
+	title = {Variation in the phase structure of applicatives},
+	year = {2001}
+}
+
+
+@article{McGinnis2004,
+	author = {McGinnis, Martha},
+	journal = {\textit{Linguistic} \textit{inquiry}},
+	pages = {47--95},
+	title = {Lethal ambiguity},
+	volume = {35.1},
+	year = {2004}
+}
+
+
+@book{McGinnis2008,
+	address = {\textit{Language} \textit{and} \textit{Linguistics} \textit{Compass} 2 \REF{ex:key},
+	author = {McGinnis, Martha},
+	note = {\url{https://doi.org/10.1111/j.1749-818X.2008.00078.x}.},
+	publisher = {6}, 1225–45},
+	title = {Applicatives},
+	year = {2008}
+}
+
+
+@misc{McGinnis2018,
+	author = {McGinnis, Martha},
+	note = {Ms., University of Victoria.},
+	title = {Applicatives},
+	year = {2018}
+}
+
+
+@misc{McGinnisGerdts2004,
+	author = {McGinnis, Martha, and Donna B. Gerdts},
+	note = {\url{http://prism.ucalgary.ca/handle/1880/44523}.},
+	title = {A phase-theoretic analysis of {Kinyarwanda} multiple applicatives},
+	year = {2004}
+}
+
+
+@book{MiyagawaTsujioka2004,
+	address = {\textit{Journal} \textit{of} \textit{East} \textit{Asian} \textit{Linguistics} 13 \REF{ex:key:1}},
+	author = {Miyagawa, Shigeru, and Takae Tsujioka},
+	publisher = {1–38},
+	title = {Argument structure and ditransitive verbs in {Japanese}},
+	year = {2004}
+}
+
+
+@misc{MorenoVillamar2018,
+	author = {Moreno Villamar, Itziri},
+	note = {Doctoral dissertation, Western University.},
+	title = {Variation in the pronominal clitic system of P'urhépecha-{Spanish} bilinguals},
+	year = {2018}
+}
+
+
+@book{Park1994,
+	address = {Morpholgoical causatives in Korean},
+	author = {Park, Jeong-Woon},
+	note = {Doctoral dissertation, University of California, Berkeley.},
+	publisher = {Problems in grammatical polysemy and constructional relations},
+	year = {1994}
+}
+
+
+@book{Parsons1995,
+	address = {\textit{Linguistic} \textit{Inquiry} 26 \REF{ex:key:4}},
+	author = {Parsons, Terence},
+	publisher = {635–62},
+	title = {Thematic relations and arguments},
+	year = {1995}
+}
+
+
+@book{Peterson2007,
+	address = {Oxford},
+	author = {Peterson, David A.},
+	publisher = {Oxford University Press},
+	title = {\textit{Applicative} \textit{constructions}},
+	year = {2007}
+}
+
+
+@book{Pineda2016,
+	address = {Barcelona},
+	author = {Pineda, Anna},
+	publisher = {Institut d'Estudis Món Juïc},
+	title = {\textit{Les} \textit{fronteres} \textit{de} \textit{la} \textit{(in)transitivitat:} \textit{Estudi} \textit{dels} \textit{aplicatius} \textit{en} \textit{llengües} \textit{romàniques} \textit{i} \textit{basc} [published and revised version of the doctoral dissertation]},
+	year = {2016}
+}
+
+
+Polinsky, Maria. 2013. Applicative constructions. In Matthew Dryer \& Martin Haspelmath (eds.), The world atlas of language structures online.  Leipzig: Max Planck Institute for Evolutionary Anthropology.
+
+@book{Pujalte2009,
+	address = {Condiciones sobre la introducción de argumentos},
+	author = {Pujalte, Mercedes},
+	note = {Master’s thesis, Universidad Nacional del Comahue.},
+	publisher = {el caso de la alternancia dativa en español},
+	year = {2009}
+}
+
+
+Pujalte, Mercedes. 2015. Hacia un análisis unificado de los predicados psicológicos estativos en español. In Rafael Marín (ed.), \textit{Los} \textit{predicados} \textit{psicológicos,} 111-144.  Madrid: Visor.
+
+@article{Pylkkänen2000,
+	author = {Pylkkänen, Liina},
+	journal = {\textit{University} \textit{of} \textit{Pennsylvania} \textit{Working} \textit{Papers} \textit{in} \textit{Linguistics}},
+	number = {18},
+	pages = {197–210},
+	sortname = {Pylkkanen, Liina},
+	title = {What applicative heads apply to},
+	volume = {7.1},
+	year = {2000}
+}
+
+
+@misc{Pylkkänen2002,
+	author = {Pylkkänen, Liina},
+	note = {Doctoral dissertation,  MIT.},
+	title = {Introducing arguments},
+	year = {2002}
+}
+
+
+@book{Pylkkänen2008,
+	address = {Cambridge, Mass.},
+	author = {Pylkkänen, Liina},
+	publisher = {MIT Press},
+	sortname = {Pylkkanen, Liina},
+	title = {\textit{Introducing} \textit{arguments}},
+	year = {2008}
+}
+
+
+@article{RobergeRoberge2009,
+	author = {Roberge, Yves and Michelle Troberg},
+	journal = {The high applicative syntax of the dativus commodi/incommodi in Romance.\textbf{ }\textit{Probus}},
+	note = {. DOI 10.1515/prbs.2009.008},
+	pages = {249–289},
+	volume = {21},
+	year = {2009}
+}
+
+
+@book{Schäfer2008,
+	address = {Linguistik Aktuell = Linguistics Today, v. 126. Amsterdam},
+	author = {Schäfer, Florian},
+	publisher = {John Benjamins},
+	sortname = {Schafer, Florian},
+	title = {\textit{The} \textit{Syntax} \textit{of} \textit{(Anti-)Causatives:} \textit{External} \textit{Arguments} \textit{in} \textit{Change-of-State} \textit{Contexts}},
+	year = {2008}
+}
+
+
+@incollection{Skorniakova2009,
+	address = {Cambridge},
+	author = {Skorniakova, Oxana},
+	booktitle = {\textit{Formal} \textit{Studies} \textit{in} \textit{{Slavic}} \textit{Linguistics}},
+	editor = {Anastasia Smirnova, Vedrana Mihaliček, and Lauren Ressue},
+	pages = {166--196},
+	publisher = {Cambridge Scholars Publishing},
+	title = {Syntactic and Semantic properties of {Russian} dative "subjects"},
+	year = {2009}
+}
+
+
+@incollection{Svenonious2007,
+	address = {Amsterdam},
+	author = {Svenonious, Peter},
+	booktitle = {\textit{Argument} \textit{Structure}},
+	editor = {Eric Reuland, Tanmoy Bhattacharya, and Giorgos Spathas},
+	pages = {63--103},
+	publisher = {John Benjamins},
+	title = {Adpositions, particles, and the arguments they introduce},
+	year = {2007}
+}
+
+
+@incollection{TollanOxford2018,
+	address = {Somerville, Mass.},
+	author = {Tollan, Rebecca and Will Oxford},
+	booktitle = {\textit{Proceedings} \textit{of} \textit{the} \textit{35th} \textit{{West}} \textit{Coast} \textit{Conference} \textit{on} \textit{Formal} \textit{Linguistics}},
+	editor = {Wm. G. Bennett, Lindsay Hracs, and Dennis Ryan Storoshenko},
+	pages = {399--408},
+	publisher = {Cascadilla Proceedings Project},
+	title = {Voice-less unergatives: {{{E}}}vidence from {Algonquian}},
+	year = {2018}
+}
+
+
+@article{Torrego2011,
+	author = {Torrego, Esther},
+	journal = {\textit{Linguistic} \textit{Inquiry}},
+	number = {3},
+	pages = {445--470},
+	title = {Variability in the case patterns of causative formation in {Romance} and its implications},
+	volume = {41},
+	year = {2011}
+}
+
+
+@article{Tsai2018,
+	author = {Tsai, Wei-Tien D.},
+	journal = {\textit{Lingua} \textit{Sinica} 4:},
+	note = {. https://doi.org/10.1186/s40655-018-0034-y},
+	pages = {1--21},
+	title = {High applicatives are not high enough: {{A}} cartographic solution},
+	volume = {2},
+	year = {2018}
+}
+
+
+@book{Tubino2012,
+	address = {Spanish dative causees},
+	author = {Tubino, Mercedes},
+	note = {Paper presented at the \textit{22nd} \textit{Colloquium} \textit{on} \textit{Generative} \textit{Grammar}, Universitat Autonoma de Barcelona.},
+	publisher = {against an applicative analysis},
+	year = {2012}
+}
+
+
+@incollection{WoodMarantz2017,
+	address = {Oxford: Oxford University Press. DOI},
+	author = {Wood, Jim, and Alec Marantz},
+	booktitle = {\textit{The} \textit{verbal} \textit{domain}},
+	editor = {Roberta D’Alessandro, Irene Franco and Ángel J. Gallego},
+	note = {org/10.1093/oso/67886.003.0011}\href{},
+	pages = {255–278},
+	publisher = {\url{https://doi},
+	title = {The Interpretation of external arguments},
+	url = {https://www.glossa-journal.org/articles/10.5334/gjgl.527/print/main-text-B65}{{~}}},
+	urldate = {97801987},
+	year = {2017}
+}
+
+
+\end{verbatim}
+\sloppy\printbibliography[heading=subbibliography,notkeyword=this]\end{document}
