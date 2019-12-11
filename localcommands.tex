@@ -21,15 +21,15 @@
 \makeatother
 
 \newcommand{\togglepaper}[1][0]{ 
-%   \bibliography{../localbibliography}
-%   \papernote{\scriptsize\normalfont
-%     \theauthor.
-%     \thetitle. 
-%     To appear in: 
-%     Change Volume Editor \& in localcommands.tex 
-%     Change volume title in localcommands.tex
-%     Berlin: Language Science Press. [preliminary page numbering]
-%   }
+  \bibliography{../localbibliography}
+  \papernote{\scriptsize\normalfont
+    \theauthor.
+    \thetitle. 
+    To appear in: 
+    Anna Pineda,  Jaume Mateu \& Ricardo Etxepare
+    Datives structures in Romance and beyond
+    Berlin: Language Science Press. [preliminary page numbering]
+  }
   \pagenumbering{roman}
   \setcounter{chapter}{#1}
   \addtocounter{chapter}{-1}
@@ -81,3 +81,8 @@
 \definecolor{light-gray}{cmyk}{0,0,0,0.17}
 \definecolor{RED}{cmyk}{0.05,1,0.8,0}
 
+
+
+\newcommand{\missingcaption}{{\red{Please provide a caption}}}
+
+\providecommand{\LastRefSteppedCounter}{} %disabling this command, as it causes a weird error

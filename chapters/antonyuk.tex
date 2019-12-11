@@ -1,8 +1,8 @@
-\documentclass[output=paper,modfonts, nonflat]{langsci/langscibook} 
-\author{Svitlana Antonyuk	\affiliation{}}
+\documentclass[output=paper,colorlinks,citecolor=brown]{./langscibook} 
+\author{Svitlana Antonyuk	\affiliation{University of Connecticut}}
 \title{The puzzle of Russian ditransitives}
  
-\abstract{Change the  abstract in chapters/myname.tex}
+\abstract{In this paper I use the Scope Freezing Generalization (SFG), formulated on the basis of Russian quantifier scope freezing data in \citet{Antonyuk2015} to gain insights into the structure of Russian ditransitives. The paper discusses the finding that Russian ditransitive predicates are not a homogeneous group, but instead subdivide into three distinct Groups, each with its distinct set of properties, with further syntactic evidence supporting the conclusion that these Groups have distinct underlying structures. One of the main findings, suggested by the (revised) SFG and supported by syntactic unaccusativity tests is that a group of Russian “direct objects” are not in fact what they seem, but are instead low Oblique arguments receiving Accusative case from a silent P head.}
  \IfFileExists{../localcommands.tex}{
   \input{../localpackages}
   \input{../localcommands} 
@@ -13,1863 +13,938 @@
 \begin{document}
 \maketitle
  
- 
+\footnote{* I gratefully acknowledge helpful feedback and suggestions for improvement I received from John F. Bailyn, Richard K. Larson, Viviane Deprez, Gillian Ramchand, Alec Marantz and Peter Hallman that led to significant improvement of this paper, as well as helpful criticisms and questions of two anonymous reviewers. This research was supported by~Austrian Science Fund (FWF), Grant~number: P27384-G23 awarded to Dr. Peter Hallman.}
 
- \textbf{University} \textbf{of} \textbf{Connecticut}\footnote{* I gratefully acknowledge helpful feedback and suggestions for improvement I received from John F. Bailyn, Richard K. Larson, Viviane Deprez, Gillian Ramchand, Alec Marantz and Peter Hallman that led to significant improvement of this paper, as well as helpful criticisms and questions of two anonymous reviewers. This research was supported by~Austrian Science Fund (FWF), Grant~number: P27384-G23 awarded to Dr. Peter Hallman.}
 
-\textbf{\textit{Abstract}}. \textit{In} \textit{this} \textit{paper} \textit{I} \textit{use} \textit{the} \textit{Scope} \textit{Freezing} \textit{Generalization} \textit{(SFG),} \textit{formulated} \textit{on} \textit{the} \textit{basis} \textit{of} \textit{Russian} \textit{quantifier} \textit{scope} \textit{freezing} \textit{data} \textit{in} \textit{\citet{Antonyuk2015} to gain insights into the structure of Russian ditransitives. The paper discusses the finding that Russian ditransitive predicates are not a homogeneous group, but instead subdivide into three distinct Groups, each with its distinct set of properties, with further syntactic evidence supporting the conclusion that these Groups have distinct underlying structures. One of the main findings, suggested by the (revised) SFG and supported by syntactic unaccusativity tests is that a group of Russian “direct objects” are not in fact what they seem, but are instead low Oblique arguments receiving Accusative case from a silent P head.}
+%\keyword{ditransitives, scope freezing, Russian, unaccusativity, objecthood, Oblique Accusatives.}
 
-\textbf{Keywords:} \textit{ditransitives,} \textit{scope} \textit{freezing,} \textit{Russian,} \textit{unaccusativity,} \textit{objecthood,} \textit{Oblique} \textit{Accusatives.}
+\section{Introduction}\label{sec:antonyuk:1}
 
-\begin{itemize}
-\item \section{Introduction}
-\end{itemize}
-
-The argument structure of ditransitive predicates has been of interests to linguists for quite a long time, with the question of the exact nature of syntactic encoding of ditransitives remaining both a matter of debate and a source of important insights for grammatical theory. Thus, even in English, which has been studied extensively in the generative tradition for over half a century the question of argument structure is far from settled, with novel research ranging in analyses from a derivational Larsonian view (\citealt{Larson1988}; 2014) to separate projection view (an applicative analysis of \citealt{Marantz1993}; decompositional analyses of \citealt{Pesetsky1995}; \citealt{Harley1995}; 2002 i.a.) to a derivational reverse-Larsonian view on which the Double Object Construction (DOC) serves as the derivational base for the Prepositional Dative Construction \citep{Hallman2015}. It is not surprising then that in languages that have not been studied as extensively within the generative framework, Russian being one of them, there is little to no agreement on the issue, with a variety of views, schematized in \REF{ex:key:1} below:
+The argument structure of ditransitive predicates has been of interests to linguists for quite a long time, with the question of the exact nature of syntactic encoding of ditransitives remaining both a matter of debate and a source of important insights for grammatical theory. Thus, even in English, which has been studied extensively in the generative tradition for over half a century the question of argument structure is far from settled, with novel research ranging in analyses from a derivational Larsonian view (\citealt{Larson1988}; \citeyear{Larson2014}) to separate projection view (an applicative analysis of \citealt{Marantz1993}; decompositional analyses of \citealt{Pesetsky1995, Harley1995Diss}; \citeyear{Harley2002} i.a.) to a derivational reverse-Larsonian view on which the Double Object Construction (DOC) serves as the derivational base for the Prepositional Dative Construction \citep{Hallman2015}. It is not surprising then that in languages that have not been studied as extensively within the generative framework, Russian being one of them, there is little to no agreement on the issue, with a variety of views, schematized in \REF{ex:antonyuk:1} below:
 
 \ea%1
-    \label{ex:key:1}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:1}
+    Analyses of Russian ditransitives:
+    \ea \textbf{Dative Goal object originates in Spec, VP position}, assigned Dative case as sister to V’ (see \citealt{HarbertToribio1991, GreenbergFranks1991, Franks1995, Richardson2007})
+    \ex \textbf{Accusative Theme object is generated in Spec, VP position}, with the Dative originating in the complement position (\citealt{Bailyn1995}, \citeyear{Bailyn2010}, \citeyear{Bailyn2012}; \citealt{Titov2017})
+    \ex \textbf{Dative Goal object is assigned case by an Applicative head} (\citealt{Dyakonova2005}, \citeyear{Dyakonova2009}, following \citealt{Pylkkänen2002})
+    \ex \textbf{Non-derivational Dative-higher-than-Theme account} of ditransitives on which datives (locational vs. non-locational) have two distinct underlying structures (\citealt{BonehNash2017})
     \z
-
-         Analyses of Russian ditransitives:
-
-a. \textbf{Dative} \textbf{Goal} \textbf{object} \textbf{originates} \textbf{in} \textbf{Spec,} \textbf{VP} \textbf{position}, assigned Dative case as sister to V’ (see \citealt{HarbertToribio1991}; \citealt{GreenbergFranks1991}; \citealt{Franks1995} \citealt{Richardson2007})
-
-b. \textbf{Accusative} \textbf{Theme} \textbf{object} \textbf{is} \textbf{generated} \textbf{in} \textbf{Spec,} \textbf{VP} \textbf{position}, with the Dative originating in the complement position (\citealt{Bailyn1995}, 2010, 2012; \citealt{Titov2017})\\
-\\
-c. \textbf{Dative} \textbf{Goal} \textbf{object} \textbf{is} \textbf{assigned} \textbf{case} \textbf{by} \textbf{an} \textbf{Applicative} \textbf{head} (\citealt{Dyakonova2005}, 2007, following \citealt{Pylkkänen2002})
-
-d. \textbf{Non-derivational} \textbf{Dative-higher-than-Theme} \textbf{account} of ditransitves on which datives (locational vs. non-locational) have two distinct underlying structures (\citealt{BonehNash2017})
+\z
 
 The research summarized here, developed in detail in \citet{Antonyuk2015} offers a way to understand the reason behind such multitude of views on Russian ditransitives by presenting a novel perspective, different from all of the above in that it discards the underlying assumption of the uniformity of Russian ditransitives and argues instead that Russian ditransitive predicates subdivide into three distinct Groups, each with its own clearly defined set of properties and corresponding differences in syntactic structure. The initial evidence for this proposal comes from quantifier scope ambiguity and scope freezing distribution patterns in ditransitives, supported further by syntactic tests that confirm the underlying structural differences between the three Groups.
 
-The insight about the non-homogeneous nature of Russian ditransitives comes primarily from the scope ambiguity and scope freezing distribution patterns and it should be stressed that the notion of ditransitivity that emerges from this investigation is broader than what is generally assumed. In research on English, for instance, the notion of ditransitivity has been reserved mostly for verbs that undergo Dative shift (the prepositional Dative and the Double Object Construction), as well as the \textit{Spray-Load} alternation. The Double Object Construction and the \textit{with}{}-variant of the \textit{Spray-Load} alternation are also the constructions that exhibit the scope freezing phenomenon in English (differing in this respect from the scopally ambiguous Prepositional Dative Construction and the other alternant of the \textit{Spray-Load} alternation), with scope ambiguity-scope freezing contrast being treated as one of the properties that characterize ditransitives in English (see, for instance, \citealt{Bruening2001}, 2010). Current research takes the view that the scope ambiguity - scope freezing contrast is one of the most important properties of ditransitive verbs and moreover, that the scope ambiguity-scope freezing distribution patterns can be used to gain insights into the argument structure of ditransitives. The operative notion of ditransitivity, therefore, has been derived entirely on the basis of which predicates exhibit the scope ambiguity - scope freezing distribution patterns, and that appears to include any predicate which Theta-marks two internal arguments. Thus, the relevant notion of ditransitivity is one that includes both the “canonical” ditransitives which take an Accusative-marked Theme and a Dative-marked Goal internal arguments as well as verbs which include an Accusative-marked Theme and a PP argument or an Instrumental-marked DP or even those where the verbs subcategorizes for two internal arguments which are both realized as Prepositional Phrases. 
+The insight about the non-homogeneous nature of Russian ditransitives comes primarily from the scope ambiguity and scope freezing distribution patterns and it should be stressed that the notion of ditransitivity that emerges from this investigation is broader than what is generally assumed. In research on English, for instance, the notion of ditransitivity has been reserved mostly for verbs that undergo Dative shift (the prepositional Dative and the Double Object Construction), as well as the \textit{Spray-Load} alternation. The Double Object Construction and the \textit{with}{}-variant of the \textit{Spray-Load} alternation are also the constructions that exhibit the scope freezing phenomenon in English (differing in this respect from the scopally ambiguous Prepositional Dative Construction and the other alternant of the \textit{Spray-Load} alternation), with scope ambiguity-scope freezing contrast being treated as one of the properties that characterize ditransitives in English (see, for instance, \citealt{Bruening2001}, \citeyear{Bruening2010DOC}). Current research takes the view that the scope ambiguity - scope freezing contrast is one of the most important properties of ditransitive verbs and moreover, that the scope ambiguity-scope freezing distribution patterns can be used to gain insights into the argument structure of ditransitives. The operative notion of ditransitivity, therefore, has been derived entirely on the basis of which predicates exhibit the scope ambiguity - scope freezing distribution patterns, and that appears to include any predicate which Theta-marks two internal arguments. Thus, the relevant notion of ditransitivity is one that includes both the “canonical” ditransitives which take an Accusative-marked Theme and a Dative-marked Goal internal arguments as well as verbs which include an Accusative-marked Theme and a PP argument or an Instrumental-marked DP or even those where the verbs subcategorizes for two internal arguments which are both realized as Prepositional Phrases.\todo{The glosses in the file had multiple inconsistencies. Some fixes have been implemented to make them compatible with Leipzig Glossing Rules. They need to be checked again. -to remains unidentified.}
 
-Turning to data now, despite arguably being identical to English in terms of quantifier scope possibilities and Quantifier Raising properties as far as transitive sentences are concerned (see Antonyuk-\citealt{Yudina2006}; \citealt{Antonyuk2015}; 2019) there are both significant similarities \textit{and} differences once we look at ditransitive sentences. While the important similarity to English is that Russian ditransitives show the same scope freezing effect as do English DOCs and the \textit{with}{}-variant of the \textit{Spray-Load} construction, the novel Russian data, briefly exemplified in \REF{ex:key:2}-(7) below, suggest that the range of constructions in which quantifier scope is surface scope frozen in the language is much broader than it is in English. In all of the examples below the sentences in (a) are ambiguous, whereas the sentences in (b) are surface scope frozen. 
+Turning to data now, despite arguably being identical to English in terms of quantifier scope possibilities and Quantifier Raising properties as far as transitive sentences are concerned (see \citealt{Antonyuk-Yudina2006, Antonyuk2015}, \citeyear{Antonyuk2019}) there are both significant similarities \textit{and} differences once we look at ditransitive sentences. While the important similarity to English is that Russian ditransitives show the same scope freezing effect as do English DOCs and the \textit{with}-variant of the \textit{Spray-Load} construction, the novel Russian data, briefly exemplified in \REF{ex:antonyuk:2}-\REF{ex:antonyuk:7} below, suggest that the range of constructions in which quantifier scope is surface scope frozen in the language is much broader than it is in English. In all of the examples below the sentences in (a) are ambiguous, whereas the sentences in (b) are surface scope frozen.
 
 \ea%2
-    \label{ex:key:2}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:2}
+    Russian Equivalent of the PP Dative and the Double-Object Construction:
+    \ea \label{ex:antonyuk:2a}
+    \gll {Učitel’.}     {podaril}      {kakuju-to}   {knigu}    {každomu} {studentu}\\
+    teacher.\textsc{nom} presented [some   book].\textsc{acc.fem}  [every student].\textsc{dat.msc}\\
+    \glt `The teacher presented some book to every student´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \ex \label{ex:antonyuk:2b}
+    \gll {Učitel’}          {podaril}      {kakomu-to} {student}     {každuju} {knigu}\\
+    teacher.\textsc{nom} presented [some         student].\textsc{dat.msc}   [every book].\textsc{acc.fem}\\
+    \glt `The teacher presented some student with every book´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
-
-         Russian Equivalent of the PP Dative and the Double-Object Construction: 
-
-\begin{styleinnerExample}
-a.  \textit{Učitel’.}         \textit{podaril}      \textit{kakuju-to}   \textit{knigu}             \textit{každomu}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Teacher\textsc{nom} presented [some   book]\textsc{acc.fem}  [every  
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  \textit{studentu}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  student]\textsc{dat.msc}\textbf{\textsubscript{} }
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “The teacher presented some book to every student” ${\exists}{\forall}$/${\forall}{\exists}$
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-b.  \textit{Učitel’}          \textit{podaril}      \textit{kakomu-to} \textit{student}     \textit{každuju}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Teacher\textsc{nom} presented [some         student]\textsc{dat.msc}   [every \\
-knigu.\\
-book]\textsc{acc.fem}\\
-“The teacher presented some student with every book” ${\exists}{\forall}$/*${\forall}{\exists}$
-\end{styleinnerExample}
+\z
 
 \ea%3
-    \label{ex:key:3}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:3}
+    Prepositional Ditransitive Construction:
+    \ea \label{ex:antonyuk:3a}
+    \gll {Maša}   {potrebovala}  {[kakie-to} {dokumenty]}  {}   {(s}  {každogo}  posetitelja)\\
+    Masha demanded     [some documents].\textsc{acc} [\textsubscript{PP} from every visitor].\textsc{gen}\\
+    \glt `Masha demanded some documents from every visitor´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \ex \label{ex:antonyuk:3b}
+    \gll {Maša}   {potrebovala} {}   {(s} {kakogo-to} {posetitelija)} {[každyj} {document]}\\
+    Masha demanded [\textsubscript{PP} from some   visitor].\textsc{gen} [every document].\textsc{acc}\\
+    \glt `Masha demanded every document from some visitor´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
+\z
 
-         Prepositional Ditransitive Construction:
-
-\begin{styleinnerExample}
-a.  \textit{Maša}   \textit{potrebovala}  \textit{[kakie-to} \textit{dokumenty]}        \textit{(s}       \textit{každogo}  
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-Masha demanded     [some documents] \textsc{acc} [\textsubscript{PP} from every \\
-posetitelja)\\
-visitor]\textsc{gen}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Masha demanded some documents from every visitor”  ${\exists}{\forall}$/${\forall}{\exists}$
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-b.  \textit{Maša}   \textit{potrebovala}   \textit{(s} \textit{kakogo-to} \textit{posetitelija)} \textit{[každyj} \textit{document]}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Masha demanded [\textsubscript{PP} from some   visitor] \textsc{gen} [every   document] \textsc{acc}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Masha demanded every document from some visitor” ${\exists}{\forall}$/*${\forall}{\exists}$
-\end{styleinnerExample}
 
 \ea%4
-    \label{ex:key:4}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:4}
+    The \textit{Spray-Load} Alternation:
+    \ea \label{ex:antonyuk:4a}
+    \gll {Vanja} {zagruzil} {[kakoj-to}    {vid}   {sena]}       {[na}  {každyj} {gruzovik]}\\
+    Vania loaded   [some   type hay].\textsc{gen} [on [every  truck].\textsc{acc}]\\
+    \glt `Vania loaded some type of hay on every truck´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \ex \label{ex:antonyuk:4b}
+    \gll {Vanja} {zagruzil} {[kakoj-to} {gruzovik]}    {[každym} {vidom}          {sena]}\\
+    Vania loaded  [some       truck].\textsc{acc} [[every    type].\textsc{instr}  hay.\textsc{gen}]\\
+    \glt `Vania loaded some truck with every type of hay´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
+\z
 
-         The \textit{Spray-Load} Alternation:
 
-\begin{styleinnerExample}
-a.  \textit{Vanja} \textit{zagruzil} \textit{[kakoj-to}    \textit{vid}   \textit{sena]}       \textit{[na}  \textit{každyj} \textit{gruzovik]}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Vania loaded   [some   type hay] \textsc{gen} [on [every  truck] \textsc{acc}]
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Vania loaded some type of hay on every truck” ${\exists}{\forall}$/${\forall}{\exists}$
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-b.  \textit{Vanja} \textit{zagruzil} \textit{[kakoj-to} \textit{gruzovik]}    \textit{[každym} \textit{vidom}          \textit{sena]}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Vania loaded  [some       truck] \textsc{acc} [[every    type] \textsc{instr}  hay-\textsc{gen}]
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Vania loaded some truck with every type of hay” ${\exists}{\forall}$/*${\forall}{\exists}$
-\end{styleinnerExample}
 
 \ea%5
-    \label{ex:key:5}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:5}
+    The \textit{Clear}-Type Alternation: 
+    \ea \label{ex:antonyuk:5a}
+    \gll {Vanja} {ubral}    {[neskol’ko}  {tarelok]}      {[s}        {každogo} {stola]}\\
+    Vania cleared [several      dishes].\textsc{acc} [from [every      table].\textsc{acc]}\\
+    \glt `Vania cleared several dishes from every table´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \ex \label{ex:antonyuk:5b}
+    \gll {Vanja} {ubral}   {[neskol’ko} {stolov]}      {[ot}    {každoj} {tarelki]}\\
+    Vania cleared [several.     tables].\textsc{acc}  [from  [every  dish].\textsc{gen}]\\
+    \glt `Vania cleared several tables of every dish´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
+\z
 
-         The \textit{Clear}{}-Type Alternation: 
-
-\begin{styleinnerExample}
-a.  \textit{Vanja} \textit{ubral}    \textit{[neskol’ko}  \textit{tarelok]}      \textit{[s}        \textit{každogo} \textit{stola]}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Vania cleared [several      dishes] \textsc{acc} [from [every      table] \textsc{acc]}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Vania cleared several dishes from every table” ${\exists}{\forall}$/${\forall}{\exists}$
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-b.  \textit{Vanja} \textit{ubral}   \textit{[neskol’ko} \textit{stolov]}      \textit{[ot}    \textit{každoj} \textit{tarelki]}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Vania cleared [several.     tables] \textsc{acc}  [from  [every  dish] \textsc{gen}]\\
-“Vania cleared several tables of every dish” ${\exists}{\forall}$/*${\forall}{\exists}$
-\end{styleinnerExample}
 
 \ea%6
-    \label{ex:key:6}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:6}
+    Simple Ditransitives:
+    \ea \label{ex:antonyuk:6a}
+    \gll {Maša}   {zarazila} {[kakoj-to} {bolezn’ju]}  {[každogo} {pacienta]}\\
+    Masha infected [some      illness].\textsc{instr}   [every     patient].\textsc{acc}\\
+    \glt `Masha infected with some illness every patient´ \hfill \textit{${\exists}{\forall}$/${\forall}{\exists}$}
+    \ex \label{ex:antonyuk:6b}
+    \gll {Maša}   {zarazila} {[kakogo-to} {pacienta]}   {[každoj} {bolezn’ju]}\\
+    Masha infected [some         patient].\textsc{acc}   [every  illness].\textsc{instr}\\
+    \glt `Masha got infected with every illness by some patient´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
-
-         Simple Ditransitives:
-
-\begin{styleinnerExample}
-a.  \textit{Maša}   \textit{zarazila} \textit{[kakoj-to} \textit{bolezn’ju]}  \textit{[každogo} \textit{pacienta]}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Masha infected [some      illness] \textsc{instr}   [every     patient] \textsc{acc}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Masha infected with some illness every patient” \textit{${\exists}{\forall}$/${\forall}{\exists}$}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-b.  \textit{Maša}   \textit{zarazila} \textit{[kakogo-to} \textit{pacienta]}   \textit{[každoj} \textit{bolezn’ju]}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Masha infected [some         patient] \textsc{acc}   [every  illness]\textsc{instr}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Masha got infected with every illness by some patient” ${\exists}{\forall}$/*${\forall}{\exists}$
-\end{styleinnerExample}
+\z
 
 \ea%7
-    \label{ex:key:7}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:7}
+    “Reflexive Monotransitives” derived from simple ditransitives:
+    \ea \label{ex:antonyuk:7a}
+    \gll {Maša}   {zarazilas’}         {[kakoj-to} {bolezn’ju]} {[ot}      {každogo} {pacienta]}\\
+    Masha infected-\textsc{refl}  [some illness].\textsc{instr} [from [every     patient].\textsc{gen}\\
+    \glt `Masha got infected with some illness by every patient´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \ex \label{ex:antonyuk:7b}
+    \gll {Maša}   {zarazilas’}          {[ot}      {kakogo-to} {pacienta]}      {} {[každoj} bolezn’ju]\\
+    Masha infected-\textsc{refl}   [from [some         patient].\textsc{gen} ] [every illness].\textsc{instr}\\
+    \glt `Masha got infected with every illness by some patient´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
+\z
 
-         “Reflexive Monotransitives” derived from simple ditransitives:
-
-\begin{styleinnerExample}
-a.  \textit{Maša}   \textit{zarazilas’}         \textit{[kakoj-to} \textit{bolezn’ju]} \textit{[ot}      \textit{každogo} \textit{pacienta]}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Masha infected-\textsc{refl}  [some illness] \textsc{instr} [from [every     patient]\textsc{gen} “Masha got infected with some illness by every patient” ${\exists}{\forall}$/${\forall}{\exists}$\\\end{styleinnerExample}
-
-\begin{styleinnerExample}
-b.  \textit{Maša}   \textit{zarazilas’}          \textit{[ot}      \textit{kakogo-to} \textit{pacienta]}      \textit{[každoj} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Masha infected-\textsc{refl}   [from [some         patient]\textsc{gen} ] [every 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  bolezn’ju]
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  illness]\textsc{instr}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Masha got infected with every illness by some patient” ${\exists}{\forall}$/*${\forall}{\exists}$
-\end{styleinnerExample}
-
-What is striking about the above examples is that despite all the differences between these sentences, such as changes in the obligatory morphological marking between the two alternating orders in the \textit{Spray-Load} or \textit{Clear}{}-type alternations or the fact that in some cases one of the internal arguments is realized as a Prepositional Phrase (PP) or, perhaps most strikingly, the “detransitivization” in \REF{ex:key:7} with scope freezing nevertheless preserved, all the differences notwithstanding, the one constant element in the above pairs is the permuted order of the verb’s internal arguments. The Scope Freezing Generalization in \REF{ex:key:8} captures this fact:\footnote{The SGF in \REF{ex:key:8} reflects the important assumption that scope ambiguity is the norm and scope freezing is the “marked”, special case in need of an explanation.} \textsuperscript{,}\footnote{In this paper I argue, contra \citet{Antonyuk2015}, that surface scope freezing observed with ditransitives and captured by SFG in \REF{ex:key:8} is a categorically distinct phenomenon from the surface scope \textit{bias} found with cases of scrambling of a QP across a higher QP, as the judgments of surface scope freezing found with Groups 1 and 2 are not similarly affected by Information Structure-relevant phenomena such as prosodically realized Contrastive Focus (\citealt{AntonyukLarson2016}) or by Specificity-related Object Shift, as demonstrated for Ukrainian in Antonyuk and Mykhaylyk (under review).}
+What is striking about the above examples is that despite all the differences between these sentences, such as changes in the obligatory morphological marking between the two alternating orders in the \textit{Spray-Load} or \textit{Clear}{}-type alternations or the fact that in some cases one of the internal arguments is realized as a Prepositional Phrase (PP) or, perhaps most strikingly, the “detransitivization” in \REF{ex:antonyuk:7} with scope freezing nevertheless preserved, all the differences notwithstanding, the one constant element in the above pairs is the permuted order of the verb’s internal arguments. The Scope Freezing Generalization in \REF{ex:antonyuk:8} captures this fact:\footnote{The SGF in \REF{ex:antonyuk:8} reflects the important assumption that scope ambiguity is the norm and scope freezing is the “marked”, special case in need of an explanation.} \textsuperscript{,}\footnote{In this paper I argue, contra \citet{Antonyuk2015}, that surface scope freezing observed with ditransitives and captured by SFG in \REF{ex:antonyuk:8} is a categorically distinct phenomenon from the surface scope \textit{bias} found with cases of scrambling of a QP across a higher QP, as the judgments of surface scope freezing found with Groups 1 and 2 are not similarly affected by Information Structure-relevant phenomena such as prosodically realized Contrastive Focus (\citealt{AntonyukLarson2016}) or by Specificity-related Object Shift, as demonstrated for Ukrainian in Antonyuk and Mykhaylyk (under review).}
 
 \ea%8
-    \label{ex:key:8}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:8}
+    Scope Freezing Generalization (SFG), revised (cf. \citealt{Antonyuk2015}):\\
+    \textit{Scope freezing results when one QP raises over another to a c-commanding position within the VP as a result of a single instance of movement.}
     \z
 
-         Scope Freezing Generalization (SFG), revised (cf. \citealt{Antonyuk2015}): 
+In section \ref{sec:antonyuk:2} I use the scope data and the SF Generalization as a diagnostic, which suggests a non-homogeneous view of Russian ditransitives according to which they subdivide into 3 distinct Groups. In section \ref{sec:antonyuk:3} I discuss syntactic evidence supporting the claim that these groups are distinct. Section \ref{sec:antonyuk:4} describes which structural possibilities are open for each group of Russian ditransitives, based on observed data patterns. Section \ref{sec:antonyuk:5} concludes the paper. 
 
-\textit{Scope} \textit{freezing} \textit{results} \textit{when} \textit{one} \textit{QP} \textit{raises} \textit{over} \textit{another} \textit{to} \textit{a} \textit{c-commanding} \textit{position} \textit{within} \textit{the} \textit{VP} \textit{as} \textit{a} \textit{result} \textit{of} \textit{a} \textit{single} \textit{instance} \textit{of} \textit{movement.}
-
-\\
-In section 2 I use the scope data and the SF Generalization as a diagnostic, which suggests a non-homogeneous view of Russian ditransitives according to which they subdivide into 3 distinct Groups. In section 3 I discuss syntactic evidence supporting the claim that these groups are distinct. \sectref{sec:key:4} describes which structural possibilities are open for each group of Russian ditransitives, based on observed data patterns. \sectref{sec:key:5} concludes the paper. 
-
-\begin{itemize}
-\item \section{The basic empirical generalization: 3 classes of Russian ditransitives} 
-\end{itemize}
+\section{The basic empirical generalization: 3 classes of Russian ditransitives}\label{sec:antonyuk:2}
 
 Most of the Russian ditransitive~constructions can be said to share the property of taking an Accusative (ACC) and a Non-Structural (Inherent) case-marked argument (marked here throughout as OBL for Oblique) that can occur in either order in surface form. The two orders of internal arguments are always truth-conditionally identical, with subtle information-structural distinctions between them. Here the Groups are distinguished according to the effect that word order permutations have on their scope interpretation possibilities. Thus, based on their scope behavior alone, we can distinguish between three distinct classes of ditransitives in Russian, schematized below:
 
 \ea%9
-    \label{ex:key:9}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:9}
+    \textbf{Group 1}\\
+    ACC > OBL ~(ambiguous)\\
+    OBL > ACC ~(frozen)
     \z
 
-          \textbf{Group} \textbf{1}      \REF{ex:key:10}  \textbf{Group} \textbf{2}\\
-ACC > OBL ~(ambiguous)     OBL > ACC(ambiguous)\\
-OBL > ACC ~(frozen)     ACC > OBL ~(frozen)
+\ea%10
+    \label{ex:antonyuk:10}
+    \textbf{Group 2}\\
+    OBL > ACC(ambiguous)\\
+    ACC > OBL ~(frozen)
+    \z
 
 \ea%11
-    \label{ex:key:11}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:11}
+    \textbf{Group 3}\\
+    ACC > OBL ~(ambiguous)\\
+    OBL > ACC ~(ambiguous)
     \z
 
-          \textbf{Group} \textbf{3}\\
-ACC > OBL ~(ambiguous)\\
-OBL > ACC ~(ambiguous)
-
-\begin{itemize}
-\item \begin{itemize}
-\item \subsection{The three groups exemplified}
-\end{itemize}
-\end{itemize}
+\subsection{The three groups exemplified}\label{sec:antonyuk:2.1}
 
 Group 1 is exemplified by Russian verbs such as \textit{podarit’} ('to present’), which most often selects an Accusative Theme and a Dative Recipient argument: \footnote{Throughout this paper, the phrase in square brackets represents the argument that cannot be dropped/elided. The one in parenthesis may be omitted while still being implicitly understood.} 
 
-\begin{styleinnerExample}
+
 \ea%12
-    \label{ex:key:12}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:12}
+    \ea \label{ex:antonyuk:12a}
+    \gll {Vospitatel’}      {podaril}   {[kakuju-to} {igrušku].}       {[každomu} {rebjenku]}\\
+    Caretaker.\textsc{nom} presented   [some       toy].\textsc{acc.fem} [every child].\textsc{dat.msc}\\
+    \glt `The teacher presented some book to every student´ ${\exists}{\forall}$/${\forall}{\exists}$
+    \ex \label{ex:antonyuk:12b}
+    \gll {Vospitatel’}       {podaril}   {[kakomu-to} {rebjenku]}    {[každuju} {igrušku]}\\
+    Caretaker.\textsc{nom}  presented   [some child].\textsc{dat.msc} [every toy].acc.fem\\
+    \glt `The caretaker presented some child with every toy´ ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
+\z
 
-          a.  \textit{Vospitatel’}      \textit{podaril}   \textit{[kakuju-to} \textit{igrušku].}       \textit{[každomu} 
-\end{styleinnerExample}
+The alternation in (\ref{ex:antonyuk:12a},b) resembles the scope freezing pattern of English alternating ditransitives. As we know from English, the THEME  >  GOAL/RECIPIENT order of quantifiers is ambiguous \REF{ex:antonyuk:13a}, allowing either quantifier to be read with wide scope. However, the GOAL/RECIPIENT > THEME order is frozen \REF{ex:antonyuk:13b}, allowing only the surface scope interpretation (\citealt{Larson1990, Bruening2001}).\\
 
-\begin{styleinnerExample}
-    Caretaker\textsc{nom} presented   [some       toy]\textsc{acc.fem} [every
-\end{styleinnerExample}
 
-\begin{styleinnerExample}
-    \textit{rebjenku]}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    child]\textsc{dat.msc}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “The teacher presented some book to every student” ${\exists}{\forall}$/${\forall}{\exists}$
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textit{Vospitatel’}       \textit{podaril}   \textit{[kakomu-to} \textit{rebjenku]}    \textit{[každuju} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Caretaker\textsc{nom}  presented   [some        child]\textsc{dat.msc} [every  \\
-\textit{igrušku]}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    toy]acc.fem
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “The caretaker presented some child with every toy” ${\exists}{\forall}$/*${\forall}{\exists}$
-\end{styleinnerExample}
-
-The alternation in (12a,b) resembles the scope freezing pattern of English alternating ditransitives. As we know from English, the THEME  >  GOAL/RECIPIENT order of quantifiers is ambiguous \REF{ex:key:13a}, allowing either quantifier to be read with wide scope. However, the GOAL/RECIPIENT > THEME order is frozen \REF{ex:key:13b}, allowing only the surface scope interpretation (\citealt{Larson1990}, \citealt{Bruening2001}).\\
-
-\begin{styleinnerExample}
 \ea%13
-    \label{ex:key:13}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:13}
+    \ea \label{ex:antonyuk:13a}
+    Alice assigned some exercise to every student. \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \ex \label{ex:antonyuk:13b}
+    Alice assigned some student every~exercise. \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
+\z
 
-           a.  Alice assigned some exercise to every student.~${\exists}{\forall}$/${\forall}{\exists}$\\
-b.  Alice assigned some student every~exercise.~ ${\exists}{\forall}$/*${\forall}{\exists}$
-\end{styleinnerExample}
+\REF{ex:antonyuk:14} presents a non-exhaustive list of verbs whose behavior with respect to the scope freezing diagnostic places them into Group 1:
+
 
 \ea%14
-    \label{ex:key:14}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:14}
+    \ea \label{ex:antonyuk:14a}
+    dat’ ACC/DAT  {}- to give (something to.somebody)
+    \ex \label{ex:antonyuk:14b}
+    poobeščat’ACC/DAT – to promise (something to.somebody)
+    \ex \label{ex:antonyuk:14c}
+    zaveščat’ ACC/DAT – to bequeath (something to.somebody)
+    \ex \label{ex:antonyuk:14d}
+    najti ACC/DAT – to find (something for.someone);
+    \ex \label{ex:antonyuk:14e}
+    prostit’ ACC/DAT – to forgive (something to.someone);
+    \ex \label{ex:antonyuk:14f}
+    napisat’ ACC/DAT or ACC/k DAT – to write (something to.someone or something to someone)
+    \ex \label{ex:antonyuk:14g}
+    sdelat’ ACC/DAT – to do (something to.somebody);
+    \ex \label{ex:antonyuk:14h}
+    predložit’ ACC/DAT – to offer (something to.someone);
+    \ex \label{ex:antonyuk:14i}
+    ostavit’ ACC/DAT  {}- to leave (something to.somebody);
+    \ex \label{ex:antonyuk:14j}
+    potrebovat ACC/s ACC – to demand (something from someone);
+    \ex \label{ex:antonyuk:14k}
+    zaključit’ pari/s INSTR – to place a bet with someone.
     \z
+\z
 
-         presents a non-exhaustive list of verbs whose behavior with respect to the scope freezing diagnostic places them into Group 1:
+The example in \REF{ex:antonyuk:15} presents a Group 2 verb on its two alternating orders. Here, the order on which the Instrumental-marked phrase precedes the Accusative argument is scopally ambiguous, whereas the opposite order of arguments is surface scope frozen. 
 
-\begin{styleinnerExample}
-\ea%14
-    \label{ex:key:14}
-    \gll\\
-        \\
-    \glt
-    \z
 
-           a.   dat’ ACC/DAT  {}- to give (something to.somebody)
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.   poobeščat’ACC/DAT – to promise (something to.somebody)
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  c.  zaveščat’ ACC/DAT – to bequeath (something to.somebody)
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  d.  najti ACC/DAT – to find (something for.someone);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  e.   prostit’ ACC/DAT – to forgive (something to.someone);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  f.   napisat’ ACC/DAT or ACC/k DAT – to write (something to.someone or something to someone)
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  g.   sdelat’ ACC/DAT – to do (something to.somebody);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  h.   predložit’ ACC/DAT – to offer (something to.someone);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  i.   ostavit’ ACC/DAT  {}- to leave (something to.somebody);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  j.   potrebovat ACC/s ACC – to demand (something from someone);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  k.   zaključit’ pari/s INSTR – to place a bet with someone.
-\end{styleinnerExample}
-
-The example in \REF{ex:key:15} presents a Group 2 verb on its two alternating orders. Here, the order on which the Instrumental-marked phrase precedes the Accusative argument is scopally ambiguous, whereas the opposite order of arguments is surface scope frozen. 
-
-\begin{styleinnerExample}
 \ea%15
-    \label{ex:key:15}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:15}
+    \ea \label{ex:antonyuk:15a}
+    \gll {Maša}   {ugostila} {(kakim-to} {pečenjem)}  {[každogo} {rebenka]}\\
+    Masha treated  [some        cookie].\textsc{instr} [every child].\textsc{acc}\\
+    \glt `Masha treated every child to some cookie´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \ex \label{ex:antonyuk:15b}
+    \gll {Maša}   {ugostila} {[kakogo-to} {rebenka]}    {(každym} {pečenjem)}\\
+    Masha reated    [some child].\textsc{acc} [every    cookie].\textsc{instr}\\
+    \glt `Masha treated some child to every cookie´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
-
-          a.  \textit{Maša}   \textit{ugostila} \textit{(kakim-to} \textit{pečenjem)}       \textit{[každogo} \textit{rebenka]}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha treated  [some        cookie]\textsc{instr} \textsc{~} [every     child]\textsc{acc}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Masha treated every child to some cookie” ${\exists}{\forall}$/${\forall}{\exists}$
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textit{Maša}   \textit{ugostila} \textit{[kakogo-to} \textit{rebenka]}    \textit{(každym} \textit{pečenjem)}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha reated    [some         child] \textsc{acc~}[every    cookie]\textsc{instr}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Masha treated some child to every cookie” ${\exists}{\forall}$/*${\forall}{\exists}$
-\end{styleinnerExample}
+\z
 
 What differentiates Group 2 from Group 1 is the obvious fact that with Group 2 the surface scope frozen order results when the Accusative argument QP precedes the Oblique-marked QP, whereas with Group 1 the frozen scope results when the Oblique-marked QP precedes the Accusative-marked QP, hence the two Groups are essentially a mirror image of each other with respect to scope.
 
+\REF{ex:antonyuk:16} below presents a number of verbs belonging to this class which showcases its characteristic properties:
+
 \ea%16
-    \label{ex:key:16}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:16}
+    \ea \label{ex:antonyuk:16a}
+    oskorbit ACC/INSTR – to insult (someone with.something);
+    \ex \label{ex:antonyuk:16b}
+    podvergnut’ ACC/INSTR – to subject (someone to.something);
+    \ex \label{ex:antonyuk:16c}
+    izobličit’ ACC/v INSTR – to expose (someone in something);
+    \ex \label{ex:antonyuk:16d}
+    zaščitit’ ACC/ot ACC – to protect (someone from something/someone);
+    \ex \label{ex:antonyuk:16e}
+    ozadačit’ ACC/INSTR – to perplex (someone with.something);
+    \ex \label{ex:antonyuk:16f}
+    obvinit’ ACC/v ACC – to blame (someone for.something);
+    \ex \label{ex:antonyuk:16g}
+    priznat’sja DAT/v ACC – to admit (to.someone in something);
+    \ex \label{ex:antonyuk:16h}
+    ubedit’ ACC/v ACC – to convince (someone in something);
+    \ex \label{ex:antonyuk:16i}
+    predupredit’ ACC/o ACC – to warn (someone about something);
+    \ex \label{ex:antonyuk:16j}
+    otgovorit’ ACC/ot ACC – to dissuade (someone from something);
+    \ex \label{ex:antonyuk:16k}
+    sprjatat’ ACC/ot ACC – to hide (someone from someone/something).
     \z
+\z
 
-         below presents a number of verbs belonging to this class which showcases its characteristic properties:
+Finally, there are verbs that behave like neither of the above Groups. With Group 3 predicates the scope is free no matter which internal argument comes first. Consider the example in \REF{ex:antonyuk:17}. Here, unlike with the other two Groups, the change in the linear order of quantificational internal arguments yields no truth conditional difference: the sentences remain scopally ambiguous.
 
-\begin{styleinnerExample}
-\ea%16
-    \label{ex:key:16}
-    \gll\\
-        \\
-    \glt
-    \z
 
-          a.  oskorbit ACC/INSTR – to insult (someone with.something);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  podvergnut’ ACC/INSTR – to subject (someone to.something);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  c.  izobličit’ ACC/v INSTR – to expose (someone in something);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  d.  zaščitit’ ACC/ot ACC – to protect (someone from something/someone);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  e.  ozadačit’ ACC/INSTR – to perplex (someone with.something);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  f.  obvinit’ ACC/v ACC – to blame (someone for.something);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  g.  priznat’sja DAT/v ACC – to admit (to.someone in something);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  h.  ubedit’ ACC/v ACC – to convince (someone in something);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  i.  predupredit’ ACC/o ACC – to warn (someone about something);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  j.  otgovorit’ ACC/ot ACC – to dissuade (someone from something);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  k.  sprjatat’ ACC/ot ACC – to hide (someone from someone/something).
-\end{styleinnerExample}
-
-Finally, there are verbs that behave like neither of the above Groups. With Group 3 predicates the scope is free no matter which internal argument comes first. Consider the example in \REF{ex:key:17}. Here, unlike with the other two Groups, the change in the linear order of quantificational internal arguments yields no truth conditional difference: the sentences remain scopally ambiguous.
-
-\begin{styleinnerExample}
 \ea%17
-    \label{ex:key:17}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:17}
+    \ea \label{ex:antonyuk:17a}
+    \gll Maša   napisala [kakoj-to slogan] {} (na  každoj stene)\\
+    Masha wrote     [some      slogan].\textsc{acc} [\textsubscript{PP} on [every  wall].\textsc{prep}]\\
+    \glt `Masha wrote some slogan on every wall´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \ex \label{ex:antonyuk:17b}
+    \gll Maša   napisala {} (na kakoj-to stene)         [každyj slogan] \\
+    Masha wrote [\textsubscript{PP} on [some     wall].\textsc{prep}] [every   slogan].\textsc{acc}\\
+    \glt `Masha wrote every slogan on some wall´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \z
+\z
 
-           a.  Maša   napisala [kakoj-to slogan]           (na  každoj stene)
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha wrote     [some      slogan]\textsc{acc}[\textsubscript{PP} on [every  wall]\textsc{prep}]
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Masha wrote some slogan on every wall” ${\exists}{\forall}$/${\forall}{\exists}$
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  Maša   napisala (na kakoj-to stene)         [každyj slogan]  
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha wrote [\textsubscript{PP} on [some     wall]\textsc{prep}] [every   slogan]\textsc{acc~}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Masha wrote every slogan on some wall” ${\exists}{\forall}$/${\forall}{\exists}$
-\end{styleinnerExample}
+\REF{ex:antonyuk:18} below lists some of the verbs that belong to this group:
 
 \ea%18
-    \label{ex:key:18}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:18}
+    \ea \label{ex:antonyuk:18a}
+    ostavit’ ACC/v ACC – to leave (someone/something in something);
+    \ex \label{ex:antonyuk:18b}
+    položit’ ACC/na ACC or v ACC – to put (something on something or in something or somewhere);
+    \ex \label{ex:antonyuk:18c}
+    otdat’ ACC/DAT – to give away/to give back (something to.somebody);
+    \ex \label{ex:antonyuk:18d}
+    zapisat’ ACC/ v ACC or na/PREP – to write down (something in/somewhere or on something);
+    \ex \label{ex:antonyuk:18e}
+    vyrastit’ ACC/v PREP – to grow (something in/somewhere);
+    \ex \label{ex:antonyuk:18f}
+    otpravit’ ACC/na ACC – to send (something/somebody to something);
+    \ex \label{ex:antonyuk:18g}
+    uslyšat’ ACC or o GEN/ot ACC – to hear (about something/somebody from somebody);
+    \ex \label{ex:antonyuk:18h}
+    izvleč’ ACC/iz GEN – to extract (something from somewhere);
+    \ex \label{ex:antonyuk:18i}
+    prisoedinit’ ACC/k DAT – to annex/to attach (something to something);
+    \ex \label{ex:antonyuk:18j}
+    zagnat’ ACC/v ACC – to corner/to drive (someone in some place/somewhere);
+    \ex \label{ex:antonyuk:18k}
+    vstavit’ ACC/v ACC – to insert (something into something/somewhere).
     \z
-
-         below lists some of the verbs that belong to this group:
-
-\begin{styleinnerExample}
-\ea%18
-    \label{ex:key:18}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          a.  ostavit’ ACC/v ACC – to leave (someone/something in something);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.   položit’ ACC/na ACC or v ACC – to put (something on something or in something or somewhere);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  c.   otdat’ ACC/DAT – to give away/to give back (something to.somebody);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  d.  zapisat’ ACC/ v ACC or na/PREP – to write down (something in/somewhere or on something);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  e.  vyrastit’ ACC/v PREP – to grow (something in/somewhere);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  f.   otpravit’ ACC/na ACC – to send (something/somebody to something);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  g.   uslyšat’ ACC or o GEN/ot ACC – to hear (about something/somebody from somebody);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  h.   izvleč’ ACC/iz GEN – to extract (something from somewhere);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  i.   prisoedinit’ ACC/k DAT – to annex/to attach (something to something);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  j. zagnat’ ACC/v ACC – to corner/to drive (someone in some place/somewhere);
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  k. vstavit’ ACC/v ACC – to insert (something into something/somewhere).
-\end{styleinnerExample}
+\z
 
 The question that naturally arises then is how to analyze the three Groups, specifically to what should we attribute their differences in scope behavior? Under the results in \citet{Antonyuk2015}, where I propose that scope freezing is due to crossing one QP over another in overt syntax and given SFG, the structural expectations for the three Groups of ditransitive predicates are clearly the following:
 
 \ea%19
-    \label{ex:key:19}
-    \gll\\
-        \\
-    \glt
-    \z
-
-          Group 1\\
+    \label{ex:antonyuk:19}
+    Group 1\\
 V ~NP-ACC NP-OBL ~     BASIC ORDER (amb)\\
 V ~NP-OBL NP-ACC NP-OBL~   DERIVED ORDER ~(frozen)\\
     $\nwarrow $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_/
-
-\ea%20
-    \label{ex:key:20}
-    \gll\\
-        \\
-    \glt
     \z
 
-          Group 2:\\
+\ea%20
+    \label{ex:antonyuk:20}
+    Group 2:\\
 V ~NP-OBL ~ NP-ACC ~ ~     BASIC ORDER (amb)\\
 V ~NP-ACC ~ NP-OBL~~~NP-ACC~   DERIVED ORDER ~(frozen)\\
            $\nwarrow $\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_/
-
-\ea%21
-    \label{ex:key:21}
-    \gll\\
-        \\
-    \glt
     \z
 
-          Group 3\\
+\ea%21
+    \label{ex:antonyuk:21}
+    Group 3\\
 V ~NP-ACC ~ NP-OBL ~     BASIC ORDER (amb)\\
 V ~NP-OBL ~ NP-ACC ~~ ~     BASIC ORDER ~(amb)
+    \z
 
 Thus, in Group 1 we expect the frozen NP-OBL > NP-ACC~order to reflect raising of NP-OBL overtly over NP-ACC. In Group 2 we expect the frozen NP-ACC > NP-OBL~order to reflect raising of NP-ACC over NP-OBL.  In Group 3 we have at least two possibilities: either both orders are underived (i.e., base generated) or else one is in fact derived from the other, in a way that results in a configuration that fails to freeze scope.
 
 Before we move on to the structural representations I propose for the three Groups, it is worth asking whether we can independently confirm that the Russian ditransitives do indeed subdivide into the three Groups as discussed above. It turns out there is a number of syntactic tests that the groups differ on. In particular, Groups 1 and 2, which are a mirror image of each other with respect to the scope freezing distribution, also show opposite behavior on a number of tests, briefly discussed below. 
 
-\begin{itemize}
-\item \section{Syntactic evidence supporting ditransitive classification into three groups}
-\end{itemize}
+\section{Syntactic evidence supporting ditransitive classification into three groups}\label{sec:antonyuk:3}
 
-The scope distribution data together with the SFG suggest that the structures of Groups 1 and 2 in particular should effectively be a mirror image of each other. Specifically, while the scope fluidity of ACC > OBL order for Group 1 suggests this is the base order, with the Accusative-marked argument projected higher in the structure, with the opposite order derived by overt QP movement, the scope fluidity of OBL > ACC order for Group 2 verbs suggests the opposite, namely a lower position for the Accusative-marked object. In Antonyuk (2015; 2017; 2018) I have justified the position that the Accusative-marked argument in the latter case cannot be a low direct object but is instead an Oblique argument that originates inside a silent Prepositional Phrase, with the P head case-marking the argument in its complement. Here I will briefly recapitulate the evidence from \citet{Antonyuk2015} supporting this position and then present novel evidence that the low Accusative is indeed not a direct object, but a low Oblique argument.
+The scope distribution data together with the SFG suggest that the structures of Groups 1 and 2 in particular should effectively be a mirror image of each other. Specifically, while the scope fluidity of ACC > OBL order for Group 1 suggests this is the base order, with the Accusative-marked argument projected higher in the structure, with the opposite order derived by overt QP movement, the scope fluidity of OBL > ACC order for Group 2 verbs suggests the opposite, namely a lower position for the Accusative-marked object. In Antonyuk (\citeyear{Antonyuk2015}, \citeyear{Antonyuk2017}, \citeyear{Antonyuk2018}) I have justified the position that the Accusative-marked argument in the latter case cannot be a low direct object but is instead an Oblique argument that originates inside a silent Prepositional Phrase, with the P head case-marking the argument in its complement. Here I will briefly recapitulate the evidence from \citet{Antonyuk2015} supporting this position and then present novel evidence that the low Accusative is indeed not a direct object, but a low Oblique argument.
 
-\begin{itemize}
-\item \begin{itemize}
-\item \subsection{The distributive \textit{po} test}
-\end{itemize}
-\end{itemize}
+\subsection{The distributive \textit{po} test}\label{sec:antonyuk:3.1}
 
 A classic test to use when the status of the direct object is in question is due to \citet{Pesetsky1982}, who noted that direct objects of transitive predicates and subjects of unaccusative predicates may appear as objects of distributive \textit{po} in Russian, while subjects of transitive and unergative predicates typically may not. Indeed, this test, applied to our examples shows that the objects of Group 2 predicates do not distribute, suggesting structural differences from objects of Group 1 and 3 verbs, which do.
 
-\begin{styleinnerExample}
+
 \ea%22
-    \label{ex:key:22}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:22}
+    \gll {Učitel’}            {podaril}    {po} {tetradke}            {každomu} {studentu} \hfill \textbf{Group 1}\\
+    Teacher.\textsc{nom} presented po notebook.\textsc{dat} [every      student].\textsc{acc}\\
+    \glt `The teacher presented a notebook to every student´
     \z
 
-          \textit{Učitel’}            \textit{podaril}    \textit{po} \textit{tetradke}            \textit{každomu} \textit{studentu}   \textbf{Group} \textbf{1}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Teacher-\textsc{nom} presented po notebook-\textsc{dat} [every      student]\textsc{acc}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “The teacher presented a notebook to every student”
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
 \ea%23
-    \label{ex:key:23}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:23}
+    \gll {*Maša}            {ugostila} {po} {rebenku}     {kakim-to} {pečenjem}\\
+    Masha.\textsc{nom} treated   po child.\textsc{dat} [some       cookie].\textsc{instr}\\
+    \glt `Masha treated each child to a cookie´ \hfill \textbf{Group 2}
     \z
 
-          \textit{*Maša}            \textit{ugostila} \textit{po} \textit{rebenku}     \textit{kakim-to} \textit{pečenjem}   \textbf{Group} \textbf{2}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha-\textsc{nom} treated   po child-\textsc{dat} [some       cookie]\textsc{instr}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Masha treated each child to a cookie”
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
 \ea%24
-    \label{ex:key:24}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:24}
+    \gll {Maša}             {napisala} {po} {sloganu}        {na}  {každoj} {stene}\\
+    Masha.\textsc{nom}   wrote     po slogan.\textsc{dat} [on [every  wall].\textsc{prep}]\\
+    \glt `Masha wrote a slogan on every wall´ \hfill \textbf{Group 3}
     \z
 
-          \textit{Maša}             \textit{napisala} \textit{po} \textit{sloganu}        \textit{na}  \textit{každoj} \textit{stene}   \textbf{Group} \textbf{3}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Masha-\textsc{nom}   wrote     po slogan-\textsc{dat} [on [every  wall]\textsc{prep}]
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Masha wrote a slogan on every wall”
-\end{styleinnerExample}
-
-\begin{itemize}
-\item \begin{itemize}
-\item \subsection{The Genitive of Negation test}
-\end{itemize}
-\end{itemize}
+\subsection{The Genitive of Negation test}\label{sec:antonyuk:3.2}
 
 \citet{Pesetsky1982} also argued that Genitive of Negation can be used as a test of unaccusativity in Russian. Applying it to our data we again see a clear dichotomy between Group 1 and Group 2 verbs:
 
-\begin{styleinnerExample}
 \ea%25
-    \label{ex:key:25}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:25}
+    \gll {Učitel’}           {ne}      {podaril}     {tetradki}\\
+    Teacher.\textsc{nom} \textsc{neg} presented notebook.\textsc{gen.fem}\\
+    \glt `The teacher didn’t present a notebook´ \hfill \textbf{Group 1}
     \z
 
-          \textit{Učitel’}           \textit{ne}      \textit{podaril}     \textit{tetradki}   \textbf{Group} \textbf{1}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Teacher \textsc{nom} NEG presented notebook \textsc{gen.fem}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “The teacher didn’t present a notebook”
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
 \ea%26
-    \label{ex:key:26}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:26}
+    \gll {*Maša}           {ne}        {ugostila} {podrugi}\\
+    Masha.\textsc{nom}   \textsc{neg}  treated  girlfriend.\textsc{gen.fem}\\
+    \glt `Masha didn’t treat a friend´ \hfill \textbf{Group 2}
     \z
 
-          \textit{*Maša}           \textit{ne}        \textit{ugostila} \textit{podrugi}   \textbf{Group} \textbf{2}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Masha \textsc{nom}   NEG.  treated.  girlfriend \textsc{gen.fem}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Masha didn’t treat a friend”
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
 \ea%27
-    \label{ex:key:27}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:27}
+    \gll {Maša}            {ne}     {napisala} {zapiski}\\
+    Masha.\textsc{nom}  \textsc{neg} wrote      note.\textsc{gen.fem}\\
+    \glt `Masha didn’t write a note´ \hfill \textbf{Group 3}
     \z
-
-          \textit{Maša}            \textit{ne.}     \textit{napisala} \textit{zapiski}     \textbf{Group} \textbf{3}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Masha \textsc{nom}  NEG wrote.      note \textsc{gen.fem}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Masha didn’t write a note”
-\end{styleinnerExample}
 
 The two tests strongly suggest that the direct objects of Groups 1 and 3 predicates behave like true objects while the supposed “direct objects” of Group 2 predicates apparently do not possess properties expected of true direct objects. This is fully in line with the proposal that the Accusative-marked objects of Group 2 verbs originate low, inside a PP whose null P head assigns lexical Accusative case. 
 
-\begin{itemize}
-\item \begin{itemize}
-\item \subsection{Resultative constructions as an objecthood test in Russian}
-\end{itemize}
-\end{itemize}
+\subsection{Resultative constructions as an objecthood test in Russian}\label{sec:antonyuk:3.3}
 
-Resultative Constructions have been argued to provide a (deep) unaccusativity test in English (Levin and Rappaport \citealt{Hovav1995}; cf. Rappaport \citealt{HovavLevin2001}; \citealt{Kratzer2005}):
+Resultative Constructions have been argued to provide a (deep) unaccusativity test in English (\citealt{LevinRappaportHovav1995}; cf. \citealt{RappaportHovavLevin2001, Kratzer2005}):
 
-\begin{styleinnerExample}
+
 \ea%28
-    \label{ex:key:28}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:28}
+    \ea \label{ex:antonyuk:28a}
+    Dawn pounded the dough flat \hfill \citep{Irvin2012}
+    \ex \label{ex:antonyuk:28b}
+    The carrot juice froze solid.
+    \ex \label{ex:antonyuk:28c}
+    A bottle broke open.
     \z
+\z
 
-          a. Dawn pounded the dough flat   \citep{Irvin2012}
-\end{styleinnerExample}
+In transitive sentences such as \REF{ex:antonyuk:28a} resultatives can be formed from direct objects only and cannot occur with external arguments or with VP-internal oblique arguments. If the test is applicable to Russian, the prediction, given our results so far, is that only the predicates belonging to Groups 1 and 3 will participate in the formation of a resultative construction. If the “direct object” of Group 2 predicates is indeed not a true direct object, it will not be possible to form a grammatical resultative construction on the basis of Group 2 predicates. The sentences below show that the prediction is correct: Group 1 and 3 predicates indeed allow a resultative that includes their direct object, while Group 2 predicates do not. \footnote{There are several important differences to note: first of all, the result state expressed by the Russian construction in question holds of the subject, rather than the direct object. While this may initially suggest that the construction cannot be used as an unaccusativity test in Russian, I maintain that it can, specifically because the subject’s result state comes about by manipulating the direct object in a way specified by the verb, and this is exactly why these examples are ungrammatical with Group 2 verbs.}\todo{čto remains unglossed in the examples}
 
-\begin{styleinnerExample}
-  b. The carrot juice froze solid. 
-\end{styleinnerExample}
+\textbf{Group 1}
 
-\begin{styleinnerExample}
-  c. A bottle broke open. 
-\end{styleinnerExample}
-
-In transitive sentences such as \REF{ex:key:28a} resultatives can be formed from direct objects only and cannot occur with external arguments or with VP-internal oblique arguments. If the test is applicable to Russian, the prediction, given our results so far, is that only the predicates belonging to Groups 1 and 3 will participate in the formation of a resultative construction. If the “direct object” of Group 2 predicates is indeed not a true direct object, it will not be possible to form a grammatical resultative construction on the basis of Group 2 predicates. The sentences below show that the prediction is correct: Group 1 and 3 predicates indeed allow a resultative that includes their direct object, while Group 2 predicates do not. \footnote{There are several important differences to note: first of all, the result state expressed by the Russian construction in question holds of the subject, rather than the direct object. While this may initially suggest that the construction cannot be used as an unaccusativity test in Russian, I maintain that it can, specifically because the subject’s result state comes about by manipulating the direct object in a way specified by the verb, and this is exactly why these examples are ungrammatical with Group 2 verbs.} 
-
-\textbf{Group} \textbf{1}
-
-\begin{styleinnerExample}
 \ea%29
-    \label{ex:key:29}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:29}
+    \gll {Učitel’}  {dodarilsja}               {knig}   {(do} {togo,} {čto} {ostalsja}   {ni}   {s}      {čem)}\\
+    Teacher \textsc{do}-present-\textsc{refl} books to  that    {}     remained not with what\\
+    \glt `The teacher presented books until he was left with nothing´
     \z
 
-          \textit{Učitel’}  \textit{dodarilsja}               \textit{knig}   \textit{(do} \textit{togo,} \textit{čto} \textit{ostalsja}   \textit{ni}   \textit{s}      \textit{čem)}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Teacher DO-present-\textsc{REFL} books to  that         remained not with what
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “The teacher presented books until he was left with nothing”
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
 \ea%30
-    \label{ex:key:30}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:30}
+    \gll {Maša}   {dotrebovalas’}          {povyšenija}        {(do} {togo,} {čto} {ee} {prosto} {uvolili} s raboty)\\
+    Masha \textsc{do}.demand.\textsc{refl} promotion.\textsc{gen} (to  that     {}     her simply fired from work)\\
+    \glt `Masha demanded a promotion to the point of getting herself fired´ 
     \z
 
-          \textit{Maša}   \textit{dotrebovalas’}          \textit{povyšenija}        \textit{(do} \textit{togo,} \textit{čto} \textit{ee} \textit{prosto} \textit{uvolili} 
-\end{styleinnerExample}
+\textbf{Group 2}
 
-\begin{styleinnerExample}
-  Masha DO-demand-REFL promotion-\textsc{gen} (to  that          her simply fired 
-\end{styleinnerExample}
 
-\begin{styleinnerExample}
-  s       raboty)
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  from work)
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Masha demanded a promotion to the point of getting herself fired” 
-\end{styleinnerExample}
-
-\textbf{Group} \textbf{2}
-
-\begin{styleinnerExample}
 \ea%31
-    \label{ex:key:31}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:31}
+    \gll {*Maša}   {dougoščalas’}     {podrug} {(do} {togo,} {čto} {vse} {popali} {v}  {reanimaciju)}\\
+    Masha \textsc{do}.treat.\textsc{refl} friends (to that   {}       all  got      in {ICU})\\
+    \glt `Masha treated her girlfriends to the point of everyone ending up in ICU´
     \z
 
-          \textit{*Maša}   \textit{dougoščalas’}     \textit{podrug} \textit{(do} \textit{togo,} \textit{čto} \textit{vse} \textit{popali} \textit{v}  \textit{reanimaciju)}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha DO-treat-REFL friends (to that          all  got      in ICU)
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Masha treated her girlfriends to the point of everyone ending up in ICU”
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
 \ea%32
-    \label{ex:key:32}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:32}
+    \gll {*Maša}   {doobižalas’}         {druzej}            {(do}   {togo,} {čto} {ostalas’}   {odna)}\\
+    Masha \textsc{do}.insult.\textsc{refl} friends.\textsc{gen}   (until that   she remained alone)\\
+    \glt `Masha kept insulting friends to the point that she had noone left´
     \z
 
-        
-\end{styleinnerExample}
+\textbf{Group 3}
 
-\begin{styleinnerExample}
-  \textit{*Maša}   \textit{doobižalas’}         \textit{druzej}            \textit{(do.}   \textit{togo,} \textit{čto} \textit{ostalas’}   \textit{odna)}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-     Masha DO-insult-REFL friends-\textsc{gen}   (until that   she remained alone)
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Masha kept insulting friends to the point that she had noone left”
-\end{styleinnerExample}
-
-\textbf{Group} \textbf{3}
-
-\begin{styleinnerExample}
 \ea%33
-    \label{ex:key:33}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:33}
+    \gll {Maša}   {dopisalas’}            {sloganov}       {(do}     {togo,} {čto} {ee} {stil’} {načali} uznavat’)\\
+    Masha \textsc{do}.write-\textsc{refl}  slogans.\textsc{gen}  (until that   her     style became recognizable)\\
+    \glt `Masha wrote so many slogans that her style became recognizable´
     \z
 
-          \textit{Maša}   \textit{dopisalas’}            \textit{sloganov}       \textit{(do}     \textit{togo,} \textit{čto} \textit{ee} \textit{stil’} \textit{načali} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Masha DO-write-REFL  slogans-\textsc{gen}  (until that   her     style became 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  uznavat’)
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  recognizable)
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “Masha wrote so many slogans that her style became recognizable”
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
 \ea%34
-    \label{ex:key:34}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:34}
+    \gll {Vanja} {dozagružalsja}    {kirpičej}      {(do}    {polusmerti)}\\
+    Vania \textsc{do}.load.\textsc{refl} bricks.\textsc{gen} (until half.death)\\
+    \glt `Vania loaded bricks until he was half-alive´
     \z
 
-          \textit{Vanja} \textit{dozagružalsja}    \textit{kirpičej}      \textit{(do}    \textit{polusmerti)}
-\end{styleinnerExample}
+Note that despite some obvious differences, the resultative construction exemplified above which I will dub “Russian Unaccusative Resultative” (RUR) bears many similarities to a construction \citet{Tatevosov2010} refers to as a “Russian Intensive Resultative” (RIR) in \REF{ex:antonyuk:35b}, which in turn is very similar to the English Reflexive Resultative (ERR) \REF{ex:antonyuk:36b}.
 
-\begin{styleinnerExample}
-  Vania DO-load-REFL bricks-\textsc{gen} (until half-death)
-\end{styleinnerExample}
 
-\begin{styleinnerExample}
-  “Vania loaded bricks until he was half-alive”
-\end{styleinnerExample}
-
-Note that despite some obvious differences, the resultative construction exemplified above which I will dub “Russian Unaccusative Resultative” (RUR) bears many similarities to a construction \citet{Tatevosov2010} refers to as a “Russian Intensive Resultative” (RIR) in \REF{ex:key:35b}, which in turn is very similar to the English Reflexive Resultative (ERR) \REF{ex:key:36b}.
-
-\begin{styleinnerExample}
 \ea%35
-    \label{ex:key:35}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:35}
+    \ea \label{ex:antonyuk:35a}
+    {Turisty} {gulja-l-i.}\\
+    `The tourists walked´\todo{If there won't be a gloss line, the hyphens might be redundant}
+    \ex \label{ex:antonyuk:35b}
+    \gll \textbf{Turisty} \textbf{na-gulja-l-i-s’}. \\
+    Tourists \textsc{na-}walk\textsc{-pst-pl-refl}\\
+    \glt `By walking, the tourists achieved a state of being satisfied.´ The tourists walked. 
     \z
+\z
 
-           a.  \textit{Turisty} \textit{gulja-l-i.}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    The tourists walked
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textbf{Turisty} \textbf{na-gulja-l-i-s’.} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Tourists NAwalkPST-PL-REFL
-\end{styleinnerExample}
-<<<<<<< HEAD
-
-\begin{styleinnerExample}
-    “By walking, the tourists achieved a state of being satisfied.” The tourists walked. 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-=======
-
-\begin{styleinnerExample}
-    “By walking, the tourists achieved a state of being satisfied.” The tourists walked. 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
->>>>>>> 0b31168... antonyuk compiles, but with errors
 \ea%36
-    \label{ex:key:36}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:36}
+    \ea \label{ex:antonyuk:36a}
+    The tourists walked.
+    \ex \label{ex:antonyuk:36b}
+    \textbf{The tourists walked themselves tired.} 
     \z
-
-          a.   The tourists walked.
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.   \textbf{The} \textbf{tourists} \textbf{walked} \textbf{themselves} \textbf{tired.} 
-\end{styleinnerExample}
+\z
 
 The similarities between RUR and Tatevosov’s RIR (as well as the ERR) are listed below. First of all, the constructions in question create telic predicates:\\
 
-\begin{styleinnerExample}
 \ea%37
-    \label{ex:key:37}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:37}
+    \ea \label{ex:antonyuk:37a}
+    \gll {Turisty} {na-gulja-l-i-s’}                 {\{za} {čas} {/} {*čas\}}\\
+    Tourists      \textsc{na-}walk\textsc{-pst-pl-refl} in hour / *hour\\
+    \glt `By walking, the tourists achieved a state of being satisfied.´ The tourists walked. \hfill \textbf{RIR}
+    \ex \label{ex:antonyuk:37b}
+    The tourists walked themselves tired \{in an hour / *for a hour\} \hfill \textbf{ERR}
     \z
+\z
 
-          a.  \textit{Turisty} \textit{na-gulja-l-i-s’}                 \textit{\{za} \textit{čas} \textit{/} \textit{*čas\}}   \textbf{RIR}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  Tourists      NAwalkPST-PL-REFL in hour/ *hour
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  “By walking, the tourists achieved a state of being satisfied.” The tourists walked. 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  The tourists walked themselves tired \{in an hour / *for a hour\} \textbf{ERR}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
 \ea%38
-    \label{ex:key:38}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:38}
+    \ea \label{ex:antonyuk:38a}
+    \gll {Maša}   {dotrebovalas’}          {povyšenija}        {\{za} {god/*god\}}\\
+    Masha \textsc{do}.demand.\textsc{refl} promotion.\textsc{gen} in year/*year\\
+    \glt `Masha got herself  a promotion in a year (by demanding it)´ \hfill \textbf{RUR}
+    \ex \label{ex:antonyuk:38b}
+    \gll {Vanja} {doprinosilsja}      {[ploxix} {novostej]} {\{za} {god/*god}\} (do togo, čto {ego} {izbili)}\\
+    Vania \textsc{do}.bring.\textsc{refl} [bad    news].\textsc{gen}  in year/*year to that {} him beat.up.\textsc{pst.pl.ind}\\
+    \glt `Vania brought so much bad news in a year that he was beat up for it´
+    \ex \label{ex:antonyuk:38c}
+    \gll {Vanja} {dozagružalsja}     {kirpičej}  {\{za} {čas} {/} *čas\} (do     polusmerti)\\
+    Vania \textsc{do}.load.\textsc{refl} bricks.\textsc{gen} in hour / *hour (until half.death)\\
+    \glt `In an hour, Vania loaded bricks until he was feeling half-dead´
     \z
+\z
 
-           a.  \textit{Maša}   \textit{dotrebovalas’}          \textit{povyšenija}        \textit{\{za} \textit{god/*god\}} \textbf{RUR}
-\end{styleinnerExample}
+Furthermore, as noted by \citeauthor{Tatevosov2010}, both RIR and ERR, combined with rate adverbials like ‘quickly’ fail to entail the truth of their non-derived counterparts modified by the same adverbial:
 
-\begin{styleinnerExample}
-    Masha DO-demand-REFL promotion\textsubscript{GEN}in year/     *year
-\end{styleinnerExample}
 
-\begin{styleinnerExample}
-    “Masha got herself  a promotion in a year (by demanding it)”
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textit{Vanja} \textit{doprinosilsja}      \textit{[ploxix} \textit{novostej]} \textit{\{za} \textit{god/*god\}(do togo, čto} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Vania DO-bring-REFL [bad    news]\textsubscript{GEN}  in year/ *year to that 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    \textit{ego} \textit{izbili)}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    himbeat.up\textsubscript{PST.PL.IND}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Vania brought so much bad news in a year that he was beat up for it”
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  c.  \textit{Vanja} \textit{dozagružalsja}     \textit{kirpičej}  \textit{\{za} \textit{čas} \textit{/} \textit{*čas\} (do     polusmerti)}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Vania DO-load\_REFL bricks\textsubscript{GEN} in hour/ *hour (until half-death)
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “In an hour, Vania loaded bricks until he was feeling half-dead”
-\end{styleinnerExample}
-
-Furthermore, as noted by Tatevosov, both RIR and ERR, combined with rate adverbials like ‘quickly’ fail to entail the truth of their non-derived counterparts modified by the same adverbial:
-
-\begin{styleinnerExample}
 \ea%39
-    \label{ex:key:39}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:39}
+    \ea \label{ex:antonyuk:39a}
+    John walked quickly.
+    \ex \label{ex:antonyuk:39b}
+    John walked himself tired quickly. (≠> John walked quickly.) 
     \z
+\z
 
-          a.  John walked quickly.
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  John walked himself tired quickly. (≠> John walked quickly.) 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
 \ea%40
-    \label{ex:key:40}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:40}
+    \ea \label{ex:antonyuk:40a}
+    {Vasja} {bystro} {begal}\\
+    `Vasja ran quickly.´
+    \ex \label{ex:antonyuk:40b}
+    \gll {Vasja} {bystro} {nabegalsja}\\
+    Vasia quickly \textsc{na}.run.\textsc{refl}\\
+    \glt `Vasja ran himself into a state of being satisfied quickly´. (≠>‘Vasja ran quickly.’)
     \z
-
-          a.  \textit{Vasja} \textit{bystro} \textit{begal}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Vasja ran quickly.” 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textit{Vasja} \textit{bystro} \textit{nabegalsja}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Vasia quickly NA-run-REFL
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Vasja ran himself into a state of being satisfied quickly”. (≠>‘Vasja ran quickly.’) 
-\end{styleinnerExample}
+\z
 
 Interestingly, RUR behaves in exactly the same way, with the resultative combined with rate adverbial failing to entail the truth of the non-resultative counterpart:
 
-\begin{styleinnerExample}
 \ea%41
-    \label{ex:key:41}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:41}
+    \ea \label{ex:antonyuk:41a}
+    \gll {Vanja}         {bystro}   {zagružal} {kirpiči}\\
+    Vania.\textsc{nom} quickly loaded     bricks.\textsc{acc}\\
+    \ex \label{ex:antonyuk:41b}
+    \gll {Vania} {bystro}     {dozagružalsja}   {kirpičej}       {do}  {polusmerti} {≠>} {Vanja}  {bystro}   {zagružal}   {kirpiči} \\
+    Vania quickly \textsc{do}.load.\textsc{refl}   bricks.\textsc{gen}  to  half.death  ≠> Vania quickly loaded   bricks.\textsc{acc}\\
+    \glt `Vania quickly got himself into the state of being half-dead by loading bricks´
     \z
+\z
 
-           a.  \textit{Vanja.}         \textit{bystro}   \textit{zagružal} \textit{kirpiči}
-\end{styleinnerExample}
+\citeauthor{Tatevosov2010} proposes that “the affixal nature of the result expression in Russian has straightforward consequences for its interpretation: in Russian, unlike in English, descriptive properties of a result state are underspecified”. He demonstrates that the result state in RIRs that is obtained due to the lexical contribution of the resultative affix ({na}{}-) is a cancellable implicature:
 
-\begin{styleinnerExample}
-    Vania \textsc{nom} quickly loaded     bricks \textsc{acc}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textit{Vania} \textit{bystro}     \textit{dozagružalsja}   \textit{kirpičej}       \textit{do}  \textit{polusmerti} \textit{≠>} \textit{Vanja} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Vania quickly DO-load-REFL   bricks\textsc{gen}  to  halfdeath  ≠> Vania \\
-\textit{bystro}   \textit{zagružal}   \textit{kirpiči\\
-}quickly loaded   bricks\textsc{acc}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Vania quickly got himself into the state of being half-dead by loading bricks”
-\end{styleinnerExample}
-
-Tatevosov proposes that “the affixal nature of the result expression in Russian has straightforward consequences for its interpretation: in Russian, unlike in English, descriptive properties of a result state are underspecified”. He demonstrates that the result state in RIRs that is obtained due to the lexical contribution of the resultative affix (\textit{na}{}-) is a cancellable implicature: \\
-
-\begin{styleinnerExample}
 \ea%42
-    \label{ex:key:42}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:42}
+    \citep{Tatevosov2010}\\
+    \gll {Turisty} {na-gulja-l-i-s’} {do} {iznemoženija.}\\
+    Tourists   \textsc{na}.walk\textsc{-pst-pl-refl} to exhaustion\\
+    \glt `By walking, the tourists achieved a state of being exhausted.´ 
     \z
 
-          \textit{Turisty} \textit{na-gulja-l-i-s’}                     \textit{do} \textit{iznemoženija.} \citep{Tatevosov2010}
-\end{styleinnerExample}
+Unlike the prefix {na}{}- of RIR, which typically contributes a positive connotation, suggesting the subject enters into a pleasant state, the prefix {do{}-} of RUR typically contributes a negative connotation, suggesting the subject entered a negative state as a result of his or her actions, which is nevertheless also a cancellable implicature (cf. \REF{ex:antonyuk:43a} and \REF{ex:antonyuk:43b}):
 
-\begin{styleinnerExample}
-  Tourists   NA-walk-PST-PL-REFL to exhaustion
-\end{styleinnerExample}
 
-\begin{styleinnerExample}
-  “By walking, the tourists achieved a state of being exhausted.” 
-\end{styleinnerExample}
-
-Unlike the prefix \textit{na}{}- of RIR, which typically contributes a positive connotation, suggesting the subject enters into a pleasant state, the prefix \textit{do{}-} of RUR typically contributes a negative connotation, suggesting the subject entered a negative state as a result of his or her actions, which is nevertheless also a cancellable implicature (cf. \REF{ex:key:43a} and \REF{ex:key:43b}):
-
-\begin{styleinnerExample}
 \ea%43
-    \label{ex:key:43}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:43}
+    \ea \label{ex:antonyuk:43a}
+    \gll {Maša}   {dotrebovalas’}          {povyšenija}       {\{za} {god/*god\}}\\
+    Masha \textsc{do}.demand.\textsc{refl} promotion.\textsc{gen} \{in year/*year\}\\
+    \glt `Masha got herself  a promotion in a year (by demanding it)´
+    \ex \label{ex:antonyuk:43b}
+    \gll {Maša}   {dotrebovalas’}            {povyšenija}            {do} {togo,} {čto} {ee}   {prosto} uvolili\\
+    Masha \textsc{do}.demand.\textsc{refl}   promotion.\textsc{gen}     to that {} her simply fired.\textsc{pst.pl.indef}\\
+    \glt `Masha got herself fired by demanding a promotion too much´
     \z
+\z
 
-          a.  \textit{Maša}   \textit{dotrebovalas’}          \textit{povyšenija}       \textit{\{za} \textit{god/*god\}}
-\end{styleinnerExample}
+With respect to the crucial differences between RIR and RUR, it is important to note that \citet{Tatevosov2010} argues that both RIRs and ERRs “refer to events in which a certain property of the participant undergoes a gradual change. This change leads the participant to the result state whose descriptive properties are fully specified in English and underspecified in Russian. In English, the participant undergoing change can and in Russian must be identical to the subject.”[underlining is mine] The above view naturally explains another noted property of RIRs and ERRs, discussed by \citeauthor{Tatevosov2010}, namely the fact that both constructions exhibit parallel lexical restrictions and “tend to be licensed for the same classes of non-derived verbs, intransitive activity verbs or transitive activity verbs, but not for unaccusatives”. Despite all the similarities with the RIRs, RURs are crucially different semantically in that the direct object in RURs either signifies the result state obtained through the action denoted by the verb, or crucially contributes to the result state by being the object manipulated to a degree that a certain result state obtains (see \REF{ex:antonyuk:38c}, for instance). Given their semantics, informally described above, RIR is incompatible with a direct object while RUR is ungrammatical without one. Interestingly, using the latter without the direct object renders the construction ungrammatical for Group 1 and 3 predicates, but dramatically improves the grammaticality of Group 2 predicates on the resultative meaning, with such sentences being perfectly acceptable on the RIR interpretation in which the resulting change necessarily describes the state of the subject:
 
-\begin{styleinnerExample}
-    Masha DO-demand-REFL promotion-\textsc{gen}\{in year/*year\}
-\end{styleinnerExample}
 
-\begin{styleinnerExample}
-                     “Masha got herself  a promotion in a year (by demanding it)” 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textit{Maša}   \textit{dotrebovalas’}            \textit{povyšenija}            \textit{do} \textit{togo,} \textit{čto} \textit{ee}   \textit{prosto}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha DO-demand-REFL   promotion-\textsc{gen.}     to that\textsubscript{}  her simply 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    uvolili
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    fired\textsc{pst.pl.indef}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Masha got herself fired by demanding a promotion too much”
-\end{styleinnerExample}
-
-With respect to the crucial differences between RIR and RUR, it is important to note that \citet{Tatevosov2010} argues that both RIRs and ERRs “refer to events in which a certain property of the participant undergoes a gradual change. This change leads the participant to the result state whose descriptive properties are fully specified in English and underspecified in Russian. In English, the participant undergoing change can and in Russian must be identical to the subject.”[underlining is mine] The above view naturally explains another noted property of RIRs and ERRs, discussed by Tatevosov, namely the fact that both\\
-constructions exhibit parallel lexical restrictions and “tend to be licensed for the same classes of non-derived verbs, intransitive activity verbs or transitive activity verbs, but not for unaccusatives”. Despite all the similarities with the RIRs, RURs are crucially different semantically in that the direct object in RURs either signifies the result state obtained through the action denoted by the verb, or crucially contributes to the result state by being the object manipulated to a degree that a certain result state obtains (see \REF{ex:key:38c}, for instance). Given their semantics, informally described above, RIR is incompatible with a direct object while RUR is ungrammatical without one. Interestingly, using the latter without the direct object renders the construction ungrammatical for Group 1 and 3 predicates, but dramatically improves the grammaticality of Group 2 predicates on the resultative meaning, with such sentences being perfectly acceptable on the RIR interpretation in which the resulting change necessarily describes the state of the subject:
-
-\begin{styleinnerExample}
 \ea%44
-    \label{ex:key:44}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:44}
+    \textbf{Group 1:}
+    \ea \label{ex:antonyuk:44a}
+    \gll * {Maša}   {dotrebovalas’}\\
+    {} Masha   \textsc{do}.demand.\textsc{refl}\\
+    \ex \label{ex:antonyuk:44b}
+    \gll {*Vania}   {doprinosilsja}\\
+    Vania   \textsc{do}.bring.\textsc{refl}\\
     \z
+\z
 
-          \textbf{Group} \textbf{1:}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  a.  \textit{*Maša}   \textit{dotrebovalas’} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-     Masha   DO-demand-REFL\\\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textit{*Vania}   \textit{doprinosilsja} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-      Vania   DO-bring-REFL
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
 \ea%45
-    \label{ex:key:45}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:45}
+    \textbf{Group 2:}
+    \ea \label{ex:antonyuk:45a}
+    \gll {Maša}   {doobzivalas’}\\
+    Masha \textsc{do}.insult.\textsc{refl}\\
+    \ex \label{ex:antonyuk:45b}
+    \gll {Maša}  {doobižalas’}\\
+    Masha \textsc{do}.offend.\textsc{refl}\\
     \z
+\z
 
-          \textbf{Group} \textbf{2:}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  a.  \textit{Maša}   \textit{doobzivalas’} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha DO-insult-REFL\\\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textit{Maša}  \textit{doobižalas’} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha DO-offend-REFL
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
 \ea%46
-    \label{ex:key:46}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:46}
+    \textbf{Group 3:}
+    \ea \label{ex:antonyuk:46a}
+    \gll {*/??Maša} {dopisalas’}\\
+    Masha \textsc{do}.write.\textsc{refl}\\
+    \ex \label{ex:antonyuk:46b}
+    \gll {*Vania} {dozagružalsja}\\
+    Vania \textsc{do}.load.\textsc{refl}\\
     \z
-
-          \textbf{Group} \textbf{3:}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  a.  \textit{*/??Maša} \textit{dopisalas’}  
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha DO-write-REFL\\\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textit{*Vania} \textit{dozagružalsja} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-      Vania DO-load-REFL
-\end{styleinnerExample}
+\z
 
 Thus, again, we see a clear dichotomy between Groups 1/3 and Group 2. The “direct objects” of the latter Group simply do not behave as such. Taken together, the three diagnostics discussed here provide strong evidence for the argument that Group 2 predicates do not in fact subcategorize for a direct object, as the Accusative-marked objects of such verbs do not exhibit syntactic behavior expected of direct objects. In the following section I will briefly discuss the structures I posit for the three Groups of Russian ditransitives that account for their syntactic behavior and QP scope distribution, in line with the Scope Freezing Generalization.
 
-\begin{itemize}
-\item \section{The proposed structures for the three groups of Russian ditransitives}
-\end{itemize}
+\section{The proposed structures for the three groups of Russian ditransitives}\label{sec:antonyuk:4}
 
-\\
 Given that Groups 1 and 2 are essentially the mirror image of each other with respect to scope behavior, with one order of internal arguments frozen and the opposite order scopally fluid, it makes sense to approach them in a similar fashion, with the same logic applying to both Groups. Specifically, taking the Scope Freezing Generalization as our background assumption, we are committed to the conclusion that the two orders of the predicates belonging to Group 1 and Group 2, despite their differences, are derivationally related. That is, both Group 1 and Group 2 verbs will require a derivational analysis of their base-generated structures.
 
-\begin{itemize}
-\item \begin{itemize}
-\item \subsection{Possible structures for group 1 predicates}
-\end{itemize}
-\end{itemize}
+\subsection{Possible structures for group 1 predicates}\label{sec:antonyuk:4.1}
 
-\\
-To remind the reader, Group 1 predicates are those where scope is frozen on OBL > ACC order and free on the ACC > OBL order. Logically speaking, two kinds of analyses appear to be possible, given our underlying assumptions, but we’ll only consider \REF{ex:key:47a} to be a viable option here.\footnote{I assume that the frozen scope order is derived via overt movement and that in most cases ambiguous scope within the vP is an indicator of a base-generated order.} \textsuperscript{,}\footnote{A reviewer points out that raising into Spec, ApplP is an unjustified move since this would constitute raising into an argument position. This objection relies on assumptions that are not shared by all (see \citealt{Larson2014} for discussion). I will not develop the Raising-into-Spec,ApplP analysis here mostly due to space limitations.}
+To remind the reader, Group 1 predicates are those where scope is frozen on OBL > ACC order and free on the ACC > OBL order. Logically speaking, two kinds of analyses appear to be possible, given our underlying assumptions, but we’ll only consider \REF{ex:antonyuk:47a} to be a viable option here.\footnote{I assume that the frozen scope order is derived via overt movement and that in most cases ambiguous scope within the vP is an indicator of a base-generated order.} \textsuperscript{,}\footnote{A reviewer points out that raising into Spec, ApplP is an unjustified move since this would constitute raising into an argument position. This objection relies on assumptions that are not shared by all (see \citealt{Larson2014} for discussion). I will not develop the Raising-into-Spec,ApplP analysis here mostly due to space limitations.}
 
-\begin{styleinnerExample}
 \ea%47
-    \label{ex:key:47}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:47}
+    \ea \label{ex:antonyuk:47a}
+    OBL has been overtly raised to an adjoined position.
+    \ex \label{ex:antonyuk:47b}
+    OBL has been raised to Spec,ApplP.
     \z
+\z
 
-          a.  OBL has been overtly raised to an adjoined position.
-\end{styleinnerExample}
+With respect to \REF{ex:antonyuk:47a}, the only viable option is that in \figref{fig:antonyuk:1}, supported by the placement of agent-oriented adverbs (“deliberately”, ”purposefully”, “willingly”, etc.), which are typically assumed to adjoin high to the vP where the Agent role is introduced or checked, as well as the lack of verb raising to T in Russian (cf. 48a vs 48b):
 
-\begin{styleinnerExample}
-  b.  OBL has been raised to Spec,ApplP.
-\end{styleinnerExample}
-
-With respect to \REF{ex:key:47a}, the only viable option is that in \figref{fig:key:1}, supported by the placement of agent-oriented adverbs (“deliberately”, ”purposefully”, “willingly”, etc.), which are typically assumed to adjoin high to the vP where the Agent role is introduced or checked, as well as the lack of verb raising to T in Russian (cf. 48a vs 48b):
-
-\textbf{\figref{fig:key:1}.}
-
-%%[Warning: Draw object ignored]
-  
-%%please move the includegraphics inside the {figure} environment
-%%\includegraphics[width=\textwidth]{figures/antonyyuk-img001.png}
- 
-<<<<<<< HEAD
+%Figure 1
 \begin{figure}
 \caption{Derived order of a Group 1 verb.}
-=======
-
-\textit{\\\begin{figure}
-\caption{Derived order of a Group 1 verb.}}
->>>>>>> 0b31168... antonyuk compiles, but with errors
-\label{fig:key:1}
+\label{fig:antonyuk:1}
+\begin{forest}
+for tree={s sep=20mm, inner sep=0, l=0}
+[TP
+    [DP]
+    [T'
+        [T]
+        [vP
+            [\textbf{ADV}]
+            [vP
+                [\textcolor{gray}{DP}]
+                [v'
+                    [v]
+                    [VP
+                        [\textbf{OBL},name=OBLhigh]
+                        [VP
+                            [{DP(ACC)}]
+                            [V'
+                                [V]
+                                [\textcolor{gray}{OBL},name=OBLlow]
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        ]
+    ]
+]
+\draw[->] (OBLlow) to[out=south west,in=south] (OBLhigh);
+\end{forest}
 \end{figure}
 
 Testing this prediction with a Group 1 predicate we get the following results:
 
-\begin{styleinnerExample}
 \ea%48
-    \label{ex:key:48}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:48}
+    \ea \label{ex:antonyuk:48a}
+    \gll {Maša}   {special’no}    {potrebovala} {s}       {Ivana}      {dengi}\\
+    Masha purposefully demanded     from Ivan.\textsc{gen} money.\textsc{acc}\\
+    \glt `Masha demanded money~from Ivan´
+    \ex \label{ex:antonyuk:48b}
+    \gll {*Maša}   {potrebovala}  {s}       {Ivana}       {special’no} {dengi}\\
+    Masha purposefully from Ivan.\textsc{gen} demanded  money.\textsc{acc}\\
     \z
+\z
 
-           a.  \textit{Maša}   \textit{special’no}    \textit{potrebovala} \textit{s}       \textit{Ivana}      \textit{dengi~}
-\end{styleinnerExample}
+Note that the structure in \figref{fig:antonyuk:1} is identical to that proposed for Russian ditransitives in Bailyn (\citeyear{Bailyn1995}, \citeyear{Bailyn2012}) based on independent types of evidence, thus our conclusions here converge with previous research.\footnote{The conclusions regarding the base-generated order of Group 1 (and Group 3) verbs also converge with the findings reported in \citet{Titov2017}, who argues that once Information-Structural considerations licensing various derived word orders in Russian are controlled for, the “canonical” order of Russian ditransitive verbs emerges, that being the ACC > DAT order (see also Cepeda \& Cyrino, this volume, for a similar conclusion regarding Spanish, European Portuguese and Brazilian Portuguese). Note, however, that the general results reported here contradict the conclusions of \citet{Titov2017}, as it is shown here that there is no homogeneity among Russian ditransitives, with Group 2 verbs having a different base-generated order which is reflected in significant differences in their syntactic behavior, something Titov’s account has nothing to say about. Thus, one of the verbs Titov discusses, \textit{podvergnut’}, is a typical Group 2 verb, whereas Titov argues for the same ACC >> DAT base order for this and all other verbs she considers and furthermore argues that these conclusions hold quite generally for all ditransitive predicates in Russian. To the extent that the conclusions reached in this paper are correct, however, they suggest that while controlling for Information Structure licensing may be necessary, it will not be sufficient to correctly determine verbal argument structure and that QP scope distribution patterns provide a more accurate diagnostic of internal argument structure.} 
 
-\begin{styleinnerExample}
-    Masha purposefully demanded     from Ivan \textsc{gen~}money \textsc{acc}
-\end{styleinnerExample}
+\subsection{Possible structures for group 2 predicates}\label{sec:antonyuk:4.2}
 
-\begin{styleinnerExample}
-    “Masha demanded money~from Ivan”\\\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textit{*Maša}   \textit{potrebovala}  \textit{s}       \textit{Ivana}       \textit{special’no} \textit{dengi}~
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-      Masha purposefully from Ivan\textsc{{}-gen~}demanded  money \textsc{acc}
-\end{styleinnerExample}
-
-Note that the structure in \figref{fig:key:1} is identical to that proposed for Russian ditransitives in \citet{Bailyn1995}, \REF{ex:key:2012} based on independent types of evidence, thus our conclusions here converge with previous research.\footnote{The conclusions regarding the base-generated order of Group 1 (and Group 3) verbs also converge with the findings reported in \citet{Titov2017}, who argues that once Information-Structural considerations licensing various derived word orders in Russian are controlled for, the “canonical” order of Russian ditransitive verbs emerges, that being the ACC > DAT order (see also Cepeda \& Cyrino, this volume, for a similar conclusion regarding Spanish, European Portuguese and Brazilian Portuguese). Note, however, that the general results reported here contradict the conclusions of \citet{Titov2017}, as it is shown here that there is no homogeneity among Russian ditransitives, with Group 2 verbs having a different base-generated order which is reflected in significant differences in their syntactic behavior, something Titov’s account has nothing to say about. Thus, one of the verbs Titov discusses, \textit{podvergnut’}, is a typical Group 2 verb, whereas Titov argues for the same ACC >> DAT base order for this and all other verbs she considers and furthermore argues that these conclusions hold quite generally for all ditransitive predicates in Russian. To the extent that the conclusions reached in this paper are correct, however, they suggest that while controlling for Information Structure licensing may be necessary, it will not be sufficient to correctly determine verbal argument structure and that QP scope distribution patterns provide a more accurate diagnostic of internal argument structure.} 
-
-\begin{itemize}
-\item \begin{itemize}
-\item \subsection{Possible structures for group 2 predicates}
-\end{itemize}
-\end{itemize}
-
-We have seen that assuming the correctness of SFG entails that the Accusative-marked object of Group 2 verbs must be generated lower than the Oblique-marked argument (see 49 below). I have proposed in \citet{Antonyuk2015} that this is due to the fact that the low Accusative is not a true direct object, but is effectively an Oblique argument base-generated low inside a PP, with a silent P head assigning it lexical Accusative case. 
+We have seen that assuming the correctness of SFG entails that the Accusative-marked object of Group 2 verbs must be generated lower than the Oblique-marked argument (see \REF{ex:antonyuk:49} below). I have proposed in \citet{Antonyuk2015} that this is due to the fact that the low Accusative is not a true direct object, but is effectively an Oblique argument base-generated low inside a PP, with a silent P head assigning it lexical Accusative case. 
 
 \ea%49
-    \label{ex:key:49}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:49}
+    V ~ NP (ACC) NP-OBL~~~NP (ACC)  DERIVED ORDER (frozen)  ~                               {\textbackslash}\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_/
     \z
-
-        
-
-V ~ NP (ACC) NP-OBL~~~NP (ACC)  DERIVED ORDER (frozen)  ~                               {\textbackslash}\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_/
 
 Regarding the structural possibilities themselves, as was already noted, they appear to be quite similar to those available for Group 1 verbs:
 
-\begin{styleinnerExample}
+
 \ea%50
-    \label{ex:key:50}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:50}
+    \ea \label{ex:antonyuk:50a}
+    [PP P DP\textsc{acc~}] raises over OBL and adjoin to VP
+    \ex \label{ex:antonyuk:50b}
+    [PP P DP\textsc{acc~]}\textsubscript{} raises over OBL to Spec,ApplP.
     \z
-
-          a.   [PP P DP\textsc{acc~}] raises over OBL and adjoin to VP
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.   [PP P DP\textsc{acc~]}\textsubscript{} raises over OBL to Spec,ApplP.
-\end{styleinnerExample}
+\z
 
 In terms of the Agent-oriented adverbs, the two Groups behave alike, which means analyses requiring high adjunction with concomitant v-to-T raising are highly unlikely:
 
-\begin{styleinnerExample}
 \ea%51
-    \label{ex:key:51}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:51}
+    \ea \label{ex:antonyuk:51a}
+    \gll {Maša}   {special’no}    {obozvala} {[vrednogo}  {malčika]} {(nexorošim} {slovom)}\\
+    Masha purposefully called      [capricious boy].\textsc{acc} [bad word].\textsc{instr}\\
+    \glt `Masha purposefully called a capricious boy with a bad word´
+    \ex \label{ex:antonyuk:51b}
+    \gll {*Maša}  {obozvala} {[vrednogo} {malčika]}  {special’no}      {(nexorošim} {slovom)}\\
+    Masha called     [capricious boy].\textsc{acc} purposefully  [bad word].\textsc{instr}\\
+    \glt `Masha purposefully called a capricious boy with a bad word´
     \z
+\z
 
-           a.  \textit{Maša}   \textit{special’no}    \textit{obozvala} \textit{[vrednogo}  \textit{malčika]} \textit{(nexorošim}
-\end{styleinnerExample}
+Given these considerations, the structure of a sentence such as \REF{ex:antonyuk:52a} would seem to be something like in \figref{fig:antonyuk:2}, where the sentence contains two oblique complements (a DP and a PP).
 
-\begin{styleinnerExample}
-    Masha purposefully called      [capricious boy]\textsc{acc} [bad
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    \textit{slovom)}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    word]\textsc{instr}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Masha purposefully called a capricious boy with a bad word”
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textit{*Maša}  \textit{obozvala} \textit{[vrednogo} \textit{malčika]}  \textit{special’no}      \textit{(nexorošim} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-      Masha called     [capricious boy]\textsc{acc~} purposefully  [bad
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    \textit{slovom)}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    word]\textsc{instr}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Masha purposefully called a capricious boy with a bad word”
-\end{styleinnerExample}
-
-Given these considerations, the structure of a sentence such as \REF{ex:key:52a} would seem to be something like in \figref{fig:key:2}, where the sentence contains two oblique complements (a DP and a PP).
-
-\begin{styleinnerExample}
 \ea%52
-    \label{ex:key:52}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:52}
+    \ea \label{ex:antonyuk:52a}
+    \gll {Maša}   {ugostila} {(kakim-to} {pečenjem)}      {každogo} {rebenka}\\
+    Masha treated   [some       cookie].\textsc{instr} [every     child].\textsc{acc}\\
+    \glt `Masha treated every child to some cookie´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \ex \label{ex:antonyuk:52b}
+    \gll {Maša}   {ugostila} {[kakogo-to} {rebenka]}  {(každym} {pečenjem)}\\
+    Masha treated   [some         child].\textsc{acc} [every    cookie].\textsc{instr}\\
+    \glt `Masha treated some child to every cookie´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
+\z
 
-           a.  \textit{Maša}   \textit{ugostila} \textit{(kakim-to} \textit{pečenjem)}      \textit{každogo} \textit{rebenka}
-\end{styleinnerExample}
+%Figure 2
+\begin{figure}
+\caption{Base order of a Group 2 verb.}
+\label{fig:antonyuk:2}
+\begin{forest}
+for tree={s sep=18mm, inner sep=0, l=0}
+[vP
+    [DP [Masha, roof]]
+    [v'
+        [treat]
+        [VP
+            [DP [{some cookie(INSTR)}, roof]]
+            [V'
+                [treat]
+                [PP
+                    [P]
+                    [DP [{every child(ACC)}, roof]]
+                ]
+            ]
+        ]
+    ]
+]
+\end{forest}
+\end{figure}
 
-\begin{styleinnerExample}
-    Masha treated   [some       cookie]\textsc{instr}[every     child]\textsc{acc}
-\end{styleinnerExample}
+The frozen order would then be derived by fronting the PP, presumably by left-adjoining it to VP as in \figref{fig:antonyuk:3}.\footnote{In \figref{fig:antonyuk:3} the lower PP copy is of course taken to be silent.}  
 
-\begin{styleinnerExample}
-    “Masha treated every child to some cookie” ${\exists}{\forall}$/${\forall}{\exists}$
-\end{styleinnerExample}
+%Figure 3
+\begin{figure}
+\caption{Derived order of a Group 2 verb.}
+\label{fig:antonyuk:3}
+\begin{forest}
+[vP
+    [DP [Masha, roof]]
+    [v'
+        [treat]
+        [VP
+            [PP
+                [P]
+                [DP [{every child(ACC)}, roof]]
+            ]
+            [VP
+                [DP [{some cookie(INSTR)}, roof]]
+                [V'
+                    [treat]
+                    [PP
+                        [P]
+                        [DP [{every child(ACC)}, roof]]
+                    ]
+                ]
+            ]
+        ]
+    ]
+]
+\end{forest}
+\end{figure}
 
-\begin{styleinnerExample}
-  b.  \textit{Maša}   \textit{ugostila} \textit{[kakogo-to} \textit{rebenka]}  \textit{(každym} \textit{pečenjem)}
-\end{styleinnerExample}
+Incidentally, there is further evidence for the proposal that Group 2 predicates involve two oblique phrases. Consider \REF{ex:antonyuk:53}:
 
-\begin{styleinnerExample}
-    Masha treated   [some         child]\textsc{acc~}[every    cookie]\textsc{instr}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Masha treated some child to every cookie” ${\exists}{\forall}$/*${\forall}{\exists}$
-\end{styleinnerExample}
-
-\textbf{\figref{fig:key:2}.} 
-
-  
-%%please move the includegraphics inside the {figure} environment
-%%\includegraphics[width=\textwidth]{figures/antonyyuk-img002.emf}
- 
-
-\textit{\figref{fig:key:2}: Base order of a Group 2 verb.}
-
-The frozen order would then be derived by fronting the PP, presumably by left-adjoining it to VP as in \figref{fig:key:3}.\footnote{In \figref{fig:key:3} the lower PP copy is of course taken to be silent.}  
-
-\textbf{\figref{fig:key:3}.}
-
-  
-%%please move the includegraphics inside the {figure} environment
-%%\includegraphics[width=\textwidth]{figures/antonyyuk-img003.emf}
- 
-
-\textit{\figref{fig:key:3}: Derived order of a Group 2 verb.}
-
-Incidentally, there is further evidence for the proposal that Group 2 predicates involve two oblique phrases. Consider \REF{ex:key:53}:
-
-\begin{styleinnerExample}
 \ea%53
-    \label{ex:key:53}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:53}
+    \ea \label{ex:antonyuk:53a}
+    \gll {Maša}  {pobesedovala} {} {na} {kakuju-to} {temu)}         {}    [s       {každym} {drugom]}\\
+    Masha talked     [\textsubscript{PP}  on [some      topic].\textsc{acc}] [\textsubscript{PP} with [every friend].\textsc{instr}]\\
+    \glt `Masha had a conversation on some topic with every friend´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \ex \label{ex:antonyuk:53b}
+    \gll {Maša.}  {pobesedovala} {} {[s}       {kakim-to} {drugom]} {}           {(na} {každuju-to} {temu)}\\
+    Masha talked         [\textsubscript{PP} with [some      friend].\textsc{instr}] [\textsubscript{PP} on [every topic].\textsc{acc}]\\
+    \glt `Masha had a conversation with some friend on every topic \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
+\z
 
-           a.  \textit{Maša}  \textit{pobesedovala} \textit{na} \textit{kakuju-to} \textit{temu)}             \textit{[s}       \textit{každym}
-\end{styleinnerExample}
+The example in \REF{ex:antonyuk:53} contains a ditransitive predicate with two overt quantificational PPs, with one of those Ps assigning Accusative case. Thus, this example is fully analogous to what I suggest for Group 2 predicates, the only difference being that the preposition assigning Accusative is overt in \REF{ex:antonyuk:53} but covert in all the other cases we’ve seen in this section. Finally, the strongest piece of evidence in support of the proposal that there is in fact a null P assigning Accusative case in a low position in Group 2 predicates is examples such as \REF{ex:antonyuk:54}:
 
-\begin{styleinnerExample}
-    Masha talked.     [\textsubscript{PP}  on [some      topic]\textsc{acc} ][\textsubscript{PP} with [every 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    \textit{drugom]}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    friend]\textsc{instr}]
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Masha had a conversation on some topic with every friend” ${\exists}{\forall}$/${\forall}{\exists}$
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textit{Maša.}  \textit{pobesedovala} \textit{[s}       \textit{kakim-to} \textit{drugom]}            \textit{(na} \textit{každuju-to} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha talked         [\textsubscript{PP} with [some      friend]\textsc{instr}] [\textsubscript{PP} on [every 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    \textit{temu)}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    topic]\textsc{acc}]
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Masha had a conversation with some friend on every topic ${\exists}{\forall}$/*${\forall}{\exists}$
-\end{styleinnerExample}
-
-The example in \REF{ex:key:53} contains a ditransitive predicate with two overt quantificational PPs, with one of those Ps assigning Accusative case. Thus, this example is fully analogous to what I suggest for Group 2 predicates, the only difference being that the preposition assigning Accusative is overt in \REF{ex:key:53} but covert in all the other cases we’ve seen in this section. Finally, the strongest piece of evidence in support of the proposal that there is in fact a null P assigning Accusative case in a low position in Group 2 predicates is examples such as \REF{ex:key:54}:
-
-\begin{styleinnerExample}
 \ea%54
-    \label{ex:key:54}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:54}
+    \ea \label{ex:antonyuk:54a}
+    \gll {Maša}   {otrugala}  {}  {(za}  {kakuju-to} {ošibku)}          {[každogo} {druga]}\\
+    Masha scolded [\textsubscript{PP} for [some       mistake].\textsc{acc}] [every    friend].\textsc{acc~}\\
+    \glt `Masha scolded every friend for some mistake´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$\\
+    \ex \label{ex:antonyuk:54b}
+    \gll {Maša}   {otrugala} {[kakogo-to} {druga]}    {}        {(za}  {každuju}  {ošibku)}\\
+    Masha scolded  [some         friend].\textsc{acc} [\textsubscript{PP} for [every     mistake].\textsc{acc}]\\
+    \glt `Masha scolded some friend for every mistake´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
+\z
 
-          a.  \textit{Maša}   \textit{otrugala}    \textit{(za}  \textit{kakuju-to} \textit{ošibku)}          \textit{[každogo} \textit{druga]}
-\end{styleinnerExample}
+What is interesting about this example, and of utmost importance for the structural analysis advanced here, is the following: this ditransitive verb “otrugat’’ (‘to scold’) selects two Accusative-marked objects, one Oblique, occurring inside an overt Prepositional Phrase and one which looks like a regular direct object Accusative. However, the scope pattern that we find with this pair of examples, specifically the frozen scope status of \REF{ex:antonyuk:54b}, suggests that \REF{ex:antonyuk:54b} is the {derived} order, that is, what looks like the regular direct object Accusative must have originated below the Accusative that is inside the PP. This, of course, on my assumptions suggests that the “regular” direct object Accusative in \REF{ex:antonyuk:54b} is in fact a concealed low Oblique Accusative, which originates inside a null PP and thus gets its case from a null P head. Significantly, the above “direct object” Accusative argument does not do well on the objecthood tests discussed before:
 
-\begin{styleinnerExample}
-    Masha scolded [\textsubscript{PP} for [some       mistake]\textsc{acc}] [every    friend]\textsc{acc~}
-\end{styleinnerExample}
 
-\begin{styleinnerExample}
-    “Masha scolded every friend for some mistake” ${\exists}{\forall}$/${\forall}{\exists}$\\\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  b.  \textit{Maša}   \textit{otrugala} \textit{[kakogo-to} \textit{druga]}            \textit{(za}  \textit{každuju}  \textit{ošibku)}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha scolded  [some         friend]\textsc{acc} [\textsubscript{PP} for [every     mistake]\textsc{acc}]
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Masha scolded some friend for every mistake” ${\exists}{\forall}$/*${\forall}{\exists}$
-\end{styleinnerExample}
-
-What is interesting about this example, and of utmost importance for the structural analysis advanced here, is the following: this ditransitive verb “otrugat’’ (‘to scold’) selects two Accusative-marked objects, one Oblique, occurring inside an overt Prepositional Phrase and one which looks like a regular direct object Accusative. However, the scope pattern that we find with this pair of examples, specifically the frozen scope status of \REF{ex:key:54b}, suggests that \REF{ex:key:54b} is the \textit{derived} order, that is, what looks like the regular direct object Accusative must have originated below the Accusative that is inside the PP. This, of course, on my assumptions suggests that the “regular” direct object Accusative in \REF{ex:key:54b} is in fact a concealed low Oblique Accusative, which originates inside a null PP and thus gets its case from a null P head. Significantly, the above “direct object” Accusative argument does not do well on the objecthood tests discussed before:
-
-\begin{styleinnerExample}
 \ea%55
-    \label{ex:key:55}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:55}
+    \ea \label{ex:antonyuk:55a}
+    \gll {*Maša}  {otrugala} {po} {drugu} {} {za} {každuju}             {ošibku}\\
+    Masha scolded  po friend.\textsc{dat} [\textsubscript{PP} for [every mistake].\textsc{acc}]\\
+    \glt ~\hfill \textbf{Distributive po test}
+    \ex \label{ex:antonyuk:55b}
+    \gll {??Maša}    {ne}    {otrugala} {podrugi}\\
+    Masha \textsc{neg} scolded   girlfriend-\textsc{gen}\\
+    \glt ~\hfill \textbf{Genitive of Negation}
+    \ex \label{ex:antonyuk:55c}
+    \gll {*Maša}    {dorugalas’}         {druga} {do} {togo,} {čto}  {on} {ušel}\\
+    Masha  \textsc{do}.scold.\textsc{refl} friend to  that  that  he left\\
+    \glt `Masha scolded her friend into leaving´ \hfill \textbf{RUR}
+    \ex \label{ex:antonyuk:55d}
+    \gll {Maša}    {dorugalas’}\\
+    Masha  \textsc{do}.scold.\textsc{refl}\\
+    \glt `Masha scolded her way to some negative result´ \hfill \textbf{RIR} \citep{Tatevosov2010}
     \z
-
-          a.  \textit{*Maša}  \textit{otrugala} \textit{po} \textit{drugu} \textit{za} \textit{každuju}             \textit{ošibku} 
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha scolded  po friend-\textsc{dat} [\textsubscript{PP} for [every mistake]\textsc{acc~}]
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-                \textbf{Distributive} \textbf{po} \textbf{test}\\
-b.  \textit{??Maša}    \textit{ne.}    \textit{otrugala} \textit{podrugi}      \textbf{Genitive} \textbf{of} \textbf{Negation}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-        Masha NEG scolded   girlfriend-\textsc{gen\\
-}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  c.  \textit{*Maša}    \textit{dorugalas’.}         \textit{druga} \textit{do} \textit{togo,} \textit{čto}  \textit{on} \textit{ušel}                    \textbf{RUR}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-      Masha  DO-scold-REFL friend to  that  that  he left
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Masha scolded her friend into leaving”
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-  d.  \textit{Maša}    \textit{dorugalas’}                       \textbf{RIR} \citep{Tatevosov2010}
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    Masha  DO-scold-REFL
-\end{styleinnerExample}
-
-\begin{styleinnerExample}
-    “Masha scolded her way to some negative result”
-\end{styleinnerExample}
+\z
 
 As the above tests show, the Accusative-marked object does not behave as would be expected of a true direct object: it does not allow the distributive \textit{po} phrase, is strongly degraded in the Genitive of Negation configuration and the Unaccusative Resultative built on it is ungrammatical while the Intensive Resultative is, as expected. The conclusion is therefore that this particular predicate does not subcategorize for a direct object but instead takes two Oblique arguments, one of which is an overt PP, with the preposition \textit{za} marking its complement with lexical Accusative case, and another oblique argument which is also assigned lexical Accusative case, by a silent P head.\footnote{In Antonyuk (in prep.) I show that while not all psychological verbs (\citealt{BellettiRizzi1988}) allow alternating (causative) ditransitive forms, those that do necessarily form Group 2 ditransitives. Note further that while the homogeneous behavior of Group 2 verbs with respect to the unaccusativity diagnostics suggests a certain homogeneity within the Group in terms of syntactic structure, it is certainly not the case that all Group 2 verbs are psych verbs. Thus to the extent that theories arguing that the Causer argument is generated in Spec, vP while the Agent is generated in Spec, VoiceP, (see \citealt{Kratzer2005} and \citealt{AlexiadouEtAl2006} i.a.), the verbs belonging to Group 2 are expected to differ with respect to the position of the higher internal argument (e.g., Spec, VP for non-Causers/Themes vs Spec,vP for Causers).}
 
-\begin{itemize}
-\item \begin{itemize}
-\item \subsection{Structural possibilities for group 3 predicates}
-\end{itemize}
-\end{itemize}
+\subsection{Structural possibilities for group 3 predicates}\label{sec:antonyuk:4.3}
 
-With regard to Group 3 predicates, there are two major possibilities: independent projection or a derivational relation between the two alternating orders of internal arguments. While the scope ambiguity of both orders, coupled with SFG might suggest that the two orders are independently projected, I argue this is not the case. Consider \REF{ex:key:56}:
+With regard to Group 3 predicates, there are two major possibilities: independent projection or a derivational relation between the two alternating orders of internal arguments. While the scope ambiguity of both orders, coupled with SFG might suggest that the two orders are independently projected, I argue this is not the case. Consider \REF{ex:antonyuk:56}:
 
-\begin{styleinnerExample}
+
 \ea%56
-    \label{ex:key:56}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:56}
+    \ea \label{ex:antonyuk:56a}
+    Job blamed [God] [for his troubles] \hfill \citep{Larson1990}
+    \ex \label{ex:antonyuk:56b}
+    Job blamed [his troubles] [on God]
     \z
+\z
 
-           a.  Job blamed [God] [for his troubles]   \citep{Larson1990}
-\end{styleinnerExample}
+What makes these good candidates for independent projection is the fact that along with the change in the order of the two internal arguments, there is also clearly a change in grammatical relations, with ‘God’ being a DO in \REF{ex:antonyuk:56a} but an oblique in \REF{ex:antonyuk:56b}. As noted by Richard Larson (p.c.), the corresponding examples with quantificational phrases are both ambiguous, as expected under my analysis:
 
-\begin{styleinnerExample}
-  b.  Job blamed [his troubles] [on God]
-\end{styleinnerExample}
-
-What makes these good candidates for independent projection is the fact that along with the change in the order of the two internal arguments, there is also clearly a change in grammatical relations, with ‘God’ being a DO in \REF{ex:key:56a} but an oblique in \REF{ex:key:56b}. As noted by Richard Larson (p.c.), the corresponding examples with quantificational phrases are both ambiguous, as expected under my analysis:
-
-\begin{styleinnerExample}
 \ea%57
-    \label{ex:key:57}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:57}
+    \ea \label{ex:antonyuk:57a}
+    John blamed some employee for every mistake. \hfill ${\exists}{\forall}$,${\forall}{\exists}$
+    \ex \label{ex:antonyuk:57b}
+    John blamed some mistake on every employee. \hfill ${\exists}{\forall}$,${\forall}{\exists}$
     \z
+\z
 
-           a.  John blamed some employee for every mistake.   ${\exists}{\forall}$,${\forall}{\exists}$  \\
-b.   John blamed some mistake on every employee.   ${\exists}{\forall}$,${\forall}{\exists}$\\\end{styleinnerExample}
+Native speakers apparently also perceive an additional semantic distinction between these, as well, with \REF{ex:antonyuk:57a} being notationally related to \REF{ex:antonyuk:58a}, and \REF{ex:antonyuk:57b} being related to locatives, as in \REF{ex:antonyuk:58b}:
 
-Native speakers apparently also perceive an additional semantic distinction between these, as well, with \REF{ex:key:57a} being notationally related to \REF{ex:key:58a}, and \REF{ex:key:57b} being related to locatives, as in \REF{ex:key:58b}:
 
-\begin{styleinnerExample}
 \ea%58
-    \label{ex:key:58}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:58}
+    \ea \label{ex:antonyuk:58a}
+    John thanked some employee for every success.
+    \ex \label{ex:antonyuk:58b}
+    John gave/offered thanks to some employee for every success.
     \z
+\z
 
-          a.  John thanked some employee for every success.\\
-b.  John gave/offered thanks to some employee for every success.
-\end{styleinnerExample}
+The fact that the thematic roles involved in the two alternations are different in the above cases supports the idea that they are not derivationally related. This poses a problem for the non-derivational account of Group 3 ditransitive alternations since in none of them can a parallel difference in thematic roles be detected. The only differences seem to be related to the information structural status of the two internal arguments, with their thematic roles always staying the same. Thus, it is worth considering other alternatives. With independent projection arguably ruled out and the movement of the kind implicated with Groups 1 and 2 being excluded by the fact that both orders are scopally ambiguous, I suggest that orders such as \REF{ex:antonyuk:59b} are derived via Light Predicate Raising (LPR) (following \citealt{Larson1989}, \citeyear{Larson2014}).
 
-The fact that the thematic roles involved in the two alternations are different in the above cases supports the idea that they are not derivationally related. This poses a problem for the non-derivational account of Group 3 ditransitive alternations since in none of them can a parallel difference in thematic roles be detected. The only differences seem to be related to the information structural status of the two internal arguments, with their thematic roles always staying the same. Thus, it is worth considering other alternatives. With independent projection arguably ruled out and the movement of the kind implicated with Groups 1 and 2 being excluded by the fact that both orders are scopally ambiguous, I suggest that orders such as \REF{ex:key:59b} are derived via Light Predicate Raising (LPR) (following \citealt{Larson1989}; 2014).
 
-\begin{styleinnerExample}
 \ea%59
-    \label{ex:key:59}
-    \gll\\
-        \\
-    \glt
+    \label{ex:antonyuk:59}
+    \ea \label{ex:antonyuk:59a}
+    \gll {Maša}  {napisala} {[kakoj-to} {slogan]}   {}    {(na} {každoj} {stene)}\\
+    Masha wrote    [some     slogan].\textsc{acc} [\textsubscript{PP} on [every wall].\textsc{prep} ]\\
+    \glt `Masha wrote some slogan on every wall´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \ex \label{ex:antonyuk:59b}
+    \gll {Maša} {napisala} {} {(na}  {kakoj-to} {stene)}        {[každyj} {slogan]}\\
+    Masha wrote [\textsubscript{PP} on [some     wall].\textsc{prep}] [every slogan].\textsc{acc}\\
+    \glt `Masha wrote every slogan on some wall´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \z
+\z
 
-          a.  \textit{Maša}  \textit{napisala} \textit{[kakoj-to} \textit{slogan]}         \textit{(na} \textit{každoj} \textit{stene)} ${\exists}{\forall}$/${\forall}{\exists}$
-\end{styleinnerExample}
+Consider the derivation of \REF{ex:antonyuk:59b} in \figref{fig:antonyuk:4} below:
 
-\begin{styleinnerExample}
-    Masha wrote.    [some     slogan]\textsubscript{ACC} [\textsubscript{PP} on [every wall]\textsc{prep} ]
-\end{styleinnerExample}
+%Figure 4
+\begin{figure}
+\caption{Derived order of a Group 3 verb.}
+\label{fig:antonyuk:4}
+\begin{forest}
+[vP
+    [DP [Maša, roof]]
+    [v'
+        [v/V'
+            [V\\napisala]
+            [PP [{na kakoj-to stene}, roof]]
+        ]
+        [VP
+            [DP [{každyj slogan}, roof]]
+            [\textcolor{gray}{V'}
+                [\textcolor{gray}{V}\\\textcolor{gray}{napisala}]
+                [\textcolor{gray}{PP} [{\textcolor{gray}{na kakoj-to stene}}, roof]]
+            ]
+        ]
+    ]
+]
+\end{forest}
+\end{figure}
 
-\begin{styleinnerExample}
-    “Masha wrote some slogan on every wall”
-\end{styleinnerExample}
 
-\begin{styleinnerExample}
-  b.  \textit{Maša} \textit{napisala}  \textit{(na}  \textit{kakoj-to} \textit{stene)}        \textit{[každyj} \textit{slogan]}  ${\exists}{\forall}$/${\forall}{\exists}$
-\end{styleinnerExample}
+As evident from structural relations in \figref{fig:antonyuk:4}, what is crucially important in relation to my analysis is that the LPR configuration does not lead to a situation where the raised PP/DP is able to c-command the other phrase, by virtue of the interfering v/V' node, thus accounting for the lack of scope freezing in these examples.
 
-\begin{styleinnerExample}
-    Masha wrote [\textsubscript{PP} on [some     wall]\textsc{prep}] [every slogan]\textsubscript{ACC}
-\end{styleinnerExample}
+  While adopting Larson's LPR analysis provides a straightforward way to account for the lack of scope freezing with Group 3 verbs, in the absence of an independent motivation for the application of such LP Raising with verbs belonging to this group, its adoption here to account for the apparent violation of the SFG with these verbs might seem too stipulative to be persuasive. However, I will argue here that Group 3 predicates are different from those in Group 2 and even from the very similar Group 1 verbs in important respects which explains their syntactic behavior. A careful examination of Group 3 verbs listed in \REF{ex:antonyuk:18} reveals that all such predicates (to the exclusion of a few verbs to be discussed shortly) share the property of taking a direct object marked with structural Accusative case and a Preposition Phrase. I argue that it is precisely the nature of the PP complement that plays the crucial role here and provides an explanation for the observed differences between Group 1 and Group 3. The limited class of PPs observed with Group 3 predicates can be characterized as sharing the property of signifying either direction (of movement) or location (\textit{v/in, na/on, ot/from, iz/from/ k/to} or \textit{towards}). Thus, Group 3 is crucially similar to Group 1 verbs in subcategorizing for a direct object DP marked with structural Accusative case, but unlike Group 1 verbs, Group 3 verbs take a locational/directional PP complement (whereas Group 1 verbs take a Dative case-maked DP complement or a PP which takes a relational preposition (\textit{s/from, s/with, dlja/for}). To put this into terminology used in research on prepositional phrases, Group 3 PPs are those where the P introduces the Ground argument (see Svenonius 2003\todo{There is no Svenonius (2003) in the References section}, \citeyear{Svenonius2007} and related research). Group 1 prepositional heads, being strictly relational, do not. Finally, another similarity between Groups 1 and 3 which at first glance might suggest that the above differentiation is unjustified, is due to the fact that some verbs classified as Group 3 are verbs like \textit{otdat'} (to give away, to give back), which take an ACC-marked THEME and a DAT-marked GOAL argument, just like the numerous ACC/DAT verbs that belong to Group 1. \textit{Otdat'}, in fact, is related to the verb \textit{dat'} (give), which is a canonical Group 1 ditransitive that exhibits scope freezing on the DAT>ACC order of internal arguments (also discussed in \citealt{BonehNash2017}). As discussed in \citet{Antonyuk2015}, such Group 3 verbs present particular difficulties during classification attempts due to showing strong surface scope bias on DAT>ACC order, which often leads to their initial misclassification as Group 1 verbs. However, additional tests, such as the use of Constrastive Focus (\citealt{AntonyukLarson2016}) help establish that they are in fact Group 3 verbs. Here I argue that the (lexical) prefixes verbs such as \textit{otdat'} occur with is the very reason they behave as Group 3 verbs, unlike their unprefixed Group 1 counterparts. The prefixes taken by Group 3 verbs are crucially distinct from whatever prefixes (if any) may be found with Group 1 or Group 2 verbs in signifying direction/location, just like the PPs that occur as complements of Group 3 verbs do. The unified semantics of the class of the prepositions and prefixes that appear with Group 3 verbs suggests a natural way of explaining their behavior. If prepositions and prefixes are both elements of category P (\citealt{Matushansky2002, Biskup2017}; and esp. \citealt{Svenonius2004Slavic}, \citeyear{Svenonius2008}), then one might argue that the empirical observation that locational/directional prepositions behave in some sense as being \textit{closer} to the verb than other prepositions (including preposition \textit{to} in English which occurs in PP Dative constructions)\footnote{As pointed out to me by Larson (p.c.).} may be explained by the need of such prepositions (and the PPs they project) to occur at LF as syntactic units with the verb. There are two ways in which this can be achieved: either the PP raises and attaches to the verb at LF (which is arguably what happens with Group 3 verbs on their basic order), or the verb raises to its position inside the vP together with the PP, which is exactly what happens in cases of Light Predicate Raising. If the latter option is employed, scope freezing does not take place and the lower QP is then free to raise above the structurally higher one at LF, which then accounts for the ambiguous nature of the derived word order with Group 3 predicates, but not with Group 1 and 2. Thus, while the account sketched here needs to be fleshed out, it suggests an intuitive explanation for why Group 3 verbs pattern differently from Groups 1 and 2 as far as QP scope is concerned.
 
-\begin{styleinnerExample}
-    “Masha wrote every slogan on some wall”
-\end{styleinnerExample}
-
-Consider the derivation of \REF{ex:key:59b} in \figref{fig:key:4} below:
-
-\textbf{\figref{fig:key:4}.}
-
-  
-%%please move the includegraphics inside the {figure} environment
-%%\includegraphics[width=\textwidth]{figures/antonyyuk-img004.png}
- 
-
-\textit{\figref{fig:key:4}: Derived order of a Group 3 verb.}
-
-As evident from structural relations in \figref{fig:key:4}, what is crucially important in relation to my analysis is that the LPR configuration does not lead to a situation where the raised PP/DP is able to c-command the other phrase, by virtue of the interfering v/V' node, thus accounting for the lack of scope freezing in these examples.
-
-  While adopting Larson's LPR analysis provides a straightforward way to account for the lack of scope freezing with Group 3 verbs, in the absence of an independent motivation for the application of such LP Raising with verbs belonging to this group, its adoption here to account for the apparent violation of the SFG with these verbs might seem too stipulative to be persuasive. However, I will argue here that Group 3 predicates are different from those in Group 2 and even from the very similar Group 1 verbs in important respects which explains their syntactic behavior. A careful examination of Group 3 verbs listed in \REF{ex:key:18} reveals that all such predicates (to the exclusion of a few verbs to be discussed shortly) share the property of taking a direct object marked with structural Accusative case and a Preposition Phrase. I argue that it is precisely the nature of the PP complement that plays the crucial role here and provides an explanation for the observed differences between Group 1 and Group 3. The limited class of PPs observed with Group 3 predicates can be characterized as sharing the property of signifying either direction (of movement) or location (\textit{v/in,} \textit{na/on,} \textit{ot/from,} \textit{iz/from/} \textit{k/to} or \textit{towards}). Thus, Group 3 is crucially similar to Group 1 verbs in subcategorizing for a direct object DP marked with structural Accusative case, but unlike Group 1 verbs, Group 3 verbs take a locational/directional PP complement (whereas Group 1 verbs take a Dative case-maked DP complement or a PP which takes a relational preposition (\textit{s/from,} \textit{s/with,} \textit{dlja/for}). To put this into terminology used in research on prepositional phrases, Group 3 PPs are those where the P introduces the Ground argument (see \citealt{Svenonius2003}, 2007 and related research). Group 1 prepositional heads, being strictly relational, do not. Finally, another similarity between Groups 1 and 3 which at first glance might suggest that the above differentiation is unjustified, is due to the fact that some verbs classified as Group 3 are verbs like \textit{otdat'} (to give away, to give back), which take an ACC-marked THEME and a DAT-marked GOAL argument, just like the numerous ACC/DAT verbs that belong to Group 1. \textit{Otdat'}, in fact, is related to the verb \textit{dat'} (give), which is a canonical Group 1 ditransitive that exhibits scope freezing on the DAT>ACC order of internal arguments (also discussed in \citealt{BonehNash2017}). As discussed in \citet{Antonyuk2015}, such Group 3 verbs present particular difficulties during classification attempts due to showing strong surface scope bias on DAT>ACC order, which often leads to their initial misclassification as Group 1 verbs. However, additional tests, such as the use of Constrastive Focus (\citealt{AntonyukLarson2016}) help establish that they are in fact Group 3 verbs. Here I argue that the (lexical) prefixes verbs such as \textit{otdat'} occur with is the very reason they behave as Group 3 verbs, unlike their unprefixed Group 1 counterparts. The prefixes taken by Group 3 verbs are crucially distinct from whatever prefixes (if any) may be found with Group 1 or Group 2 verbs in signifying direction/location, just like the PPs that occur as complements of Group 3 verbs do. The unified semantics of the class of the prepositions and prefixes that appear with Group 3 verbs suggests a natural way of explaining their behavior. If prepositions and prefixes are both elements of category P (\citealt{Matushansky2002}; \citealt{Biskup2017}; and esp. \citealt{Svenonius2004}, 2008), then one might argue that the empirical observation that locational/directional prepositions behave in some sense as being \textit{closer} to the verb than other prepositions (including preposition \textit{to} in English which occurs in PP Dative constructions)\footnote{As pointed out to me by Larson (p.c.).} may be explained by the need of such prepositions (and the PPs they project) to occur at LF as syntactic units with the verb. There are two ways in which this can be achieved: either the PP raises and attaches to the verb at LF (which is arguably what happens with Group 3 verbs on their basic order), or the verb raises to its position inside the vP together with the PP, which is exactly what happens in cases of Light Predicate Raising. If the latter option is employed, scope freezing does not take place and the lower QP is then free to raise above the structurally higher one at LF, which then accounts for the ambiguous nature of the derived word order with Group 3 predicates, but not with Group 1 and 2. Thus, while the account sketched here needs to be fleshed out, it suggests an intuitive explanation for why Group 3 verbs pattern differently from Groups 1 and 2 as far as QP scope is concerned.
-
-\begin{itemize}
-\item \section{Conclusions}
-\end{itemize}
+\section{Conclusions}\label{sec:antonyuk:5}
 
 I have argued that the argument structure of ditransitives can be studied by considering their quantifier scope ambiguity and scope freezing distribution patterns. Assuming the Scope Freezing Generalization is correct and using it to probe argument structure affords us novel insights and suggests that Russian ditransitives are not a homogeneous group, but in fact subdivide into three distinct Groups, each associated with a distinct structure and a distinct set of properties. Most importantly, however, the data discussed here provide strong evidence that not all “direct objects” are in fact true direct objects with expected properties: the data presented here suggest that a whole group of such objects are in fact concealed Obliques. The derivational account of Russian ditransitives offered in this paper has a number of important consequences, with implications for argument structure, verbal alternations, the status of directional/location PPs as a natural class, the notion of ditransitivity and the status of Light Predicate Raising in the grammar that are left largely without discussion due to space limitations.\footnote{Note that Cepeda \& Cyrino (this volume) and Cornilescu (this volume) similarly offer derivational accounts of ditransitives in Spanish, European Portuguese, Brazilian Portuguese and Romanian respectively. To the extent that these papers focus on the more prototypical ditransitives that on my account belong to Group 1 predicates where I argue ACC > DAT or DO > IO order is base-generated, our conclusions seem to converge. Cepeda and Cyrino (this volume) additionally argue that Spanish, European Portuguese and Brazilian Portuguese do not have a DOC, primarily based on the fact that IOs do not passivize in these languages. While passivization is not discussed in my paper, IOs in Russian (and East Slavic more generally) do passivize, thus pointing to a genuine difference in this respect between the languages under consideration.} 
 
-\begin{itemize}
-\item References
-\end{itemize}
-
-Alexiadou Artemis, Anagnostopoulou Elena \& Schäfer Florian. 2006. The properties of anticausatives crosslinguistically. In Phases of Interpretation, Mara Frascarelli (ed.), 187–211. Berlin: Mouton de Gruyter.
-
-Antonyuk, Svitlana. in preparation. Psych Verb Alternations in (East) Slavic. Ms. University of Vienna.
-
-Antonyuk, Svitlana. 2019. Quantifier Scope in Russian. \textit{Glossa:} \textit{A} \textit{Journal} \textit{of} \textit{General} \textit{Linguistics,} \textit{4}(1), 54. DOI://http.doi.org/10.5334/gjgl.562
-
-Antonyuk, Svitlana \& Roksolana Mykhaylyk. under review. Scope Freezing and Object Shift in Ukrainian: does Superiority Matter? Remark.
-
-Antonyuk, Svitlana. 2018. Embracing the Differences: the Three Classes of Russian Ditransitives. \textit{Proceedings} \textit{of} \textit{Formal} \textit{Approaches} \textit{to} \textit{Slavic} \textit{Linguistics} (FASL) 25, Cornell University, Ithaca, New York.
-
-Antonyuk, Svitlana. 2017. How QP Scope Can Weigh in on a Long-Time Debate: the Puzzle of Russian Ditransitives. In \textit{A} \textit{Pesky} \textit{Set:} \textit{Papers} \textit{for} \textit{David} \textit{Pesetsky}. Eds. Claire Halpert, Hadas Kotek, Coppe van Urk. Massachusetts Institute of Technology Working Papers in Linguistics (MITWPL) special volume, CreateSpace Independent Publishing Platform, 566p.
-
-Antonyuk, Svitlana \& Richard Larson. 2016. Scope Freezing in PP Dative Constructions? Presentation given at Formal Description of Slavic Languages 12 (FDSL), Humboldt University, Berlin, German
-
-Antonyuk, Svitlana. 2015. \textit{Quantifier} \textit{Scope} \textit{and} \textit{Scope} \textit{Freezing} \textit{in} \textit{Russian}. Doctoral dissertation, Stony Brook University, Stony Brook, NY.
-
-Antonyuk-Yudina, Svitlana. 2006. The Scope of Quantifier Phrases in Russian: A QR Analysis. Linguistics in the Big Apple: online proceedings of SUNY/CUNY/NYU/Yale.
-
-Bailyn, John. 2012. \textit{The} \textit{Syntax} \textit{of} \textit{Russian.} Cambridge University Press.
-
-\begin{styleNormalWeb}
-Bailyn, John. 2010. What’s Inside VP? New (and Old) Evidence from Russian. In Wayles Browne et al. (eds.), \textit{Formal} \textit{Approaches} \textit{to} \textit{Slavic} \textit{Linguistics} 18: The Second Cornell Meeting, Ann Arbor, MI: Michigan Slavic Publications. 
-\end{styleNormalWeb}
-
-Bailyn, John. 1995. \textit{A} \textit{Configurational} \textit{Approach} \textit{to} \textit{Russian} \textit{“Free”} \textit{Word} \textit{Order}. Doctoral dissertation, Cornell University, Ithaca, NY.
-
-\begin{styleNormalWeb}
-Belletti, Andriana \& Luigi Rizzi. 1988. Psych-verbs and theta theory. \textit{Natural} \textit{Language} \textit{and} \textit{Linguistic} \textit{Theory} 6: 291-352. 
-\end{styleNormalWeb}
-
-\begin{styleNormalWeb}
-Biskup, Petr. 2017. \textit{Prepositions} \textit{and} \textit{Verbal} \textit{Prefixes:} \textit{The} \textit{Case} \textit{of} \textit{Slavic}. Habilitation. Universität Leipzig.
-\end{styleNormalWeb}
-
-\begin{styleNormalWeb}
-Boneh, Nora \& Léa Nash. 2017. The syntax and semantics of dative DPs in Russian ditransitives. Natural Language and Linguistic Theory 35:4, 899-953.
-\end{styleNormalWeb}
-
-Bruening, Benjamin. 2010. Double Object Constructions Disguised as Prepositional Datives.~~\textit{Linguistic} \textit{Inquiry}~41: 287-305.
-
-Bruening, Benjamin. 2001. QR Obeys Superiority: ACD and Frozen Scope. \textit{Linguistic} \textit{Inquiry}  32(2):233-273.
-
-Dyakonova, Marina. 2007/2009. \textit{A} \textit{Phase-based} \textit{Approach} \textit{to} \textit{Russian} \textit{Free} \textit{Word} \textit{Order}. Doctoral dissertation. University of Amsterdam. 
-
-Dyakonova, Marina. 2005. Russian Double Object Constructions. \textit{Amsterdam} \textit{Center} \textit{for} \textit{Language} \textit{and} \textit{Communication} \textit{Working} \textit{Papers} 2(1): 3–30. 
-
-Franks, Steven. 1995. \textit{Parameters} \textit{of} \textit{Slavic} \textit{Morphosyntax}. New York / Oxford: Oxford University Press.
-
-Greenberg, Gerald \& Steven Franks. 1991. A Parametric Approach to Dative Subjects and the Second Dative in Slavic. The Slavic and East European Journal 35:1, 71-97.
-
-Hallman, Peter. 2015. Syntactic Neutralization in Double Object Constructions. \textit{Linguistic} \textit{Inquiry} 46: 389-424.
-
-Harbert, Wayne \& Almeida Toribio. 1991. Nominative Objects. \textit{Cornell} \textit{Working} \textit{Papers} \textit{in} \textit{Linguistics} 9: 127–192. 
-
-Harley, Heidi. 2002. Possession and the double object construction. \textit{Linguistic} \textit{Variation} \textit{Yearbook} 2, 31-70
-
-Harley, Heidi. 1995. \textit{Subjects,} \textit{Events} \textit{and} \textit{Licensing}. Doctoral dissertation, MIT, Cambridge, MA. 
-
-Irvin, Patricia. 2012 Unaccusativity at the Interfaces. Doctoral dissertation, New York University.
-
-Kratzer, Anjelika. 2005. Building resultatives. In \textit{Event} \textit{Arguments:} \textit{Foundations} \textit{and} \textit{Applications}, ed. Claudia Maienborn and Angelika Wöllstein-Leisten, 177– 212. Tübingen: Max Niemeyer Verlag.
-
-Larson, \citealt{Richard2014}. \textit{On} \textit{Shell} \textit{Structure}. Routledge, London.
-
-Larson, Richard. 1990. Double Objects Revisited: Reply to Jackendoff. \textit{Linguistic} \textit{Inquiry} 21: 589-632.
-
-Larson, Richard. 1989. Light Predicate Raising. 1989. \textit{MIT} \textit{Lexicon} \textit{Project} \textit{Working} \textit{Papers} 27. 
-
-Larson, Richard. 1988. On the Double Object Construction. \textit{Linguistic} \textit{Inquiry} 19: 335–391. 
-
-Levin, Beth \& Malka Rappaport Hovav. 1995. \textit{Unaccusativity.} Cambridge MA: MIT Press.
-
-Marantz, Alec. 1993. Implications of Asymmetries in Double Object Construction. In Sam Mchombo (ed.), Theoretical Aspect of Bantu Grammar, CSLI Publications, Stanford, California, pp. 113-150. 
-
-Matushansky, Ora. 2002. On Formal Identity of Russian Prefixes and Prepositions. \textit{MIT} \textit{Working} \textit{Papers} \textit{in} \textit{Linguistics} 42, 217-253
-
-Pesetsky, David. 1995. Zero Syntax. Cambridge, Mass.: MIT Press.
-
-Pesetsky, David. 1982. Paths and Categories. Doctoral dissertation, MIT, Cambridge, MA.
-
-Pylkkänen, Liina. 2002. \textit{Introducing} \textit{Arguments}. Doctoral dissertation, MIT, Cambridge, MA. 
-
-Rappaport Hovav, Malka \& Beth Levin. 2001. An Event Structure Account of English Resultatives.~\textit{Language}~77, 766-797.
-
-Richardson, Kylie. 2007. \textit{Case} \textit{and} \textit{Aspect} \textit{in} \textit{Slavic.} Oxford: Oxford University Press. 
-
-Svenonius, Peter. 2008. Russian Prefixes are Phrasal. In \textit{Formal~Description} \textit{of} \textit{Slavic} \textit{Languages,} edited by Gerhild Zybatow, Luka Szucsich, Uwe Junghanns, and Roland Meyer, pp. 526-537. Peter Lang, Frankfurt am Main. 
-
-Svenonius, Peter. 2007. Adpositions, Particles, and the Arguments~they Introduce. In \textit{Argument~Structure,} ed. By Eric Reuland, Tanmoy Bhattacharya, and Giorgos Spathas, pp. 63-103. John Benjamins, Amsterdam.
-
-Svenonius, Peter. 2004. Slavic Prefixes and Morphology. \textit{Nordlyd~}32.2: 177-204.
-
-Tatevosov, Sergei. 2010. Building Intensite Resultatives. In Browne W. (ed.) \textit{Formal} \textit{Approaches} \textit{to} \textit{Slavic} \textit{Linguistics} (FASL). The Cornell Meeting. Ann Arbor: Michigan Slavic Publications, 289- 302.
-
-Titov, Elena. 2017. The Canonical Order of Russian Objects. \textit{Linguistic} \textit{Inquiry} 48:3, 427-457
-
-
-\begin{verbatim}%%move bib entries to  localbibliography.bib
-\end{verbatim}
 \sloppy\printbibliography[heading=subbibliography,notkeyword=this]\end{document}
