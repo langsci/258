@@ -1,5 +1,6 @@
-\documentclass[output=paper,modfonts,nonflat]{langsci/langscibook} 
-\author{David Basilico\affiliation{}}
+\documentclass[output=paper,modfonts,nonflat,newtxmath]{langsci/langscibook} 
+\author{David Basilico\affiliation{University of Alabama at Birmingham}}
+\abstract{In some languages, an antipassive morpheme feeds applicativization, in others, it bleeds it. The analysis of this asymmetry given here relies on two recent proposals: \citegen{Pyllkänen2008} view that the low applicative must merge with a transitive verb and \citep{Basilico2012, Basilico2017)} claim that that the antipassive marker can introduce an internal argument. In those cases where the antipassive feeds the applicative, the antipassive marker introduces the internal argument, while in those cases where it bleeds it, the antipassive marker is the expected intransitivizer, disallowing an internal argument from appearing syntactically. This work provides a parsimonious account of the cross-linguistic differences in applicative formation with the antipassive.}
 \title{When the applicative needs the antipassive}
 
 \IfFileExists{../localcommands.tex}{
@@ -13,711 +14,674 @@
 \begin{document}
 \maketitle  
 
-\begin{stylelsAbstract}
-\textbf{\textup{University} \textbf{of} \textbf{Alabama} \textbf{at} \textbf{Birmingham} }
-\end{stylelsAbstract}
-
-\begin{stylelsAbstract}
-Abstract. In some languages, an antipassive morpheme feeds applicativization, in others, it bleeds it.  The analysis of this asymmetry given here relies on two recent proposals: \citegen{Pyllkänen2008} view that the low applicative must merge with a transitive verb and Basilico’s (2012, 2017) claim that that the antipassive marker can introduce an internal argument.  In those cases where the antipassive feeds the applicative, the antipassive marker introduces the internal argument, while in those cases where it bleeds it, the antipassive marker is the expected intransitivizer, disallowing an internal argument from appearing syntactically.  This work provides a parsimonious account of the cross-linguistic differences in applicative formation with the antipassive.
-\end{stylelsAbstract}
 
 \section{Introduction} %1. /
 
-In a number of languages, an antipassive morpheme appears in cases of applicativization.\footnote{1.  I would like to thank the audience at the \textit{Dative} \textit{structures} \textit{and} \textit{beyond} conference for helpful insights and comments, as well as two anonymous reviewers for their reading and comments.  The usual disclaimers apply.  Abbreviations used in the paper are as follows.1\textrm{sg}first person singular      \textrm{asp}  aspectual morpheme2s\textrm{g}  second person singular      \textrm{erg}  ergative3\textrm{sg}  third person singular      \textrm{ind}  indicative mood\textrm{abs}  absolutive        \textrm{instr}  instrumental\textrm{aor}  aorist          \textrm{part}  partitive mood\textrm{ap}  antipassive        \textrm{pt}  particle} A particularly interesting example comes from Chukchi (Dunn, 1999).  He considers that there is both an applicative and antipassive form of the -\textit{ine} prefix. An example of the applicative use of -\textit{ine} is seen in the following examples.  \citet[214]{Dunn1999} states “this applicative relates to the original transitive stem so that the O of the original stem is an oblique and another oblique argument of the original stem is the O.” 
+\todo{missing ref in abstract}In a number of languages, an antipassive morpheme appears in cases of applicativization.\footnote{I would like to thank the audience at the \textit{Dative} \textit{structures} \textit{and} \textit{beyond} conference for helpful insights and comments, as well as two anonymous reviewers for their reading and comments. The usual disclaimers apply. Abbreviations used in the paper are as follows:
+1\textsc{sg} 'first person singular', \textsc{asp} `aspectual morphemes', \textsc{2sg} `second person singular',\textsc{erg}`ergative', \textsc{3sg} `third person singular', \textsc{ind} `indicative mood', \textsc{abs} `absolutive', \textsc{instr} `instrumental', \textsc{aor} `aorist', {\textsc{part}} `partitive mood', {\textsc{ap}} `antipassive', \textsc{pt} `particle'.}
+ 
+ A particularly interesting example comes from Chukchi \citep{Dunn1999}. He considers that there is both an applicative and antipassive form of the -\textit{ine} prefix. An example of the applicative use of -\textit{ine} is seen in the following examples. \citet[214]{Dunn1999} states “this applicative relates to the original transitive stem so that the O of the original stem is an oblique and another oblique argument of the original stem is the O.” 
 
 \ea%1
-    \label{ex:key:1}
-    \gll\\
-        \\
-    \glt
+	Chukchi \citep{Dunn1999}\\
+    \label{ex:basilico:1}
+    \ea \label{ex:basilico:1a}
+    \gll ǝtlɁa-ta  jǝme-nenat    ewirɁ-ǝ-t.\\
+        mother-\textsc{erg}  hang-\textsc{3sga}.\textsc{3plo} clothing-e-\textsc{3pl}.\textsc{abs}\\
+    \glt ‘Mother hung up the clothes.’  
+    
+    \ex \label{ex:basilico:1b}
+    \gll ǝtlɁa-ta \textbf{ena}-jme-nen tǝtǝl meniɣ-e.\\
+    mother-\textsc{erg}  \textbf{\textsc{ap}}-hang-\textsc{3sg}a.\textsc{3sg}o  door.\textsc{3sg}.\textsc{abs} cloth-\textsc{inst}\\
+    \glt 'Mother hung the door with cloth.'
     \z
-
-          Chukchi \citep{Dunn1999}
-
-a.  ǝtlɁa-ta  jǝme-nenat    ewirɁ-ǝ{}-t
-
-mother-erg  hang-3sga.3plo  clothing-e{}-3pl.abs
-
-‘Mother hung up the clothes.’  
-
-b.  ǝtlɁa-ta  \textbf{ena}{}-jme-nen    tǝtǝl    meniɣ-e
-
-  mother-erg  \textbf{ap}{}-hang-3sga.3sgo  door. 3sg.abs  cloth-inst
-
-  “Mother hung the door with cloth.”
-
-Note that the translations in the examples are different.  In (a), the theme is an absolutive while in (b) it is an oblique, with the added argument in (b) being a location that appears as the absolutive.   Note also that the morpheme –\textit{ine} appears (as –\textit{ena} as a result of phonological processes).  The antipassive use of –\textit{ine}, which is more well-known, is seen in the following example \REF{ex:key:2}.
-
-\ea%2
-    \label{ex:key:2}
-    \gll\\
-        \\
-    \glt
     \z
+    
+Note that the translations in the examples are different. In (a), the theme is an absolutive while in (b) it is an oblique, with the added argument in (b) being a location that appears as the absolutive. Note also that the morpheme –\textit{ine} appears (as –\textit{ena} as a result of phonological processes). The antipassive use of –\textit{ine}, which is more well-known, is seen in the following example \REF{ex:basilico:2}.
 
-          Chukchi (Kozinsky, Nedjalkov, \& Polinskaja, 1988)
+    
+   \ea Chukchi \citep{KozinskyEtAl1988} \label{ex:basilico:2}
+    \ea \label{ex:basilico:2a}
+    \gll Qǝnwer  ɁettɁ-e  rǝlǝpɁen-nin    gutil-ǝn. \\ finally  dog-\textsc{erg} 
+    broke-\textsc{aor}.\textsc{3sg}/\textsc{3sg}  ether{}-\textsc{abs}\\
+    \glt ‘Finally the dog broke the tether.’
+    
+    \ex \label{ex:basilico:2b}
+    \gll Qǝnwer  ɁettɁ-ǝn  \textbf{ine}=nlǝpɁet=gɁi  (gutilg-e).\\
+    finally  dog-\textsc{abs}  \textsc{ap}{}-broke-\textsc{aor}.\textsc{3sg}  (tether-\textsc{instr})\\
+    \glt 'Finally the dog broke the tether.'
+    \z
+    \z
+    
+ 
+In \REF{ex:basilico:2a}, we see a transitive, ergative clause. The subject is in the ergative case, and the direct object in the absolutive, with the verb showing agreement with both the subject and object. In \REF{ex:basilico:2b}, we have the antipassive clause. The subject in the absolutive case, with the object in an oblique case and agreement with the subject only.\footnote{There is also a use of the antipassive morpheme in Chukchi which has been dubbed the ‘spurious antipassive’ by \citep{Hale2002} and discussed in \citep{BobaljikBranigan2006} and \citep{Bobaljik2007}. Here, we see the antipassive morpheme as a k\textsc{ind} of ‘inverse agreement’, when “a second or third person \textsc{part}icipant acts upon a first person \textsc{part}icipant” \citep{Polinsky2016}. These examples are from \citet{Polinsky2016}.
+\ea \label{ex:basilico:fn}
+\gll ə-nan ɣəm ine-ɬʔu-ɣʔi. \\
+3\textsc{sg.\textsc{erg}} 1\textsc{sg.\textsc{abs}} \textsc{ap}-see-\textsc{\textsc{aor}}.3\textsc{sg}\\
+\glt  'S/he saw me.'
+\z
+\ea \label{ex:basilico:fn2}
+\gll ɣət-nan   muri     ɬʔu-tku-\textrm{${\emptyset}$}    \\
+2\textrm{sg}.\textrm{\textsc{erg}}  1\textrm{sg.\textsc{abs}} see-\textrm{\textsc{ap}-\textsc{aor}}.2\textrm{sg}\\
+\glt  
+\z
+	
+Bobaljik and Branigan attempt to unify this use of the antipassive morpheme with its more general use. However, I follow \citet{Polinsky2016} and treat these as agreement markers and not involved with argument addition or elimination/demotion. I do not treat these constructions in this work.} 
 
-a.  Qǝnwer  ɁettɁ-e  rǝlǝpɁen-nin    gutil-ǝn.  finally  dog{}-erg  broke{}-aor.3sg/3sg  ether{}-abs
+To explain this ‘applicative’ use of the antipassive morpheme, I propose a different analysis. Rather than considering that –\textit{ine} has both an antipassive and applicative use, I propose that –\textit{ine} is an antipassive marker only. In those cases where we see an applicative use of –\textit{ine}, we have the antipassive use of the suffix, with the antipassive feeding the appearance of a null applicative.
 
-  ‘Finally the dog broke the tether.’
-
-b.  Qǝnwer  ɁettɁ-ǝn  \textbf{ine}=nlǝpɁet=gɁi  (gutilg-e).
-
-  finally  dog-abs  ap{}-broke-aor.3sg  (tether-instr)
-
-  “Finally the dog broke the tether.”
-
-In \REF{ex:key:2a}, we see a transitive, ergative clause.  The subject is in the ergative case, and the direct object in the absolutive, with the verb showing agreement with both the subject and object.  In \REF{ex:key:2b}, we have the antipassive clause.  The subject in the absolutive case, with the object in an oblique case and agreement with the subject only.\footnote{2. There is also a use of the antipassive morpheme in Chukchi which has been dubbed the ‘spurious antipassive’ by (Hale, 2002) and discussed in (Bobaljik \& Branigan, 2006) and (Bobaljik, 2007).  Here, we see the antipassive morpheme as a kind of ‘inverse agreement’, when “a second or third person participant acts upon a first person participant” (Polinsky, 2016).  These examples are from \citet{Polinsky2016}.(i)  ə-nan     ɣəm     ine-ɬʔu-ɣʔi.   3\textrm{sg.erg} 1\textrm{sg.abs}     \textrm{ap}{}-see-\textrm{aor}.3\textrm{sg}   S/he saw me.(ii)    ɣət-nan   muri     ɬʔu-tku-\textrm{${\emptyset}$}    2\textrm{sg}.\textrm{erg}  1\textrm{sg.abs} see-\textrm{ap-aor}.2\textrm{sg}Bobaljik and Branigan attempt to unify this use of the antipassive morpheme with its more general use.  However, I follow \citet{Polinsky2016} and treat these as agreement markers and not involved with argument addition or elimination/demotion.  I do not treat these constructions in this work.} 
-
-To explain this ‘applicative’ use of the antipassive morpheme, I propose a different analysis.  Rather than considering that –\textit{ine} has both an antipassive and applicative use, I propose that –\textit{ine} is an antipassive marker only. In those cases where we see an applicative use of –\textit{ine}, we have the antipassive use of the suffix, with the antipassive feeding the appearance of a null applicative.
-
-The explanation for the presence of the antipassive morpheme relies on an analysis of the low applicative construction given in \citet{Pylkkänen2008}, as well as an analysis of the antipassive construction given in (Basilico, 2012, 2017).  In short, \citet{Pyllkänen2008} requires that the low applicative merge with a verb that introduces an internal argument.  \citet{Basilico2017}, building on Borer, 2005, Lohndal, 2014, Acedo-Matellán \& Mateau, 2014 and others, considers that verbs do not necessarily introduce any of their arguments.  For \citet{Basilico2017}, the antipassive morpheme, rather than being a detransitivizing morpheme, is one way for an internal argument to be introduced.  Thus, the antipassive morpheme merges with the verb that has no arguments and creates a verb that introduces an internal argument. In this way, the verb becomes the right type to serve as an argument of the applicative.
+The explanation for the presence of the antipassive morpheme relies on an analysis of the low applicative construction given in \citet{Pyllkänen2008}, as well as an analysis of the antipassive construction given in \citet{Basilico2012,Basilico2017}. In short, \citet{Pyllkänen2008} requires that the low applicative merge with a verb that introduces an internal argument. \citet{Basilico2017}, building on \citet{Borer2005, Lohndal2014, Acedo-MatellanMateau2014} and others, considers that verbs do not necessarily introduce any of their arguments. For \citet{Basilico2017}, the antipassive morpheme, rather than being a detransitivizing morpheme, is one way for an internal argument to be introduced. Thus, the antipassive morpheme merges with the verb that has no arguments and creates a verb that introduces an internal argument. In this way, the verb becomes the right type to serve as an argument of the applicative.
 
 I turn to an overview of these two proposals next.
 
 \section{The low applicative and arguments within the VP} %2. /
 
-\citet{Pylkkänen2008} extends \citegen{Kratzer1996} analysis of external arguments to certain kinds of applied arguments.  Her ‘high applicatives’\todo{Single quotation markers are for linguistic meaning only}~are those extra arguments which can occur in the absence of a direct object.  In these cases, the applied argument is introduced by a separate syntactic head, like the external argument in \citegen{Kratzer1996} analysis, and introduces a thematic role predicate λxλe[benefactive(x,e)], notated as bene here.  It integrates semantically by event identification (see figure one).
+\citet{Pyllkänen2008} extends \citegen{Kratzer1996} analysis of external arguments to certain kinds of applied arguments. Her ‘high applicatives’\todo{Single quotation markers are for linguistic meaning only}~are those extra arguments which can occur in the absence of a direct object. In these cases, the applied argument is introduced by a separate syntactic head, like the external argument in \citegen{Kratzer1996} analysis, and introduces a thematic role predicate λxλe[benefactive(x,e)], notated as bene here. It integrates semantically by event identification (see \figref{fig:basilico:1}).
+\begin{figure}
+	\begin{forest}
+		%for tree={font=\scshape}
+		[ApplP 
+			[DP [Mittie]]
+			[Appl'
+				[Appl [Bene]]
+				[VP 
+					[DP [the dog]]
+					[V'
+						[V [feed]]
+						{\draw (.east) node[right]{λxλe[feed(x,e)]};}
+					]
+					{\draw (.east) node[right]{λxλe[feed(x,e)]};}
+				]
+				{\draw (.east) node[right]{λxλe[feed(the dog,e)]}; }
+			]
+			{\draw (.east) node[right]{λxλe[feed(the dog,e) \& benefactive(x,e)]};}
+		]
+		{\draw (.east) node[right]{λe[feed(the dog,e) \& benefactive(Mittie,e)]};}
+	\end{forest}
+	\caption{\label{fig:basilico:1} High applicative}
+\end{figure}
 
-        ApplP    λe[feed(the dog,e) \& benefactive(Mittie,e)]
 
-       3       
+These ‘high applicatives’ are contrasted to ‘low applicatives’ which are extra arguments that occur only in the presence of a direct object. In these cases, the applicative head combines with both noun phrases, the direct object and then the applied (indirect) object before the entire applicative structure merges with the verb. The semantic representation of the applicative head in this case is more complex:  $\text{λx.λy.λf.λe}\text{. f}\left(\text{e,x}\right)\text{ \&} $  \textsc{theme}(e, x) \& to-the-possession (x,y). The verb in this case must introduce an argument. I give the structure in \figref{fig:basilico:2} with the corresponding semantics given below the structure.\todo{format of logical formulas inconsistent. Adapted in fig. 2}
 
-       DP        Appl´   λxλe[feed(the dog,e) \& benefactive(x,e)
 
-  Mittie   3
+\begin{figure}
+	\begin{forest}
+		[VP
+			[V [buy]] 
+			[ApplP 
+				[DP[John]]
+				[Appl'
+					[Appl]
+					[DP [the book]]
+				]	
+			]
+		]
+	\end{forest}
+	
+	\begin{tabular}{l p{8cm}}
+		{[}{[}ApplP{]}{]}  &  λfλe{[}f(e,the book) \& theme(e, the book) \& to-the-possession(the book, John){]}\\
+		{[}{[}buy{]}{]} &  λxλe{[}buying(e) \& theme(e,x){]}\\
+		{[}{[}VP{]}{]} &  λe{[}buying(e) \& \textsc{theme}(e, the book) \& to-the-possession (the book, John){]} 
+	\end{tabular}
+	\caption{\label{fig:basilico:2} Low applicative}
+\end{figure}
 
-    Appl          VP    λe[feed(the dog,e)]
-
-bene    3
-
-DP           V´    λxλe[feed(x,e)]
-
-     the dog           g 
-
-     V    λxλe[feed(x,e)]
-
-   feed
-
-\begin{stylecaption}
-Figure One: High Applicative    
-\end{stylecaption}
-
-These ‘high applicatives’ are contrasted to ‘low applicatives’ which are extra arguments that occur only in the presence of a direct object.  In these cases, the applicative head combines with both noun phrases, the direct object and then the applied (indirect) object before the entire applicative structure merges with the verb.  The semantic representation of the applicative head in this case is more complex:  $\text{λx.λy.λf.λe}\text{. f}\left(\text{e,x}\right)\text{ \&} $  theme(e, x) \& to-the-possession (x,y).  The verb in this case must introduce an argument.  I give the structure in figure two with the corresponding semantics given below the structure.
-
-        VP
-
-            3  
-
-    V       ApplP
-
-   buy   3
-
- DP      Appl´
-
-John    3
-
-Appl       DP
-
-the book
-
-[ApplP]]   $\text{λf.λe}\text{. f}\left(\text{e,the book}\right)\text{ \&} $ theme(e, the book) \& to-the-possession (the book, John).
-
-[[buy]]   $\lambda \mathit{x.}\lambda \mathit{e.}\text{buying(e) \& theme(e,x)}$  
-
-[[VP]]   $\text{λe}\text{.[}\text{buying(e) \&} $ theme(e, the book) \& to-the-possession (the book, John).
-
-\begin{stylecaption}
-Figure Two: Low Applicative
-\end{stylecaption}
 
 The agent will be added by a separate Voice head and the thematic role predicate and argument will be integrated into the semantic representation through event identification (not shown).
 
-The phenomenon of low applicatives interacts with the notion of transitivity and the introduction of internal arguments.  For \citet{Pyllkänen2008}, low applicatives are possible only with transitive verbs, since they involve a relation between two DPs.
+The phenomenon of low applicatives interacts with the notion of transitiityv and the introduction of internal arguments. For \citet{Pyllkänen2008}, low applicatives are possible only with transitive verbs, since they involve a relation between two DPs.
 
 \section{The antipassive as an argument introducer} %3. /
 
-Though the antipassive appears to be an intransitivization process, Basilico (2012, 2017) proposes, based in part on asymmetries in the appearance of antipassive morphemes in Eskimo-Aleut languages, that the antipassive morpheme actually adds an argument rather than demotes or saturates an argument. In these languages, core transitive, result verbs (CTV) (as discussed first in (B. Levin, 1999), Rappaport Hovav \& Levin, 1999 and subsequent work) such as ‘break’ and ‘open’ always occur with an overt antipassive morpheme in an antipassive construction. 
+Though the antipassive appears to be an intransitivization process, \citep{Basilico2012,Basilico2017} \todo{missing ref} proposes, based in part on asymmetries in the appearance of antipassive morphemes in Eskimo-Aleut languages, that the antipassive morpheme actually adds an argument rather than demotes or saturates an argument. In these languages, core transitive, result verbs (CTV) (as discussed first in \citealt{Levin1999, RappaportHovavLevin1999} and subsequent work) such as ‘break’ and ‘open’ always occur with an overt antipassive morpheme in an antipassive construction. 
 
 \ea%3
-    \label{ex:key:3}
-    \gll\\
-        \\
-    \glt
+    Inuktitut \citep{Spreng2012} \label{ex:basilico:3}
+    \ea \label{ex:basilico:3a}
+    \gll Piita-up  naalautiq  surak-taa. \\
+    Peter-\textsc{erg}  radio.\textsc{abs} break-\textsc{part}.3\textsc{sg}/3\textsc{sg}\\
+    \glt ‘Peter broke the radio.’
+    
+    \ex \label{ex:basilico:3b}
+    \gll Piita    surak-\textbf{si}{}-juq    (naalauti-mik).\\
+    Peter.\textsc{abs}  break-\textsc{ap}{}-\textsc{\textsc{part}}.3\textsc{sg}  (radio{}-\textsc{mik})\\
+    \glt ‘Peter is breaking the radio.’
+    
+    \ex[*]{ \label{ex:basilico:3c}
+    \gll Piita    surak-tuq    (naalauti-mik).\\
+    Peter.\textsc{abs}  break-\textsc{part}.3\textsc{sg}  radio-\textsc{mik}\\
+    \glt ‘Peter broke the radio.’}
+    \z
     \z
 
-           Inuktitut \citep{Spreng2012}
-
-a.   Piita-up  naalautiq  surak-taa
-
-  Peter{}-\textsc{erg}  radio.\textsc{abs}  break-\textsc{part}.3\textsc{sg}/3\textsc{sg}
-
-  ‘Peter broke the radio.’
-
-b.  Piita    surak-\textbf{si}{}-juq    (naalauti-mik).
-
-  Peter.\textsc{abs}  break-\textsc{ap}{}-\textsc{part}.3\textsc{sg}  (radio{}-\textsc{mik})
-
-  ‘Peter is breaking the radio.’
-
-c.   *Piita    surak-tuq    (naalauti-mik).  
-
-  Peter.\textsc{abs}  break{}-\textsc{part}.3\textsc{sg}  radio{}-\textsc{mik}
-
-  \textsc{‘}Peter broke the radio.’
-
-Non-core transitive manner verbs (NCTV) such as ‘eat’ and ‘drink’ appear in an antipassive frame with no special morphology.  
+Non-core transitive manner verbs (NCTV) such as ‘eat’ and ‘drink’ appear in an antipassive frame with no special morphology. 
 
 \ea%4
-    \label{ex:key:4}
-    \gll\\
-        \\
-    \glt
+    Inuktitut \citep{Spreng2012}\label{ex:basilico:4}
+    \ea \label{ex:basilico:4a}
+    \gll anquti  niri-vuq  (niqi-mik).\\
+    man.\textsc{\textsc{abs}}  eat{}-\textsc{\textsc{ind}}.3\textsc{sg}  meat{}-\textsc{mik}\\
+    \glt `The man is eating meat.'
+    
+    \ex \label{ex:basilico:4b}
+    \gll anguti-up  niqi    niri-vaa.\\
+    man{}-\textsc{\textsc{erg}}  meat.\textsc{\textsc{abs}}  eat{}-\textsc{\textsc{ind}}.3\textsc{sg}/3\textsc{sg}
+    \\
+    \glt `The man is eating meat.'
+    \z
     \z
 
-          Inuktitut (Spreng, 2012)
 
-a.  anquti  niri-vuq  (niqi-mik).
-
-  man.\textsc{abs}  eat{}-\textsc{ind}.3\textsc{sg}  meat{}-\textsc{mik}
-
-  The man is eating meat.
-
-b.  anguti-up  niqi    niri-vaa
-
-  man{}-\textsc{erg}  meat.\textsc{abs}  eat{}-\textsc{ind}.3\textsc{sg}/3\textsc{sg}
-
-  The man is eating meat.
-
-\citet{Basilico2017} proposes that core transitive verbs do no introduce their internal argument, while non-core transitive verbs do.  In this way, he builds from Rappaport-Hovav and \citegen{Levin1999} idea that the internal argument of a NCTV is introduced by the verbal root in a monoeventive event structure template, while the internal argument of a CTV is a ‘structure’ argument of a bieventive event structure template, as seen in \REF{ex:key:5} and \REF{ex:key:6} below.
+\citet{Basilico2017} proposes that core transitive verbs do no introduce their internal argument, while non-core transitive verbs do. In this way, he builds from \citegen{RappaportHovavLevin1999} idea that the internal argument of a NCTV is introduced by the verbal root in a monoeventive event structure template, while the internal argument of a CTV is a ‘structure’ argument of a bieventive event structure template, as seen in \REF{ex:basilico:5} and \REF{ex:basilico:6} below.
 
 \ea%5
-    \label{ex:key:5}
-    \gll\\
-        \\
-    \glt
+    \label{ex:basilico:5}
+     {[} x act\textsubscript{<manner>} y{]}
     \z
 
-          [ x act\textsubscript{<manner>} y]
+         
 
 \ea%6
-    \label{ex:key:6}
-    \gll\\
-        \\
-    \glt
+    \label{ex:basilico:6}
+     {[}{[} x act\textsubscript{<manner>}{]} cause {[} become  {[} y <state> {]}{]}{]}
     \z
 
-           [[ x act\textsubscript{<manner>}] cause [ become  [ y <state> ]]]
+In \REF{ex:basilico:5}, the ‘y’ participant is licensed by the root component that fills in the <manner> element of the monoeventive activity template. In \REF{ex:basilico:6}, the y component is actually part of the CTV change of state template itself and so it must be present whenever there is a change of state verb.
 
-In \REF{ex:key:5}, the ‘y’ participant is licensed by the root component that fills in the <manner> element of the monoeventive activity template.  In \REF{ex:key:6}, the y component is actually part of the CTV change of state template itself and so it must be present whenever there is a change of state verb.
-
-In the Eskimo language Iñupiak, (Nagai, 2006) describes the difference between two seemingly synonymous verbs which both mean ‘wet to tan’: \textit{aŋula}{}-, which is an agentive verb and \textit{imaq}{}-, which is patientive.  Agentive verbs do not occur with an antipassive morpheme and in their single argument intransitive frame appear with the external argument only as the subject.  Patientive verbs must occur with an antipassive morpheme and in their single argument intransitive frame appear with their internal argument as the subject; in this frame they are unaccusative.  With respect to the agentive \textit{aŋula}{}-
-
-\begin{stylepi}
+In the Eskimo language Iñupiak, \citep{Nagai2006}describes the difference between two seemingly synonymous verbs which both mean ‘wet to tan’: \textit{aŋula}-, which is an agentive verb and \textit{imaq}{}-, which is patientive. Agentive verbs do not occur with an antipassive morpheme and in their single argument intransitive frame appear with the external argument only as the subject. Patientive verbs must occur with an antipassive morpheme and in their single argument intransitive frame appear with their internal argument as the subject; in this frame they are unaccusative. With respect to the agentive \textit{aŋula}{}-
 [t]he focus, however, is not on the patient’s changing state from not being wet to being wet, but on the agent’s process of wetting the patient. Thus, even though it implies the agent’s changing the state of the patient, the focus is not on the patient’s change of state, but on the process of the agent’s being engaged in the activity of wetting the patient. On the other hand, imaq- “wet to tan” focuses on the patient’s changing state from not being wet to being wet.
-\end{stylepi}
 
 This discussion of the difference between these two verbs recalls the manner/result distinction, in which the agentive verb focuses on what the agent does in carrying out the process (manner), while the patientive focuses on the result of the process. CTVs are typically result verbs, while manner verbs are NCTVs.
 
-In the framework adopted here, a CTV is a predicate of events only, while a NCTV is a relation between an event and an entity.   A CTV in Eskimo-Aleut would be a patientive, result verb while a NCTV would be agentive, manner verb.
+In the framework adopted here, a CTV is a predicate of events only, while a NCTV is a relation between an event and an entity. A CTV in Eskimo-Aleut would be a patientive, result verb while a NCTV would be agentive, manner verb.
 
-           ‘niri’:   $\mathit{\lambda x\lambda e}\text{[eat(e,x)]}$
+\begin{figure}
+	\begin{forest}
+	[VP
+	    [V
+	      [niri]
+        ]
+        	{\draw (.west) node[left]{λxλe[eat(e, x)]};}
+        	[NP\textsubscript{\textsc{mik}}
+			[niqi-mik]
+	    	]
+	]
+	{\draw (.east) node[right]{λe[eat(e, meat)]};}
+	{\draw (.north) node[above]{`niri': λxλe[eat(e,x)]};}
+	\end{forest}
+	\caption{\label{fig:basilico:3} NCTV syntax}
+\end{figure}
 
-VP     $\mathit{\lambda e}\text{[eat(e, meat)]}$
+ 
+\begin{figure}
+	\begin{forest}
+		%λe{[}break(e){]}, , l*=0.1
+			[Trans
+			[NP [naalautiq]]
+			{\draw (.west) node[left]{λxλe[\textsc{theme}(e, x)]};}
+			[Trans'
+				[Trans [\textsc{theme}]
+				[VP [V [surak]]]
+				]
+			]
+			{\draw (.east) node[right]{λe[\textsc{theme}(e, x) \& break(e)]};}
+		    ]	
+		{\draw (.east) node[right]{λe[\textsc{theme}(e, radio) \& break(e)]};}
+		{\draw (.north) node[above]{`surak': λe[break(e)]};}
+	\end{forest}
+	\caption{\label{fig:basilico:4} CTV syntax}
+\end{figure}             
 
-           3  
+\begin{figure}
+	\begin{forest}
+		[VP, s sep=35mm
+			[V 
+				[V [surak]]
+				{\draw (.west) node[left]{λe[break(e)]};}
+				[AP [si]
+				]
+				{\draw (.east) node[right]{λxλe[\textsc{theme}(e,x)]};}
+			]
+			{\draw (.west) node[left]{λe[break(e)]};}
+			[NP\textsubscript{mik} [naalauti-mik]]
+		]		
+		{\draw (.east) node[right]{λxλe[\textsc{theme}(e,x)\& break(e)]};}
+		{\draw (.north) node[above]{`surak-si': λxλe[ break(e,x)]};}
+	\end{forest}
+	\caption{\label{fig:basilico:5} CTV + antipassive syntax}
+\end{figure}             
+%
+%
 
- $\mathit{\lambda x\lambda e}\text{[eat(e,x)]}$               V            NPmik
+As can be seen in the above, the CTV in the transitive frame \figref{fig:basilico:4} has the internal argument introduced outside the VP by separate head, which I notate as Trans, which is the head of a Transitive Phrase. It is the counterpart of Voice for the internal argument. This Trans head introduces a thematic role predicate (the theme thematic role) in its head. This thematic role predicate is integrated semantically through event identification. In this way, the internal argument is introduced very much like an external argument or a high applicative argument \citep{JohnsKucerova2017}. In the antipassive frame for the CTV \figref{fig:basilico:5}, the antipassive morpheme, like Trans, introduces the internal theme argument through a thematic role predicate, but in this case it introduces the argument within the VP. In this way, the antipassive syntax for the CTV in terms of introducing the argument mirrors that of the NCTV, which lexically introduces its argument within the VP
 
-    niri          niqi-mik
+To these representations, we add a Voice head which introduces an external argument thematic role predicate, here agent. In the transitive, a transitive Voice head assigns ergative case to its subject, with Tense assigning absolutive case to the direct object. In the antipassive, an intransitive Voice head assigns no case, with the external argument assigned case from Tense.
 
-\begin{stylecaption}
-Figure Three: NCTV syntax
-\end{stylecaption}
+\begin{figure}
+		\begin{forest}
+	for tree = {s sep=5mm}
+		[TP
+			[T]
+			[VoiceP,
+				[NP
+				    [Piita-up, l=0]
+				]
+				[Voice', 
+					[Voice, l=50
+					    [\textsc{agent}]
+					]
+					{\draw (.west) node[left]{λxλe[\textsc{\textsc{agent}}(e,x)]};}
+					[TransP, l=50
+						[NP
+						    [naalautiq, l=0]
+						  ]
+						[Trans'
+							[Trans, l=50 [\textsc{theme}]]
+							{\draw (.west) node[left]{λxλe[\textsc{theme}(e,x)]};}
+							[VP, l=50 [V]
+							{\draw (.east) node[right]{λe[break(e)]};}
+							]
+						]
+						{\draw (.east) node[right]{λxλe[\textsc{theme}(e,x)] \& break(e)};}
+					]
+					{\draw (.east) node[right]{λe[\textsc{theme}(e,radio)] \& break(e)};}
+				]
+				{\draw (.east) node[right]{λyλe[\textsc{agent}(e,y)] \& \textsc{theme}(e,x) \& break(e)};}
+			]
+			{\draw (.east) node[right]{λe[\textsc{agent}(e,Peter)] \& \textsc{theme}(e,x) \& break(e)};}
+		]
+	\end{forest}
+	\caption{\label{fig:basilico:6} CTV with external argument}
+\end{figure}  
 
-  ‘surak’:   $\mathit{\lambda e}\text{[break(e)]}$
 
-Trans     $\lambda \text{e[}\text{theme(e, radio) \& break(e)]}$
-
-      3  
-
-         NP        Trans´   $\mathit{\lambda x\lambda} \text{e[}\text{theme(e,x) \& break(e)]}$
-
-    naalautiq3
-
- $\mathit{\lambda x\lambda} \text{e[theme(e,x)]}$        Trans      VP
-
-         theme  g
-
-                 V
-
-                surak     $\lambda \text{e[break(e)]}$
-
-\begin{stylecaption}
-Figure Four: CTV syntax
-\end{stylecaption}
-
-        ‘surak-si’   $\mathit{\lambda x\lambda e}\text{[break(e,x)]}$
-
-VP     $\lambda \text{e[theme(e,radio) \& break(e)]}$
-
-        3
-
- $\mathit{\lambda x\lambda} \text{e[theme(e,x) \& break(e)]}$  V    NPmik
-
-3naalauti-mik
-
-V       ap
-
- $\lambda \text{e[break(e)]}$           surak         si     $\mathit{\lambda x\lambda} \text{e[theme(e,x)]}$
-
-\begin{stylecaption}
-Figure Five: CTV+antipassive syntax
-\end{stylecaption}
-
-As can be seen in the above, the CTV in the transitive frame (figure four) has the internal argument introduced outside the VP by separate head, which I notate as Trans, which is the head of a Transitive Phrase.  It is the counterpart of Voice for the internal argument.  This Trans head introduces a thematic role predicate (the theme thematic role) in its head.  This thematic role predicate is integrated semantically through event identification.  In this way, the internal argument is introduced very much like an external argument or a high applicative argument (Johns \& Kučerová, 2017).  In the antipassive frame for the CTV (figure five), the antipassive morpheme, like Trans, introduces the internal theme argument through a thematic role predicate, but in this case it introduces the argument within the VP.  In this way, the antipassive syntax for the CTV in terms of introducing the argument mirrors that of the NCTV, which lexically introduces its argument within the VP
-
-To these representations, we add a Voice head which introduces an external argument thematic role predicate, here agent.  In the transitive, a transitive Voice head assigns ergative case to its subject, with Tense assigning absolutive case to the direct object.  In the antipassive, an intransitive Voice head assigns no case, with the external argument assigned case from Tense.
-
-    TP
-
-       3
-
-      T          VoiceP            $\lambda \text{e[}\text{agent(e, Peter) \&} \text{theme(}\text{e,x}\text{) \& break(e)]}$
-
-                            3
-
-    NP     Voice´   $\mathit{\lambda y\lambda} \text{e[}\text{agent(e, y) \&} \text{theme(}\text{e,x}\text{) \& break(e)]}$
-
-        Piita-up  3
-
- $\mathit{\lambda x\lambda} \text{e[agent(e,x)]}$         Voice  TransP     $\lambda \text{e[theme(e, radio) \& break(e)]}$
-
-             agent 3  
-
-            NP        Trans´      $\mathit{\lambda x\lambda} \text{e[theme(e,x) \& break(e)]}$
-
-      naalautiq3    
-
- $\mathit{\lambda x\lambda} \text{e[theme(e,x)]}$            Trans        VP
-
-         theme           g
-
- $\lambda \text{e[break(e)]}$                         V
-
-\begin{stylecaption}
-Figure Six: CTV with external argument
-\end{stylecaption}
-
-    TP
-
-     3
-
-     T          VoiceP      $\lambda \text{e[}\text{agent(e, Peter) \&} \text{theme(}\text{e,x}\text{) \& break(e)]}$
-
-     3
-
-    NP     Voice´   $\mathit{\lambda y\lambda} \text{e[}\text{agent(e, y) \&} \text{theme(}\text{e,x}\text{) \& break(e)]}$
-
-            Piita  3
-
- $\mathit{\lambda x\lambda} \text{e[agent(e,x)]}$         Voice     VP       $\lambda \text{e[}\text{theme(e,NP) \& break(e)]}$
-
-            Agent3
-
- $\mathit{\lambda x\lambda} \text{e[theme(e,x) \& break(e)]}$  V   NPmik
-
-3naalauti-mik
-
- $\lambda \text{e[break(e)]}$                V      ap         $\mathit{\lambda x\lambda} \text{e[}\text{theme(e,x)]}$
-
-             surak      si
-
-\begin{stylecaption}
-Figure Seven: NCTV syntax with external argument
-\end{stylecaption}
+\begin{figure}
+	\begin{forest}
+	for tree ={s sep=10mm}
+		[TP
+			[T]
+			[VoiceP, 
+				[NP, l*=0.1
+				    [Piita, l*=0.1
+				    ]
+				]
+				[Voice' 
+					[Voice, l*=0.1
+						 [\textsc{agent}, l*=0.1]
+					]
+					{\draw (.west) node[left]{λxλe[\textsc{agent}(e,x)]};}
+					[VP, s sep=7mm
+						[V, l*=0.1
+							[V, l*=1.5
+							[surak]
+							]
+							{\draw (.west) node[left]{λe[break(e)]};}
+							[AP, l*=1.5 [si]]
+							{\draw (.east) node[right]{λxλe[\textsc{theme}(e,x)]};}
+						]
+						{\draw (.west) node[left]{λxλe[\textsc{theme}(e,x) \& break(e)]};}
+					[NP\textsubscript{mik}, l*=0.1 [naalauti-mik]]
+					]
+					{\draw (.east) node[right]{λe[\textsc{theme}(e,NP)] \& break(e)};}
+				]
+				{\draw (.east) node[right]{λyλe[\textsc{agent}(e,y) \& \textsc{theme}(e,x) \& break(e)]};}
+			]
+		{\draw (.east) node[right]{λe[\textsc{agent}(e,Peter) \& \textsc{theme}(e,x) \& break(e)]};}
+		]	
+	\end{forest}
+	\caption{\label{fig:basilico:7} NCTV with external argument}
+%\end{figure}  
+ \end{figure}
 
 \section{The analysis: Putting it all together} %4. /
 
-\citet{Pyllkänen2008} requires that a low applicative phrase merge with a verb that introduces its internal argument.  If we consider that the verb itself does not introduce an argument, then it is not possible for a verb to be the argument for ApplP.   \citet{Basilico2017} considers that an antipassive morpheme can step in to turn the verb into one that does introduce its argument.  Since the verb is now of the right sematic type, the applicative phrase can now merge with the verb. In this way, we explain why the antipassive morpheme appears in this applicative construction; the antipassive feeds the applicative by supplying the internal argument.
+\citet{Pyllkänen2008} requires that a low applicative phrase merge with a verb that introduces its internal argument. If we consider that the verb itself does not introduce an argument, then it is not possible for a verb to be the argument for ApplP. \citet{Basilico2017} considers that an antipassive morpheme can step in to turn the verb into one that does introduce its argument. Since the verb is now of the right sematic type, the applicative phrase can now merge with the verb. In this way, we explain why the antipassive morpheme appears in this applicative construction; the antipassive feeds the applicative by supplying the internal argument.
 
-Moving to a concrete example, we can give an analysis for the argument rearrangement seen in the example with the verb ‘hang’ above in \REF{ex:key:1}.  In the basic form, the verb introduces no internal argument; the theme argument is introduced by a separate v head outside of the VP, as in figure eight.
+Moving to a concrete example, we can give an analysis for the argument rearrangement seen in the example with the verb ‘hang’ above in \REF{ex:basilico:1}. In the basic form, the verb introduces no internal argument; the theme argument is introduced by a separate v head outside of the VP, as in \figref{fig:basilico:8}.
 
-      TransP    
+\begin{figure}
+	\begin{forest}
+			[TransP
+				[NP 
+					[ewirɁ-ǝ-t]
+				]
+				[Trans'
+					[Trans
+						[\textsc{theme}]
+					]
+					[VP
+						[jǝme]
+					]
+				]
+			]
+	\end{forest}
 
-           3  
+λe [\textsc{theme}(e, clothes) \& hang up(e)]
+	\caption{\label{fig:basilico:8} Syntax for transitive ‘hang’}
+\end{figure}  
 
-           NP        Trans´  
 
-    ewirɁ-ǝ{}-t 3
+           
 
-         Trans      VP
+With the ‘applicative’ form, we can think of the ‘door’ coming to ‘have’ the cloth. By hypothesis, the verb \textit{jǝme} ‘hang’ has no arguments. The antipassive morpheme \textit{ine}{}- combines with the verb to add an argument position to the verb. In this way, the verb becomes the right type to semantically compose with ApplP. The null applicative morpheme merges first with the theme/possessee \textit{meniɣ} ‘cloth’ and then with the possessor \textit{tǝtǝl} ‘door’. The whole ApplP then merges with the verb that is of the right semantic type after the merger of the antipassive morpheme. Note that the introduction of the Trans head comes too late to supply the internal argument. The Appl head must combine with a verb with an argument, and though the Trans head does supply a theme argument, creating a structure of the right semantic type, the phrase formed is not the right syntactic type for the ApplP because it creates a Trans functional phrase rather than a V.
 
-         theme        g
-
-                V
-
-            jǝme
-
-\begin{equation*}
-\lambda \text{e[}\text{theme}\text{(e, clothes) \& hang}\text{ up}\text{(e)]}
-\end{equation*}
-
-\begin{stylecaption}
-Figure Eight: Syntax for transitive ‘hang’
-\end{stylecaption}
-
-With the ‘applicative’ form, we can think of the ‘door’ coming to ‘have’ the cloth.  By hypothesis, the verb \textit{jǝme} ‘hang’ has no arguments. The antipassive morpheme \textit{ine}{}- combines with the verb to add an argument position to the verb.  In this way, the verb becomes the right type to semantically compose with ApplP.  The null applicative morpheme merges first with the theme/possessee \textit{meniɣ} ‘cloth’ and then with the possessor \textit{tǝtǝl} ‘door’.  The whole ApplP then merges with the verb that is of the right semantic type after the merger of the antipassive morpheme. Note that the introduction of the Trans head comes too late to supply the internal argument. The Appl head must combine with a verb with an argument, and though the Trans head does supply a theme argument, creating a structure of the right semantic type, the phrase formed is not the right syntactic type for the ApplP because it creates a Trans functional phrase rather than a V.
-
-Let me walk through a derivation here.  First, the verb combines with the antipassive morpheme to introduce an internal argument.
+Let me walk through a derivation here. First, the verb combines with the antipassive morpheme to introduce an internal argument.
 
 \ea%7
-    \label{ex:key:7}
-    \gll\\
-        \\
-    \glt
+    \label{ex:basilico:7}
+    \ea {[}\textsubscript{V} ena jme{]} 
+    \ex λxλe[hang(e) \& \textsc{theme}(e, x)]  
+    \z
     \z
 
-          [\textsubscript{V} ena jme]    λxλe[hang(e) \& theme(e, x)]    
+            
 
-The applicative head merges with the direct object and then with the indirect object to create the applicative phrase.
+The applicative head merges with the direct object and then with the \textsc{ind}irect object to create the applicative phrase.
 
 \ea%8
-    \label{ex:key:8}
-    \gll\\
-        \\
-    \glt
+    \label{ex:basilico:8}
+    	\ea {[}\textsubscript{ApplP} [tǝtǝl] [\textsubscript{Appl´} Appl [\textsubscript{NP} meniɣ-e]{]}  
+    \ex λfλe f(e, the cloth) \& \textsc{theme}(e, the cloth) \& to-the-possession-of (the cloth, the door)
     \z
-
-          [\textsubscript{ApplP} [tǝtǝl] [\textsubscript{Appl´} Appl [\textsubscript{NP} meniɣ-e]]   $\text{λfλe}\text{ f(e, the cloth) \&} \text{theme}\text{(e, the cloth) \& to-the-possession}\text{{}-of}\text{ (the cloth, the door)}$
-
-Finally, the ApplP formed in \REF{ex:key:12} merges with the V from \REF{ex:key:11} to create the VP.  The antipassive morpheme has adjoined to the V, allowing the V to project.
+    \z
+ 
+Finally, the ApplP formed in \REF{ex:basilico:12} merges with the V from \REF{ex:basilico:11} to create the VP. The antipassive morpheme has adjoined to the V, allowing the V to project.
 
 \ea%9
-    \label{ex:key:9}
-    \gll\\
-        \\
-    \glt
+    \label{ex:basilico:9}
+    	\ea [\textsubscript{VP} [\textsubscript{V} ena jme] [\textsubscript{ApplP} [tǝtǝl] [\textsubscript{Appl´} Appl [\textsubscript{NP} meniɣ-e]]]
+    \ex λe[hang(e) \& \textsc{theme}(e, cloth) \& to-the-possession-of(door, cloth)]
     \z
+    \z
+    
+\begin{figure}
+	\begin{forest}
+	[VP
+		[V
+			[ena]
+			[V
+				[jme]
+			]
+		]
+		[ApplP
+			[NP
+				[tǝtǝl]
+			]
+			[Appl'
+				[Appl]
+				[NP
+					[meniɣ-e]
+				]
+			]
+		]
+	]	
+	\end{forest}	
+		\caption{\label{fig:basilico:9} Applicative syntax}
+\end{figure}                                       
 
-          [\textsubscript{VP} [\textsubscript{V} ena jme] [\textsubscript{ApplP} [tǝtǝl] [\textsubscript{Appl´} Appl [\textsubscript{NP} meniɣ-e]]]
-
-  λe[hang(e) \& theme(e, cloth) \& to-the-possession-of(door, cloth)]
-
-                                              VP  
-
-                                 wo 
-
-        V              ApplP    
-
-3          3
-
-             ena            V        NP         Appl´      
-
-                     jme        tǝtǝl   3
-
-                               Appl         NP
-
-                      meniɣ-e
-
-\begin{stylecaption}
-Figure Nine: Applicative syntax.
-\end{stylecaption}
-
-  Thus, the applicative use of the antipassive morpheme is not an applicative use per se; antipassive formation is necessary to feed applicative formation.  Here, the applicative morpheme is null.  If this analysis is on the right track, as noted in Cuervo (this volume),  a defining feature of an applicative morpheme need not be its overt exponence.  Furthermore, note that in this analysis of applicatives, as with Pyllkänen’s original \REF{ex:key:2008} analysis, the Appl head selects not only for a DP as a complement but the entire ApplP selects for a transitive verb.  Thus, in terms of Cuervo’s (this volume) typology for applicatives, these Appl heads that have non-verbal complements (in this case a NP or DP) can only appear within a clause that has a transitive verb. But the point in the configuration at which the internal argument is important.  The analysis here posits two positions for the internal argument, one within the VP and one external to the VP within a functional projection.  Thus, as in both Cuervo’s (this volume) and Weschler’s (this volume) analyses, the point in the structure at which the applicative is introduced is important, especially in those theories which introduce arguments syntactically.  
+Thus, the applicative use of the antipassive morpheme is not an applicative use per se; antipassive formation is necessary to feed applicative formation. Here, the applicative morpheme is null. If this analysis is on the right track, as noted in Cuervo (this volume)\todo{reference, and other "this vol"},  a defining feature of an applicative morpheme need not be its overt exponence. Furthermore, note that in this analysis of applicatives, as with \citep{Pyllkänen2008} original (2008) analysis, the Appl head selects not only for a DP as a complement but the entire ApplP selects for a transitive verb. Thus, in terms of Cuervo’s (this volume) typology for applicatives, these Appl heads that have non-verbal complements (in this case a NP or DP) can only appear within a clause that has a transitive verb. But the point in the configuration at which the internal argument is important. The analysis here posits two positions for the internal argument, one within the VP and one external to the VP within a functional projection. Thus, as in both Cuervo’s (this volume) and Weschler’s (this volume) analyses, the point in the structure at which the applicative is introduced is important, especially in those theories which introduce arguments syntactically. 
 
 \subsection{Not a case of ‘raising’} %4.1 /
 
-Support for the idea that these structures involves applicative formation and not a syntactic rearrangement of noun phrases as a result of movement comes from meaning differences in antipassive sentences in which there is ‘locative’ advancement (Polinskaja \& Nedjalkov, 1987). I argue that these cases of advancement of the locative argument to absolutive position in the context of the antipassive is another instance in which we see antipassivization necessary for the addition of an applied argument.  Consider the following.
+Support for the idea that these structures involves applicative formation and not a syntactic rearrangement of noun phrases as a result of movement comes from meaning differences in antipassive sentences in which there is ‘locative’ advancement \citep{PolinskajaNedjalkov1987}. I argue that these cases of advancement of the locative argument to absolutive position in the context of the antipassive is another instance in which we see antipassivization necessary for the addition of an applied argument. Consider the following.
+\ea Chukchi (\citealt{PolinskajaNedjalkov1987})   \label{ex:basilico:10}
+	\ea \label{ex:basilico:10a}
+	\gll ətləg-e  mətqəmət  (kawkaw-ək)  kili-nen.\\
+	father-\textsc{\textsc{erg}}  butter.\textsc{\textsc{abs}}  (bread-\textsc{loc})   {spread on}-3\textsc{sg}/3\textsc{sg}(\textsc{\textsc{aor}})\\
+	\glt  
 
- \REF{ex:key:10}  Chukchi (\citealt{PolinskajaNedjalkov1987})  
+	\ex \label{ex:basilico:11b}
+	\gll ətləg-ən  mətq-e  (kawkaw-ək)  ena-rkele-g’e.\\
+	father-\textsc{\textsc{abs}}  butter-\textsc{\textsc{instr}}  (bread-\textsc{loc})  \textsc{ap}{}-{spread on}-3\textsc{sg}(\textsc{\textsc{aor}})\\
+	\glt 
 
-a.   ətləg-e  mətqəmət  (kawkaw-ək)  kili-nen.
+	\ex \label{ex:basilico:11b}
+	\gll  ətləg-ə  mətq-e  kawkaw  ena-rkele-g’e.\\
+	father-\textsc{\textsc{erg}}  butter-\textsc{\textsc{instr}}  bread.\textsc{\textsc{abs}}  \textsc{ap}{}-{spread on}-3\textsc{sg}(\textsc{\textsc{aor}})\\
+	\glt 'The father spread butter on the bread.'
+	\z
+	\z
 
-father-\textsc{erg}  butter.\textsc{abs}  (bread-\textsc{loc})   spread on{}-3\textsc{sg}/3\textsc{sg}(\textsc{aor})
-
-b.   ətləg-ən  mətq-e  (kawkaw-ək)  ena-rkele-g’e.
-
-  father-\textsc{abs}  butter-\textsc{instr}  (bread-\textsc{loc})  \textsc{ap}{}-spread on-3\textsc{sg}(\textsc{aor})
-
-c.  ətləg-ə  mətq-e  kawkaw  ena-rkele-g’e.
-
-  father-\textsc{erg}  butter-\textsc{instr}  bread.\textsc{abs}  \textsc{ap}{}-spread on-3\textsc{sg}(\textsc{aor})
-
-  “The father spread butter on the bread.”
-
-In (a) we have the ergative, transitive clause, and in (b) we have the antipassive variant.  The (c) example shows the placement of the location ‘bread’ as the absolutive argument but the verb still contains the antipassive morpheme.  A second example is from Kodzinsky, \citet{NedjalkovPolinskaja1988}.
+In (a) we have the ergative, transitive clause, and in (b) we have the antipassive variant. The (c) example shows the placement of the location ‘bread’ as the absolutive argument but the verb still contains the antipassive morpheme. A second example is from  \citet{KozinskyEtAl1988}.
 
 \ea%11
-    \label{ex:key:11}
-    \gll\\
-        \\
-    \glt
+    Chukchi (\citealt{KozinskyEtAl1988}) \label{ex:basilico:11}
+    \ea \label{ex:basilico:11a}
+    \gll ətləg-e   təkečʔ-ən   utkučʔ-ək   pela-nen.\\
+    father-\textsc{\textsc{erg}}   bait-\textsc{\textsc{abs}}   trap-\textsc{loc}   leave-3\textsc{sg}/3\textsc{sg}\\
+    \glt  
+    
+    \ex \label{ex:basilico:11b}
+    \gll ətləg-en   təkečʔ-a   utkučʔ-ək   ena-pela-gʔe.\\
+    father-\textsc{\textsc{abs}}  bait-\textsc{ins}  trap-\textsc{loc}  \textsc{ap}{}-leave-3\textsc{sg}\\
+    \glt 
+    
+    \ex \label{ex:basilico:11b}
+    \gll ətləg-e  təkečʔ-a  utkučʔ-ən  ena-pela-nen.\\
+    father-\textsc{\textsc{erg}}  bait-\textsc{ins}  trap-\textsc{\textsc{abs}}  \textsc{ap}{}-leave-3\textsc{sg}/3\textsc{sg}\\
+    \glt 'The father left the bait by the trap.'
+    \z
     \z
 
-          Chukchi (Kozinsky, \citealt{NedjalkovPolinskaja1988})
 
-a.  ətləg-e   təkečʔ-ən   utkučʔ-ək   pela-nen.
+In the (a) example, we have a transitive, ergative structure with the noun phrase \textit{təkečʔ-ən} ‘bait’ as the absolutive (affixed with - \textit{ən}) and the noun phrase \textit{utkučʔ-ək} ‘trap’ with a locative case marker (-\textit{ək}) attached. The (b) example gives the antipassive counterpart of the (a) example, where the noun phrase \textit{təkečʔ-a} ‘bait’ is now in the instrumental case (affixed with –\textit{a}) and the verb is affixed with the antipassive \textit{ena}{}- morpheme. The subject is in the absolutive case and the verb shows agreement only with the subject. What is interesting is the (c) example. Here we have what looks like an antipassive clause; the verb is affixed with the antipassive morpheme \textit{ena}{}- and the noun phrase ‘the bait’ is in the instrumental case—exactly as in (b). However, the location argument \textit{utkučʔ-ən} ‘trap’ is not affixed with the locative market but appears in absolutive case, and the verb shows both subject and object agreement, agreeing with the absolutive ‘trap’. We have a transitive clause here, with \textit{ətləg-e} ‘the father’ as the subject and \textit{utkučʔ-ən} ‘the trap’ as the absolutive object. The ‘original’ direct object still appears as a ‘demoted’ object, and the verb still appears with antipassive morphology. 
 
-  father-\textsc{erg}   bait-\textsc{abs}   trap-\textsc{loc}   leave-3\textsc{sg}/3\textsc{sg}
+We might at first take the raising of the locative element to be movement of the locative element internal to the VP and adjoined to some other phrase, where it can receive absolutive case. However, there is a meaning difference between the (a) and (b) examples as contrasted to the (c) example in \REF{ex:basilico:11}. \citet{KozinskyEtAl1988} state that (c) means something quite different from (a), and derive this difference from a pragmatic suprapropositional meaning (SPM) difference between the two clauses. \citet[684]{KozinskyEtAl1988} give the SPM for the (a) example as “the bait has changed its location,” while that for (c) is not merely about a change in location but “implies that some bait is put in the trap which is, thus, ready for operation”. They note that the two sentences have different truth conditions; they state that “the former [example \REF{ex:basilico:15a}] can be used if the trap and the bait are merely stockpiled in one and the same place for the time being, while the latter [example \REF{ex:basilico:15b}] can by no means denote such a situation.”. \todo{check examples in citation, are they from this paper?/right nr?}
 
-b.   ətləg-en   təkečʔ-a   utkučʔ-ək   ena-pela-gʔe.
+While (a) and (c) are not truth conditionally equivalent, (b) and (a) are. Though \citet{KozinskyEtAl1988} derive this denotational difference from a pragmatic difference, it seems unlikely that a pragmatic difference can lead to different denotational semantics. We need a representation in which we can explain why (a) and (c) are denotationally different.
 
-  father-\textsc{abs}  bait-\textsc{ins}  trap-\textsc{loc}  \textsc{ap}{}-leave-3\textsc{sg}
+I argue here that the promotion of the locative is a case of a low applicative. Thus, just like above, here the ‘promoted’ object is in the specifier of a low applicative. The antipassive morphology is needed so there can be an argument position within the VP.
 
-c.  ətləg-e  təkečʔ-a  utkučʔ-ən  ena-pela-nen.
+In the basic transitive case, we have a change of location structure. The location argument is projected within the VP, and the theme element, in this case ‘the bait’, appears within a v[theme] head. The structure of the verb phrase will be as in figure ten, with its semantics shown beneath. 
+\begin{figure}
+	\begin{forest}
+		[TransP
+			[NP
+				[təkečʔ-ən]
+			]
+			[Trans'
+				[Trans]
+				[VP
+					[V
+						[pela]
+					]
+					[NP\textsubscript{loc}
+						[utkučʔ-ək]
+					]
+				]
+			]
+		]
+	\end{forest}
 
-  father-\textsc{erg}  bait-\textsc{ins}  trap-\textsc{abs}  \textsc{ap}{}-leave-3\textsc{sg}/3\textsc{sg}
+λe[leave(e) \& loc(e, at trap) \& \textsc{theme}(e, bait)]
+\caption{\label{fig:basilico:10}Transitive syntax and semantics}
+\end{figure}
+  can antipassivize this structure. The morpheme \textit{ine}{}- introduces the theme argument within the verb phrase. This structure is denotationally synonymous with \REF{ex:basilico:11a} above because there is no difference in the roles that the participants play in the event. The only difference is where and how the theme argument is introduced. \figref{fig:basilico:11} gives the antipassive syntax.
+\begin{figure}
+	\begin{forest}
+	[VP
+		[NP
+			[təkečʔ-a3]
+		]
+		[V
+			[V
+				[ena]
+				[V
+					[pela]
+				]
+			]
+			[NP\textsubscript{loc}
+				[3utkučʔ-ək]
+			]
+		]
+	]	
+	\end{forest}
 
-  “The father left the bait by the trap.”
+	λe[leave(e, at trap) \& \textsc{und}(e, bait)]
 
-In the (a) example, we have a transitive, ergative structure with the noun phrase \textit{təkečʔ-ən} ‘bait’ as the absolutive (affixed with - \textit{ən}) and the noun phrase \textit{utkučʔ-ək} ‘trap’ with a locative case marker (-\textit{ək}) attached.  The (b) example gives the antipassive counterpart of the (a) example, where the noun phrase \textit{təkečʔ-a} ‘bait’ is now in the instrumental case (affixed with –\textit{a}) and the verb is affixed with the antipassive \textit{ena}{}- morpheme.  The subject is in the absolutive case and the verb shows agreement only with the subject.  What is interesting is the (c) example.  Here we have what looks like an antipassive clause; the verb is affixed with the antipassive morpheme \textit{ena}{}- and the noun phrase ‘the bait’ is in the instrumental case—exactly as in (b).  However, the location argument \textit{utkučʔ-ən} ‘trap’ is not affixed with the locative market but appears in absolutive case, and the verb shows both subject and object agreement, agreeing with the absolutive ‘trap’. We have a transitive clause here, with \textit{ətləg-e} ‘the father’ as the subject and \textit{utkučʔ-ən} ‘the trap’ as the absolutive object.  The ‘original’ direct object still appears as a ‘demoted’ object, and the verb still appears with antipassive morphology. 
+	\caption{\label{fig:basilico:11}Antipassive syntax and semantics}
+\end{figure}
+               
 
-We might at first take the raising of the locative element to be movement of the locative element internal to the VP and adjoined to some other phrase, where it can receive absolutive case.  However, there is a meaning difference between the (a) and (b) examples as contrasted to the (c) example in \REF{ex:key:11}.  Kozinsky, \citet{NedjalkovPolinskaja1988} state that (c) means something quite different from (a), and derive this difference from a pragmatic suprapropositional meaning (SPM) difference between the two clauses. Kozinsky, Nedjalkov and \citet[684]{Polinskaja1988} give the SPM for the (a) example as “the bait has changed its location,” while that for (c) is not merely about a change in location but “implies that some bait is put in the trap which is, thus, ready for operation”.  They note that the two sentences have different truth conditions; they state that “the former [example \REF{ex:key:15a}] can be used if the trap and the bait are merely stockpiled in one and the same place for the time being, while the latter [example \REF{ex:key:15c}] can by no means denote such a situation.”.  
-
-While (a) and (c) are not truth conditionally equivalent, (b) and (a) are. Though Kozinsky, \citet{NedjalkovPolinskaja1988} derive this denotational difference from a pragmatic difference, it seems unlikely that a pragmatic difference can lead to different denotational semantics. We need a representation in which we can explain why (a) and (c) are denotationally different.
-
-I argue here that the promotion of the locative is a case of a low applicative. Thus, just like above, here the ‘promoted’ object is in the specifier of a low applicative.  The antipassive morphology is needed so there can be an argument position within the VP.
-
-In the basic transitive case, we have a change of location structure.  The location argument is projected within the VP, and the theme element, in this case ‘the bait’, appears within a v[theme] head. The structure of the verb phrase will be as in figure ten, with its semantics shown beneath. 
-
-            TransP
-
-                 3                  
-
-              NP    Trans´ 
-
-                   təkečʔ-ən3
-
-                    Trans         VP
-
-                        3
-
-      V             NPloc
-
-    pela           utkučʔ-ək
-
-    λe[leave(e) \& loc(e, at trap) \& theme(e, bait)]
-
-\begin{stylecaption}
-Figure Ten: Transitive syntax and semantics
-\end{stylecaption}
-
-We can antipassivize this structure.  The morpheme \textit{ine}{}- introduces the theme argument within the verb phrase.  This structure is denotationally synonymous with \REF{ex:key:11a} above because there is no difference in the roles that the participants play in the event.  The only difference is where and how the theme argument is introduced.  Figure eleven gives the antipassive syntax.
-
-               VP
-
-      3
-
-     NP            V
-
-təkečʔ-a3
-
-   V    NPloc
-
-        3utkučʔ-ək
-
-      ena           V
-
-            pela
-
-\begin{styleListParagraph}
-λe[leave(e, at trap) \& und(e, bait)]
-\end{styleListParagraph}
-
-\begin{stylecaption}
-Figure Eleven: Antipassive syntax and semantics
-\end{stylecaption}
-
-In the case of the promotion of the locative NP to absolutive, here I argue that the structure is different; there is a low applicative morpheme introduced and ‘the trap’ appears in the specifier of this applicative morpheme.  I show the syntax in figure twelve.  This applicative morpheme introduces a possession relation between ‘the trap’ and ‘the bait’; thus, ‘the trap’ has ‘the bait’.  It is this difference—the presence of the applicative morpheme that introduces a possessive applicative relation—that accounts for the denotational difference between the (a)/(b) cases and the (c) case. In the (c) case, the trap must come to have the bait at the end of the event, while in the (a)/(b) case we only have a change of location structure so ‘the trap’ and ‘the bait’ need only be spatially near each other at the end of the event.  Perhaps a better translation for the ‘locative advancement’ sentence is ‘The father left the trap with bait’.
-
-              VP  
-
-    wo
-
-               V               ApplP     
-
-      3     3
-
-           ena          V    NP          Appl´      
-
-                          pela  utkučʔ-ən3
-
-                                    Appl        NP
-
-                  təkečʔ-a  
-
-  λe [leave(e) \& theme(e, bait) \& to-the-possession-of (trap, bait)]
-
-\begin{stylecaption}
-Figure Twelve: Applicative syntax and semantics
-\end{stylecaption}
+In the case of the promotion of the locative NP to absolutive, here I argue that the structure is different; there is a low applicative morpheme introduced and ‘the trap’ appears in the specifier of this applicative morpheme. I show the syntax in \figref{fig:basilico:12}. This applicative morpheme introduces a possession relation between ‘the trap’ and ‘the bait’; thus, ‘the trap’ has ‘the bait’. It is this difference—the presence of the applicative morpheme that introduces a possessive applicative relation—that accounts for the denotational difference between the (a)/(b) cases and the (c) case. In the (c) case, the trap must come to have the bait at the end of the event, while in the (a)/(b) case we only have a change of location structure so ‘the trap’ and ‘the bait’ need only be spatially near each other at the end of the event. Perhaps a better translation for the ‘locative advancement’ sentence is ‘The father left the trap with bait’.
+\begin{figure}
+	\begin{forest}
+		[VP
+			[V
+				[ena]
+				[V
+					[pela]
+				]
+			]
+			[ApplP
+				[NP
+					[utkučʔ-ən]
+				]
+				[Appl'
+					[Appl]
+					[NP
+						[təkečʔ-a]
+					]
+				]
+			]
+		]	
+	\end{forest}
+	
+	λe [leave(e) \& \textsc{\textsc{theme}}(e, bait) \& to-the-possession-of (trap, bait)]
+\caption{\label{fig:basilico:12}Applicative syntax and semantics}
+\end{figure}
+  
 
 The notion that these examples of locative advancement involve an applicative element is also supported by impossibility of incorporating the locative nominal into the verb.
 
 \ea%12
-    \label{ex:key:12}
-    \gll\\
-        \\
-    \glt
+    Chukchi (\citealt{KozinskyEtAl1988}) \label{ex:basilico:12}
+    \ea[*]{\label{ex:basilico:12a}
+    \gll ətləg-e   təkečʔ-ən  utkučʔə-pela-nen.\\
+    father{}-\textsc{\textsc{erg}}   bait-\textsc{\textsc{abs}}   trap-leave{}-3\textsc{sg}/3\textsc{sg}\\
+    \glt }
+    
+    \ex[*]{ \label{ex:basilico:12b}
+    \gll ətləg-en   təkečʔ-a  utkučʔə-pela-gʔe \\
+     father-\textsc{\textsc{abs}}  bait-\textsc{inst}  trap-leave-3\textsc{sg}\\
+    \glt 'The father left the bait by the trap.'}
+    \z
     \z
 
-          Chukchi (Kodzinsky, \citealt{NedjalkovPolinskaja1988})
+          
+This lack of incorporation is somewhat surprising, since absolutive arguments usually can incorporate. But if we take the locative argument to be an applicative argument, then we can reduce the lack of incorporation to another well-known restriction in noun incorporation: goal/recipient/possessor (indirect object) arguments do not incorporate \citep{Baker1988}.
 
-a.  *ətləg-e   təkečʔ-ən  utkučʔə-pela-nen.
-
-  father{}-\textsc{erg}   bait-\textsc{abs}   trap-leave{}-3\textsc{sg}/3\textsc{sg}
-
-b.    *ətləg-en   təkečʔ-a  utkučʔə-pela-gʔe
-
-  father-\textsc{abs}  bait-\textsc{inst}  trap-leave-3\textsc{sg}
-
-“The father left the bait by the trap.”
-
-This lack of incorporation is somewhat surprising, since absolutive arguments usually can incorporate.  But if we take the locative argument to be an applicative argument, then we can reduce the lack of incorporation to another well-known restriction in noun incorporation: goal/recipient/possessor (indirect object) arguments do not incorporate \citep{Baker1988}.
-
-Another reason to consider that antipassivization introduces an argument comes from cases of antipassivization feeding ‘dative shift’.  The following example shows ‘dative shift’ with a change of state verb.
+Another reason to consider that antipassivization introduces an argument comes from cases of antipassivization feeding ‘dative shift’. The following example shows ‘dative shift’ with a change of state verb.
 
 \ea%13
-    \label{ex:key:13}
-    \gll\\
-        \\
+    Chukchi \citep{Spencer1995}\label{ex:basilico:13}
+    \ea \label{ex:basilico:13a}
+    \gll ǝtlǝg-e  akka-gtǝ  qora-ŋǝ  tǝm-nen.\\
+    father{}-\textsc{erg}  son{}-dat  deer{}-\textsc{abs}  kill-\textsc{3sg}.s/\textsc{3sg}.o\\
     \glt
+    
+    \ex \label{ex:basilico:13b}
+    \gll ǝtlǝg-e  ekǝk    ena-nmǝ-nen    qora-ta. \\
+    father-\textsc{erg}  son.\textsc{abs}  ap{}-kill-\textsc{3sg}.s/\textsc{3sg}.o  deer-\textsc{instr}\\
+    \glt 'The father killed a re\textsc{ind}eer for the son.'
+    \z
     \z
 
-          Chukchi (Spencer, 1995)
 
-a.  ǝtlǝg-e  akka-gtǝ  qora-ŋǝ  tǝm-nen.
-
-  father{}-erg  son{}-dat  deer{}-abs  kill-3sg.s/3sg.o
-
-b.    ǝtlǝg-e  ekǝk    ena-nmǝ-nen    qora-ta.  
-
-  father-erg  son.abs  ap{}-kill-3sg.s/3sg.o  deer-instr
-
-  “The father killed a reindeer for the son.”
-
-What is interesting in this case is that a change of state verb such as ‘kill’ appears to undergo the dative (really the benefactive) alternation; however in this case, as the (b) example shows, the verb must first be antipassivized before the benefactive argument can appear as the absolutive.   Verbs of change of state such as ‘kill’ in English do not undergo this alternation, while verbs of creation can.
+What is interesting in this case is that a change of state verb such as ‘kill’ appears to undergo the dative (really the benefactive) alternation; however in this case, as the (b) example shows, the verb must first be antipassivized before the benefactive argument can appear as the absolutive. Verbs of change of state such as ‘kill’ in English do not undergo this alternation, while verbs of creation can.
 
 \ea%14
-    \label{ex:key:14}
-    \gll\\
-        \\
-    \glt
+    English\label{ex:basilico:14}
+    \ea The father killed a reindeer for his son.
+   	\ex[*]{The father killed his son a reindeer.}
+   	\ex The father built a house for his son
+   	\ex The father built his son a house.
+    \z
     \z
 
-          English
-
-a.  The father killed a reindeer for his son.
-
-b.    *The father killed his son a reindeer.
-
-c.  The father built a house for his son.
-
-d.   The father built his son a house.
-
-If a core transitive result verb such as ‘kill’ does not introduce its argument, then the verb is not the right type to serve as an argument of ApplP.  However, a creation verb such as ‘build’ is a noncore transitive verb and does introduce its argument, so it can serve as the input to applicativization.\footnote{3.  Also, verbs of creation are agentive verbs in Eskimo-Aleut, as in this example from Central Alaskan Yup’ik (Miyaoka, 2012), which is expected if creation verbs introduce their argument.(i)kenir-tuq      cook-\textrm{ind}.3\textrm{sg} She is cooking something.}  Thus, we explain the difference in English above.  But in Chukchi, it is possible for this core transitive result verb to undergo the benefactive alternation, but only when the antipassive morpheme is present.  So we see again that the addition of an applied object, in this case the benefactive, requires the antipassive.  The verb ‘kill’ does not introduce an argument at the VP level, so the antipassive morpheme is necessary to introduce one.  Though Trans does eventually introduce an internal argument, it is outside of the VP domain so it is merged too late for the ApplP, which must merge with a verb.\footnote{4.  \citet{Spencer1995} states that ‘dative shift’ has not been reported to occur with intransitive verbs.  Thus, it is unlikely that the phenomenon illustrated here in a high applicative, since high applicatives can occur with intransitive verbs.}This contrast with the oblique marked location argument shows that the antipassive does not involve the loss of absolutive case (as in \citealt{Baker1988}), since absolutive is available for the promoted argument.  Thus, it is unlikely that the antipassive morpheme is the head of a special external argument introducing v head that does not assign case (T. Levin, 2015), or blocks T from assigning case, thus forcing an oblique case for the undergoer argument.\footnote{5.  We could analyze the promotion of the location argument to absolutive as a case of an additional high applicative element, perhaps assigned some ‘affected’ role.   The denotational difference would come from this ‘affected’ role. However, this analysis does not gain us much over the analysis presented above: there are still two ‘object’ positions, one within the VP and there is still an applicative head.  The analysis presented in the text is superior, though, in the sense that elements that generally are assigned only an ‘affected’ role tend to be animate and/or sentient (Bosse, Bruening, \& Yamada, 2012).} 
+If a core transitive result verb such as ‘kill’ does not introduce its argument, then the verb is not the right type to serve as an argument of ApplP. However, a creation verb such as ‘build’ is a noncore transitive verb and does introduce its argument, so it can serve as the input to applicativization.\footnote{Also, verbs of creation are agentive verbs in Eskimo-Aleut, as in this example from Central Alaskan Yup’ik \citep{Miyaoka2012}, which is expected if creation verbs introduce their argument.(i)kenir-tuq      cook-\textrm{\textsc{ind}}.3\textrm{sg} She is cooking something.}  Thus, we explain the difference in English above. But in Chukchi, it is possible for this core transitive result verb to undergo the benefactive alternation, but only when the antipassive morpheme is present. So we see again that the addition of an applied object, in this case the benefactive, requires the antipassive. The verb ‘kill’ does not introduce an argument at the VP level, so the antipassive morpheme is necessary to introduce one. Though Trans does eventually introduce an internal argument, it is outside of the VP domain so it is merged too late for the ApplP, which must merge with a verb.\footnote{\citet{Spencer1995} states that ‘dative shift’ has not been reported to occur with intransitive verbs. Thus, it is unlikely that the phenomenon illustrated here in a high applicative, since high applicatives can occur with intransitive verbs.}This contrast with the oblique marked location argument shows that the antipassive does not involve the loss of absolutive case (as in \citealt{Baker1988}), since absolutive is available for the promoted argument. Thus, it is unlikely that the antipassive morpheme is the head of a special external argument introducing v head that does not assign case \citep{Levins2015}, or blocks T from assigning case, thus forcing an oblique case for the undergoer argument.\footnote{We could analyze the promotion of the location argument to absolutive as a case of an additional high applicative element, perhaps assigned some ‘affected’ role. The denotational difference would come from this ‘affected’ role. However, this analysis does not gain us much over the analysis presented above: there are still two ‘object’ positions, one within the VP and there is still an applicative head. The analysis presented in the text is superior, though, in the sense that elements that generally are assigned only an ‘affected’ role tend to be animate and/or sentient \citep{BosseEtAl2012}.} 
 
 \subsection{Not just for case reasons} %4.2 /
 
-One final note concerns whether or not the addition of the antipassive argument with the applicative is necessary for argument structure reasons or simply case reasons.  One potential alternative explanation for the presence of the antipassive is that there are not enough structural case positions for all the arguments.  We might suggest that the promoted locative argument ‘steals’ absolutive case from the undergoer argument, so there is no structural case for the undergoer argument.  Antipassivization is then required in order to assign case to the undergoer if the location receives the only absolutive.  
+One final note concerns whether or not the addition of the antipassive argument with the applicative is necessary for argument structure reasons or simply case reasons. One potential alternative explanation for the presence of the antipassive is that there are not enough structural case positions for all the arguments. We might suggest that the promoted locative argument ‘steals’ absolutive case from the undergoer argument, so there is no structural case for the undergoer argument. Antipassivization is then required in order to assign case to the undergoer if the location receives the only absolutive. 
 
-For \citet{Baker1988}, antipassivization absorbs the case assigning ability of the verb, so applicatives should be impossible with antipassivized verbs.  He gives examples from Tzotzil which motivate this claim.\textstyleEndnoteSymbol{} 
+For \citet{Baker1988}, antipassivization \textsc{abs}orbs the case assigning ability of the verb, so applicatives should be impossible with antipassivized verbs. He gives examples from Tzotzil which motivate this claim.\textstyleEndnoteSymbol{} 
 
 \ea%15
-    \label{ex:key:15}
-    \gll\\
-        \\
-    \glt
+    Tzotzil \citep{Aissen1983} \label{ex:basilico:15}
+    \ea \label{ex:basilico:15a}
+    \gll č-i-Ɂak’-van.\\
+    \textsc{asp}{}-a1-give{}-\textsc{ap}\\
+    \glt `I am giving [someone].(i.e. my daughter, in marriage)
+    
+    \ex[*]{ \label{ex:basilico:15b}
+    \gll taš-Ø-k-ak’-van-be  li  Šune.\\
+    \textsc{asp}{}-A3-E1-give-ap{}-to  the  Šun
+    \\
+    \glt `I am giving [someone] to Šun.'  (my daughter, in marriage)}
     \z
-
-          Tzotzil (Aissen, 1983)
-
-a.  č-i-Ɂak’-van.
-
-  asp{}-a1{}-give{}-ap
-
-  “I am giving [someone].”    (i.e. my daughter, in marriage)
-
-b.  *taš-Ø-k-ak’-van-be  li  Šune.
-
-  asp{}-A3-E1-give-ap{}-to  the  Šun
-
-  “I am giving [someone] to Šun.”  (my daughter, in marriage)
+    \z
+    
 
 Here, the antipassive suffix is –\textit{van} and the applied suffix is –\textit{be}.
 
-So there is some cross-linguistic difference here in the ability of antipassives to have applied arguments.  An explanation for this difference comes from the different types of antipassive markers.  In this case, the antipassive marker in Tzotzil, unlike \textit{ine}{}- Chukchi, is not an argument introducer but an intransitivizer.  Note that unlike the antipassive in Chukchi, these examples from Tzotzil are absolutely intransitive; \citet[291]{Aissen1993} states that “verbs suffixed with –\textit{van} have a reading like ‘to do x to y or with respect to y’ where y must be human, either a nonspecific human or a discourse referent.  In either case, \textit{verbs} \textit{suffixed} \textit{with} \textit{–van} \textit{never} \textit{occur} \textit{with} \textit{an} \textit{overt} \textit{object}” [italics mine].
+So there is some cross-linguistic difference here in the ability of antipassives to have applied arguments. An explanation for this difference comes from the different types of antipassive markers. In this case, the antipassive marker in Tzotzil, unlike \textit{ine}{}- Chukchi, is not an argument introducer but an intransitivizer. Note that unlike the antipassive in Chukchi, these examples from Tzotzil are absolutely intransitive; \citet[291]{Aissen1983} \todo{is it 1983 or 1993}states that “verbs suffixed with –\textit{van} have a reading like ‘to do x to y or with respect to y’ where y must be human, either a nonspecific human or a discourse referent. In either case, \textit{verbs} \textit{suffixed} \textit{with} \textit{–van} \textit{never} \textit{occur} \textit{with} \textit{an} \textit{overt} \textit{object}” [italics mine].
 
 \ea%16
-    \label{ex:key:16}
-    \gll\\
-        \\
-    \glt
-    \z
+     Tzotzil \citep{Aissen1983} \label{ex:basilico:16}
+   \ea \label{ex:basilico:16a}
+   \gll Muk’ bu š-i-mil-van.\\
+   never \textsc{asp}-\textsc{a1}-kill-van\\
+   \glt 'I never killed anyone.'
+   
+   \ex \label{ex:basilico:16b}
+   \gll  …š-k’-ot sibtas-van-uk-Ø.\\
+   …\textsc{asp}-come  frighten-van-uk-\textsc{a3}\\
+   \glt '...he came to frighten [people].'
+   
+   \ex \label{ex:basilico:16c}
+   \gll  ʔAk’-b-at-Ø s-veʔel, ʔi-Ø-veʔ lek. Ta ša la š-Ø-mey-van, ta ša la š-Ø-buȼ’-van ti kriarailetike. \\
+   give-be-pass-\textsc{a3} his-meal \textsc{asp}-\textsc{a3}-eat well  \textsc{asp} now  \textsc{pt} \textsc{asp}-\textsc{a3}-embrace-van \textsc{asp} now \textsc{pt} \textsc{asp}-\textsc{a3}-kiss-van the maids\\
+   \glt 'He was given his meal, he ate well. The maids embraced [him] and kissed [him].'
+   \z
+   \z
 
-          Tzotzil \citep{Aissen1983}
+These ‘absolutely intransitive’ verbs do not introduce a syntactic argument, not even an internal argument marked with oblique case or a null syntactic one. Though their lexical-conceptual meaning has two \textsc{part}icipants, there is no argument in the syntax; rules of construal based on pragmatics and the lexical-conceptual meaning of the verb derive the interpretation of a second event \textsc{part}icipant. If there is no internal argument introduced, then there can be no low applicative formation. 
 
-a.  Muk’  bu  š-i-mil-van.
+An alternative to this analysis considers that this antipassive marker does introduce an argument, but that this argument comes existentially closed and thus there is no open argument position. The verb, then, is still not of the right type to combine with the ApplP, because the internal argument position has been saturated. In this way, both types of antipassive markers introduce arguments, with the difference attributed to whether or not that argument position is open or closed. Furthermore, we can then make a parallel with the passive construction, as some languages allow the external argument to be expressed as an oblique and some do not. However, these ‘missing objects’ in this absolutely intransitive constructions are not interpreted existentially, but either as a discourse referent or generically. In fact, antipassive clauses with -\textit{ine} in Chukchi and and -\textit{si} in Inuit with no overt oblique argument can be interpreted existentially, unlike the examples from Tzotzil given above. 
 
-  never    asp{}-a1-kill-van
+In addition, another alternative is to consider that the antipassive morpheme does suppress absolutive case, but the difference between Chukchi and Tzotzil is that the Appl morpheme itself brings along absolutive case in Chukchi but not Tzotzil. However, this alternative is unlikely since even in a simple antipassive construction in Tzotzil with no applicative, the internal argument is not allowed. Thus, the internal argument in Tzotzil is never possible.\footnote{I thank an anonymous review for both alternatives suggested here.} 
 
-“I never killed anyone.”
-
-b.  … š-k’-ot  sibtas-van-uk-Ø.
-
-  …asp{}-come  frighten-van{}-uk{}-a3
-
-  he came to frighten [people].
-
-c.  ʔAk’-b-at-Ø        s-veʔel,  ʔi-  Ø-veʔ    lek..  Ta  ša      
-
-  give-be-pass-a3  his-meal  asp-a3-eat  well  asp     now 
-
-  la  š-Ø-mey-van,  ta  ša  la  š-Ø-buȼ’- van
-
-  pt  asp-a3-embrace-van  asp   now  pt   asp-A3-kiss-van
-
-  ti  kriarailetike.
-
-  the   maids
-
-“He was given his meal, he ate well.  The maids embraced [him] and kissed [him].”
-
-These ‘absolutely intransitive’ verbs do not introduce a syntactic argument, not even an internal argument marked with oblique case or a null syntactic one.  Though their lexical-conceptual meaning has two participants, there is no argument in the syntax; rules of construal based on pragmatics and the lexical-conceptual meaning of the verb derive the interpretation of a second event participant. If there is no internal argument introduced, then there can be no low applicative formation. 
-
-An alternative to this analysis considers that this antipassive marker does introduce an argument, but that this argument comes existentially closed and thus there is no open argument position.  The verb, then, is still not of the right type to combine with the ApplP, because the internal argument position has been saturated.   In this way, both types of antipassive markers introduce arguments, with the difference attributed to whether or not that argument position is open or closed. Furthermore, we can then make a parallel with the passive construction, as some languages allow the external argument to be expressed as an oblique and some do not.  However, these ‘missing objects’ in this absolutely intransitive constructions are not interpreted existentially, but either as a discourse referent or generically. In fact, antipassive clauses with -\textit{ine} in Chukchi and and -\textit{si} in Inuit with no overt oblique argument can be interpreted existentially, unlike the examples from Tzotzil given above. 
-
-In addition, another alternative is to consider that the antipassive morpheme does suppress absolutive case, but the difference between Chukchi and Tzotzil is that the Appl morpheme itself brings along absolutive case in Chukchi but not Tzotzil.\textstyleFootnoteSymbol{} However, this alternative is unlikely since even in a simple antipassive construction in Tzotzil with no applicative, the internal argument is not allowed.  Thus, the internal argument in Tzotzil is never possible.\footnote{6.  I thank an anonymous review for both alternatives suggested here.} \textstyleFootnoteSymbol{} 
-
-Thus, we see here how considering whether or not an antipassive morpheme introduces an argument can explain some of the cross-linguistic variation seen in applicativization and antipassivization.\textstyleFootnoteSymbol{} \footnote{7.  A prediction of this approach to the antipassive is that verbs which introduce their arguments and thus do not appear with overt antipassive morphology in the antipassive construction (such as agentive verbs in Eskimo-Aleut) would not need antipassive morphology with a low applicative.   Unfortunately, I do not have such data available to me which shows that this prediction is confirmed.  Thank you to both reviewers for pointing out this prediction to me.}    
+Thus, we see here how considering whether or not an antipassive morpheme introduces an argument can explain some of the cross-linguistic variation seen in applicativization and antipassivization.\footnote{A prediction of this approach to the antipassive is that verbs which introduce their arguments and thus do not appear with overt antipassive morphology in the antipassive construction (such as agentive verbs in Eskimo-Aleut) would not need antipassive morphology with a low applicative. Unfortunately, I do not have such data available to me which shows that this prediction is confirmed. Thank you to both reviewers for pointing out this prediction to me.}    
 
 \section{Conclusion} %5. /
 
-In some languages, antipassivization is necessary for applicativization.  Following Basilico (2012, 2017), I argue that the antipassive morpheme can introduce an internal argument.  This argument introduction allows for low applicative formation, given \citegen{Pyllkänen2008} analysis that low applicatives require transitive verbs.  In those cases where antipassivization does not support applicativization, these antipassive morphemes do not introduce an internal argument.  These latter constructions allow no oblique internal argument to be present in the syntax.  Case reasons alone cannot explain these facts. 
+In some languages, antipassivization is necessary for applicativization. Following \citet{Basilico2012, Basilico2017}\todo{missing reference}, I argue that the antipassive morpheme can introduce an internal argument. This argument introduction allows for low applicative formation, given \citegen{Pyllkänen2008} analysis that low applicatives require transitive verbs. In those cases where antipassivization does not support applicativization, these antipassive morphemes do not introduce an internal argument. These latter constructions allow no oblique internal argument to be present in the syntax. Case reasons alone cannot explain these facts. 
 
 By upending the standard notion that antipassivization always involves argument elimination or demotion, but can involve argument addition, this study accounts for a seemingly contradictory cross-linguistic relationship between antipassivization and applicativization.
 
-We have further support for the view that internal arguments can be introduced in the syntax.  In addition, this work shows that there are two different positions for the introduction of the internal argument, one internal to the VP and one external to the VP.  This analysis asks us to revisit notions such as \citegen{Baker1988} Uniformity of Thematic Assignment Hypothesis and well as the syntactic characterization of the unaccusative and unergative distinction. 
+We have further support for the view that internal arguments can be introduced in the syntax. In addition, this work shows that there are two different positions for the introduction of the internal argument, one internal to the VP and one external to the VP. This analysis asks us to revisit notions such as \citegen{Baker1988} Uniformity of Thematic Assignment Hypothesis and well as the syntactic characterization of the unaccusative and unergative distinction. 
 
 
 \begin{verbatim}%%move bib entries to  localbibliography.bib
 
 
-@incollection{acedo-matellan_syntax_2014,
-	address = {Oxford, United Kingdom ; New York, NY},
-	title = {From syntax to roots: {A} syntactic approach to root interpretation},
-	isbn = {978-0-19-966526-6},
-	number = {51},
-	booktitle = {The syntax of roots and the roots of syntax},
-	publisher = {Oxford University Press},
-	author = {Acedo-Matellán, Victor and Mateau, Jaume},
-	editor = {Alexiadou, Artemis and Borer, Hagit and Schäfer, Florian},
-	year = {2014},
-	pages = {14--32}
+
+@incollection{Acedo-MatellanMateau2014,
+address = {Oxford},
+title = {From syntax to roots: {{A}} syntactic approach to root interpretation},
+isbn = {978-0-19-966526-6},
+number = {51},
+booktitle = {The syntax of roots and the roots of syntax},
+publisher = {Oxford University Press},
+author = {Acedo-Matellán, Victor and Mateau, Jaume},
+editor = {Alexiadou, Artemis and Borer, Hagit and Schäfer, Florian},
+year = {2014},
+pages = {14--32}
 }
 
-@inproceedings{basilico_antipassive_2017,
+@inproceedings{Basilico2017,
 	address = {Austin, Texas},
 	title = {The antipassive adds an argument},
 	author = {Basilico, David},
@@ -726,17 +690,18 @@ We have further support for the view that internal arguments can be introduced i
 
 %Baker1988 has been moved to the main file
 
-@incollection{aissen_indirect_1983,
+@incollection{Aissen1983,
 	address = {Chicago},
-	title = {Indirect object advancement in {Tzotzil}},
+	title = {\textsc{ind}irect object advancement in {Tzotzil}},
 	booktitle = {Studies in relation grammar 1},
 	publisher = {University of Chicago Press},
 	author = {Aissen, Judith},
 	editor = {Perlmutter, David},
 	year = {1983}
+
 }
 
-@book{alexiadou_syntax_2014,
+@book{AlexiadouEtAl2014,
 	address = {Oxford, United Kingdom ; New York, NY},
 	edition = {First edition},
 	series = {Oxford {Studies} in {Theoretical} {Linguistics}},
@@ -747,43 +712,43 @@ We have further support for the view that internal arguments can be introduced i
 	editor = {Alexiadou, Artemis and Borer, Hagit and Schäfer, Florian},
 	year = {2014},
 	note = {OCLC: ocn903701598},
-	keywords = {Afroasiatic languages, Grammar, Comparative and general, Indo-European languages, Roots, Syntax}
+	keywords = {Afroasiatic languages, Grammar, Comparative and general, \textsc{ind}o-European languages, Roots, Syntax}
 }
 
-@book{borer_structuring_2005,
+@book{Borer2005,
 	address = {Oxford},
-	title = {Structuring sense: {The} normal course of events},
+	title = {Structuring sense: {{T}}he normal course of events},
 	volume = {2},
 	publisher = {Oxford University Press},
 	author = {Borer, Hagit},
 	year = {2005}
 }
 
-@incollection{basilico_antipassive_2012,
+@incollection{BasilicoRob\textsc{erg}e2012,
 	address = {Bingley, UK},
 	title = {The antipassive and its relation to scalar structure},
-	booktitle = {The {End} of {Argument} {Structure}},
+	booktitle = {The end of argument structure},
 	publisher = {Emerald Publishing Group},
 	author = {Basilico, David},
-	editor = {Cuervo, Maria Cristina and Roberge, Yves},
+	editor = {Cuervo, Maria Cristina and Rob\textsc{erg}e, Yves},
 	year = {2012},
 	pages = {75--104}
 }
 
-@incollection{bobaljik_limits_2007,
+@incollection{Bobaljik2007,
 	address = {Oxford},
-	title = {The {Limits} of {Deponency}: {A} {Chukotko}-{Centric} {Perspective}},
-	booktitle = {Deponency and {Morphological} {Mismatches}},
+	title = {The limits of deponency: {{A}} {Chukotko}-centric perspective},
+	booktitle = {Deponency and morphological mismatches},
 	publisher = {Oxford University Press},
 	author = {Bobaljik, Jonathan David},
 	editor = {Baerman, Matthew and Corbett, G and Brown, David and Hippisley, A},
 	year = {2007}
 }
 
-@incollection{bobaljik_eccentric_2006,
+@incollection{BobaljikBranigan2006,
 	address = {Dordrecht},
 	title = {Eccentric agreement and multiple case checking},
-	booktitle = {Ergativity: {Emerging} {Issues}},
+	booktitle = {\textsc{erg}ativity: {{E}}merging issues},
 	publisher = {Springer},
 	author = {Bobaljik, Jonathan David and Branigan, Phillip},
 	editor = {Johns, Alana and Massam, Diane and Ndayiragije, Juneval},
@@ -791,7 +756,7 @@ We have further support for the view that internal arguments can be introduced i
 	pages = {47--77}
 }
 
-@article{bosse_affected_2012,
+@article{BosseEtAl2012,
 	title = {Affected experiencers},
 	volume = {30},
 	journal = {Natural Language and Linguistic Theory},
@@ -800,7 +765,7 @@ We have further support for the view that internal arguments can be introduced i
 	pages = {1185--1230}
 }
 
-@phdthesis{dunn_grammar_1999,
+@PhDthesis{Dunn1999,
 	type = {Ph.{D} dissertation},
 	title = {A grammar of {Chukchi}},
 	school = {Australian National University},
@@ -808,7 +773,7 @@ We have further support for the view that internal arguments can be introduced i
 	year = {1999}
 }
 
-@incollection{hale_eccentric_2002,
+@incollection{Hale2002,
 	address = {Vitoria-Gasteiz},
 	title = {Eccentric agreement},
 	booktitle = {Kasu eta {Komunztaduraren} gainean [{On} {Case} and {Agreement}]},
@@ -819,10 +784,10 @@ We have further support for the view that internal arguments can be introduced i
 	pages = {15--48}
 }
 
-@incollection{johns_morphosyntactic_2017,
+@incollection{JohnsKucerova2017,
 	address = {Oxford},
 	title = {On the morphosyntactic reflexes of the information structure analysis in the ergative patterning of the {Inuit} language},
-	booktitle = {Oxford handbook of ergativity},
+	booktitle = {Oxford handbook of \textsc{erg}ativity},
 	publisher = {Oxford University Press},
 	author = {Johns, Alana and Kučerová, Ivona},
 	editor = {Coonn, Jessica and Massam, Diane and Travis, Lisa},
@@ -830,9 +795,9 @@ We have further support for the view that internal arguments can be introduced i
 	pages = {397--418}
 }
 
-@incollection{kozinsky_antipassive_1988,
+@incollection{KozinskyEtAl1988,
 	address = {Amsterdam},
-	title = {Antipassive in {Chukchee}: oblique object, object incorporation, zero object},
+	title = {Antipassive in {Chukchee}: {{O}}blique object, object incorporation, zero object},
 	booktitle = {Passive and voice},
 	publisher = {John Benjamins},
 	author = {Kozinsky, Ivan and Nedjalkov, Victor and Polinskaja, Maria},
@@ -841,9 +806,9 @@ We have further support for the view that internal arguments can be introduced i
 	pages = {651--707}
 }
 
-@incollection{levin_objecthood:_1999,
+@incollection{Levin1999,
 	address = {Chicago},
-	title = {Objecthood: {An} event structure perspective},
+	title = {Objecthood: {{An}} event structure perspective},
 	booktitle = {Papers from the 35th {Regional} {Meeting} of the {Chicago} {Linguistic} {Society}, 1: {The} {Main} {Session}},
 	publisher = {Chicago Linguistic Society},
 	author = {Levin, Beth},
@@ -852,18 +817,18 @@ We have further support for the view that internal arguments can be introduced i
 	pages = {223--247}
 }
 
-@inproceedings{levin_towards_2015,
+@inproceedings{Levins2015,
 	address = {Portland, Oregon},
 	title = {Towards a unified analysis of the antipassive and pseudo noun incorporation},
 	author = {Levin, Theodore},
 	year = {2015}
 }
 
-@book{lohndal_phrase_2014,
+@book{Lohndal2014,
 	address = {Oxford, United Kingdom},
 	edition = {First edition},
 	series = {Oxford studies in theoretical linguistics},
-	title = {Phrase structure and argument structure: a case study of the syntax-semantics interface},
+	title = {Phrase structure and argument structure: {{a}} case study of the syntax-semantics interface},
 	isbn = {978-0-19-967711-5 978-0-19-967712-2},
 	shorttitle = {Phrase structure and argument structure},
 	number = {49},
@@ -874,7 +839,7 @@ We have further support for the view that internal arguments can be introduced i
 	keywords = {Grammar, Comparative and general, Syntax, Phrase structure grammar, Semantics, Verb}
 }
 
-@book{miyaoka_grammar_2012,
+@book{Miyaoka2012,
 	address = {Berlin},
 	series = {Mouton grammar library},
 	title = {A grammar of {Central} {Alaskan} {Yupik} ({CAY})},
@@ -888,28 +853,28 @@ We have further support for the view that internal arguments can be introduced i
 	keywords = {Central Yupik language, Grammar}
 }
 
-@phdthesis{nagai_agentive_2006,
+@phdthesis{Nagai2006,
 	type = {Ph.{D} dissertation},
-	title = {Agentive and {Patientive} {Verb} {Bases} in {North} {Alaskan} {Iñupiaq}},
+	title = {Agentive and patientive verb bases in {North} {Alaskan} {Iñupiaq}},
 	school = {University of Alaska Fairbanks},
 	author = {Nagai, Tadataka},
 	year = {2006}
 }
 
-@book{polinsky_deconstructing_2016,
+@book{Polinsky2016,
 	address = {New York, NY},
 	series = {Oxford {Studies} in {Comparative} {Syntax}},
-	title = {Deconstructing ergativity: two types of ergative languages and their features},
+	title = {Deconstructing \textsc{erg}ativity: {{T}}wo types of ergative languages and their features},
 	isbn = {978-0-19-025658-6 978-0-19-025659-3},
-	shorttitle = {Deconstructing ergativity},
+	shorttitle = {Deconstructing \textsc{erg}ativity},
 	publisher = {Oxford University Press},
 	author = {Polinsky, Maria},
 	year = {2016},
-	keywords = {Grammar, Comparative and general, Ergative constructions, Generative grammar}
+	keywords = {Grammar, Comparative and general, ergative constructions, Generative grammar}
 }
 
-@article{polinskaja_contrasting_1987,
-	title = {Contrasting the absolutive in {Chuckchee} {Syntax}, semantics pragmatics},
+@article{Polinskaja1987,
+	title = {Contrasting the absolutive in {Chuckchee} syntax, semantics pragmatics\biberror{check title}},
 	volume = {31},
 	journal = {Lingua},
 	author = {Polinskaja, Maria and Nedjalkov, Victor},
@@ -917,10 +882,10 @@ We have further support for the view that internal arguments can be introduced i
 	pages = {239--269}
 }
 
-@incollection{rappaport_hovav_building_1999,
+@incollection{RappaportHovavLevin1999,
 	address = {Stanford},
 	title = {Building verb meanings},
-	booktitle = {The projection of arguments: lexical and compositional factors},
+	booktitle = {The projection of arguments: {{L}}exical and compositional factors},
 	publisher = {CSLI Publications},
 	author = {Rappaport Hovav, Malka and Levin, Beth},
 	editor = {Butt, Miriam and Geuder, Wilhelm},
@@ -928,7 +893,7 @@ We have further support for the view that internal arguments can be introduced i
 	pages = {97--134}
 }
 
-@incollection{rappaport_hovav_reflections_2010,
+@incollection{RappaportHovavLevin2010,
 	address = {Oxford, United Kingdom},
 	title = {Reflections on manner/result complementarity},
 	booktitle = {Syntax, {Lexical} {Semantics}, and {Event} {Structure}},
@@ -939,7 +904,7 @@ We have further support for the view that internal arguments can be introduced i
 	pages = {21--38}
 }
 
-@article{spencer_noun_1995,
+@article{Spencer1995,
 	title = {Noun incorporation in {Chukchi}},
 	volume = {71},
 	journal = {Language},
@@ -948,14 +913,14 @@ We have further support for the view that internal arguments can be introduced i
 	pages = {439--489}
 }
 
-@phdthesis{spreng_viewpoint_2012,
+@PhDthesis{Spreng2012,
 	type = {Ph.{D} dissertation},
-	title = {Viewpoint aspect in {Inuktitut}: {The} {Syntax} and {Semantics} of {Antipassives}},
+	title = {Viewpoint \textsc{asp}ect in {Inuktitut}: {{T}}he syntax and semantics of antipassives},
 	school = {University of Toronto},
 	author = {Spreng, Bettina},
 	year = {2012}
 }
 
-\end{verbatim}
+&\end{verbatim}
 \sloppy\printbibliography[heading=subbibliography,notkeyword=this]
 \end{document}

@@ -1,0 +1,727 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Anagnostopoulou2006}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=534289b5837088be64dc62d120a0934a}{%
+           family={Anagnostopoulou},
+           familyi={A\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=278788a16967856765356951e5ae85d4}{%
+           family={Everaert},
+           familyi={E\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cd337b664707432178cf5f3d7c26c76a}{%
+           family={Riemsdijk},
+           familyi={R\bibinitperiod},
+           given={Henk},
+           giveni={H\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Malden}%
+      }
+      \list{publisher}{1}{%
+        {Blackwell}%
+      }
+      \strng{namehash}{534289b5837088be64dc62d120a0934a}
+      \strng{fullhash}{534289b5837088be64dc62d120a0934a}
+      \strng{bibnamehash}{534289b5837088be64dc62d120a0934a}
+      \strng{authorbibnamehash}{534289b5837088be64dc62d120a0934a}
+      \strng{authornamehash}{534289b5837088be64dc62d120a0934a}
+      \strng{authorfullhash}{534289b5837088be64dc62d120a0934a}
+      \strng{editorbibnamehash}{7fb52fa15ffcd1b656c78f457179d146}
+      \strng{editornamehash}{7fb52fa15ffcd1b656c78f457179d146}
+      \strng{editorfullhash}{7fb52fa15ffcd1b656c78f457179d146}
+      \field{sortinit}{A}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The {Blackwell} Companion to Syntax,}
+      \field{title}{Clitic doubling}
+      \field{year}{2006}
+      \field{pages}{519\bibrangedash 581}
+      \range{pages}{63}
+    \endentry
+    \entry{Ciucivara2009}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=b93dadd87a7d04d90529646a44827a87}{%
+           family={Ciucivara},
+           familyi={C\bibinitperiod},
+           given={Oana},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {New York University}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \strng{namehash}{b93dadd87a7d04d90529646a44827a87}
+      \strng{fullhash}{b93dadd87a7d04d90529646a44827a87}
+      \strng{bibnamehash}{b93dadd87a7d04d90529646a44827a87}
+      \strng{authorbibnamehash}{b93dadd87a7d04d90529646a44827a87}
+      \strng{authornamehash}{b93dadd87a7d04d90529646a44827a87}
+      \strng{authorfullhash}{b93dadd87a7d04d90529646a44827a87}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A syntactic analysis of pronominal clitic clusters in {Romance}}
+      \field{type}{Thesis}
+      \field{year}{2009}
+    \endentry
+    \entry{Cornilescu2017}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=56af559740c24d1120ea19935c70e2fc}{%
+           family={Cornilescu},
+           familyi={C\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=18d8565204b45b670258f43a52ee0bf8}{%
+           family={Dragomirescu},
+           familyi={D\bibinitperiod},
+           given={Adina},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3296a9496a624544e1479f5a284edf07}{%
+           family={Nicolae},
+           familyi={N\bibinitperiod},
+           given={Alexandru},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2647107839bbb72a08b4673e85131332}{%
+           family={Stan},
+           familyi={S\bibinitperiod},
+           given={Camelia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0c96e30560d582b03e88cf0762eff376}{%
+           family={Zafiu},
+           familyi={Z\bibinitperiod},
+           given={Rodica},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bucureşti}%
+      }
+      \list{publisher}{1}{%
+        {Editura Universității din Bucureşti}%
+      }
+      \strng{namehash}{56af559740c24d1120ea19935c70e2fc}
+      \strng{fullhash}{56af559740c24d1120ea19935c70e2fc}
+      \strng{bibnamehash}{56af559740c24d1120ea19935c70e2fc}
+      \strng{authorbibnamehash}{56af559740c24d1120ea19935c70e2fc}
+      \strng{authornamehash}{56af559740c24d1120ea19935c70e2fc}
+      \strng{authorfullhash}{56af559740c24d1120ea19935c70e2fc}
+      \strng{editorbibnamehash}{174929eb55a6922807ebd92d61d79e0a}
+      \strng{editornamehash}{bbe9016251ddd73ad3bfca72dc2b377c}
+      \strng{editorfullhash}{174929eb55a6922807ebd92d61d79e0a}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Sintaxa ca mod de a fi. {Omagiu Gabrielei Pană Dindelegan} la aniversare}
+      \field{title}{Dative clitics and obligatory clitic doubling in {Romanian}}
+      \field{year}{2017}
+      \field{pages}{131\bibrangedash 148}
+      \range{pages}{18}
+    \endentry
+    \entry{CornilescuDinuTigău2017Dative}{article}{}
+      \name{author}{3}{}{%
+        {{hash=56af559740c24d1120ea19935c70e2fc}{%
+           family={Cornilescu},
+           familyi={C\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5abdad836a378185a1207e42d63fc954}{%
+           family={Dinu},
+           familyi={D\bibinitperiod},
+           given={Anca},
+           giveni={A\bibinitperiod}}}%
+        {{hash=71c792199a0d7eeb1292958821c0a7b2}{%
+           family={Tigău},
+           familyi={T\bibinitperiod},
+           given={Alina},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a84adf5af767d9456e2211ac42a35d7f}
+      \strng{fullhash}{bd2e66ab082d7709fcc0a3d43190a634}
+      \strng{bibnamehash}{bd2e66ab082d7709fcc0a3d43190a634}
+      \strng{authorbibnamehash}{bd2e66ab082d7709fcc0a3d43190a634}
+      \strng{authornamehash}{a84adf5af767d9456e2211ac42a35d7f}
+      \strng{authorfullhash}{bd2e66ab082d7709fcc0a3d43190a634}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revue Roumaine de Linguistique}
+      \field{number}{2}
+      \field{title}{Romanian dative configurations: Ditransitive verbs, a tentative analysis}
+      \field{volume}{62}
+      \field{year}{2017}
+      \field{pages}{179\bibrangedash 206}
+      \range{pages}{28}
+    \endentry
+    \entry{CornilescuDinuTigău2017DOC}{article}{}
+      \name{author}{3}{}{%
+        {{hash=56af559740c24d1120ea19935c70e2fc}{%
+           family={Cornilescu},
+           familyi={C\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5abdad836a378185a1207e42d63fc954}{%
+           family={Dinu},
+           familyi={D\bibinitperiod},
+           given={Anca},
+           giveni={A\bibinitperiod}}}%
+        {{hash=71c792199a0d7eeb1292958821c0a7b2}{%
+           family={Tigău},
+           familyi={T\bibinitperiod},
+           given={Alina},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a84adf5af767d9456e2211ac42a35d7f}
+      \strng{fullhash}{bd2e66ab082d7709fcc0a3d43190a634}
+      \strng{bibnamehash}{bd2e66ab082d7709fcc0a3d43190a634}
+      \strng{authorbibnamehash}{bd2e66ab082d7709fcc0a3d43190a634}
+      \strng{authornamehash}{a84adf5af767d9456e2211ac42a35d7f}
+      \strng{authorfullhash}{bd2e66ab082d7709fcc0a3d43190a634}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revue Roumaine de Linguistique}
+      \field{number}{2}
+      \field{title}{Experimental data on {Romanian} double object constructions}
+      \field{volume}{62}
+      \field{year}{2017}
+      \field{pages}{157\bibrangedash 177}
+      \range{pages}{21}
+    \endentry
+    \entry{DiaconescuRivero2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=50b5b1ec1c5e53b17d8ae89326812bc7}{%
+           family={Diaconescu},
+           familyi={D\bibinitperiod},
+           given={Rodica},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d496bc753b79b3aabb86a3e4b8712254}{%
+           family={Rivero},
+           familyi={R\bibinitperiod},
+           given={Maria\bibnamedelima Luisa},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{77c4f2c5a388267a7b9359c9a2c189da}
+      \strng{fullhash}{77c4f2c5a388267a7b9359c9a2c189da}
+      \strng{bibnamehash}{77c4f2c5a388267a7b9359c9a2c189da}
+      \strng{authorbibnamehash}{77c4f2c5a388267a7b9359c9a2c189da}
+      \strng{authornamehash}{77c4f2c5a388267a7b9359c9a2c189da}
+      \strng{authorfullhash}{77c4f2c5a388267a7b9359c9a2c189da}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Probus}
+      \field{number}{2}
+      \field{title}{An applicative analysis of double object constructions in {Romanian}}
+      \field{volume}{19}
+      \field{year}{2007}
+      \field{pages}{209\bibrangedash 233}
+      \range{pages}{25}
+    \endentry
+    \entry{Dobrovie-Sorin1994}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8932bfabe323ea9d35a5b1b12ccbae4e}{%
+           family={Dobrovie-Sorin},
+           familyi={D\bibinithyphendelim S\bibinitperiod},
+           given={Carmen},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Mouton de Gruyter}%
+      }
+      \strng{namehash}{8932bfabe323ea9d35a5b1b12ccbae4e}
+      \strng{fullhash}{8932bfabe323ea9d35a5b1b12ccbae4e}
+      \strng{bibnamehash}{8932bfabe323ea9d35a5b1b12ccbae4e}
+      \strng{authorbibnamehash}{8932bfabe323ea9d35a5b1b12ccbae4e}
+      \strng{authornamehash}{8932bfabe323ea9d35a5b1b12ccbae4e}
+      \strng{authorfullhash}{8932bfabe323ea9d35a5b1b12ccbae4e}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The syntax of {Romanian}}
+      \field{year}{1994}
+    \endentry
+    \entry{Dogget2004}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=7da2a62e9a39cd23c14adccf57c60062}{%
+           family={Dogget},
+           familyi={D\bibinitperiod},
+           given={Teal},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Massachusetts Institute of Technology}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \strng{namehash}{7da2a62e9a39cd23c14adccf57c60062}
+      \strng{fullhash}{7da2a62e9a39cd23c14adccf57c60062}
+      \strng{bibnamehash}{7da2a62e9a39cd23c14adccf57c60062}
+      \strng{authorbibnamehash}{7da2a62e9a39cd23c14adccf57c60062}
+      \strng{authornamehash}{7da2a62e9a39cd23c14adccf57c60062}
+      \strng{authorfullhash}{7da2a62e9a39cd23c14adccf57c60062}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{All things being unequal: Locality in movement}
+      \field{type}{dissertation}
+      \field{year}{2004}
+    \endentry
+    \entry{HaradaLarson2009}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=4b7f4ec98a161a174e4cde5bfc57c7b4}{%
+           family={Harada},
+           familyi={H\bibinitperiod},
+           given={Naomi},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3f3c5101307e8a9788efb0e2f58da362}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=1feb289dd9a75bfdae163a2724ff70a4}{%
+           family={Shibagaki},
+           familyi={S\bibinitperiod},
+           given={Ryosuke},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2ec44523e9c58647c4fdad9a94fc5958}{%
+           family={Vermeulen},
+           familyi={V\bibinitperiod},
+           given={Reiko},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{05ab99781f7c1661bc50ca720be2dec0}
+      \strng{fullhash}{05ab99781f7c1661bc50ca720be2dec0}
+      \strng{bibnamehash}{05ab99781f7c1661bc50ca720be2dec0}
+      \strng{authorbibnamehash}{05ab99781f7c1661bc50ca720be2dec0}
+      \strng{authornamehash}{05ab99781f7c1661bc50ca720be2dec0}
+      \strng{authorfullhash}{05ab99781f7c1661bc50ca720be2dec0}
+      \strng{editorbibnamehash}{db5e984761805ce35d2532165677d6b4}
+      \strng{editornamehash}{db5e984761805ce35d2532165677d6b4}
+      \strng{editorfullhash}{db5e984761805ce35d2532165677d6b4}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the {5th Workshop on Altaic Formal Linguistics (WAFL)}}
+      \field{title}{Datives in {Japanese}}
+      \field{year}{2009}
+      \field{pages}{109\bibrangedash 120}
+      \range{pages}{12}
+    \endentry
+    \entry{Hill2013}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a9a172ac161d6183e02f5305813e0655}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Virginia},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{fullhash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{bibnamehash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{authorbibnamehash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{authornamehash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{authorfullhash}{a9a172ac161d6183e02f5305813e0655}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Australian Linguistics}
+      \field{number}{2}
+      \field{title}{The direct object marker in {Romanian}: a historical perspective}
+      \field{volume}{33}
+      \field{year}{2013}
+      \field{pages}{140\bibrangedash 151}
+      \range{pages}{12}
+    \endentry
+    \entry{HillMardale2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a9a172ac161d6183e02f5305813e0655}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Virginia},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d13c008bc60f8512d5b52a850d9df7a3}{%
+           family={Mardale},
+           familyi={M\bibinitperiod},
+           given={Alexandru},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6bbac4ccef8a1c261a998de52493c98b}
+      \strng{fullhash}{6bbac4ccef8a1c261a998de52493c98b}
+      \strng{bibnamehash}{6bbac4ccef8a1c261a998de52493c98b}
+      \strng{authorbibnamehash}{6bbac4ccef8a1c261a998de52493c98b}
+      \strng{authornamehash}{6bbac4ccef8a1c261a998de52493c98b}
+      \strng{authorfullhash}{6bbac4ccef8a1c261a998de52493c98b}
+      \field{sortinit}{H}
+      \field{sortinithash}{5f15a7bc777ad49ff15aa4d2831b1681}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revue Roumaine de Linguistique}
+      \field{number}{4}
+      \field{title}{On the interaction of differential object marking and clitic doubling in Romanian}
+      \field{volume}{62}
+      \field{year}{2017}
+      \field{pages}{393\bibrangedash 409}
+      \range{pages}{17}
+    \endentry
+    \entry{OrmazabalRomero2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f336a94ac8cf3108be3bc2e18086d162}{%
+           family={Javier},
+           familyi={J\bibinitperiod},
+           given={Ormazabal},
+           giveni={O\bibinitperiod}}}%
+        {{hash=b954c7719660df8b2b48586f712d2a3d}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec3889cd5ff61efca3f1c47607450e01}
+      \strng{fullhash}{ec3889cd5ff61efca3f1c47607450e01}
+      \strng{bibnamehash}{ec3889cd5ff61efca3f1c47607450e01}
+      \strng{authorbibnamehash}{ec3889cd5ff61efca3f1c47607450e01}
+      \strng{authornamehash}{ec3889cd5ff61efca3f1c47607450e01}
+      \strng{authorfullhash}{ec3889cd5ff61efca3f1c47607450e01}
+      \field{sortinit}{J}
+      \field{sortinithash}{fce5f8d0bd05e8d93f3dbe21c78897ca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Glossa: A Journal of General Linguistics}
+      \field{number}{1}
+      \field{title}{Historical changes in {Basque} dative alternations: evidence for a {P}-based (neo) derivational analysis}
+      \field{volume}{2}
+      \field{year}{2017}
+      \field{pages}{78}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.5334/gjgl.103
+      \endverb
+    \endentry
+    \entry{ManziniFranco2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3f6416950c6a6485fe8bcd2adcd06c7f}{%
+           family={Manzini},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi Rita},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=c3967c67306a711008407f0511d04b7b}{%
+           family={Franco},
+           familyi={F\bibinitperiod},
+           given={Ludovico},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{b38011d78566cef2a2d99110a8c6835a}
+      \strng{fullhash}{b38011d78566cef2a2d99110a8c6835a}
+      \strng{bibnamehash}{b38011d78566cef2a2d99110a8c6835a}
+      \strng{authorbibnamehash}{b38011d78566cef2a2d99110a8c6835a}
+      \strng{authornamehash}{b38011d78566cef2a2d99110a8c6835a}
+      \strng{authorfullhash}{b38011d78566cef2a2d99110a8c6835a}
+      \field{sortinit}{M}
+      \field{sortinithash}{cfd219b90152c06204fab207bc6c7cab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Natural Language and Linguistic Theory}
+      \field{number}{1}
+      \field{title}{Goal and {DOM} datives}
+      \field{volume}{34}
+      \field{year}{2016}
+      \field{pages}{197\bibrangedash 240}
+      \range{pages}{44}
+    \endentry
+    \entry{OrmazabalRomero2013Borealis}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fcc6f2920afa71c7b76619ef0da7c935}{%
+           family={Ormazabal},
+           familyi={O\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b954c7719660df8b2b48586f712d2a3d}{%
+           family={Romero},
+           familyi={R\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3de918d71a6e2af55665e8d0acfd231}
+      \strng{fullhash}{d3de918d71a6e2af55665e8d0acfd231}
+      \strng{bibnamehash}{d3de918d71a6e2af55665e8d0acfd231}
+      \strng{authorbibnamehash}{d3de918d71a6e2af55665e8d0acfd231}
+      \strng{authornamehash}{d3de918d71a6e2af55665e8d0acfd231}
+      \strng{authorfullhash}{d3de918d71a6e2af55665e8d0acfd231}
+      \field{sortinit}{O}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Borealis: An International Journal of Hispanic Linguistics}
+      \field{number}{2}
+      \field{title}{Differential object marking, case and agreement}
+      \field{volume}{2}
+      \field{year}{2013}
+      \field{pages}{221\bibrangedash 239}
+      \range{pages}{19}
+    \endentry
+    \entry{PesetskyTorrego2007}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=6390e5debe2d3e995095c38e4af68692}{%
+           family={Pesetsky},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=54797fff5522d52381028d7992f415fa}{%
+           family={Torrego},
+           familyi={T\bibinitperiod},
+           given={Esther},
+           giveni={E\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=dce55b0e1c439a6c5dc1ed492ea19034}{%
+           family={Karimi},
+           familyi={K\bibinitperiod},
+           given={Simin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=55de92dc60c5363af71a6c7d1e144877}{%
+           family={Samiian},
+           familyi={S\bibinitperiod},
+           given={Vida},
+           giveni={V\bibinitperiod}}}%
+        {{hash=fca91b6390120a2255500b7c7cbdfccc}{%
+           family={Wilkins},
+           familyi={W\bibinitperiod},
+           given={Wendy\bibnamedelima K.},
+           giveni={W\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {John Benjamins}%
+      }
+      \strng{namehash}{b9598b25e343c9eb3c1840623bde2df9}
+      \strng{fullhash}{b9598b25e343c9eb3c1840623bde2df9}
+      \strng{bibnamehash}{b9598b25e343c9eb3c1840623bde2df9}
+      \strng{authorbibnamehash}{b9598b25e343c9eb3c1840623bde2df9}
+      \strng{authornamehash}{b9598b25e343c9eb3c1840623bde2df9}
+      \strng{authorfullhash}{b9598b25e343c9eb3c1840623bde2df9}
+      \strng{editorbibnamehash}{2ec7b9292a20ef6e10690a05350f1c81}
+      \strng{editornamehash}{43828851a4f84ad9b933545d300987d9}
+      \strng{editorfullhash}{2ec7b9292a20ef6e10690a05350f1c81}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Phrasal and clausal architecture: Syntactic derivation and interpretation}
+      \field{title}{The syntax of valuation and the interpretability of features}
+      \field{year}{2007}
+      \field{pages}{262\bibrangedash 294}
+      \range{pages}{33}
+    \endentry
+    \entry{Preminger2016}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=89ffb7921738833b2fef039fc2af6252}{%
+           family={Preminger},
+           familyi={P\bibinitperiod},
+           given={Omer},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Maryland}%
+      }
+      \strng{namehash}{89ffb7921738833b2fef039fc2af6252}
+      \strng{fullhash}{89ffb7921738833b2fef039fc2af6252}
+      \strng{bibnamehash}{89ffb7921738833b2fef039fc2af6252}
+      \strng{authorbibnamehash}{89ffb7921738833b2fef039fc2af6252}
+      \strng{authornamehash}{89ffb7921738833b2fef039fc2af6252}
+      \strng{authorfullhash}{89ffb7921738833b2fef039fc2af6252}
+      \field{sortinit}{P}
+      \field{sortinithash}{8d51b3d5b78d75b54308d706b9bbe285}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What the {PCC} tells us about “abstract” agreement, head movement and locality}
+      \field{type}{Manuscript}
+      \field{year}{2016}
+    \endentry
+    \entry{Richards2008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8e3c0b09130cc7c13c7cda6ef28a7d48}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e3c0b09130cc7c13c7cda6ef28a7d48}
+      \strng{fullhash}{8e3c0b09130cc7c13c7cda6ef28a7d48}
+      \strng{bibnamehash}{8e3c0b09130cc7c13c7cda6ef28a7d48}
+      \strng{authorbibnamehash}{8e3c0b09130cc7c13c7cda6ef28a7d48}
+      \strng{authornamehash}{8e3c0b09130cc7c13c7cda6ef28a7d48}
+      \strng{authorfullhash}{8e3c0b09130cc7c13c7cda6ef28a7d48}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Linguistische Arbeitsberichte}
+      \field{title}{Defective {Agree}, case alternation, and the prominence of person}
+      \field{volume}{86}
+      \field{year}{2008}
+      \field{pages}{137\bibrangedash 161}
+      \range{pages}{25}
+    \endentry
+    \entry{RobertsRoussou2003}{book}{}
+      \name{author}{2}{}{%
+        {{hash=d85f49701b4560c2ff187dcda8c5e39c}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=153a5a99f63c6444172a1bc9df5bfeab}{%
+           family={Roussou},
+           familyi={R\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{6ef18c19e17676791dbc7595ee9a7cdd}
+      \strng{fullhash}{6ef18c19e17676791dbc7595ee9a7cdd}
+      \strng{bibnamehash}{6ef18c19e17676791dbc7595ee9a7cdd}
+      \strng{authorbibnamehash}{6ef18c19e17676791dbc7595ee9a7cdd}
+      \strng{authornamehash}{6ef18c19e17676791dbc7595ee9a7cdd}
+      \strng{authorfullhash}{6ef18c19e17676791dbc7595ee9a7cdd}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Syntactic change}
+      \field{year}{2003}
+    \endentry
+    \entry{Rodríguez-Mondoñedo2007}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=40a4c61bb6333ac11ede8c01e54087fd}{%
+           family={Rodríguez-Mondoñedo},
+           familyi={R\bibinithyphendelim M\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Connecticut}%
+      }
+      \list{location}{1}{%
+        {Storrs, CT}%
+      }
+      \strng{namehash}{40a4c61bb6333ac11ede8c01e54087fd}
+      \strng{fullhash}{40a4c61bb6333ac11ede8c01e54087fd}
+      \strng{bibnamehash}{40a4c61bb6333ac11ede8c01e54087fd}
+      \strng{authorbibnamehash}{40a4c61bb6333ac11ede8c01e54087fd}
+      \strng{authornamehash}{40a4c61bb6333ac11ede8c01e54087fd}
+      \strng{authorfullhash}{40a4c61bb6333ac11ede8c01e54087fd}
+      \field{sortinit}{R}
+      \field{sortinithash}{da6b42bd3ab22fee61abed031ee405f7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The syntax of objects: Agree and differential object marking}
+      \field{type}{dissertation}
+      \field{year}{2007}
+    \endentry
+  \enddatalist
+  \missing{CornilescuEtAl2017}
+  \missing{Lopez2011}
+  \missing{Lopez2012}
+  \missing{Tigău2010}
+\endrefsection
+\endinput
+
