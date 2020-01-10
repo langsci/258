@@ -1,14 +1,15 @@
+\documentclass[output=paper,colorlinks,citecolor=brown,nonflat]{./langscibook}
 
-\documentclass[output=paper,modfonts,nonflat,newtxmath]{langsci/langscibook} 
 \author{Alexandra Cornilescu\affiliation{University of Bucharest}}
 \title{Ditransitive constructions with \textsc{dom}-ed direct objects in Romanian}
-\abstract{The paper discusses Romanian data that had gone unnoticed so far and investigates the differences of grammaticality triggered by DOM-ed DOs in ditransitive constructions, in binding configurations. Specifically, while a bare DO may bind a possessor contained in the IO, whether or not the IO is clitic doubled, a DOM-ed DO may bind into an undoubled IO, but cannot bind into an IO if the latter is clitic doubled. Grammaticality is restored if the DO is clitic doubled in its turn. The focus of the paper is to offer a derivational account of ditransitive constructions, which accounts for these differences. The claim is that the grammaticality contrasts mentioned above result from the different feature structure of bare DOs compared with DOM-ed ones, as well as from the fact that DOM-ed DOs and IO have common features. DOM-ed DOs interfere with IOs since both are sensitive to the Animacy Hierarchy, and include a syntactic [Person] feature in their featural make-up. The derivational valuation of this feature by both objects may create locality problems.}
-
-
-
+\abstract{The paper discusses Romanian data that had gone unnoticed so far and investigates the differences of grammaticality triggered by DOM-ed DOs in ditransitive constructions, in binding configurations. Specifically, while a bare DO may bind a possessor contained in the IO, whether or not the IO is clitic doubled, a DOM-ed DO may bind into an undoubled IO, but cannot bind into an IO if the latter is clitic doubled. Grammaticality is restored if the DO is clitic doubled in its turn. The focus of the paper is to offer a derivational account of ditransitive constructions, which accounts for these differences. The claim is that the grammaticality contrasts mentioned above result from the different feature structure of bare DOs compared with DOM-ed ones, as well as from the fact that DOM-ed DOs and IO have common features. DOM-ed DOs interfere with IOs since both are sensitive to the Animacy Hierarchy, and include a syntactic [Person] feature in their featural make-up. The derivational valuation of this feature by both objects may create locality problems.
 %{Keywords:} {dative,} {DOM,} {ditransitive} {construction,} {functional} {prepositions,} {binding}
+}
+
+
+
 \title{Ditransitive constructions with DOM-ed direct objects in Romanian}
-\abstract{}
+
 \IfFileExists{../localcommands.tex}{
   \input{../localpackages}
   \input{../localcommands} 
@@ -24,9 +25,9 @@
 \section{Problem and aim} %1./
 
 In this paper, I turn to data not discussed for Romanian so far and consider the differences of grammaticality triggered by DOM-ed DOs in ditransitive constructions, in \textit{binding} configurations.\footnote{I would like to express my gratitude for the wonderful help I got from the reviewers and the editors in finalizing the paper. Remaining errors are all mine.}
-\todo{Check references for "CDTa/CDTb". Sometimes the original document did not specify which of the two papers meant}
+\todo[inline]{Check references for "CDTa/CDTb". Sometimes the original document did not specify which of the two papers meant}
 
-Specifically\footnote{Judgments on possessor binding in Romanian ditransitive constructions and some of the examples come from an experiment described in detail in \citep{CornilescuDinuTigău2017Dative}. Unless otherwise specified, examples and acceptability judgments belong to the author.}, bare DOs easily bind a possessor contained in a dative IO, whether the latter is CD-ed or not, as in \REF{ex:cornilescu:1} - \REF{ex:cornilescu:2}. The picture changes when the DO is DOM-ed. It is still possible for a DOM-ed DO to bind into an undoubled IO \REF{ex:cornilescu:3}, but if the IO \textit{is} \textit{doubled,} the sentence is \textit{ungrammatical} \REF{ex:cornilescu:4}. While co-occurrence of the DOM-ed DO with a dative clitic, results in ungrammaticality, if the DOM-ed \textsc{DO} is doubled, sentences are grammatical, again irrespective of the presence/absence of the dative clitic, as in examples \REF{ex:cornilescu:5} and \REF{ex:cornilescu:6}.\todo{check gloss example 6}
+Specifically,\footnote{Judgments on possessor binding in Romanian ditransitive constructions and some of the examples come from an experiment described in detail in \citep{CornilescuDinuTigău2017Dative}. Unless otherwise specified, examples and acceptability judgments belong to the author.} bare DOs easily bind a possessor contained in a dative IO, whether the latter is CD-ed or not, as in \REF{ex:cornilescu:1} - \REF{ex:cornilescu:2}. The picture changes when the DO is DOM-ed. It is still possible for a DOM-ed DO to bind into an undoubled IO \REF{ex:cornilescu:3}, but if the IO \textit{is} \textit{doubled,} the sentence is \textit{ungrammatical} \REF{ex:cornilescu:4}. While co-occurrence of the DOM-ed DO with a dative clitic, results in ungrammaticality, if the DOM-ed \textsc{DO} is doubled, sentences are grammatical, again irrespective of the presence/absence of the dative clitic, as in examples \REF{ex:cornilescu:5} and \REF{ex:cornilescu:6}.\todo{check gloss example 6}
 
 	\ea \label{ex:cornilescu:1} DP\textsubscript{theme} > DP\textsubscript{goal}\\ %1
 		\gll {Banca}  {a} {retrocedat}  {multe} {case\textsubscript{i}}  {proprietarilor}   {lor\textsubscript{i}}  {de} {drept.}\\
@@ -82,7 +83,7 @@ Specifically\footnote{Judgments on possessor binding in Romanian ditransitive co
     \label{ex:cornilescu:6}
     \textbf{cl}- DOM-ed DP \textsubscript{theme}>\textbf{cl}{}-DP \textsubscript{goal} \\
     \gll {Comisia} {i=l=a=repartizat} {pe} {fiecare} {medic} {rezident} {unei} {foste} {profesoare} {a} {lui}.\\
-       board.the she.\textsc{dat}=he.\textsc{Acc}=assigned \textsc{dom} each medical resident some.\textsc{dat} former professor.F.\textsc{dat} his\\
+       board.the she.\textsc{dat}=he.\textsc{acc}=assigned \textsc{dom} each medical resident some.\textsc{dat} former professor.\textsc{f}.\textsc{dat} \biberror{???} his\\
     \glt ‘The board assigned each resident doctor to a former professor of his.’
     \z
 
@@ -127,7 +128,7 @@ One theoretical difficulty that immediately arises is that of incorporating \tex
 
 \subsection{ On the internal structure of \textit{la}-datives}
 
-The preposition \textit{la} ‘at’/’to’ is not only a \textit{functional} \textit{dative} \textit{marker}, but it is also the core \textit{lexical} \textit{preposition} of the location and movement frames. The lexical preposition \textit{la} assigns accusative case to its object, this accusative cannot be replaced by a dative, and, as correctly pointed out by both reviewers, accusative \textit{la-}phrases do not co-occur with dative clitics. All movement and location verbs may combine with lexical accusative \textit{la}{}-phrases, rejecting, however, dative \textit{la}{}-phrases. An example is the verb \textit{merge} ‘go’, which is compatible only with lexical \textit{la}, but not with functional dative \textit{la}. Substitution of the \textit{la}{}-phrase with a dative DP is impossible \REF{ex:cornilescu:9a}, and a dative clitic is equally ungrammatical \REF{ex:cornilescu:9b}.\todo{check gloss 9b}
+The preposition \textit{la} ‘at’/’to’ is not only a \textit{functional} \textit{dative} \textit{marker}, but it is also the core \textit{lexical} \textit{preposition} of the location and movement frames. The lexical preposition \textit{la} assigns accusative case to its object, this accusative cannot be replaced by a dative, and, as correctly pointed out by both reviewers, accusative \textit{la-}phrases do not co-occur with dative clitics. All movement and location verbs may combine with lexical accusative \textit{la}{}-phrases, rejecting, however, dative \textit{la}{}-phrases. An example is the verb \textit{merge} ‘go’, which is compatible only with lexical \textit{la}, but not with functional dative \textit{la}. Substitution of the \textit{la}{}-phrase with a dative DP is impossible \REF{ex:cornilescu:9a}, and a dative clitic is equally ungrammatical \REF{ex:cornilescu:9b}. 
 
 \ea%9
     \label{ex:cornilescu:9}
@@ -136,7 +137,7 @@ The preposition \textit{la} ‘at’/’to’ is not only a \textit{functional} 
     		Ion has gone at Maria.\textsc{acc}/Maria.\textsc{dat}\\
     \glt ‘Ion went to Maria.’
     \ex[*]{\label{ex:cornilescu:9b}
-    \gll {Ion} {îi} {merge} (Mariei).\\
+    \gll {Ion} {îi}={merge} (Mariei).\\
     	Ion she.\textsc{dat}=goes Maria.\textsc{dat}\\
     \glt ‘Ion is going to Mary.’}
     \z 
@@ -157,7 +158,7 @@ One specification is required at this point. Even for unaccusative verbs like \t
     \z 
     \z
     
-Verbs in the movement frame do not behave uniformly regarding the realization of their Goal argument. While some never select a dative (e.g. \textit{merge} ‘go’), others (e.g. \textit{ajunge} ‘arrive’ or \textit{veni} ‘come’) may select a dative on condition that the Goal DP is [+Person]; the dative Goal is realized as a clitic, doubled by a strong pronoun or by a dative \textit{la-}phrase, provided that the clitic is third person, as already shown in \REF{ex:cornilescu:10}. Thus, in \REF{ex:cornilescu:11a} the \textit{la}-phrase is lexical; in \REF{ex:cornilescu:11b}, the Goal is a dative phrase realized as a clitic; the first person dative clitic can only be doubled by a dative strong pronoun, while the \textit{la}{}-phrase is out \REF{ex:cornilescu:11c}. The relevant example is however \REF{ex:cornilescu:11c}, an attested Google example, where the Goal is a dative, and the dative clitic is doubled by a dative \textit{la}{}- phrase. As the comparison of \REF{ex:cornilescu:11a} and \REF{ex:cornilescu:11c} shows, the \textit{la-}phrase is interpreted as a dative only when it co-occurs with a dative clitic.\todo{gloss 11c}
+Verbs in the movement frame do not behave uniformly regarding the realization of their Goal argument. While some never select a dative (e.g. \textit{merge} ‘go’), others (e.g. \textit{ajunge} ‘arrive’ or \textit{veni} ‘come’) may select a dative on condition that the Goal DP is [+Person]; the dative Goal is realized as a clitic, doubled by a strong pronoun or by a dative \textit{la-}phrase, provided that the clitic is third person, as already shown in \REF{ex:cornilescu:10}. Thus, in \REF{ex:cornilescu:11a} the \textit{la}-phrase is lexical; in \REF{ex:cornilescu:11b}, the Goal is a dative phrase realized as a clitic; the first person dative clitic can only be doubled by a dative strong pronoun, while the \textit{la}{}-phrase is out \REF{ex:cornilescu:11c}. The relevant example is however \REF{ex:cornilescu:11c}, an attested Google example, where the Goal is a dative, and the dative clitic is doubled by a dative \textit{la}{}- phrase. As the comparison of \REF{ex:cornilescu:11a} and \REF{ex:cornilescu:11c} shows, the \textit{la-}phrase is interpreted as a dative only when it co-occurs with a dative clitic. 
 
 \ea%11
       \label{ex:cornilescu:11}
@@ -418,10 +419,10 @@ In Romanian the cut-off point between objects that scramble and objects that rem
 
 As already shown, with CD, both dative and accusative clitics select KPs [\textit{u}Person], showing sensitivity to the AH. Accusative clitics also observe the DefH. For instance they exclude bare quantifiers; in contrast, dative doubling is possible for \textit{any} \textit{nominal} provided that it has an overt determiner \citep{Cornilescu2017}.
 
-For the current analysis what matters most is that CD-ed DOs and IOs \textit{exit} \textit{the} \textit{v}P, passing through a \textit{v}P-periphery position which allows them to bind and out scope the subject in Spec, \textit{v}P (\citealt{Dobrovie-Sorin1994, CornilescuDinuTigău2017DOC}) \todo{missing reference Tigau 2010}. Binding of the subject is impossible for undoubled objects. Thus in \REF{ex:cornilescu:27}, the CD-ed dative \textit{fiecărui} \textit{profesor} \textit{‘}every.\textsc{dat}professor\textit{’} binds and outscopes the preverbal subject \textit{câte} \textit{doi} \textit{studenţi} ‘some two students’. Similarly, in \REF{ex:cornilescu:28}, the post-verbal doubled DO may bind a possessive in the preverbal subject, but this is not possible for the undoubled DO. 
+For the current analysis what matters most is that CD-ed DOs and IOs \textit{exit} \textit{the} \textit{v}P, passing through a \textit{v}P-periphery position which allows them to bind and out scope the subject in Spec, \textit{v}P (\citealt{Dobrovie-Sorin1994, CornilescuDinuTigău2017DOC,Tigau2010}. Binding of the subject is impossible for undoubled objects. Thus in \REF{ex:cornilescu:27}, the CD-ed dative \textit{fiecărui} \textit{profesor} \textit{‘}every.\textsc{dat}professor\textit{’} binds and outscopes the preverbal subject \textit{câte} \textit{doi} \textit{studenţi} ‘some two students’. Similarly, in \REF{ex:cornilescu:28}, the post-verbal doubled DO may bind a possessive in the preverbal subject, but this is not possible for the undoubled DO. 
 
 \ea%orig 27, now 23
-      \label{ex:cornilescu:23}
+      \label{ex:cornilescu:27}
       \gll {Câte} {doi} {studenţi} {i=au}  {ajutat} {fiecărui} {profesor}.\\
             some two students he.\textsc{dat}=have helped each.\textsc{dat} professor\\
       \glt ‘Each professor was helped by two students.’
@@ -429,7 +430,7 @@ For the current analysis what matters most is that CD-ed DOs and IOs \textit{exi
 
   
 \ea%orig 28, now 24
-      \label{ex:cornilescu:24}
+      \label{ex:cornilescu:28}
       \ea
       \gll {Muzica} {lor\textsubscript{i}} {îi} {=plictiseşte}  {pe} mulţi\textsubscript{i}/\textsubscript{j}\\
       		music.the their they.\textsc{acc} bores \textsc{dom} many\\
@@ -491,10 +492,10 @@ What is specific to the CD chain is that both copies of D are pronounced, the hi
 
 \subsection{{Previous} {results}}%5.1
 
-My analysis of ditransitives assumes the syntax of DOM above. For reasons presented in detail elsewhere \citep{CornilescuDinuTigău2017DOC}, I have adopted a \textit{classical} \textit{derivational} \textit{analysis} of the dative alternation \citep{HaradaLarson2009, OrmazabalRomero2017}. Previous research on Romanian ditransitives (\citealt{DiaconescuRivero2007, CornilescuDinuTigău2017DOC}) has brought to light several properties relevant for ditransitive binding configurations.\todo{a, b, c --> 1, 2, 3}
+My analysis of ditransitives assumes the syntax of DOM above. For reasons presented in detail elsewhere \citep{CornilescuDinuTigău2017DOC}, I have adopted a \textit{classical} \textit{derivational} \textit{analysis} of the dative alternation \citep{HaradaLarson2009, OrmazabalRomero2017}. Previous research on Romanian ditransitives (\citealt{DiaconescuRivero2007, CornilescuDinuTigău2017DOC}) has brought to light several properties relevant for ditransitive binding configurations.
 
-\begin{enumerate}
-	\item Binding evidence points to the fact that in Romanian ditransitives the internal arguments show a Theme-over-Goal structure. Thus, as sentences \REF{ex:cornilescu:1} and \REF{ex:cornilescu:2} above indicate, the bare DO can bind, not only into an undoubled dative, but also into a doubled one. A Theme-over-Goal base configuration has also been argued for other Romance languages (see, for instance, \textcolor{red}{Cepeda \& Cyrino (this volume)} on Portuguese).
+\begin{enumerate}[a.]
+	\item Binding evidence points to the fact that in Romanian ditransitives the internal arguments show a Theme-over-Goal structure. Thus, as sentences \REF{ex:cornilescu:1} and \REF{ex:cornilescu:2} above indicate, the bare DO can bind, not only into an undoubled dative, but also into a doubled one. A Theme-over-Goal base configuration has also been argued for other Romance languages (see, for instance, \citetv{chapters/cepeda} on Portuguese).
 	
 	\item In ditransitive constructions, the DO and IO show \textit{symmetric} \textit{binding} \textit{potential}, so that there is often an ambiguity between direct and inverse binding for the same pattern. The preferred reading is the one where the surface order corresponds to the direction of binding. For lack of space I will ignore these ambiguities in the analysis below.
 	
@@ -535,8 +536,9 @@ In order to bring out the contribution of DOM in ditransitive constructions, we 
 	\caption{\label{fig:cornilescu:7} \missingcaption}
 \end{figure}
 
-When null P incorporates, as in \figref{fig:cornilescu:8}, V\textsubscript{appl} [\textit{u}Pers, \textit{u}Case:\_\_\_] is projected. In \figref{fig:cornilescu:8}, both nominals in the domain of V\textsubscript{appl} could value the Case feature of V\textsubscript{appl}, but only the Goal can value its [\textit{u}Pers\_\_\_] feature, since the Theme is a DP not marked for [Person]. Suppose a derivation is intended where the IO \textit{binds} and \textit{precedes} the DO, as in example \REF{ex:cornilescu:33} below. In this case, the DO need not move, while the IO should raise past it to Spec, Appl. This derivation is straightforward. V\textsubscript{appl} is allowed to case-license the Theme first, since V\textsubscript{appl} encounters the DO first, when it probes its domain. Next, adopting the locality theory in \citet{Dogget2004} in order to maintain the standard direction of Agree, the Goal moves to an outer Spec,VP, above the Theme. In this position it can be probed by V\textsubscript{appl}, which thus values its own [\textit{u}Pers] feature. At the following step, the Goal KP moves further up to Spec, V\textsubscript{appl}P where it checks Case by Agree with little \textit{v}. 
+When null P incorporates, as in \figref{fig:cornilescu:8}, V\textsubscript{appl} [\textit{u}Pers, \textit{u}Case:\_\_\_] is projected. In \figref{fig:cornilescu:8}, both nominals in the domain of V\textsubscript{appl} could value the Case feature of V\textsubscript{appl}, but only the Goal can value its [\textit{u}Pers\_\_\_] feature, since the Theme is a DP not marked for [Person]. Suppose a derivation is intended where the IO \textit{binds} and \textit{precedes} the DO, as in example \REF{ex:cornilescu:25} below. In this case, the DO need not move, while the IO should raise past it to Spec, Appl. This derivation is straightforward. V\textsubscript{appl} is allowed to case-license the Theme first, since V\textsubscript{appl} encounters the DO first, when it probes its domain. Next, adopting the locality theory in \citet{Dogget2004} in order to maintain the standard direction of Agree, the Goal moves to an outer Spec,VP, above the Theme. In this position it can be probed by V\textsubscript{appl}, which thus values its own [\textit{u}Pers] feature. At the following step, the Goal KP moves further up to Spec, V\textsubscript{appl}P where it checks Case by Agree with little \textit{v}. 
 
+\todo{all example labels have to be checked}
 \begin{figure}%orig ex. 32
 	\begin{forest}
 		[\textit{v}P
@@ -710,7 +712,7 @@ These facts follow from the analysis. A natural explanation for why a \textit{pe
 \end{figure}
   
 
-The \textit{pe}{}-marked DO in \figref{fig:cornilescu:11} scrambles, and it is only for this reason that a landing site is projected between little \textit{v} and VP, as in \citeauthor{López2012}’s analysis. The DO is [\textit{i}Person] and does not need to move beyond its case checking position (Spec, ${\alpha}$P). Let me turn to situations \REF{ex:cornilescu:30b}-\REF{ex:cornilescu:30c} now. When the IO is CD-ed and there is DOM, the result is ungrammatical, as in sentence \REF{ex:cornilescu:4} above. A CD-ed \textit{pe}{}-object restores grammaticality, as in \REF{ex:cornilescu:5} above. Since CD-ed DOM-ed objects are unproblematic, it could be suggested that sentence \REF{ex:cornilescu:4} is ungrammatical because, at the current stage in the evolution of Romanian, \textit{pe}{}-DOs are well-formed only \textit{if} \textit{they} \textit{are} \textit{also} \textit{CD-ed}. The following Google example shows however, that CD is \textit{not} \textit{obligatory} for \textit{pe}{}-DOs, except for personal pronouns.\todo{vague source ex 39}
+The \textit{pe}{}-marked DO in \figref{fig:cornilescu:11} scrambles, and it is only for this reason that a landing site is projected between little \textit{v} and VP, as in \citeauthor{López2012}’s analysis. The DO is [\textit{i}Person] and does not need to move beyond its case checking position (Spec, ${\alpha}$P). Let me turn to situations \REF{ex:cornilescu:30b}-\REF{ex:cornilescu:30c} now. When the IO is CD-ed and there is DOM, the result is ungrammatical, as in sentence \REF{ex:cornilescu:4} above. A CD-ed \textit{pe}{}-object restores grammaticality, as in \REF{ex:cornilescu:5} above. Since CD-ed DOM-ed objects are unproblematic, it could be suggested that sentence \REF{ex:cornilescu:4} is ungrammatical because, at the current stage in the evolution of Romanian, \textit{pe}{}-DOs are well-formed only \textit{if} \textit{they} \textit{are} \textit{also} \textit{CD-ed}. The following Google example shows however, that CD is \textit{not} \textit{obligatory} for \textit{pe}{}-DOs, except for personal pronouns.\todo{vague source ex 39. Google?}
 
 \ea%39, now 31
    \label{ex:cornilescu:31}
@@ -797,7 +799,7 @@ The accusative clitic’s role is syntactic: intuitively “it moves the Theme o
 \end{figure}
 
 
-\section{Some theoretical implications of the analysis} %6./
+\section{Some theoretical implications of the analysis}\label{sec:cornilescu:6} %6./
 
 Summing up the data we started with in \REF{ex:cornilescu:1} – \REF{ex:cornilescu:6} above and considering the categorial status of the arguments, as well as their (non)-clitic status, we obtain the patterns in \REF{ex:cornilescu:35}. 
 
@@ -845,244 +847,4 @@ The interaction of DOM-ed DO and IOs in Romanian is a classical locality problem
  When the DO object is CD-ed, the IO may be a KP and accessing V\textsubscript{appl} and it may even be CD-ed. 
 \end{itemize}
 
-
-
-
-\begin{verbatim}%%move bib entries to  localbibliography.bib
-
-
-@incollection{Anagnostopoulou2006,
-	address = {Malden},
-	author = {Anagnostopoulou, Elena},
-	booktitle = {{The} {Blackwell} {Companion} {to} {Syntax}},
-	editor = {Everaert, Martin   and van Riemsdijk, Henk},
-	pages = {519-581},
-	publisher = {Blackwell},
-	title = {{Clitic} {doubling}},
-	year = {2006}
-}
-
-@article{Belletti2004,
-	author = {Belletti, Adriana},
-	journal = {{Probus}},
-	number = {1},
-	pages = {1--36},
-	title = {Extended doubling and the {VP} periphery},
-	volume = {17},
-	year = {2004}
-}
-
-
-@PhDthesis{Ciucivara2009,
-	address = {New York},
-	author = {Ciucivara, Oana},
-	school = {New York University},
-	title = {A syntactic analysis of pronominal clitic clusters in {Romance}},
-	year = {2009}
-}
-
-
-@incollection{Cornilescu2017,
-	address = {Bucureşti},
-	author = {Cornilescu, Alexandra},
-	booktitle = {{Sintaxa} {ca} {mod} {de} {a} {fi.} {Omagiu} {Gabrielei} {Pană} {Dindelegan} {la} {aniversare}},
-	editor = {Adina Dragomirescu \biberror{et al}.},
-	pages = {131--148},
-	publisher = {Editura Universității},
-	title = {Dative clitics and obligatory clitic doubling in {Romanian}},
-	year = {2017}
-}
-
-
-@article{CornilescuDinuTigău2017DOC,
-	author = {Cornilescu, Alexandra, and Dinu, Anca and Tigău, Alina},
-	title = {Experimental data on {Romanian} double object constructions},
-	journal = {{Revue} {Roumaine} {de} {Linguistique}},
-	number = {2},
-	pages = {157--177},
-	volume = {62},
-	year = {2017a}
-}
-
-
-@article{CornilescuDinuTigău2017Dative,
-	author = {Cornilescu, Alexandra, and Dinu, Anca and Tigău, Alina},
-	journal = {{Revue} {Roumaine} {de} {Linguistique}},
-	number = {2},
-	pages = {179--206},
-	sortname = {Cornilescu, Alexandra, Anca Dinu and Alina Tigau},
-	title = {Romanian dative configurations: {{D}}itransitive verbs, a tentative analysis},
-	volume = {62},
-	year = {2017b}
-}
-
-
-@article{DiaconescuRivero2007,
-	author = {Diaconescu, Rodica and Rivero, Maria Luisa},
-	journal = {{Probus}},
-	number = {2},
-	pages = {209--233},
-	title = {An applicative analysis of double object constructions in {Romanian}},
-	volume = {19},
-	year = {2007}
-}
-
-
-@book{Dobrovie-Sorin1994,
-	address = {Berlin},
-	author = {Dobrovie-Sorin, Carmen},
-	publisher = {Mouton de Gruyter},
-	title = {{The} {syntax} {of} {Romanian}},
-	year = {1994}
-} 
-
-
-@PhDthesis{Dogget2004,
-	address = {Cambridge, MA},
-	title = {All things being unequal:{{L}}ocality in movement}
-	author = {Dogget, Teal},
-	school = {MIT},
-	year = {2004}
-}
-
-
-@incollection{HaradaRichard2009,
-	address = {Cambridge, MA},
-	author = {Harada, Naomi and Larson, Richard},
-	booktitle = {Proceedings of the 5th {{W}}orkshop} on {Altaic} {{F}}ormal {{L}}inguistics: {{MITWPL}} 54\biberror{full name of conference}},
-	editor = {Ryosuke Shibagaki and Reiko Vermeulen},
-	pages = {109--120},
-	publisher = {MITWPL},
-	title = {Datives in {Japanese}},
-	year = {2009}
-}
-
-
-@article{Hill2013,
-	author = {Hill, Virginia},
-	journal = {Journal of Australian Linguistics},
-	number = {2},
-	pages = {140--151},
-	title = {The direct object marker in Romanian, a historical perspective},
-	volume = {33},
-	year = {2013}
-}
-
-
-@article{HillAlexandru2017,
-	author = {Hill, Virginia and Mardale, Alexandru},
-	journal = {Revue Roumaine de Linguistique},
-	number = {4},
-	pages = {393--409},
-	title = {On the interaction of differential object marking and clitic doubling in {Romanian}},
-	volume = {62},
-	year = {2017}
-}
-
-
-
-@book{Lopez2011,
-	address = {Cambridge, MA},
-	author = {Lopez, Luis},
-	title = {Indefinite objects: {{S}}crambling, choice functions, and differential marking},
-	publisher = {MIT Press},
-	year = {2011}
-}
-
-
-@article{ManziniFranco2016,
-	author = {Manzini, Rita and Franco, Ludovico},
-	journal = {Natural Language and Linguistic Theory},
-	number = {1},
-	pages = {197--204},
-	title = {Goal and {DOM} datives},
-	volume = {34},
-	year = {2016}
-}
-
-
-@article{{OrmazabalRomero2013,
-	author = {Ormazabal Javier and Romero, Juan},
-	journal = {Borealis. An international Journal of Hispanic Linguistics},
-	pages = {211--239},
-	title = {{Differential Object Marking}, Case and Agreement\biberror{capital or not?}},
-	volume = {2},
-	year = {2013}
-}
-
-
-@article{OrmazabalRomero2017,
-	author = {Ormazabal, Javier and Romero, Juan},
-	journal = {Glossa},
-	number = {1},
-	pages = {78},
-	title = {Historical changes in {Basque} dative alternations: {{E}}vidence for a {P}-based (neo) derivational analysis},
-	volume = {2},
-	year = {2017}
-}
-
-
-
-@incollection{PesetskyTorrego2007,
-	address = {Amsterdam},
-	author = {Pesetsky, David and Torrego, Esther},
-	booktitle = {Phrasal and clausal architechture: {{S}}yntacic derivation and interpretation},
-	editor = {Karimi, Simin and Samiian, Vida and Wilkins, Wendy K.\biberror{check name of editors}}},
-	pages = {262--294},
-	publisher = {John Benjamins},
-	title = {The syntax of valuation and the interpretability of features},
-	year = {2007}
-}
-
-
-@PhDthesis{Rodríguez-Mondonedo2007,
-	address = {Storrs, Connecticut},
-	author = {Rodríguez-Mondoñedo \biberror{name missing}},
-	school = {University of Connecticut},
-	title = {The syntax of objects: {{A}}gree and differential object marking},
-	year = {2007}
-}
-
-
-@misc{Preminger2016,
-	author = {Preminger, Omer},
-	note = {Ms. University of Maryland},
-	title = {What the {PCC} tells us about “abstract” agreement, head movement and locality},
-	year = {2016}
-}
-
-
-@article{Richards2008,
-	author = {Richards, Mark},
-	journal = {Linguistische Arbeitsberichte},
-	pages = {137--161},
-	title = {Defective Agree, case alternation, and the prominence of person},
-	volume = {86},
-	year = {2008}
-}
-
-@book{RobertsRoussou2003,
-	address = {Cambridge},
-	author = {Roberts, Ian and Roussou, Anna},
-	publisher = {Cambridge University Press},
-	title = {Syntactic change},
-	year = {2003}
-} 
-
-
-
-@incollection{Stegovec2015,
-	address = {Malden},
-	author = {Stegoveč, Adrian},
-	booktitle = {Proceedings of the poster session of the 33rd} {West Coast} {{C}}onference on {{F}}ormal {{L}}inguistics},
-	editor = {Pocholo Umbal},
-	pages = {131-140},
-	publisher = {Blackwell},
-	title = {It’s not {{C}}ase, it’s person! Reassessing the {PCC} and clitic restrictions in {O’odham} and {Warlpiri}},
-	year = {2015},
-	note = {{Simon} {Fraser} {{U}}niversity {{W}}orking} {{P}}apers in {{L}}inguistics} {5}}
-}
-
-
-\end{verbatim}
 \sloppy\printbibliography[heading=subbibliography,notkeyword=this]\end{document}

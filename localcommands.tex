@@ -26,7 +26,7 @@
     \theauthor.
     \thetitle. 
     To appear in: 
-    Anna Pineda,  Jaume Mateu \& Ricardo Etxepare
+    Anna Pineda \&  Jaume Mateu
     Datives structures in Romance and beyond
     Berlin: Language Science Press. [preliminary page numbering]
   }
@@ -97,9 +97,8 @@
 },
 },
 % begin fairly nice empty nodes
-fairly nice empty nodes/.style={
-            delay={where content={}{shape=coordinate,for parent={
-                  for children={anchor=north}}}{}}
+fairly nice empty nodes/.style={ 
+            delay={where content={}{shape=coordinate,for siblings={anchor=north}}{}}
 },
 % end fairly nice empty nodes
 % begin pretty nice empty nodes
@@ -121,3 +120,10 @@ nice nodes,
 %pretty nice empty nodes
 }
 }
+
+\newcommand{\midline}{\rule[.5ex]{2em}{.5pt}}
+
+% \newcommand*\exdepthstrut{{\vrule height 0pt depth -\arrowht width 0pt}}
+\newcommand\tikzmark[1]{\tikz[remember picture, baseline=(#1.base)] \node[anchor=base,inner sep=0pt, outer sep=0pt] (#1) {#1}
+%{#1\exdepthstrut}
+;}

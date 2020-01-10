@@ -1,8 +1,8 @@
-\documentclass[output=paper,colorlinks,citecolor=brown]{./langscibook} 
+\documentclass[output=paper,colorlinks,citecolor=brown,nonflat]{./langscibook} 
 
 \author{M. Rita Manzini\affiliation{Università di Firenze}}
-\title{Romance a-phrases and their clitic counterparts: agreement and mismatches}
-\abstract{DOM (Differential Object Marking) arguments in Romance are associated with the ‘a’/dative morphology typical of goal arguments, because both have the same syntactic structure of embedding (section~\ref{sec:manzini:1}). Clitics do not necessarily share the case alignment of full pronouns/lexical DPs. Indeed clitics and lexical DPs are separately merged each in their domain. The case array may therefore be set differently (section~\ref{sec:manzini:2}). DOM objects give rise to a number of patterns under cliticization, including the standard Spanish one, ‘leismo’ and ‘loismo/laismo’ (the latter typical also of South Italian). This variation depends on the fact that lexical DPs may be associated with DOM though clitics aren’t (standard Spanish, ‘loismo/laismo’) or both may be associated with DOM (‘leismo’) (section~\ref{sec:manzini:3}). }
+\title{Romance a-phrases and their clitic counterparts: Agreement and mismatches}
+\abstract{DOM (Differential Object Marking) arguments in Romance are associated with the ‘a’/dative morphology typical of goal arguments, because both have the same syntactic structure of embedding (\sectref{sec:manzini:1}). Clitics do not necessarily share the case alignment of full pronouns/lexical DPs. Indeed clitics and lexical DPs are separately merged each in their domain. The case array may therefore be set differently (\sectref{sec:manzini:2}). DOM objects give rise to a number of patterns under cliticization, including the standard Spanish one, ‘leismo’ and ‘loismo/laismo’ (the latter typical also of South Italian). This variation depends on the fact that lexical DPs may be associated with DOM though clitics aren’t (standard Spanish, ‘loismo/laismo’) or both may be associated with DOM (‘leismo’) (\sectref{sec:manzini:3}). }
  
  \IfFileExists{../localcommands.tex}{
   \input{../localpackages}
@@ -14,6 +14,7 @@
 
 \begin{document}
 \maketitle 
+\shorttitlerunninghead{Romance a-phrases and their clitic counterparts}
 
 
 
@@ -40,11 +41,11 @@ A few recent generative works argue that the morphological similarity between DO
 \z 
 
 \ea%3
-    \label{ex:manzini:3}
+    \label{ex:manzini:3}{}
     [\textsubscript{vP} Agent [\textsubscript{v’} \textit{v}\textsubscript{DO} [\textsubscript{ApplP} \textit{a} DP [\textsubscript{Appl’} Appl \textit{contrato}]]]]
 \z
 
-\citet[359-360]{Pineda2016} essentially adopts Torrego’s structure for Catalan \REF{ex:manzini:4}, where the verb can occur either with an \textit{a} argument (dative) or with a bare argument (accusative). According to Pineda, the case alternation is a parametric choice, independently needed to account for the difference between Romance ditransitives (with dative goals) and English ditransitives (with dative-shift objects){} \footnote{This raises the question why Romance lacks dative shift in ditransitives (see \citet{Lima-Salles2016} for what it might look like in some Brazilian Portuguese dialects). Note that no Appl need be involved in English dative shift, see \citet{Kayne1984, Pesetsky1995, Harley2002, BeckJohnson2004}.} (see also \citealt{Pineda2014}).\todo{\citet{BeckJohnson2004} was incorrectly / inconsistently cited as "...(2005)" in the original file. Now fixed.}
+\citet[359-360]{Pineda2016} essentially adopts Torrego’s structure for Catalan \REF{ex:manzini:4}, where the verb can occur either with an \textit{a} argument (dative) or with a bare argument (accusative). According to Pineda, the case alternation is a parametric choice, independently needed to account for the difference between Romance ditransitives (with dative goals) and English ditransitives (with dative-shift objects){} \footnote{This raises the question why Romance lacks dative shift in ditransitives (see \citet{Lima-Salles2016} for what it might look like in some Brazilian Portuguese dialects). Note that no Appl need be involved in English dative shift, see \citet{Kayne1984, Pesetsky1995, Harley2002, BeckJohnson2004}.} (see also \citealt{Pineda2014}).
 
 \ea%4
     \label{ex:manzini:4}
@@ -55,7 +56,7 @@ A few recent generative works argue that the morphological similarity between DO
 \z
 
 \ea%5
-    \label{ex:manzini:5}
+    \label{ex:manzini:5}{}
     [\textsubscript{VoiceP}  Agent [\textsubscript{vP} \textit{v}\textsubscript{DO} [\textsubscript{ApplP} (\textit{a}) DP [\textsubscript{Appl’} Appl \textit{telefonata}]]]]\\
 \z
 
@@ -68,9 +69,9 @@ On these grounds, Southern Italian examples like \REF{ex:manzini:1} are associat
 \begin{forest}
 [vP    
     [wp\\v\\CAUS] 
-    [~\\VP 
+    [VP 
         [wp\\V\\{viði-}\\{parla-}] 
-        [~\\${\subseteq}$P
+        [${\subseteq}$P
             [~\\${\subseteq}$\\{a}] 
             [3\\D\\{iddu}]
         ]
@@ -83,7 +84,7 @@ On these grounds, Southern Italian examples like \REF{ex:manzini:1} are associat
 %         {viði-}     3
 %         {parla-}    ${\subseteq}$      D      
 %             {a}      {iddu}    
-\z\todo{I think "3" is misplaced in the original file, because \textit{iddu} is `him'.}
+\z\todo{Is "3" misplaced, because \textit{iddu} is `him'?}
 
 In turn, the structure of embedding of bare accusative objects is simply as shown in \REF{ex:manzini:7}. 
 
@@ -105,7 +106,7 @@ On the contrary, the \textit{a} preposition/dative case with \textit{see} in \RE
 
 \ea%8
     \label{ex:manzini:8}
-    DOM\\
+    DOM\\{}
     [\textsubscript{VP} V   [*(P${\subseteq}$) DP]]\\
     where DP=1/2P>pronoun>proper name etc.
 \z
@@ -155,7 +156,7 @@ In what follows, I concentrate on a classical empirical aspect of the discussion
 Data of the type in \REF{ex:manzini:10} are traditionally dismissed in descriptive accounts as instances of morphological irregularity. In these terms, Albanian has a four case system (nominative, accusative, oblique, ablative) – and while 3P displays dative/ablative syncretism, 1/2P displays accusative/dative syncretism. However, still following \citet{ManziniSavoia2014}, there is a different way of looking at the pattern in \REF{ex:manzini:10}. Despite the fact that Albanian is not usually recognized as a DOM language, the 1/2P case system could depend from the fact that 1/2P pronouns are in fact subject to DOM.{} \footnote{This way of looking at things presupposes that 1/2P vs 3P is an independently attested referential cut for the application of DOM. Center-South Italian varieties provided independent evidence that this is so, as in (i).
 
 \ea%i
-    \label{ex:manzini:}
+    
     Colledimacine \citep{ManziniSavoia2005}\\
     \ea
     \gll {a} {camatə} {a} {mme/a} {nnu}\\
@@ -169,7 +170,7 @@ Data of the type in \REF{ex:manzini:10} are traditionally dismissed in descripti
 \z
 }
 
-Recall that in the South Italian and Ibero-Romance languages in section~\ref{sec:manzini:1}, or in Hindi as quoted by \citet{Torrego1998}, DOM takes the form of dativization. The fact that the context in \REF{ex:manzini:10a} displays dative forms, exactly like the context in \REF{ex:manzini:10b}, can then be construed as indicating that 1/2P pronouns are DOMed where DOM takes the form of dativization/obliquization.\footnote{{ The dative realization of DOM is found not only in the Italic/Romance family and in the Indo-Aryan family, but also in the Iranian family, for instance in the Vafsi language, as well as in Armenian (\citealt{ManziniFranco2016}). Importantly, Romance \textit{a} also introduces location/direction, as does the Hindi dative/DOM postposition -\textit{ko}.} This provides a bridge with the other major descriptive strategy of DOM marking in Indo-European, roughly a locative one. Thus in Eastern Romance (Romanian), where dative is inflectional, DOM takes the form of prepositional marking by locative \textit{pe}; Persian \textit{{}-ro} is also a directional.  The common lexicalization of dative and locative, as seen in Romance \textit{a}, Hindi -\textit{ko}, is accounted for by \citet{FrancoManzini2017Ins} by treating locative as a specialization of the inclusion relation, roughly inclusion in location. Following this line of argumentation to its logical conclusion, DOM in Indo-European languages would seem to involve the embedding of highly ranked referents under the \textrm{${\subseteq}$} relator without exception.}  
+Recall that in the South Italian and Ibero-Romance languages in \sectref{sec:manzini:1}, or in Hindi as quoted by \citet{Torrego1998}, DOM takes the form of dativization. The fact that the context in \REF{ex:manzini:10a} displays dative forms, exactly like the context in \REF{ex:manzini:10b}, can then be construed as indicating that 1/2P pronouns are DOMed where DOM takes the form of dativization/obliquization.\footnote{{ The dative realization of DOM is found not only in the Italic/Romance family and in the Indo-Aryan family, but also in the Iranian family, for instance in the Vafsi language, as well as in Armenian (\citealt{ManziniFranco2016}). Importantly, Romance \textit{a} also introduces location/direction, as does the Hindi dative/DOM postposition -\textit{ko}.} This provides a bridge with the other major descriptive strategy of DOM marking in Indo-European, roughly a locative one. Thus in Eastern Romance (Romanian), where dative is inflectional, DOM takes the form of prepositional marking by locative \textit{pe}; Persian \textit{{}-ro} is also a directional.  The common lexicalization of dative and locative, as seen in Romance \textit{a}, Hindi -\textit{ko}, is accounted for by \citet{FrancoManzini2017Ins} by treating locative as a specialization of the inclusion relation, roughly inclusion in location. Following this line of argumentation to its logical conclusion, DOM in Indo-European languages would seem to involve the embedding of highly ranked referents under the \textrm{${\subseteq}$} relator without exception.}  
 
 Recall that I am interested in the reflexes of DOM and inherent dative on the clitic system. {Several properties distinguish 1/2P clitics from 3P clitics in Romance, which I will illustrate just with Italian. From the table in \tabref{extab:manzini:11} it is evident that 3P clitics are differentiated by gender (masculine/feminine) and by case (accusative/dative) – but 1/2P are insensitive to either distinction, as in \tabref{extab:manzini:12}.}
 
@@ -181,7 +182,7 @@ Recall that I am interested in the reflexes of DOM and inherent dative on the cl
 
 \begin{table}
 \caption{\missingcaption}\label{extab:manzini:11}
-\begin{tabularx}{\textwidth}{XXXXX}
+\begin{tabularx}{\textwidth}{XXXXl}
 \lsptoprule
  & \textsc{acc.m} & \textsc{acc.f} & \textsc{dat.m} & \textsc{dat.f}\\
  \midrule
@@ -198,9 +199,11 @@ Recall that I am interested in the reflexes of DOM and inherent dative on the cl
 % \textsc{2pl}    {vi}\\
 % \z
 
+
 \begin{table}
+\todo[inline]{is this table intended as such?}
 \caption{\missingcaption}\label{extab:manzini:12}
-\begin{tabularx}{\textwidth}{XXXXX}
+\begin{tabularx}{\textwidth}{XXlll}
 \lsptoprule
 \textsc{1sg} & {mi} & & &\\
 \textsc{2sg} & {ti} & & &\\
@@ -316,7 +319,7 @@ Recall that if the present line of reasoning is correct, it is not possible to e
 In conclusion, clitics can be associated with a case array not matching that of lexical DPs/full pronouns, exactly like full pronouns may have a case alignment different from that of lexical DPs.{} \footnote{As an anonymous reviewer notes, the framework I adopt leads one to expect that there could be other case mismatches between DPs and the clitics that pronominalize (or perhaps double) them, within the boundaries imposed by UG. For instance, the anonymous reviewer notices that in French dative clitics are often reported to have wider distribution than \textit{à} phrases, in causatives (see Sheehan, this volume) and in benefactives/malefactives. A banal example in Italian is (ia), where two datives are inadmissible within the embedded predicate, but a dative clitic is a possible lexicalization for the embedded external argument in (ib). 
 
 \ea%i
-    \label{ex:manzini:}
+    
     Italian\\
     \ea \gll {Ho} {fatto} {scrivere} (*a) {mio} {fratello} {alla} {sua} {fidanzata}\\
         {I.have} made write (to) my brother to his fiancee\\
@@ -334,7 +337,7 @@ Thus for instance 1/2P clitics in Italian undergo DOM, even though full pronouns
 
 In this section, I turn to the question of which clitics pronominalize DOM objects. The conditions under which clitic doubling is possible/required are outside the scope of the present work. Hence, in what follows, I will alternate doubling and non-doubling (simple cliticization) data without further comment. 
 
-Traditional approaches hold that DOM objects are syntactically accusatives, though they may be morphologically syncretic with datives/obliques; therefore, one may expect that they are doubled/pronominalized by accusative clitics, even though goal datives are doubled/pronominalized by dative clitics, as schematized in \REF{ex:manzini:20a}. However, if DOM arguments share the syntactic structure of inherent datives, as argued here in section~\ref{sec:manzini:1}, we may expect that both are doubled (or more generally pronominalized) by the same clitics, as in \REF{ex:manzini:20b}. In turn, the option in \REF{ex:manzini:20b} may be taken to imply that both DOM and goal datives correspond to dative clitics, as in \REF{ex:manzini:20bi}. However one may also consider the possibility that both correspond to accusative clitics, as in \REF{ex:manzini:20bii}.
+Traditional approaches hold that DOM objects are syntactically accusatives, though they may be morphologically syncretic with datives/obliques; therefore, one may expect that they are doubled/pronominalized by accusative clitics, even though goal datives are doubled/pronominalized by dative clitics, as schematized in \REF{ex:manzini:20a}. However, if DOM arguments share the syntactic structure of inherent datives, as argued here in \sectref{sec:manzini:1}, we may expect that both are doubled (or more generally pronominalized) by the same clitics, as in \REF{ex:manzini:20b}. In turn, the option in \REF{ex:manzini:20b} may be taken to imply that both DOM and goal datives correspond to dative clitics, as in \REF{ex:manzini:20bi}. However one may also consider the possibility that both correspond to accusative clitics, as in \REF{ex:manzini:20bii}.
 
 \ea%20
     \label{ex:manzini:20}
@@ -383,7 +386,7 @@ Agreement with the perfect participle, which is absent from Ibero-Romance but pr
 \z
 
 
-Next, under the uniform treatment of DOM and inherent datives proposed here, one would normally expect the pattern \REF{ex:manzini:20bi} to be instantiated, whereby both inherent datives and DOM objects are lexicalized by dative clitics. This is robustly documented in Spanish dialects, under the traditional label of \textit{leísmo}, for instance in Basque varieties, as illustrated in \REF{ex:manzini:23}.  Within the present analysis, it is natural to conclude that the clitics in \REF{ex:manzini:23} reflect the same case organization as their doubled DP counterparts – hence goal and DOM datives coincide in the dative clitic \textit{le}. \todo{\REF{ex:manzini:23} contains \textit{the}, maybe change into \textsc{def.m}?}
+Next, under the uniform treatment of DOM and inherent datives proposed here, one would normally expect the pattern \REF{ex:manzini:20bi} to be instantiated, whereby both inherent datives and DOM objects are lexicalized by dative clitics. This is robustly documented in Spanish dialects, under the traditional label of \textit{leísmo}, for instance in Basque varieties, as illustrated in \REF{ex:manzini:23}.  Within the present analysis, it is natural to conclude that the clitics in \REF{ex:manzini:23} reflect the same case organization as their doubled DP counterparts – hence goal and DOM datives coincide in the dative clitic \textit{le}.  
 
 \ea%23
     \label{ex:manzini:23}
@@ -414,26 +417,26 @@ Going back to the schema in \REF{ex:manzini:20} once more, we must finally consi
 \z
 
 
-The pattern in \REF{ex:manzini:24} appears to favour the view that the \textit{a} phrase in \REF{ex:manzini:24a} is an underlying accusative, determining doubling by an accusative clitic. But \textit{loismo} and \textit{leismo} dialects provide equally strong \textit{prima} \textit{facie} evidence in favour of the view that DOM and inherent datives have the same structure of embedding, so that they are treated alike under cliticization. As stated at the end of section~\ref{sec:manzini:2}, I adopt the view that clitics and DPs are each separately merged in their relevant domains \citep{Sportiche1996}, and eventually connected by  Agree when cooccurring.\footnote{Adopting Agree as the operation that connects the clitic and doubled DP implies that all of the structural conditions on Agree, as defined by \citet{Chomsky2000}, hold in the doubling configuration. As for the Phase Impenetrability Condition (PIC), the simplest way to insure that it is met is to adopt the conclusion of \citet{Sportiche1996}, that clitics are Merged in a clitic field located in the periphery of vP, from where they move the short step to IP. On the other hand, if clitics are base generated in IP, additional or alternative assumptions may be needed. The other major condition is c-command (and in fact minimal c-command, i.e. Minimality). If clitics are heads adjoined to v/I, then c-command of vP/VP-internal arguments follows. Nevertheless, a delicate issue arises because we have adopted the view that object clitics may alternate between a \textrm{${\subseteq}$} and a D form, and so do object DPs/\textrm{${\subseteq}$}Ps, according to whether they do or not undergo DOM.  The simplest thing to say is that $\varphi $-features label the root node in any event. The anonymous reviewer raises more complex issues yet, i.e. Long Distance Agree, which are beyond the scope of the present article.}{} At the same time, the clitic and the doubled DP do not necessarily agree in Case – which is again part of the conclusion of section~\ref{sec:manzini:2}. 
+The pattern in \REF{ex:manzini:24} appears to favour the view that the \textit{a} phrase in \REF{ex:manzini:24a} is an underlying accusative, determining doubling by an accusative clitic. But \textit{loismo} and \textit{leismo} dialects provide equally strong \textit{prima} \textit{facie} evidence in favour of the view that DOM and inherent datives have the same structure of embedding, so that they are treated alike under cliticization. As stated at the end of \sectref{sec:manzini:2}, I adopt the view that clitics and DPs are each separately merged in their relevant domains \citep{Sportiche1996}, and eventually connected by  Agree when cooccurring.\footnote{Adopting Agree as the operation that connects the clitic and doubled DP implies that all of the structural conditions on Agree, as defined by \citet{Chomsky2000}, hold in the doubling configuration. As for the Phase Impenetrability Condition (PIC), the simplest way to insure that it is met is to adopt the conclusion of \citet{Sportiche1996}, that clitics are Merged in a clitic field located in the periphery of vP, from where they move the short step to IP. On the other hand, if clitics are base generated in IP, additional or alternative assumptions may be needed. The other major condition is c-command (and in fact minimal c-command, i.e. Minimality). If clitics are heads adjoined to v/I, then c-command of vP/VP-internal arguments follows. Nevertheless, a delicate issue arises because we have adopted the view that object clitics may alternate between a \textrm{${\subseteq}$} and a D form, and so do object DPs/\textrm{${\subseteq}$}Ps, according to whether they do or not undergo DOM.  The simplest thing to say is that $\varphi $-features label the root node in any event. The anonymous reviewer raises more complex issues yet, i.e. Long Distance Agree, which are beyond the scope of the present article.}{} At the same time, the clitic and the doubled DP do not necessarily agree in Case – which is again part of the conclusion of \sectref{sec:manzini:2}. 
 
-Consider then the \textit{leismo} pattern again, as exemplified in \REF{ex:manzini:23} above. From the point of view of the analysis of DOM in section~\ref{sec:manzini:1}, the clitic and the DP it doubles/pronominalizes actually agree in case, namely in dative case. More formally, the clitic and the DP share the ${\subseteq}$ property, lexicalized by P in front of the lexical DP and by dative case on the clitic, as schematized in \REF{ex:manzini:25}. In other words, varieties like \REF{ex:manzini:25} can be described simply by saying that the conditions attaching to VP-internal embeddings of full DPs, also hold for the insertion of D heads in the clitic domain.  
+Consider then the \textit{leismo} pattern again, as exemplified in \REF{ex:manzini:23} above. From the point of view of the analysis of DOM in \sectref{sec:manzini:1}, the clitic and the DP it doubles/pronominalizes actually agree in case, namely in dative case. More formally, the clitic and the DP share the ${\subseteq}$ property, lexicalized by P in front of the lexical DP and by dative case on the clitic, as schematized in \REF{ex:manzini:25}. In other words, varieties like \REF{ex:manzini:25} can be described simply by saying that the conditions attaching to VP-internal embeddings of full DPs, also hold for the insertion of D heads in the clitic domain.  
 
 \ea%25
-    \label{ex:manzini:25}
+    \label{ex:manzini:25}{}
     [\textsubscript{IP} [\textsubscript{${\subseteq}$} le]  [\textsubscript{I} vi   [\textsubscript{ VP} \sout{vi}  [\textsubscript{${\subseteq}$P} a la niña]]    \hfill (cf. \REF{ex:manzini:23b})\\
 \z
 
 The \textit{loismo} pattern is schematized in \REF{ex:manzini:26}. In present terms, there is a ${\subseteq}$ case mismatch in \REF{ex:manzini:26} both when the DP argument corresponds to an inherent dative (with the verb \textit{speak} \textit{(to)}) and when it corresponds to a DOM dative (with the verb \textit{see}). Recall that inherent dative and DOM arguments can be distinguished, among others, on the basis of passivization; DOM datives with \textit{see} passivize, while inherent datives with \textit{speak} \textit{(to)} do not passivize. Needless to say, the parallel behavior of goal and DOM \textit{a} phrases under \textit{loismo} tendentially supports their unification – though not as directly as the \textit{leismo} pattern in \REF{ex:manzini:25}. Assume as before that DPs and clitics are each separately merged in their domains (predicative and inflectional respectively), and that each domain may have its own case pattern. In the predicative domain in \REF{ex:manzini:26}, highly ranked DPs (including 3P full pronouns) are introduced by the oblique ${\subseteq}$ relator under DOM, as are goal arguments selected by the verb. By contrast, in the clitic domain, all 3P internal arguments are simply lexicalized as Ds, i.e. as accusative.
 
 \ea%26
-    \label{ex:manzini:26}
+    \label{ex:manzini:26}{}
     [\textsubscript{IP} [\textsubscript{D} u] [\textsubscript{I} parlanu/viðinu   [\textsubscript{ VP} \sout{parlanu/viðinu}  [\textsubscript{${\subseteq}$P} a iddu]]              \hfill (cf. \REF{ex:manzini:21a})
 \z
 
 In the ditransitive counterparts to \REF{ex:manzini:26}, goal clitics surface in the dative, as in structure \REF{ex:manzini:27}. In a functionalist vein, one could account for \REF{ex:manzini:27} by invoking the need for disambiguation. There are formal means to implement the same basic idea. In an Agree configuration, the clitic effectively acts as a probe for its DP argument goal. If the clitic was embedded as a bare D in \REF{ex:manzini:27}, its closest goal would be the direct object, namely \textit{na} \textit{littira} ‘a letter’, yielding a reading different from the intended one. In other words, the right reading is achieved only by having recourse to the specialized dative clitic. Economy considerations privilege the simpler lexicalization in \REF{ex:manzini:26} where possible.
 
 \ea%27
-    \label{ex:manzini:27}
+    \label{ex:manzini:27}{}
     [\textsubscript{IP} [\textsubscript{${\subseteq}$} li] [\textsubscript{I} \sout{ʃkrivu}  [\textsubscript{ VP} ʃkrivu na littira  [\textsubscript{${\subseteq}$P} a iddu]]    \hfill cf. \REF{ex:manzini:21c}
 \z
 
@@ -441,22 +444,22 @@ The most problematic configuration from the present point of view of DOM arises 
 
 \ea%28
     \label{ex:manzini:28}
-    \ea\label{ex:manzini:28a}
+    \ea\label{ex:manzini:28a}{}
     [\textsubscript{IP} [\textsubscript{D} lo]  [\textsubscript{I} vio   [\textsubscript{ VP} \sout{vio}  [\textsubscript{PP${\subseteq}$} a Juan]]\\
-    \ex\label{ex:manzini:28b}
+    \ex\label{ex:manzini:28b}{}
     [\textsubscript{IP} [\textsubscript{D${\subseteq}$} le] [\textsubscript{I} dio [\textsubscript{VP} \sout{dio} el libro [\textsubscript{PP${\subseteq}$} a Juan]]     
     \z 
 \z 
 
-Let us then take stock. In section~\ref{sec:manzini:1} and~\ref{sec:manzini:2} I have briefly argued for two main conclusions, which form the basis of the discussion in this section, namely \REF{ex:manzini:29}.
+Let us then take stock. In \sectref{sec:manzini:1} and~\ref{sec:manzini:2} I have briefly argued for two main conclusions, which form the basis of the discussion in this section, namely \REF{ex:manzini:29}.
 
 \ea%29
     \label{ex:manzini:29}
     In Romance\\
     \ea\label{ex:manzini:29a} 
-    DOM and goal arguments are both embedded by ${\subseteq}$ (section~\ref{sec:manzini:1})\\
+    DOM and goal arguments are both embedded by ${\subseteq}$ (\sectref{sec:manzini:1})\\
     \ex\label{ex:manzini:29b} 
-    Clitic and full DP arguments are both first-merged in their respective domains, each with their own case alignment (section~\ref{sec:manzini:2}).
+    Clitic and full DP arguments are both first-merged in their respective domains, each with their own case alignment (\sectref{sec:manzini:2}).
     \z
 \z
 
@@ -476,30 +479,30 @@ In this section, I only considered Romance varieties where arguments of the pred
     \z
 \z
 
-\begin{table}
-\caption{}\label{tab:manzini:3}
-\begin{tabularx}{\textwidth}{XXXXX}
-\lsptoprule
-   &    & Clitics        & DPs     & \\
-\midrule
-a. &    & Acc${\neq}$Dat & DOM=Dat & \\
-b. & i  & DOM=Dat        & DOM=Dat & \\
-   & ii & Acc            & DOM=Dat & \\
-\lspbottomrule
-\end{tabularx}
-\end{table}
+% \begin{table}
+% \caption{\label{extab:manzini:30}  Clitics DPs}
+% \begin{tabular}{llll}
+% \lsptoprule
+%    &    & Clitics        & DPs     \\
+% \midrule
+% a. &    & Acc${\neq}$Dat & DOM=Dat \\
+% b. & i  & DOM=Dat        & DOM=Dat \\
+%    & ii & Acc            & DOM=Dat \\
+% \lspbottomrule
+% \end{tabular}
+% \end{table}
 
 Suppose DOM in the predicative domain results from embedding of the argument under the same elementary predicate as the dative \REF{ex:manzini:29a}. Suppose further that clitics can have their own independent case alignment \REF{ex:manzini:29b}. Then there are exactly three logical possibilities – namely that clitics have the same DOM pattern as the predicative domain (\textit{leismo}), or that they have a non-DOM pattern (standard Spanish) or that finally they have accusative for all internal arguments (\textit{loismo}).{} \footnote{If both object clitics and object DPs can be ±DOM, and they freely mix and match, we expect a fourth configuration – namely that there may be languages where a DOM 3P clitic corresponds to non-DOM DP objects. The closest match to this fourth predicted possibility arises in Quiteño Spanish where “the DO-CLs have been almost universally replaced by \textit{le(s)} … This replacement applies irrespective of the features [±animate] and [±masc] …Thus, it could be said that QS has carried \textit{leismo} to conclusion” \citep[387-388]{Suñer1989}, cf. (i). Importantly, “if there is an IO phrase, the CL refers unambiguously to the IO argument, and the DO automatically goes to ø” \citep[389]{Suñer1989}, cf. (ii).  
 
 \ea%i
-    \label{ex:manzini:}
+    
     \gll {Ya} {le}   {vendió}   \hfill (where {le} {=} {el} {carro} ‘the car’)\\
         already   it   sold\textsc{.3sg}\\
     \glt ‘He already sold it.’
 \z
 
 \ea%ii
-    \label{ex:manzini:}
+    
     \gll {Al} {chofer}  {le}   {ø} {di.}   {ø} = {los} {papeles} ‘the papers’)\\
         to.the chauffeur   to.him   {} I.gave\\
     \glt ‘I gave them to the chauffeur.’
@@ -510,9 +513,9 @@ If the variation spread exactly matches the logically possible outcomes, then pa
 
 \section{ Conclusions}\label{sec:manzini:4}
 
-DOM arguments are associated with the \textit{a}/dative morphology typical of goal arguments, because they share the same syntactic structure of embedding, namely the relational content ${\subseteq}$ associated with the preposition \textit{a} or with the dative case inflection (section~\ref{sec:manzini:1}). Pronouns, especially 1/2P pronouns, do not necessarily share the same case alignment as lexical DPs. In section~\ref{sec:manzini:2} I have concluded that though a language like Italian has no DOM with lexical DPs/full pronouns, the presence of a single object form of 1/2P clitics is to be interpreted as evidence of the presence of DOM in the clitic domain – and not as a mere morphological syncretism.
+DOM arguments are associated with the \textit{a}/dative morphology typical of goal arguments, because they share the same syntactic structure of embedding, namely the relational content ${\subseteq}$ associated with the preposition \textit{a} or with the dative case inflection (\sectref{sec:manzini:1}). Pronouns, especially 1/2P pronouns, do not necessarily share the same case alignment as lexical DPs. In \sectref{sec:manzini:2} I have concluded that though a language like Italian has no DOM with lexical DPs/full pronouns, the presence of a single object form of 1/2P clitics is to be interpreted as evidence of the presence of DOM in the clitic domain – and not as a mere morphological syncretism.
 
-In section~\ref{sec:manzini:3}, I assumed that clitics and lexical DPs are separately merged each in their domain. The case array may then be differently set. I interpreted standard/Rioplatense Spanish as instantiating the pattern in which 3P clitic are not sensitive to DOM, though DOM is enforced by lexical DPs and full pronouns. The traditional name of \textit{leismo} describes configurations in which animate 3P clitics are always dative, whether DOMed or inherent goals. The equally traditional label of \textit{loismo/laismo} describes the pattern in which 3P object clitics corresponding to animate referents (subject to DOM in the predicative domain) or to inherent datives are both in the accusative. 
+In \sectref{sec:manzini:3}, I assumed that clitics and lexical DPs are separately merged each in their domain. The case array may then be differently set. I interpreted standard/Rioplatense Spanish as instantiating the pattern in which 3P clitic are not sensitive to DOM, though DOM is enforced by lexical DPs and full pronouns. The traditional name of \textit{leismo} describes configurations in which animate 3P clitics are always dative, whether DOMed or inherent goals. The equally traditional label of \textit{loismo/laismo} describes the pattern in which 3P object clitics corresponding to animate referents (subject to DOM in the predicative domain) or to inherent datives are both in the accusative. 
 
 \sloppy
 \printbibliography[heading=subbibliography,notkeyword=this] 

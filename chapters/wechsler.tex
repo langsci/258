@@ -1,4 +1,4 @@
-\documentclass[output=paper,modfonts,nonflat]{langsci/langscibook} 
+\documentclass[output=paper,modfonts,nonflat,colorlinks,citecolor=brown]{langsci/langscibook} 
 \author{Mattie Wechsler\affiliation{}}
 \title{The lexical underspecification of Bantu causatives and applicatives}
 \abstract{This paper presents original evidence for an additional merge location and semantic interpretation of Bantu applicatives, drawing on complex multiply applicativized and causativized constructions for empirical support. The paper also identifies and discusses challenging data from Bantu causatives. Previous analyses of causative and applicative constructions in the world’s languages have enumerated different kinds of causative and applicative heads, stored separately in the lexicon, each with their own particular selectional requirements.
@@ -128,7 +128,7 @@ Bemba \citep[155]{Givón1969}\\
 Bemba demonstrates the same variation in causative complement selection as Shona, embedding unaccusative structures, as well as non-agentive external arguments in unergative and transitive verb phrases. 
 
 
-\citet{Kim2011} argues that in causativized transitive and unergative structures, non-agentive Causees are introduced by unpronounced high applicative heads (see \sectref{sec:wechsler:3} for a detailed explanation of low and high \textsc{appl).} This proposal is economical in that high applicative heads are available in the lexicon of Bantu languages (and Korean, from which Kim draws her evidence for the solution), they merge in between Voice and the verb, and they are associated with non-agentive arguments. Furthermore, though it is irrelevant to the Bantu data, Korean Causees are dative arguments, that is, they pattern with the distribution and morphological marking of applied/indirect objects, such as Benefactives and Recipients \citep{Kim2011}.\footnote{{Although Bantu does not have any morphological case marking, I want to take this opportunity to clarify this paper's stance on abstract Case in Bantu. I do not adopt recent analysis from} {\citet{Diercks2012}, who argues that Bantu languages parametrically opt out of abstract Case-licensing en masse. I assume that the arguments in my Bantu data require abstract Case-licensing (see} \citealt{vanderWal2015,SheehanvanderWal2016,Halpert2012}, and \citealt{Wechsler2014,Wechsler2016} for evidence of Case features in Bantu). I am unable to devote the analysis in this paper towards identifying a licensing head for each argument, but I consider further research into \textit{i}*’s role in Case-licensing to be an important next step in assessing the utility and feasibility of this analysis.}
+\citet{Kim2011thesis} argues that in causativized transitive and unergative structures, non-agentive Causees are introduced by unpronounced high applicative heads (see \sectref{sec:wechsler:3} for a detailed explanation of low and high \textsc{appl).} This proposal is economical in that high applicative heads are available in the lexicon of Bantu languages (and Korean, from which Kim draws her evidence for the solution), they merge in between Voice and the verb, and they are associated with non-agentive arguments. Furthermore, though it is irrelevant to the Bantu data, Korean Causees are dative arguments, that is, they pattern with the distribution and morphological marking of applied/indirect objects, such as Benefactives and Recipients \citep{Kim2011thesis}.\footnote{{Although Bantu does not have any morphological case marking, I want to take this opportunity to clarify this paper's stance on abstract Case in Bantu. I do not adopt recent analysis from} {\citet{Diercks2012}, who argues that Bantu languages parametrically opt out of abstract Case-licensing en masse. I assume that the arguments in my Bantu data require abstract Case-licensing (see} \citealt{vanderWal2015,SheehanvanderWal2016,Halpert2012}, and \citealt{Wechsler2014,Wechsler2016} for evidence of Case features in Bantu). I am unable to devote the analysis in this paper towards identifying a licensing head for each argument, but I consider further research into \textit{i}*’s role in Case-licensing to be an important next step in assessing the utility and feasibility of this analysis.}
 
 
 In Pylkkänen’s model of argument introduction, however, these various causative heads are all separate lexical items, specified each for a particular selectional requirement, and acquired by any given language from a universal inventory. Kim’s proposal adds another head (two, if it also comes in Voice-bundling and Non-Voice-bundling varieties), an applicative-selecting causative, to both Pylkkänen’s universal inventory, and to any given language with causative diversity similar to that of Shona and Bemba. The resulting system is congested, and I assert that the causative data in (\ref{ex:wechsler:1})-(\ref{ex:wechsler:6}) provide an opportunity to simplify both the lexicons of the individual languages as well as the universal inventory.
@@ -147,7 +147,7 @@ Voice is simply the product of \textit{i}* merging with the verbalizing head lit
 % \includegraphics[width=\textwidth]{figures/wechsler-img001.png}
 \begin{forest}
 [vP
-  [{DP\\John}, textwidth=1cm]
+  [{DP\\John}, text width=1cm]
   [vP
     [i*]
     [vP
@@ -175,14 +175,18 @@ Taro-\textsc{nom}  Son-\textsc{acc}  die-\textsc{caus-pst}\\
 
 The second possible meaning in (\ref{ex:wechsler:7}), where \textit{Taro} is negatively affected by his son’s death (but crucially does not play any role in bringing it about), is the adversity causative interpretation. The event of Taro’s son’s death does not necessitate an agentive participant, so \textit{i}* need not necessarily (though it may, as in the first interpretation of (\ref{ex:wechsler:7})) relate an Agent to that event. As a non-agentive affectee, the \textsc{dp} \textit{Taroo-ga} must be semantically integrated into the structure by some mechanism. Wood \& Marantz argue that, in a structure similar to possessor-raising, \textit{Taroo} is introduced by expletive \textit{i}*, but integrated by saturating a possessor role generated lower down in the \textsc{dp} \textit{musuko-o}. This structure, adapted from a similar rendering in  \citet[274]{WoodMarantz2017}, is approximated in (\ref{ex:wechsler:8}).
 
+\newpage 
 
 \ea\label{ex:wechsler:8}
-{[Taroo [\textit{i}* [\textsc{vP} die-\textsc{caus} [\textsc{dp} \textsc{possessor} son]]]]} \\
-                  
-% \begin{figure}
-\includegraphics[width=\textwidth]{figures/wechsler-img002.png}
-% \end{figure}
+{[\tikzmark{Taroo} [\textit{i}* [\textsc{vP} die-\textsc{caus} [\textsc{dp} \textsc{\tikzmark{possessor}} son]]]]} \\
+                
 \z
+\begin{tikzpicture}[remember picture,overlay] 
+\path (possessor.south) edge  [->, to path={-- ++(0,-3mm) -- ($(\tikztotarget)+(0,-3mm)$) \tikztonodes -- (\tikztotarget)}, >= triangle 45]   (Taroo.south);
+
+\end{tikzpicture}
+
+ 
 
 The arrow in (\ref{ex:wechsler:8}) represents the relationship between the possessor role and the argument \textit{Taroo} that saturates it. This relationship is mandatory in the adversity causative interpretation. If \textit{musuko} is implied to be another person’s son, then \textit{Taroo} has no semantic integration strategy besides merging as an agentive Causer role. 
 
@@ -242,7 +246,7 @@ In \sectref{sec:wechsler:2.1}, I argued that causatives have a maximum “compli
 
 
 \ea\label{ex:wechsler:9}
-\textbf{Agent>Experiencer/Goal>Theme/Patient}\\
+ {Agent>Experiencer/Goal>Theme/Patient}\\
 \z
 
 In \sectref{sec:wechsler:2.1} I demonstrated that Causees can occur in any of the three thematic tiers in (\ref{ex:wechsler:9}). In the Venda sentence in (\ref{ex:wechsler:3}) the Causee is an Agent, in the Shona sentence in (\ref{ex:wechsler:2}) the Causee is an Experiencer,\footnote{The traditional definition of “Experiencer” is not a perfect fit for non-agentive Causees of this variety, but because I want to avoid getting bogged down in the profligate lists of thematic relations available in the literature, and also because, for my analysis, the hierarchical tier is more important than the role itself, I consider the imprecision of this and other thematic labels to be acceptable compromises at the present.}  and in the Bemba sentence in (\ref{ex:wechsler:6}) the Causee is a Patient. For the purposes of calculating thematic weight, I assign numerical values to each of the thematic tiers from (\ref{ex:wechsler:9}) in \tabref{tab:wechsler:1}. 
@@ -364,7 +368,7 @@ Overall, my proposal, with its three main components, compliment selection based
 
 \subsection{Pylkkänen’s typology}\label{sec:wechsler:3.1}
 
-Since Pylkkänen first proposed her high-low typology of applicatives \citeyear{Pylkkänen2002} many authors have suggested that this binary is not enough to capture the range of applicative argument introduction in the world’s languages (\citealt{Jeong2007,Peterson2007};  \citealt{GeorgalaEtAl2008,Cuervo2003}, 2010, 2012, 2015; \citealt{Tsai2009,Kim2011}, 2012; \citealt{Georgala2012}). In Cuervo’s overview at the beginning of this volume, she presents evidence that far more complexity is necessary to describe the world’s dative and applicative diversity. She proposes a rich typology that takes into account the many kinds of structures that applicatives embed, as well as the many kinds of structures that embed applicatives. It is also my view that Pylkkänen’s model is not fully comprehensive, and in this section, I argue that high and low merge locations are not sufficient to describe the range of applicative constructions in and outside of Bantu. 
+Since Pylkkänen first proposed her high-low typology of applicatives \citeyear{Pylkkänen2002} many authors have suggested that this binary is not enough to capture the range of applicative argument introduction in the world’s languages (\citealt{Jeong2007,Peterson2007};  \citealt{GeorgalaEtAl2008,Cuervo2003}, 2010, 2012, 2015; \citealt{Tsai2009,Kim2011thesis}, 2012; \citealt{Georgala2012}). In Cuervo’s overview at the beginning of this volume, she presents evidence that far more complexity is necessary to describe the world’s dative and applicative diversity. She proposes a rich typology that takes into account the many kinds of structures that applicatives embed, as well as the many kinds of structures that embed applicatives. It is also my view that Pylkkänen’s model is not fully comprehensive, and in this section, I argue that high and low merge locations are not sufficient to describe the range of applicative constructions in and outside of Bantu. 
 
 
 \citet{Pylkkänen2008} proposes that there are \textsc{high} and \textsc{low} applicatives. High applicatives are functional heads that introduce and license non-core arguments merged above the verb and below Voice, relating the applied argument to an event. High applicatives often convey the notion of a favor, where the applied object, prototypically (though not always) a Benefactive, is positively impacted by the entire set of circumstances described by the verb:
@@ -538,7 +542,7 @@ I adopt \citegen{Marten2016} proposal that the substitutive applicative is super
 
 I assert that super-high applicatives merge first with the same ‘for’ root as high applicatives. The semantic contributions of high and super-high applicatives are similar, in that they both broadly designate the applicative arguments as entities positively impacted by their compliments. Therefore, in combination with the fact that the structural positions of high and super high applicatives are distinct, I argue the same root is sufficient.\\
 
-\citet{Kim2011,Kim2012} also argues for an applicative merge location above Voice (above the external most argument introduced by \textit{i}* in the terms of this analysis). Kim proposes that in Japanese adversity causatives (which I discussed in \sectref{sec:wechsler:2.2}) and Korean adversity passives, which are very similar to Japanese adversity causatives an applicative head she calls “peripheral \textsc{appl}” merges very high above all other external arguments and introduces affectee arguments that are the syntactic subjects of their clauses. I assume that, given the similarity between the two structures, Wood \& Marantz’s account of Japanese adversity causatives is a suitable account of Korean adversity passives as well. Kim’s proposed merge location for peripheral \textsc{appl} is motivated primarily by word order: the affectee is the syntactic subject of the construction by virtue of preceding the verb (Korean and Japanese are SOV). In my analysis, the arguments introduced by super-high applicatives are not syntactic subjects and word order is a challenge for the theory, rather than supporting evidence. While I am not able to resolve the issue of word order here,\footnote{In addition to leaving the derivation of word order to future work, I also beg off the topic of affix ordering. Most Bantu languages have a strict templatic ordering of causative and applicative affixes \citep{Good2005}, and many display causative-applicative co-occurrence with ambiguous scope (\citealt{Baker1985,Hyman2002}). It suffices to say, that given variable semantic interpretations and the fact that the causatives and applicatives have to concatenate onto the verb stem apart from the arguments they introduce, movement is necessary to derive these surface structures. Movement is not, however, a part of this analysis.}  I do motivate my proposed structural position for super-high applicatives with a variety of evidence. 
+\citet{Kim2011thesis,Kim2012heads} also argues for an applicative merge location above Voice (above the external most argument introduced by \textit{i}* in the terms of this analysis). Kim proposes that in Japanese adversity causatives (which I discussed in \sectref{sec:wechsler:2.2}) and Korean adversity passives, which are very similar to Japanese adversity causatives an applicative head she calls “peripheral \textsc{appl}” merges very high above all other external arguments and introduces affectee arguments that are the syntactic subjects of their clauses. I assume that, given the similarity between the two structures, Wood \& Marantz’s account of Japanese adversity causatives is a suitable account of Korean adversity passives as well. Kim’s proposed merge location for peripheral \textsc{appl} is motivated primarily by word order: the affectee is the syntactic subject of the construction by virtue of preceding the verb (Korean and Japanese are SOV). In my analysis, the arguments introduced by super-high applicatives are not syntactic subjects and word order is a challenge for the theory, rather than supporting evidence. While I am not able to resolve the issue of word order here,\footnote{In addition to leaving the derivation of word order to future work, I also beg off the topic of affix ordering. Most Bantu languages have a strict templatic ordering of causative and applicative affixes \citep{Good2005}, and many display causative-applicative co-occurrence with ambiguous scope (\citealt{Baker1985,Hyman2002}). It suffices to say, that given variable semantic interpretations and the fact that the causatives and applicatives have to concatenate onto the verb stem apart from the arguments they introduce, movement is necessary to derive these surface structures. Movement is not, however, a part of this analysis.}  I do motivate my proposed structural position for super-high applicatives with a variety of evidence. 
 
 
 
@@ -571,8 +575,8 @@ I discuss the third source of empirical evidence, which comes from scopal intera
  
 
 \begin{figure}
-\begin{forest}for tree= fairly nice empty nodes
-[{}
+\begin{forest} 
+[{}, fairly nice empty nodes 
     [Causer]
     [{}
         [i*]
@@ -750,7 +754,7 @@ Overgeneration remains a problem for this analysis. If \textit{i}* is the sole n
 
 \subsection{Nominal licensing}\label{sec:wechsler:4.2}
 
-\citegen{Kim2011} proposal that unpronounced applicative heads introduce non-agentive Causees is, in some sense, correct, in that both arguments are introduced by \textit{i}* in what could be argued to be its expletive capacity. This begs a question that could provide a very promising seed for further research in the area of dative structures: in what ways are expletive \textit{i}* connected with dative case marking and Case assignment of dative arguments cross-linguistically? 
+\citegen{Kim2011thesis} proposal that unpronounced applicative heads introduce non-agentive Causees is, in some sense, correct, in that both arguments are introduced by \textit{i}* in what could be argued to be its expletive capacity. This begs a question that could provide a very promising seed for further research in the area of dative structures: in what ways are expletive \textit{i}* connected with dative case marking and Case assignment of dative arguments cross-linguistically? 
 
 
 
@@ -758,7 +762,7 @@ Many authors build analyses on the assumption that all non-core argument introdu
 
 
 
-\citet{Cuervo2003,Cuervo2010} argues that dative subjects of Spanish psychological predicates are licensed by applicative heads, and Royo’s paper in this collection offers a similar account of psych-verbs in Catalan. \citegen{Kim2011} structurally similar affectee subjects introduced by peripheral \textsc{appl} are nominative, however, with dative marked arguments present elsewhere in the construction. Does expletive \textit{i}* constitute a source of (dative) Case? Perhaps, expletive \textit{i}* introduces affectee subjects in Korean, assigns Case downwards, and licenses an argument it does not introduce, while in Spanish expletive \textit{i}* licenses upwards to reach its introducee. Royo (this volume) argues that Catalan applicative heads can also optionally assign accusative Case (or maybe just license ‘little c’ accusative case), which complicates this hypothesis further. 
+\citet{Cuervo2003,Cuervo2010} argues that dative subjects of Spanish psychological predicates are licensed by applicative heads, and Royo’s paper in this collection offers a similar account of psych-verbs in Catalan. \citegen{Kim2011thesis} structurally similar affectee subjects introduced by peripheral \textsc{appl} are nominative, however, with dative marked arguments present elsewhere in the construction. Does expletive \textit{i}* constitute a source of (dative) Case? Perhaps, expletive \textit{i}* introduces affectee subjects in Korean, assigns Case downwards, and licenses an argument it does not introduce, while in Spanish expletive \textit{i}* licenses upwards to reach its introducee. Royo (this volume) argues that Catalan applicative heads can also optionally assign accusative Case (or maybe just license ‘little c’ accusative case), which complicates this hypothesis further. 
 
 
 
@@ -770,7 +774,7 @@ The literature on applicatives describes a rich AS ecosystem of functional heads
 
 \subsection{Parameterization}\label{sec:wechsler:4.3}
 
-One clear advantage that my proposal of causative compliment selection has over prior analyses, is in the arena of parameterization and language acquisition. Rather than individually eliminate every impossible compliment and acquire every possible one, my analysis is such that a child only has to attend to and remember the largest compliment attested in their primary language data, because every smaller (thematically lighter) compliment will be possible. This idea echoes previous work on “implicational hierarchies,” which limit the number of distinct parameters necessary to describe cross-linguistic variation (\citealt{HolmbergRoberts2009,Biberauer2011,BiberauerRoberts2012,BiberauerRoberts2015,Sheehan2013,BiberauerEtAl2013}; van der \citealt{WalBiberauer2014,BiberauerEtAl2014,vanderWal2017}).
+One clear advantage that my proposal of causative compliment selection has over prior analyses, is in the arena of parameterization and language acquisition. Rather than individually eliminate every impossible compliment and acquire every possible one, my analysis is such that a child only has to attend to and remember the largest compliment attested in their primary language data, because every smaller (thematically lighter) compliment will be possible. This idea echoes previous work on “implicational hierarchies,” which limit the number of distinct parameters necessary to describe cross-linguistic variation (\citealt{HolmbergRoberts2009,Biberauer2011,BiberauerRoberts2012significance,BiberauerRoberts2015,Sheehan2013,BiberauerEtAl2013}; van der \citealt{WalBiberauer2014,BiberauerEtAl2014,vanderWal2017}).
 
 A potential complication for my proposal, however, is that the choice between expletive and non-expletive interpretation is decided, according to Wood \& Marantz, “in the semantics, after syntactic structure is built and sent to spell-out” (2017: 266). Most of the theoretical stickiness here amounts to an order of operations problem: if the causative head merges before the relevant theta roles in its compliment are assigned, then how can it distinguish based on thematic weight, as I have argued? 
 
