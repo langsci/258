@@ -33,6 +33,8 @@
   \pagenumbering{roman}
   \setcounter{chapter}{#1}
   \addtocounter{chapter}{-1}
+  \WarningsOff[microtype]
+\WarningFilter{microtype}{Unknown slot} 
 }
 \newcommand{\orcid}[1]{}
 
@@ -81,12 +83,9 @@
 \definecolor{light-gray}{cmyk}{0,0,0,0.17}
 \definecolor{RED}{cmyk}{0.05,1,0.8,0}
 
-
-
 \newcommand{\missingcaption}{{\red{Please provide a caption}}}
 
 \providecommand{\LastRefSteppedCounter}{} %disabling this command, as it causes a weird error
-
 
 \newcommand{\textgreek}[1]{{\color{red}#1}}
 \forestset{
@@ -127,3 +126,5 @@ nice nodes,
 \newcommand\tikzmark[1]{\tikz[remember picture, baseline=(#1.base)] \node[anchor=base,inner sep=0pt, outer sep=0pt] (#1) {#1}
 %{#1\exdepthstrut}
 ;}
+
+\newcommand{\liv}{\textit{v}}%little v
