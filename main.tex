@@ -1,12 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%                                              %%%
-%%%     Language Science Press Master File       %%%
-%%%         follow the instructions below        %%%
-%%%                                              %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- 
-% Everything following a % is ignored
-% Some lines start with %. Remove the % to include them
+\PassOptionsToPackage{issueandeditor=true}{biblatex}
 
 \documentclass[output=book
 		,modfonts
@@ -14,16 +6,13 @@
 	        ,collection
 	        ,collectionchapter
 		,colorlinks,citecolor=brown
-		,draft,draftmode
+% 		,draft,draftmode
 % 		,showindex
 	      ,multiauthors
 	      % ,nobabel
 		  ]{langsci/langscibook}                              
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% put all additional commands you need in the 
-% following files. If you do not know what this might 
-% mean, you can safely ignore this section
 
 \input{localmetadata.tex}
 \input{localpackages.tex}
@@ -33,10 +22,8 @@
 
 \WarningsOff[microtype]
 \WarningFilter{microtype}{Unknown slot} 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%                                              %%%
-%%%             Frontmatter                      %%%
-%%%                                              %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%             Frontmatter                      %%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}         
 \maketitle                
@@ -56,76 +43,36 @@
 % \setcounter{chapter}{0} % Reset the chapter counter so that preceeding prefaces are not counted
 % %% 
 \mainmatter           
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%                                              %%%
-%%%             Chapters                         %%%
-%%%                                              %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+%%%             Chapters                         %%% 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
-<<<<<<< HEAD
 \part{Ditransitive constructions}   
-\includepaper{chapters/cuervo}
-\includepaper{chapters/antonyuk}
-\includepaper{chapters/calindro}
-\includepaper{chapters/cepeda} %needs tikz/forest
-\includepaper{chapters/cornilescu}
+\includepaper{chapters/cuervo} %OK PR
+\includepaper{chapters/antonyuk} %needs brackets moved in IMT, better glossing for case
+\includepaper{chapters/calindro} %needs glosses conforming to LGR, sectioning problems - CB:SOLVED
+\includepaper{chapters/cepeda} %OK PR
+\includepaper{chapters/cornilescu}%CB done. Needs to be checked against original
 \includepaper{chapters/sheehan}
-=======
-% \part{Ditransitive constructions}   
-% \includepaper{chapters/cuervo}
-% \includepaper{chapters/antonyuk}
-% \includepaper{chapters/calindro}
-% \includepaper{chapters/cepeda}
-% \includepaper{chapters/cornilescu}
-% \includepaper{chapters/sheehan}
-% \part{Possessor datives, experiencer datives and related structures}   
-% \includepaper{chapters/franco}
-% \includepaper{chapters/tsedryk}
-% \includepaper{chapters/fabregas}
-% \part{Applicatives}   
-% \includepaper{chapters/basilico}
-% \includepaper{chapters/wechsler}
-% \part{Case alternations involving datives}   
-% \includepaper{chapters/jonsson}
-% \includepaper{chapters/ledgeway}
-\includepaper{chapters/manzini}
-% \includepaper{chapters/royo}
-% \includepaper{chapters/cabre}
->>>>>>> d3a973392cc560dbda50b90f5ee363c790f14be5
 
-\part{Possessor datives, experiencer datives and related structures}   
-\includepaper{chapters/franco}
-\includepaper{chapters/tsedryk}
-\includepaper{chapters/fabregas}  
-\part{Applicatives}   
-\includepaper{chapters/basilico}
-% % % \includepaper{chapters/wechsler} %file causes problems
+%\part{Possessor datives, experiencer datives and related structures}   
+\includepaper{chapters/franco} %CB done glosses and translations missing 
+\includepaper{chapters/tsedryk} %needs drawings, needs math formulas
+\includepaper{chapters/fabregas} %   orphaned section, dangling crossref
 
+%\part{Applicatives}   
+\includepaper{chapters/basilico} %CB done %OK PR, question about logical formulas
+\includepaper{chapters/wechsler}%SN done Givon1976 missing, Japanese text missing; Author says without japanese ok
 \part{Case alternations involving datives}   
-\includepaper{chapters/jonsson}  
-\includepaper{chapters/ledgeway}
-\includepaper{chapters/manzini}
-\includepaper{chapters/royo}
-\includepaper{chapters/cabre}  
+\includepaper{chapters/jonsson}%SN done; OK PR one translation missing
+\includepaper{chapters/ledgeway}%SN done; OK PR, one missing label in tree
+\includepaper{chapters/manzini}%OK PR
+\includepaper{chapters/royo}%CB done LGR not respected at all 
+\includepaper{chapters/cabre}%CB done
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%             Backmatter                       %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% There is normally no need to change the backmatter section
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%             Backmatter                       %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \input{backmatter.tex}
 
-\end{document} 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%                                              %%%
-%%%                  END                         %%%
-%%%                                              %%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% you can create your book by running
-% xelatex main.tex
-%
-% you can also try a simple 
-% make
-% on the commandline
+\end{document}  

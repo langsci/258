@@ -1,1085 +1,673 @@
-\documentclass[output=paper,modfonts,nonflat]{langsci/langscibook} 
+\documentclass[output=paper,colorlinks,citecolor=brown,nonflat,modfonts]{langsci/langscibook}
 
-\author{Carles Royo\affiliation{}}
-\title{The accusative/dative alternation in Catalan verbs with Experiencer object}
+\author{Carles Royo\affiliation{Universitat Rovira i Virgili}}
+\title{The accusative/dative alternation in Catalan verbs with experiencer object}
 
-\abstract{}
+\abstract{Various Catalan psychological verbs that are part of causative sentences with an accusative experiencer (\textit{Els nens van molestar la Maria} or \textit{La van molestar} ‘The kids annoyed Maria or They annoyed her’) alternate with stative sentences that change the sentence order and have a dative experiencer (\textit{A la Maria li molesta el teu caràcter} ‘lit. To Maria your character is annoying’). Other psychological verbs, however, can form both types of sentence without changing the accusative morphology of the experiencer (\textit{Els nens van atabalar la Maria} or \textit{La van atabalar} ‘The kids overwhelmed Maria or They overwhelmed her’; \textit{A la Maria l’atabala el teu caràcter} ‘lit. To Maria your character is overwhelming’). I argue that in stative sentences of all these verbs the experiencer is a real dative, regardless of its morphology (dative or accusative). Differential indirect object marking (DIOM) explains why accusative morphology is possible in these constructions.}
+
 \IfFileExists{../localcommands.tex}{
-  \input{../localpackages}
-  \input{../localcommands} 
-  \input{../localhyphenation}
-  \bibliography{../localbibliography}
-  \togglepaper[1]%%chapternumber
-}{}
+ \input{../localpackages}
+ \input{../localcommands} 
+ \input{../localhyphenation}
+ \bibliography{../localbibliography}
+ \togglepaper[1]%%chapternumber
+}{} 
 
 \begin{document}
 \maketitle 
+\nocite{DIEC2007}
 
-\title{\textsuperscript{Accusative/dative alternation of Catalan verbs with an experiencer object}}
+\todo[inline]{please revise according to guidelines:\\
+provide translations\\
+provide glosses for all source language words\\
+do not use alternatives in the source line\\
+do not use alternatives in gloss lines (/). Every morpheme has exactly one gloss. Instead of `He/She', use `3.SG'\\
+do not use zeros in source lines\\
+do not use `+'; use '.' for several meanings in a morpheme. \\
+do not use () in the gloss line\\
+}
+\section{Introduction}\label{sec:royo:1}
 
-\section{}
-\section{\textbf{Carles} \textbf{Royo}}
-\section{\textbf{Universitat} \textbf{Rovira} \textbf{i} \textbf{Virgili}}
-\begin{stylelsAbstract}
-\textbf{Abstract.} Various Catalan psychological verbs that are part of causative sentences with an accusative experiencer (\textup{Els nens van molestar la Maria} or \textup{La van molestar} ‘The kids annoyed Maria or They annoyed her’) alternate with stative sentences that change the sentence order and have a dative experiencer (\textup{A la Maria li molesta el teu caràcter} ‘lit. To Maria your character is annoying’). Other psychological verbs, however, can form both types of sentence without changing the accusative morphology of the experiencer (\textup{Els nens van atabalar la Maria} or \textup{La van atabalar} ‘The kids overwhelmed Maria or They overwhelmed her’; \textup{A la Maria l’atabala el teu caràcter} ‘lit. To Maria your character is overwhelming’). I argue that in stative sentences of all these verbs the experiencer is a real dative, regardless of its morphology (dative or accusative). Differential indirect object marking (DIOM) explains why accusative morphology is possible in these constructions.
-\end{stylelsAbstract}
-
-\begin{itemize}
-\item \section{Introduction}
-\end{itemize}
-
-Since the first half of the 20\textsuperscript{th} century (cf. \citealt{Ginebra2003}: 16; 2015: 147), some Catalan psychological verbs belonging to Belletti and Rizzi’s type II \REF{ex:key:1988} – which make sentences with an accusative experiencer or AcExp (1\textit{a})/(2\textit{a}) – have appeared with some frequency in both the written and spoken language with a change in sentence order and a dative experiencer (1\textit{b})/(2\textit{b}). This accusative/dative alternation has generated considerable academic debate. In most instances, the rules of the Institute of Catalan Studies (IEC) governing the Catalan language do not countenance this change in case marking, although the IEC’s new normative grammar (GIEC) and the changes introduced on 5 \citealt{April2017} to its online normative dictionary (DIEC2) accept the dative case marking – as well as the accusative – in some particular predicates: including the verbs \textit{encantar} ‘delight’, \textit{estranyar} ‘surprise’, \textit{molestar} ‘annoy’ and \textit{preocupar} ‘worry’.\footnote{Before publication of the GIEC, the IEC accepted the intransitive nature of the verb \textit{interessar} ‘interest’ as well as an accusative case marking.}
+Since the first half of the 20\textsuperscript{th} century (cf. \citealt[16]{Ginebra2003}, \citealt[147]{Ginebra2015}), some Catalan psychological verbs belonging to \citet{BellettiRizzi1988}'s type II – which make sentences with an accusative experiencer or AcExp \REF{ex:royo:1a}/\REF{ex:royo:2a} – have appeared with some frequency in both the written and spoken language with a change in sentence order and a dative experiencer \REF{ex:royo:1b}/\REF{ex:royo:2b}. This accusative/dative alternation has generated considerable academic debate. In most instances, the rules of the Institute of Catalan Studies (IEC) governing the Catalan language do not countenance this change in case marking, although the IEC’s new normative grammar \citep{GIEC2016} and the changes introduced on 5 April 2017 to its online normative dictionary \citep{DIEC2007} accept the dative case marking – as well as the accusative – in some particular predicates: including the verbs \textit{encantar} ‘delight’, \textit{estranyar} ‘surprise’, \textit{molestar} ‘annoy’ and \textit{preocupar} ‘worry’.\footnote{Before publication of the GIEC, the IEC accepted the intransitive nature of the verb \textit{interessar} ‘interest’ as well as an accusative case marking.}\todo{many ex. dont have proper glosses-translations. please revise.}
 
 \ea%1
-    \label{ex:key:1}
-    \gll\\
-        \\
-    \glt
-    \z
-
-         a. Els nens van molestar        la    Maria         (\textit{o}  la                   van molestar).
-
-       The kids annoyed.\textsc{aux+inf} \textsc{art} Maria.\textsc{acc} (\textit{or} her.\textsc{cl.acc}:3 annoyed.\textsc{aux+inf})
-
-      b. A  la    Maria         li          molesten els nens.
-
-          to \textsc{art} Maria.\textsc{dat} \textsc{cl.dat} annoy      the kids
-
+ \label{ex:royo:1}
+ \ea \label{ex:royo:1a}
+ \gll Els nens van molestar la Maria (\emph{o} la van molestar).\\
+The kids  \textsc{aux.3pl} annoy.\textsc{inf} the Maria.\textsc{acc} or 3\textsc{fsg.acc} \textsc{aux.3pl} annoy.\textsc{inf}\\
+ \glt ‘The kids annoyed Maria (or They annoyed her).’
+ 
+ \ex \label{ex:royo:1b}
+ \gll A la Maria li molesten els nens.\\
+ to \textsc{art} Maria.\textsc{dat} \textsc{cl.dat} annoy the kids\\
+ \glt  (lit.) ‘To Maria kids are annoying.’
+ \z
+ \z
+ 
 \ea%2
-    \label{ex:key:2}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:2} \citealt[77]{CabréMateu1998}
+ \ea \label{ex:royo:2a}
+ \gll Les teves paraules la van \emph{sorprendre}, \emph{preocupar}, \emph{molestar} molt.\\
+the  your words     \textsc{3fsg.acc} \textsc{aux.3pl} surprise.\textsc{inf}, worry.\textsc{inf},  annoy.\textsc{inf} a\_lot\\
+ \glt ‘Your words surprised, worried, annoyed her a lot.’ 
+ 
+ \ex \label{ex:royo:2b}
+ \gll Li \emph{sorprèn}, \emph{preocupa}, \emph{molesta} que la joventut d’ avui fumi tant.\\
+\textsc{3sg.dat} surprises, worries,     annoys  that the youth     of today smoke so\_much\\
+ \glt	(lit.) ‘To him/her that the youth of today smoke so much is surprising, worrying, annoying.’
+ 
+ \z
+ \z
+ 
 
-         \citealt{CabréMateu1998}: 77
+This change has not had a uniform impact on Catalan dialects. Moreover, notable differences often occur within each dialect and even in the use that a specific speaker makes of these predicates (cf. \citealt[70]{CabréMateu1998}). Indeed, some predicates have become more entrenched than others, something that is irregularly reflected in several lexicographical collections in the Catalan language. It is common for AcExp verbs in Spanish to present this argument alternation (cf. \citealt{MendivilGiro2005, MarínMcNally2011}, among others). For this reason, psychological verbs that are used with dative constructions in Catalan, when they have traditionally been used with accusative constructions (AcExp), have often been regarded as syntactic calques of the Spanish; yet, some studies describe the change as being inherent to the Catalan language.
 
-  a. Les teves paraules la                     van \textit{sorprendre},        \textit{preocupar}, \textit{molestar} molt.
+This paper argues that in a stative sentence containing these verbs the experiencer is a real dative, not only when it presents the dative morphology, but also when it presents the accusative form (see also \citetv{chapters/cabre} and \citetv{chapters/ledgeway}, about the different natures of datives). I also argue that the accusative morphology of such stative sentences is facilitated by a mechanism of differential indirect object marking (DIOM).
 
-     \textsc{art} your  words    her.\textsc{cl.acc:3.f} surprised.\textsc{aux+inf} / worried   /  annoyed  a lot
+\section{Syntactico-semantic configuration of sentences with accusative and dative}\label{sec:royo:2}
 
-  b. Li            \textit{sorprèn},    \textit{preocupa}, \textit{molesta} que la   joventut d’ avui   fumi    tant.
-
-       \textsc{cl.dat:3} surprises / worries  /  annoys   that the youth     of today smoke so much
-
-This change has not had a uniform impact on Catalan dialects. Moreover, notable differences often occur within each dialect and even in the use that a specific speaker makes of these predicates (cf. \citealt{CabréMateu1998}: 70). Indeed, some predicates have become more entrenched than others, something that is irregularly reflected in several lexicographical collections in the Catalan language. It is common for AcExp verbs in Spanish to present this argument alternation (cf. Mendívil \citealt{Giró2005}; \citealt{MarínMcNally2011}, among others). For this reason, psychological verbs that are used with dative constructions in Catalan, when they have traditionally been used with accusative constructions (AcExp), have often been regarded as syntactic calques of the Spanish; yet, some studies describe the change as being inherent to the Catalan language.
-
-This paper argues that in a stative sentence containing these verbs the experiencer is a real dative, not only when it presents the dative morphology, but also when it presents the accusative form (see also Cabré \& Fábregas and Ledgeway, Schifano \& Silvestri, this volume, about the different natures of datives). I also argue that the accusative morphology of such stative sentences is facilitated by a mechanism of differential indirect object marking (DIOM).
-
-\begin{itemize}
-\item \section{Syntactico-semantic configuration of sentences with accusative and dative}
-\end{itemize}
-
-\citet{Ynglès1991} and \citet{CabréMateu1998} point out that the syntactico-semantic configuration differs when some AcExp verbs are used with the accusative and when they are used with the dative: see the contrast in \REF{ex:key:3}.\footnote{For further information on the proof and examples that show that sentences such as that in (1\textit{a}){}-(2\textit{a}) are configured differently from those illustrated in (1\textit{b})/(2\textit{b}), see Royo (2017: \sectref{sec:key:4.1}).} In (1\textit{a}) and (2\textit{a}), three components of causative verbs imply a change of state: cause + process (change) + resulting state (cf. Levin \& Rappaport \citealt{Hovav1995}; \citealt{CabréMateu1998}; \citealt{Rosselló2008}). The verb needs to be followed by an accusative in an eventive sentence of external causation and a neutral subject-verb-object (SVO) order. On the other hand, (1\textit{b}) and (2\textit{b}) do not have these three components, and the verb requires the dative in a stative sentence and a neutral object-verb-subject (OVS) order and clitic doubling (see also Fábregas \& Marín, this volume).
+\citet{Ynglès1991} and \citet{CabréMateu1998} point out that the syntactico-semantic configuration differs when some AcExp verbs are used with the accusative and when they are used with the dative: see the contrast in \REF{ex:royo:3}.\footnote{For further information on the proof and examples that show that sentences such as that in  \REF{ex:royo:1a}-\REF{ex:royo:2a} are configured differently from those illustrated in \REF{ex:royo:1b}/\REF{ex:royo:2b}, see \citet[Section 4.1]{Royo2017}} In \REF{ex:royo:1a} and \REF{ex:royo:2a}, three components of causative verbs imply a change of state: cause + process (change) + resulting state (cf. \citealt{LevinRappaportHovav1995, CabréMateu1998, Rossello2008}). The verb needs to be followed by an accusative in an eventive sentence of external causation and a neutral subject-verb-object (SVO) order. On the other hand, \REF{ex:royo:1b} and \REF{ex:royo:2b} do not have these three components, and the verb requires the dative in a stative sentence and a neutral object-verb-subject (OVS) order and clitic doubling (see also \citetv{chapters/fabregas}).
 
 \ea%3
-    \label{ex:key:3}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:3}
+ \ea \label{ex:royo:3a}
+ \gll Els nens van molestar la Maria \emph{expressament} i els mestres també \emph{ho} \emph{van} \emph{fer}. \\
+The kids \textsc{aux.3pl} annoy.\textsc{inf} the Maria.\textsc{acc} on\_purpose     and the teachers also     it  \textsc{aux.3pl} do.\textsc{inf}\\
+ \glt ‘The kids annoyed Maria on purpose and the teachers also did it.’
+ 
+ \ex[*]{\label{ex:royo:3b}
+ \gll A la Maria li molesten els nens \emph{expressament} i els mestres també \emph{ho} \emph{fan}.\\
+  to the Maria.\textsc{dat} \textsc{3sg.dat} annoy.\textsc{3pl} the kids on\_purpose     and the teachers also    it   do\\
+ \glt  \biberror{translation} }
+ \z
+ \z
 
-         a. Els nens van molestar la Maria \textit{expressament} i   els  mestres també \textit{ho} \textit{van} \textit{fer}.
+Two mechanisms help differentiate the causative structure in \REF{ex:royo:1a}/\REF{ex:royo:2a} from the stative structure in \REF{ex:royo:1b}/\REF{ex:royo:2b}. On the one hand, their verbal aspect: the perfective aspect contributes to a causative interpretation while the imperfective aspect contributes to a stative interpretation; hence, there is a relation between the lexical aspect of the sentence (eventive or stative) and the verbal aspect of the predicate (perfective or imperfective). And, on the other, the sentence order: a neutral SVO order gives a causative interpretation and a neutral OVS order gives a stative interpretation.
 
-                                                            on purpose   and the teachers also    it  did.\textsc{aux+inf}
+In line with \citet{Ynglès1991, CabréMateu1998, Rossello2008} and \citet[Section 21.5]{GIEC2016} for Catalan, \citet{Pesetsky1995} for English, \citet{Bouchard1995} for French and \citet{Acedo-MatellánMateu2015} for Spanish, I consider that Catalan psychological verbs with an accusative experiencer (AcExp) generally cause a change of state:\footnote{According to other authors, the characterization of these sentences is different or allows different structures: cf. \citet{vanVoorst1992, Arad1999, Landau2010} and \citet{MarínMcNally2011} and \citet{Fabregas2015experimentante}. Several authors, including \citet{FabregasMarín2012,FábregasMarínMcNally2012,MarínSanchezMarco2012,Ganeshan2014} and \citet{Viñas-de-Puig2014}, study these constructions in their general analyses of the stative and eventive nature of Spanish sentences with psychological verbs (note Viñas-de-Puig do the same also with Catalan psychological verbs). \citet[83 (4)]{Acedo-MatellánMateu2015}) also accept that these verbs cause a change of state in Spanish but point out that there is a less common construction of AcExp verbs with the accusative, that is, stative causative transitive (\textit{Este problema la ha preocupado desde siempre}).} in these sentences subjects are agents or inanimate causes and accusative experiencers are strictly speaking patients, even though conceptually they can be regarded as experiencers. I also concur with several authors who point out that the OVS stative construction of some AcExp Catalan verbs is the same as that of psychological verbs with a dative experiencer (DatExp, for example \textit{agradar} ‘to like’; cf. \citealt{CabréMateu1998, Ramos2004, Rossello2008, Cuervo2010Cuestiones}, among others): the subject is a stimulus or source of the psychological experience and the dative experiencer is not a patient, it does not undergo a change of state. What is more, clitic doubling occurs when the experiencer phrase appears in preverbal position.\footnote{\citet{Acedo-MatellánMateu2015} have questioned this assumption in psychological verbs in Spanish and draw a distinction between DatExp verbs (unaccusative statives) and AcExp verbs that are constructed with the dative (unergative statives). For a discussion of this issue, see \citet[Section 6.2.4.1]{Royo2017}.}
 
-      b. *A la Maria li molesten els nens \textit{expressament} i    els mestres  també \textit{ho} \textit{fan}.
+These data suggest that many speakers need to change both the syntactical pattern of AcExp verbs and the sentence order when they use these verbs in a stative construction: the different semantic or lexical-aspectual interpretation of these sentences is reflected in the different syntactic configuration of constructions that contain Catalan AcExp verbs.\footnote{Several authors claim that the change between causative and stative interpretation implies a change in the Spanish case marking, between accusative and dative respectively: cf. \citet{Fabregas2015experimentante,Viñas-de-Puig2017} and \citet{Ganeshan2019}.} According to \citep[14, 29--30]{Ginebra2003}, however, the examples in \REF{ex:royo:4} show that Catalan can also denote a stative OVS construction without changing from the accusative to the dative with some predicates. These can be AcExp verbs \REF{ex:royo:4a} or non-psychological causative verbs that become psychological by means of a metaphorical expansion of the meaning \REF{ex:royo:4b} (the \textit{psych constructions} described by \citealt{Bouchard1995}). Therefore, the lexical nature of the verb plays an important role in the alternation since some verbs tend not to construct stative sentences with the dative.
 
-                                                               on purpose   and the teachers also    it   do
+\ea%4 
+	\citealt[29--30]{Ginebra2003}
+ \label{ex:royo:4}
+ \ea \label{ex:royo:4a}
+ \gll Al seu germà l’ atabala la nova responsabilitat.\\
+to.the his brother \textsc{3msg.acc} overwhelms the new  responsibility\\
+\glt (lit.) ‘To his brother the new responsibility is overwhelming.’ \\ 
+ 
+ \ex \label{ex:royo:4b}
+ \gll Al Xavier el destrossa aquesta tensió contínua.\\
+to.the Xavier \textsc{3msg.acc} destroys   this       tension constant.\textsc{adj}\\
+ \glt (lit.) ‘To Xavier this constant tension is destroying.’ 
+ \z
+ \z
+ \todo{the gloss ADJ is probably not necessary (also elsewhere)}
 
-Two mechanisms help differentiate the causative structure in (1\textit{a})/(2\textit{a}) from the stative structure in (1\textit{b})/(2\textit{b}). On the one hand, their verbal aspect: the perfective aspect contributes to a causative interpretation while the imperfective aspect contributes to a stative interpretation; hence, there is a relation between the lexical aspect of the sentence (eventive or stative) and the verbal aspect of the predicate (perfective or imperfective). And, on the other, the sentence order: a neutral SVO order gives a causative interpretation and a neutral OVS order gives a stative interpretation.
-
-In line with \citet{Ynglès1991}, \citet{CabréMateu1998}, \citet{Rosselló2008} and GIEC (\sectref{sec:key:21.5}\textit{b-c}) for Catalan, \citet{Pesetsky1995} for English, \citet{Bouchard1995} for French and Acedo-\citet{MatellánMateu2015} for Spanish, I consider that Catalan psychological verbs with an accusative experiencer (AcExp) generally cause a change of state:\footnote{According to other authors, the characterization of these sentences is different or allows different structures: cf. \citet{Voorst1992}, \citet{Arad1999}, \citet{Landau2010}, \citet{MarínMcNally2011} and \citet{Fábregas2015}. Several authors, including \citet{FábregasMarín2012}, Fábregas, \citet{MarínMcNally2012}, Marín \& Sánchez \citet{Marco2012}, \citet{Ganeshan2014} and Viñas-de-\citet{Puig2014}, study these constructions in their general analyses of the stative and eventive nature of Spanish sentences with psychological verbs (note Viñas-de-Puig do the same also with Catalan psychological verbs). Acedo-Matellán \& Mateu (2015: 83 \REF{ex:key:4}) also accept that these verbs cause a change of state in Spanish but point out that there is a less common construction of AcExp verbs with the accusative, that is, stative causative transitive (\textit{Este} \textit{problema} \textit{la} \textit{ha} \textit{preocupado} \textit{desde} \textit{siempre}).} in these sentences subjects are agents or inanimate causes and accusative experiencers are strictly speaking patients, even though conceptually they can be regarded as experiencers. I also concur with several authors who point out that the OVS stative construction of some AcExp Catalan verbs is the same as that of psychological verbs with a dative experiencer (DatExp, for example \textit{agradar} ‘like’; cf. \citealt{CabréMateu1998}; \citealt{Ramos2004}; \citealt{Rosselló2008}; \citealt{Cuervo2010}, among others): the subject is a stimulus or source of the psychological experience and the dative experiencer is not a patient, it does not undergo a change of state. What is more, clitic doubling occurs when the experiencer phrase appears in preverbal position.\footnote{Acedo-\citet{MatellánMateu2015} have questioned this assumption in psychological verbs in Spanish and draw a distinction between DatExp verbs (unaccusative statives) and AcExp verbs that are constructed with the dative (unergative statives). For a discussion of this issue, see Royo (2017: \sectref{sec:key:6.2.4.1}).}
-
-These data suggest that many speakers need to change both the syntactical pattern of AcExp verbs and the sentence order when they use these verbs in a stative construction: the different semantic or lexical-aspectual interpretation of these sentences is reflected in the different syntactic configuration of constructions that contain Catalan AcExp verbs.\footnote{Several authors claim that the change between causative and stative interpretation implies a change in the Spanish case marking, between accusative and dative respectively: cf. \citet{Fábregas2015}, Viñas-de-\citet{Puig2017} and \citet{Ganeshan2019}.} According to Ginebra (2003: 14; 29-30), however, the examples in \REF{ex:key:4} show that Catalan can also denote a stative OVS construction without changing from the accusative to the dative with some predicates. These can be AcExp verbs (4\textit{a}) or non-psychological causative verbs that become psychological by means of a metaphorical expansion of the meaning (4\textit{b}) (the \textit{psych} \textit{constructions} described by \citealt{Bouchard1995}). Therefore, the lexical nature of the verb plays an important role in the alternation since some verbs tend not to construct stative sentences with the dative.
-
-\ea%4
-    \label{ex:key:4}
-    \gll\\
-        \\
-    \glt
-    \z
-
-         \citealt{Ginebra2003}: 29-30
-
-      a. Al         seu germà  l’                 atabala         la   nova responsabilitat.
-
-          to+\textsc{art} his brother \textsc{cl.acc:3.m} overwhelms the new  responsibility
-
-      b. Al         Xavier el                 destrossa aquesta tensió   contínua.
-
-          to+\textsc{art} Xavier \textsc{cl.acc:3.m} destroys   this       tension constant.\textsc{adj}
-
-What is more, with AcExp verbs such as those identified by \citet{CabréMateu1998} – \textit{molestar}, \textit{preocupar}, \textit{sorprendre} (see \REF{ex:key:2}) – speakers may hesitate between accusative and dative case marking in OVS stative sentences. Some examples of this hesitation in a Catalan/Spanish bilingual newspaper are shown in \REF{ex:key:5}. The print edition of the paper includes an OVS sentence with the verb \textit{preocupar} ‘worry’ that governs the accusative in Catalan (5\textit{a}) and the dative in Spanish (5\textit{b}); on the other hand, in the Catalan online edition the same sentence appears with a dative (5\textit{c}). Examples \REF{ex:key:6} and \REF{ex:key:7} show the same hesitation with the verb \textit{molestar} ‘annoy’, in the same news item reported by six media in Catalan on 5 \citealt{December2012}: three use the accusative \REF{ex:key:6} and three the dative \REF{ex:key:7}.\footnote{The three sentences in the accusative use direct speech while the three in the dative use indirect speech, which may indicate that the person making the statement conceptualizes the verb differently from the journalists who report it.}
+What is more, with AcExp verbs such as those identified by \citet{CabréMateu1998} – \textit{molestar}, \textit{preocupar}, \textit{sorprendre} (see \REF{ex:royo:2}) – speakers may hesitate between accusative and dative case marking in OVS stative sentences. Some examples of this hesitation in a Catalan/Spanish bilingual newspaper are shown in \REF{ex:royo:5}. The print edition of the paper includes an OVS sentence with the verb \textit{preocupar} ‘worry’ that governs the accusative in Catalan \REF{ex:royo:5a} and the dative in Spanish \REF{ex:royo:5b}; on the other hand, in the Catalan online edition the same sentence appears with a dative \REF{ex:royo:5c}. Examples \REF{ex:royo:6} and \REF{ex:royo:7} show the same hesitation with the verb \textit{molestar} ‘annoy’, in the same news item reported by six media in Catalan on 5 December 2012: three use the accusative \REF{ex:royo:6} and three the dative \REF{ex:royo:7}.\footnote{The three sentences in the accusative use direct speech while the three in the dative use indirect speech, which may indicate that the person making the statement conceptualizes the verb differently from the journalists who report it.}
 
 \ea%5
-    \label{ex:key:5}
-    \gll\\
-        \\
-    \glt
-    \z
+ \emph{La} \emph{Vanguardia}, 15 May 2015, p. 15 (headline), 
+ \label{ex:royo:5}\\
+ \ea Catalan, printed version \label{ex:royo:5a}\\
+ \gll Per\_què a Ciu la preocupa Ciutadans \\
+why      to Ciu.\textsc{f} 3\textsc{fsg.acc} worries   Ciutadans.\textsc{sg} \\
+ 
+ 
+ \ex Spanish, printed version \label{ex:royo:5b}\\
+ \gll \emph{Por\_qué} a Ciu le preocupa Ciutadans\\
+why      to Ciu.\textsc{f} \textsc{3sg.dat} worries    Ciutadans.\textsc{sg}\\
+ 
+ 
+\ex Catalan, online version \label{ex:royo:5c}\\
+ \gll Per\_que a Ciu li preocupa Ciutadans \\
+	why      to Ciu.\textsc{f} 3\textsc{sg.dat} worries    Ciutadans.\textsc{sg}\\
+ \glt (lit.) ‘Why to Ciu Ciutadans is worrying.’
+ 
+ \z
+ \z
 
-         \textit{La} \textit{Vanguardia}, 15 \citealt{May2015}, p. 15 (headline)
-
-      a. Per què a  Ciu la                preocupa Ciutadans  [Catalan, printed version]
-
-          why      to Ciu \textsc{cl.acc:3.f} worries    Ciutadans
-
-      b. Por qué a  Ciu le            preocupa Ciutadans  [Spanish, printed version]
-
-                                     \textsc{cl.dat:3}
-
-      c. Per què a  Ciu li             preocupa Ciutadans  [Catalan, online version]
-
-                                    \textsc{cl.dat:3}
 
 \ea%6
-    \label{ex:key:6}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:6}
+ \ea VilaWeb (headline)\\
+ \gll Rigau: ‘A Wert el molesta l’ èxit del model d’ immersió’\\
+Rigau   to Wert \textsc{3msg.acc} annoys   the success of.the model of immersion\\
+ \glt (lit.) ‘Rigau: ‘To Wert the model of immersion’s success is annoying’.’
+ 
+ \ex \textit{El Periódico de Catalunya} (headline)\\
+ \gll Rigau: “A Wert el molesta l’ èxit de la immersió lingüística”\\
+ Rigau   to Wert 3\textsc{msg.acc} annoys  the success of the immersion language.\textsc{adj}\\
+ \glt (lit.) ‘Rigau: “To Wert the language immersion’s success is annoying”.’
+ 
+ \ex \textit{Ara} (headline)\\
+ \gll Rigau: “A Wert, el que el molesta és l’èxit del model educatiu català”\\
+Rigau    to Wert what   \textsc{3msg.acc} annoys  is the success of.the model educational.\textsc{adj} Catalan.\textsc{adj}\\
+ \glt (lit.) ‘Rigau: “What is annoying to Wert is the Catalan educational model’s success”.’ 
+ \z
+ \z
+\todo{examples adapted up to here}
 
-         a. VilaWeb (headline)
-
-          Rigau: ‘A Wert el                 molesta l’   èxit       del     model  d’ immersió’
-
-          Rigau   to Wert \textsc{cl.acc:3.m} annoys  the success of-the model of immersion
-
-      b. \textit{El} \textit{Periódico} \textit{de} \textit{Catalunya} (headline)
-
-          Rigau: “A Wert el                molesta l’èxit de la   immersió   lingüística”
-
-                                    \textsc{cl.acc:3.m}                        of the immersion language.\textsc{adj}
-
-      c. \textit{Ara} (headline)
-
-          Rigau: “A Wert, el que el                 molesta és l’èxit del model educatiu             català”
-
-                                        what   \textsc{cl.acc:3.m}                                  model educational.\textsc{adj} Catalan.\textsc{adj}
 
 \ea%7
-    \label{ex:key:7}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:7}
+ \ea 3/24, \url{www.ccma.cat} (headline)\\
+ \gll Rigau creu que a Wert li molesta “l' èxit” del model català\\
+ Rigau believes that to Wert \textsc{cl.dat:3} annoys the success of-the model Catalan.\textsc{adj}\\
+ \glt \biberror{translation}
+ 
+ \ex diaridegirona.cat (headline)\\
+ \gll Rigau creu que a Wert li molesta “l’èxit” del model català\\
+Rigau believes that to Wert \textsc{3sg.dat} annoys   the success of.the model Catalan.\textsc{adj} \\
+ \glt (lit.) ‘Rigau believes that to Wert the Catalan model’s “success” is annoying.’
+ 
+ \ex \emph{El} \emph{Punt} \emph{Avui}\\
+ \gll La titular d’ Ensenyament, creu que a Wert li “molesta” el model “d’ èxit” de l’ escola catalana.\\
+ the minister of Education \textsc{cl.dat:3} the model of success of the school Catalan.\textsc{adj}\\
+ \glt (lit.) ‘The minister of Education believes that to Wert the model “of success” of the Catalan school
+is annoying.’ 
+ \z
+ \z
 
-         a. 3/24, www.ccma.cat (headline)
 
-           Rigau creu       que a   Wert li             molesta “l’   èxit”     del      model català
-
-           Rigau believes that to Wert \textsc{cl.dat:3} annoys   the success of-the model Catalan.\textsc{adj}
-
-      b. diaridegirona.cat (headline)
-
-          Rigau creu que a Wert li             molesta “l’èxit” del model català
-
-                                               \textsc{cl.dat:3}
-
-      c. \textit{El} \textit{Punt} \textit{Avui}
-
-             La  titular    d’ Ensenyament, creu que a Wert li            “molesta” el  model “d’ èxit”    de l’   escola  catalana.
-
-             the minister of Education                                 \textsc{cl.dat:3}                 the model of success of the school Catalan.\textsc{adj}
-
-In fact, if in (1\textit{b}) and (2\textit{b}) we replace the dative clitic with the accusative clitic – \textit{A} \textit{la} \textit{Maria} \textit{la} \textit{molesten} \textit{els} \textit{nens}; \textit{(A} \textit{ella)} \textit{La} \textit{sorprèn,} \textit{preocupa,} \textit{molesta} \textit{que} \textit{la} \textit{joventut} \textit{d’avui} \textit{fumi} \textit{tant} – our discussion above about distinguishing these sentences from those in (1\textit{a}) and (2\textit{a}) is still valid: they are useful ways of characterizing both constructions differently, but they do not help determine the case marking.
+In fact, if in \REF{ex:royo:1b} and \REF{ex:royo:2b} we replace the dative clitic with the accusative clitic – \textit{A la Maria la molesten els nens}; \textit{(A ella) La sorprèn, preocupa, molesta que la joventut d’avui fumi tant} –- our discussion above about distinguishing these sentences from those in \REF{ex:royo:1a} and \REF{ex:royo:2a} is still valid: they are useful ways of characterizing both constructions differently, but they do not help determine the case marking.
 
 The ability of Catalan to construct a stative sentence with an AcExp verb and an accusative experiencer makes it necessary to analyse this accusative in those cases of hesitation with the dative (that is, in OVS stative sentences). We need to know whether the order of the sentences and clitic doubling in Catalan are sufficient to denote a lexical-aspectual change in the sentence or whether a change in case marking is also required.
 
-\section{}
-\begin{itemize}
-\item \section{Nature of the accusative and dative experiencer in OVS stative sentences}
-\end{itemize}
 
-In the sentences in (1\textit{b})/(2\textit{b}) and \REF{ex:key:4}-(7), whether the verb governs the accusative or the dative, the subject is a stimulus of the emotion and the object is not a patient but an experiencer of the whole event in a more prominent structural position than that occupied by the stimulus. It can be shown that this experiencer argument, regardless of whether it is accusative or dative, is not a topicalized element and that it has properties of a subject: cf. examples \textit{a} and \textit{b} in \REF{ex:key:8}-(13). It behaves just like the experiencer in sentences with DatExp verbs such as \textit{agradar} ‘like’ (see the \textit{c} examples in \REF{ex:key:8}-(13)) and other canonical subjects (see the \textit{d} examples in \REF{ex:key:8} and \REF{ex:key:12} and example (10\textit{e})): it behaves quite differently from topicalized objects (see the \textit{d} examples in \REF{ex:key:9}-(11) and \REF{ex:key:13}).\footnote{In examples \REF{ex:key:8}{}-(13), as in the other examples employed in this paper, I conduct a descriptive rather than a prescriptive assessment.}
+\section{Nature of the accusative and dative experiencer in OVS stative sentences}\label{sec:royo:3}
 
-The experiencer can link an anaphora in the subject (cf. \citealt{Demonte1989}; Eguren \& Fernández \citealt{Soriano2004}) \REF{ex:key:8}, be modified by the adverb \textit{només} ‘only’ (cf. \citealt{Cuervo1999}) \REF{ex:key:9}, allow \textit{Wh-}extraction (cf. \citealt{BellettiRizzi1988}) \REF{ex:key:10}, be an indefinite generalized quantifier in initial position (cf. \citealt{BellettiRizzi1988}; \citealt{Masullo1992}; \citealt{Cuervo1999}) \REF{ex:key:11}, control the subject of an infinitive clause (cf. \citealt{Campos1999}; \citealt{Alsina2008}) \REF{ex:key:12} and it cannot be separated, in Catalan, by a comma from the rest of the sentence (cf. \citealt{Ginebra2003}; 2005) \REF{ex:key:13}.
+In the sentences in \REF{ex:royo:1b}/\REF{ex:royo:2b} and \REF{ex:royo:4}-\REF{ex:royo:7}, whether the verb governs the accusative or the dative, the subject is a stimulus of the emotion and the object is not a patient but an experiencer of the whole event in a more prominent structural position than that occupied by the stimulus. It can be shown that this experiencer argument, regardless of whether it is accusative or dative, is not a topicalized element and that it has properties of a subject: cf. examples {a} and {b} in \REF{ex:royo:8}-\REF{ex:royo:13}. It behaves just like the experiencer in sentences with DatExp verbs such as \textit{agradar} ‘like’ (see the {c} examples in \REF{ex:royo:8}-\REF{ex:royo:13}) and other canonical subjects (see the {d} examples in \REF{ex:royo:8} and \REF{ex:royo:12} and example \REF{ex:royo:10e}): it behaves quite differently from topicalized objects (see the {d} examples in \REF{ex:royo:9}-\REF{ex:royo:11} and \REF{ex:royo:13}).\footnote{In examples \REF{ex:royo:8}-\REF{ex:royo:13}, as in the other examples employed in this paper, I conduct a descriptive rather than a prescriptive assessment.}
 
+The experiencer can link an anaphora in the subject (cf. \citealt{Demonte1995, EgurenFernándezSoriano2004}) \REF{ex:royo:8}, be modified by the adverb \textit{només} ‘only’ (cf. \citealt{Cuervo1999}) \REF{ex:royo:9}, allow \textit{Wh-}extraction (cf. \citealt{BellettiRizzi1988}) \REF{ex:royo:10}, be an indefinite generalized quantifier in initial position (cf. \citealt{BellettiRizzi1988, Masullo1992quirky, Cuervo1999}) \REF{ex:royo:11}, control the subject of an infinitive clause (cf. \citealt{Campos1999, Alsina2008}) \REF{ex:royo:12} and it cannot be separated, in Catalan, by a comma from the rest of the sentence (cf. \citealt{Ginebra2003, Ginebra2005}) \REF{ex:royo:13}.
+\textbf{}
 \ea%8
-    \label{ex:key:8}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:8}
+ \ea OVS AcExp, \textbf{dative/accusative} \label{ex:royo:8a}\\
+ \gll A l’ Albert\textsubscript{i} \{\textbf{li\textsubscript{i}} / \textbf{el\textsubscript{i}}\} molesta aquesta fotografia de si mateix\textsubscript{i}.\\
+  to \textsc{art} Albert {\textsc{cl.dat:3}} / {\textsc{cl.acc:3.m}} annoys this photo of himself\\
+\glt \biberror{translation}
+ 
+  
+ \ex OVS AcExp, \textbf{accusative}\label{ex:royo:8c}\\
+ \gll A l’ Albert\textsubscript{i} \textbf{li\textsubscript{i}} agrada aquesta fotografia de si mateix\textsubscript{i}.\\
+gloss\\
+\glt \biberror{translation}
 
-         a. OVS AcExp, \textbf{dative/accusative}
+ \ex DatExp, \textbf{dative}\label{ex:royo:8b}\\
+ \gll A l’Albert\textsubscript{i} \textbf{el\textsubscript{i}} neguiteja aquesta fotografia de si mateix\textsubscript{i}.\\
+ to \textsc{art} Albert {\textsc{cl.acc:3.m}} annoys this photo of himself\\
+\glt \biberror{translation}
 
-          A  l’    Albert\textsubscript{i} \{\textbf{li\textsubscript{i}}            / \textbf{el\textsubscript{i}}\}              molesta aquesta fotografia de si mateix\textsubscript{i}.
-
-          to \textsc{art} Albert  \textbf{\textsc{cl.dat:3}} / \textbf{\textsc{cl.acc:3.m}} annoys this       photo        of himself
-
-      b. OVS AcExp, \textbf{accusative}
-
-          A l’Albert\textsubscript{i} \textbf{el\textsubscript{i}}                 neguiteja aquesta fotografia de si mateix\textsubscript{i}.
-
-                            \textbf{\textsc{cl.acc:3.m}} disturbs
-
-      c. DatExp, \textbf{dative}
-
-          A l’     Albert\textsubscript{i} \textbf{li\textsubscript{i}}              agrada aquesta fotografia de si mateix\textsubscript{i}.
-
-                                 \textbf{\textsc{cl.dat:3}} likes
-
-      d. Subject, dative
-
-          L’   Albert\textsubscript{i} envia una fotografia de si mateix\textsubscript{i/*j} a  la     Núria\textsubscript{j}.
-
-          \textsc{art} Albert sends a     photo        of himself       to \textsc{art} Nuria
+ 
+  \ex Subject, dative\label{ex:royo:8d}\\
+ \gll L’ Albert\textsubscript{i} envia una fotografia de si mateix\textsubscript{i/*j} a la Núria\textsubscript{j}.\\
+ \textsc{art} Albert sends a photo of himself to \textsc{art} Nuria\\
+\glt \biberror{translation}
+ 
+ \z
+ \z
 
 \ea%9
-    \label{ex:key:9}
-    \gll\\
-        \\
-    \glt
-    \z
-
-         a. OVS AcExp, \textbf{dative/accusative}
-
-          Només a  l’     Albert \{\textbf{li}              / \textbf{el}\}               molesta aquesta situació. 
-
-          Only    to \textsc{art} Albert  \textbf{\textsc{cl.dat:3}} / \textbf{\textsc{cl.acc:3.m}} annoys  this       situation
-
-      b. OVS AcExp, \textbf{accusative}
-
-          Només a  l’Albert \textbf{el}                  neguiteja aquesta situació.
-
-                                       \textbf{\textsc{cl.acc:3.m}} disturbs
-
-      c. DatExp, \textbf{dative}
-
-          Només a l’Albert \textbf{li}              agrada la   cervesa.
-
-                                      \textbf{\textsc{cl.dat:3}} likes     the beer
-
-      d. Topicalized dative
-
-          \textsuperscript{?}Només a l’Albert \textbf{li}              Ø vaig  prendre  el   bolígraf.\footnote{This sentence is acceptable with a stressed intonation: \textit{Només} \textit{A} \textit{L’ALBERT}…}
-
-                                       \textbf{\textsc{cl.dat:3}}  I  took.\textsc{aux+inf} the pen
+ \label{ex:royo:9}
+ \ea OVS AcExp, \textbf{dative/accusative} \label{ex:royo:9a}\\
+ \gll Només a l’ Albert \{\textbf{li} / \textbf{el}\} molesta aquesta situació. \\
+ only to \textsc{art} Albert \textbf{\textsc{cl.dat:3}} / \textbf{\textsc{cl.acc:3.m}} annoys this situation \\
+\glt \biberror{translation}
+ 
+ \ex OVS AcExp, \textbf{accusative} \label{ex:royo:9b}\\
+ \gll Només a l’Albert \textbf{el} neguiteja aquesta situació.\\
+  \textbf{\textsc{cl.acc:3.m}} disturbs \biberror{gloss} \\
+ \glt  translation
+ 
+  \ex DatExp, \textbf{dative} \label{ex:royo:9c}\\
+ \gll   Només a l’Albert \textbf{li} agrada la cervesa. \\
+ \textbf{\textsc{cl.dat:3}} likes the beer \biberror{gloss} \biberror{gloss} \biberror{gloss} \\
+\glt \biberror{translation}
+ 
+ \ex Topicalized dative \label{ex:royo:9d}\\
+\gll  Només a l’Albert \textbf{li} Ø vaig prendre el bolígraf.\footnotemark{}\\
+\textbf{\textsc{cl.dat:3}} I took.\textsc{aux+inf} the pen \biberror{gloss} \biberror{gloss} \biberror{gloss} \biberror{gloss} \\
+\glt \biberror{translation}
+ \footnotetext{This sentence is acceptable with a stressed intonation: \textit{Només} \textit{A} \textit{L’ALBERT}…}
+ \z
+ \z
+ 
 
 \ea%10
-    \label{ex:key:10}
-    \gll\\
-        \\
-    \glt
-    \z
-
-         a. OVS AcExp, \textbf{dative/accusative}
-
-           La  situació  que  a  l’    Albert \{\textbf{li}              / \textbf{el}\}               molesta és aquesta.
-
-           the situation that to \textsc{art} Albert  \textbf{\textsc{cl.dat:3}} / \textbf{\textsc{cl.acc:3.m}} annoys  is this
-
-       b. OVS AcExp, \textbf{accusative}
-
-           La  situació  que a  l’Albert (\textbf{el})                 neguiteja és aquesta.
-
-                                                         \textbf{\textsc{cl.acc}}\textbf{:3.\textsc{m}} disturbs
-
-       c. DatExp, \textbf{dative}
-
-           Els llibres que a  l’     Albert (\textbf{li})             han agradat        són aquests.
-
-           the books that to \textsc{art} Albert  \textbf{\textsc{cl.dat:3}} liked.\textsc{aux+part} are  these
-
-       d. Topicalized dative
-
-           \textsuperscript{??}Els llibres que a  l’Albert (\textbf{li})             Ø he donat            són aquests.
-
-                                                        \textbf{\textsc{cl.dat:3}}  I  gave.\textsc{aux+part}
-
-       e. Preverbal subject
-
-           Els llibres que l’Albert m’           ha donat            són aquests.
-
-                                                \textsc{cl.dat:1} gave.\textsc{aux+part}
+ \label{ex:royo:10}
+ \ea  OVS AcExp, \textbf{dative/accusative} \label{ex:royo:10a}\\
+ \gll  La situació que a l’ Albert \{\textbf{li} / \textbf{el}\} molesta és aquesta.\\
+	 the situation that to \textsc{art} Albert \textsc{cl.dat:3} / \textsc{cl.acc:3.m} annoys is this \\
+ \glt `La situació que a l’Albert (\textbf{el}) neguiteja és aquesta.'
+ 
+ \ex OVS AcExp, \textbf{accusative}\label{ex:royo:10b}\\
+ \gll La  situació  que a  l’Albert (el) neguiteja és aquesta.\\
+  \biberror{gloss} \textsc{cl.acc}:3.\textsc{m} disturbs \\
+ \glt  translation
+  
+ \ex  DatExp, \textbf{dative} \label{ex:royo:10c}\\
+ \gll Els llibres que a l’ Albert (\textbf{li}) han agradat són aquests.\\
+  the books that to \textsc{art} Albert \textbf{\textsc{cl.dat:3}} liked.\textsc{aux+part} are these\\
+ \glt  translation
+ 
+  
+ \ex{Topicalized dative \label{ex:royo:10d}\\
+ \gll \textsuperscript{??} Els llibres que a l’Albert (\textbf{li}) Ø he donat són aquests.\\
+   {} \biberror{gloss} \textsc{cl.dat:3} I gave.\textsc{aux+part}\\
+ \glt  translation}
+ 
+  
+ \ex  Preverbal subject\label{ex:royo:10e}\\
+ \gll  Els llibres que l’Albert m’ ha donat són aquests.\\
+	 	\biberror{gloss} \textsc{cl.dat:1} gave.\textsc{aux+part} \\
+ \glt  translation
+ 
+ \z
+ \z
+ 
 
 \ea%11
-    \label{ex:key:11}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:11}
+ \ea OVS AcExp, \textbf{dative/accusative}\label{ex:royo:11a}\\
+ \gll  A ningú (no) \{{li} / \textbf{el}\} molesta aquesta situació.\\
+    to nobody (\textsc{neg}) \textbf{\textsc{cl.dat:3}} / \textbf{\textsc{cl.acc:3.m}} annoys this situation \\
+\glt \biberror{translation}
+ 
+ 
+ \ex OVS AcExp, \textbf{accusative} \label{ex:royo:11b}\\
+ \gll A ningú (no) (\textbf{el}) neguiteja aquesta situació.\\
+  	\biberror{gloss} \textsc{cl.acc:3.m} disturbs\\ 
+\glt \biberror{translation}
+ 
+ \ex  DatExp, \textbf{dative} \label{ex:royo:11c}\\
+ \gll  A ningú (no) \textbf{li} va agradar la pel·lícula. \\
+ \biberror{gloss} \textsc{cl.dat:3} liked.\textsc{aux+inf} the film\\
+\glt \biberror{translation}
 
-         a. OVS AcExp, \textbf{dative/accusative}
+ 
+ \ex{Topicalized dative \label{ex:royo:11d}\\
+ \gll  * A ningú (no) \textbf{li} vaig donar el quadre.\\
+ {} \textsc{cl.dat:3} gave.\textsc{aux+inf} the painting   \\
+\glt \biberror{translation} }
+ 
+  \z
+  \z
 
-           A ningú     (no) \{\textbf{li}              / \textbf{el}\}                molesta aquesta situació.
-
-           to nobody (\textsc{neg}) \textbf{\textsc{cl.dat:3}} / \textbf{\textsc{cl.acc:3.m}} annoys  this       situation
-
-       b. OVS AcExp, \textbf{accusative}
-
-           A ningú (no) (\textbf{el})                neguiteja aquesta situació.
-
-                                 \textbf{\textsc{cl.acc:3.m}} disturbs
-
-       c. DatExp, \textbf{dative}
-
-           A ningú (no) \textbf{li}              va agradar        la   pel·lícula.
-
-                                \textbf{\textsc{cl.dat:3}} liked.\textsc{aux+inf} the film  
-
-       d. Topicalized dative
-
-           *A ningú (no) \textbf{li}              vaig donar       el   quadre.
-
-                                  \textbf{\textsc{cl.dat:3}} gave.\textsc{aux+inf} the painting
 
 \ea%12
-    \label{ex:key:12}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:12}
+ \ea OVS AcExp, \textbf{dative/accusative} \label{ex:royo:12a}\\
+ \gll  A l’ Albert\textsubscript{i} \{\textbf{li\textsubscript{i}} / \textbf{el\textsubscript{i}}\} molesta PRO\textsubscript{i} parlar en públic.\\
+ to \textsc{art} Albert \textbf{\textsc{cl.dat:3}} / \textbf{\textsc{cl.acc:3.m}} annoys speak.\textsc{inf} in public\\
+\glt \biberror{translation}
+ 
+ \ex OVS AcExp, \textbf{accusative}\label{ex:royo:12b}\\
+ \gll A l’Albert\textsubscript{i} \textbf{el\textsubscript{i}} neguiteja PRO\textsubscript{i} parlar en públic.\\
+ \biberror{gloss} textbf{\textsc{cl.acc:3.m}} disturbs\\
+\glt \biberror{translation}
+ 
+ \ex DatExp, \textbf{dative}\label{ex:royo:12c}\\
+ \gll A l’Albert\textsubscript{i} \textbf{li\textsubscript{i}} agrada PRO\textsubscript{i} parlar en públic.\\
+ \biberror{gloss}  \textbf{\textsc{cl.dat:3}} likes\\
+\glt \biberror{translation}
+ 
+ \ex Subject\label{ex:royo:12d}\\
+ \gll L’Albert\textsubscript{i} vol PRO\textsubscript{i} arribar aviat.\\
+\biberror{gloss}  wants arrive.\textsc{inf} early\\
+\glt \biberror{translation}
+ 
+ \z
+ \z
 
-         a. OVS AcExp, \textbf{dative/accusative}
 
-           A l’     Albert\textsubscript{i} \{\textbf{li\textsubscript{i}}             / \textbf{el\textsubscript{i}}\}               molesta PRO\textsubscript{i} parlar       en públic.
-
-           to \textsc{art} Albert   \textbf{\textsc{cl.dat:3}} / \textbf{\textsc{cl.acc:3.m}} annoys           speak.\textsc{inf} in public
-
-       b. OVS AcExp, \textbf{accusative}
-
-           A l’Albert\textsubscript{i} \textbf{el\textsubscript{i}}                 neguiteja PRO\textsubscript{i} parlar en públic.
-
-                             \textbf{\textsc{cl.acc:3.m}} disturbs
-
-       c. DatExp, \textbf{dative}
-
-           A l’Albert\textsubscript{i} \textbf{li\textsubscript{i}}             agrada PRO\textsubscript{i} parlar en públic.
-
-                            \textbf{\textsc{cl.dat:3}} likes
-
-       d. Subject
-
-           L’Albert\textsubscript{i} vol     PRO\textsubscript{i} arribar      aviat.
-
-                              wants          arrive.\textsc{inf} early
-
+ 
 \ea%13
-    \label{ex:key:13}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:13}
+ \ea OVS AcExp, \textbf{dative/accusative}\label{ex:royo:13a}\\
+ \gll A l’ Albert\textsubscript{(*}, \textsubscript{/ Ø)} \{\textbf{li} / \textbf{el}\} molesta aquesta situació.\\
+ to \textsc{art} Albert \textbf{\textsc{cl.dat:3}} / \textbf{\textsc{cl.acc:3.m}} annoys this situation\\
+\glt \biberror{translation}
+ 
+ \ex OVS AcExp, \textbf{accusative}\label{ex:royo:13b}\\
+ \gll A l’Albert\textsubscript{(*}, \textsubscript{/ Ø)} \textbf{el} neguiteja aquesta situació.\\
+  \textbf{\textsc{cl.acc:3.m}} disturbs \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ \ex DatExp, \textbf{dative}\label{ex:royo:13c}\\
+ \gll A l’Albert\textsubscript{(*}, \textsubscript{/ Ø)} \textbf{li} agrada aquesta situació.\\
+  \textbf{\textsc{cl.dat:3}} likes \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ \ex Topicalized object\label{ex:royo:13d}\\
+ \gll (A) L’Albert\textsubscript{(},\textsubscript{)} \textbf{l’} Ø he vist que Ø plorava.\\
+ \textbf{\textsc{cl.acc:3.m}} I saw.\textsc{aux+part} that he cried \biberror{gloss}\\
+\glt \biberror{translation}
+ \z
+ \z
 
-         a. OVS AcExp, \textbf{dative/accusative}
 
-           A l’     Albert\textsubscript{(*}, \textsubscript{/ Ø)} \{\textbf{li}              / \textbf{el}\}                molesta aquesta situació.
+\section{OVS sentences with AcExp verbs and an accusative experiencer}\label{sec:royo:4}
 
-           to \textsc{art} Albert           \textbf{\textsc{cl.dat:3}} / \textbf{\textsc{cl.acc:3.m}} annoys  this       situation
+The analysis conducted in section \sectref{sec:royo:3} highlights the similarity between the dative experiencer in sentences with DatExp verbs and the experiencer object in OVS stative sentences with AcExp verbs, whether the morphology is dative or accusative. When the experiencer has accusative morphology, there is evidence to show that it is in fact a dative if we place it in sentence-initial position by using a relative pronoun (\REF{ex:royo:14a}-\REF{ex:royo:14b}) (adjectival relative clause and noun relative clause),\footnote{In the examples, I do not consider the use of the relative often referred to as the \textit{relatiu popular} (cf. \citealt[154--155]{Ginebra2005}), which is always marked with an asterisk.} an interrogative pronoun (\REF{ex:royo:14c}-\REF{ex:royo:14d}) (direct and indirect interrogative) or a determiner phrase \REF{ex:royo:14e}. In this context, the experiencer can optionally take either the accusative or dative morphology in the corresponding agentive sentences with AcExp verbs \REF{ex:royo:16}, which is similar to how the person semantic object behaves in transitive sentences of non-psychological verbs, whether they are causative or not \REF{ex:royo:17}. But in stative sentences with AcExp verbs \REF{ex:royo:14}, the experiencer in initial position behaves like the dative experiencer in the corresponding sentences with DatExp verbs \REF{ex:royo:15}: it can only be dative, even though in \REF{ex:royo:14} the morphology is still accusative clitic within the sentence (cf. \citealt[Section 4.3.4]{Royo2017}.
 
-       b. OVS AcExp, \textbf{accusative}
-
-           A l’Albert\textsubscript{(*}, \textsubscript{/ Ø)} \textbf{el}                  neguiteja aquesta situació.
-
-                                     \textbf{\textsc{cl.acc:3.m}} disturbs
-
-       c. DatExp, \textbf{dative}
-
-           A l’Albert\textsubscript{(*}, \textsubscript{/ Ø)} \textbf{li}              agrada aquesta situació.
-
-                                    \textbf{\textsc{cl.dat:3}} likes
-
-       d. Topicalized object
-
-           (A)  L’Albert\textsubscript{(},\textsubscript{)} \textbf{l’}                 Ø he vist              que  Ø  plorava.
-
-                                    \textbf{\textsc{cl.acc:3.m}} I saw.\textsc{aux+part} that he cried
-
-\begin{itemize}
-\item \section{OVS sentences with AcExp verbs and an accusative experiencer}
-\end{itemize}
-
-The analysis conducted in section \sectref{sec:key:3} highlights the similarity between the dative experiencer in sentences with DatExp verbs and the experiencer object in OVS stative sentences with AcExp verbs, whether the morphology is dative or accusative. When the experiencer has accusative morphology, there is evidence to show that it is in fact a dative if we place it in sentence-initial position by using a relative pronoun (14\textit{a-b}) (adjectival relative clause and noun relative clause),\footnote{In the examples, I do not consider the use of the relative often referred to as the \textit{relatiu} \textit{popular} (cf. \citealt{Ginebra2005}: \sectref{sec:key:154}-155), which is always marked with an asterisk.} an interrogative pronoun (14\textit{c-d}) (direct and indirect interrogative) or a determiner phrase (14\textit{e}). In this context, the experiencer can optionally take either the accusative or dative morphology in the corresponding agentive sentences with AcExp verbs \REF{ex:key:16}, which is similar to how the person semantic object behaves in transitive sentences of non-psychological verbs, whether they are causative or not \REF{ex:key:17}. But in stative sentences with AcExp verbs \REF{ex:key:14}, the experiencer in initial position behaves like the dative experiencer in the corresponding sentences with DatExp verbs \REF{ex:key:15}: it can only be dative, even though in \REF{ex:key:14} the morphology is still accusative clitic within the sentence (cf. \citealt{Royo2017}: \sectref{sec:key:4.3.4}).
-
-To illustrate this contrast, the examples below are of stative sentences with an imperfective verbal aspect \REF{ex:key:14}-(15) and causatives and non-causative transitives with a perfective aspect \REF{ex:key:16}-(17). What is more, in \REF{ex:key:14} and \REF{ex:key:16} I use an AcExp verb that can easily be conceived as causative of change of state, such as \textit{atabalar} ‘overwhelm’, unlike other AcExp verbs such as \textit{molestar} ‘annoy’, which in some contexts can have the meaning of ‘desagradar molt’ (‘displease a lot’).
+To illustrate this contrast, the examples below are of stative sentences with an imperfective verbal aspect \REF{ex:royo:14}-\REF{ex:royo:15} and causatives and non-causative transitives with a perfective aspect \REF{ex:royo:16}-\REF{ex:royo:17}. What is more, in \REF{ex:royo:14} and \REF{ex:royo:16} I use an AcExp verb that can easily be conceived as causative of change of state, such as \textit{atabalar} ‘overwhelm’, unlike other AcExp verbs such as \textit{molestar} ‘annoy’, which in some contexts can have the meaning of  \textit{desagradar molt} (‘displease a lot’).
 
 \ea%14
-    \label{ex:key:14}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:14}
+ \ea \label{ex:royo:14a}
+ \gll Ø És una persona \{\textbf{a} \textbf{qui} / *que\} (\textbf{l’}) atabala el record d’ aquell fracàs.\\
+  He/She is a person to whom.\textsc{dat} / who.\textsc{acc} (\textsc{cl.acc}) overwhelms the memory of that failure \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ \ex \label{ex:royo:14b}
+ \gll \{\textbf{A} \textbf{qui} / *Qui\} (\textbf{l’}) atabala el record d’aquell fracàs és \{\textbf{a} / *Ø\} la Maria.\\
+ to whom.\textsc{dat} / who.\textsc{acc} (\textsc{cl.acc}) is to / Ø \textsc{art} Maria.\textsc{dat} \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ \ex \label{ex:royo:14c}
+ \gll \{\textbf{A} \textbf{qui} / *Qui\} (\textbf{l’}) atabala el record d’aquell fracàs?\\
+ to whom.\textsc{dat} / who.\textsc{acc} (\textsc{cl.acc}) \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ \ex \label{ex:royo:14d}
+ \gll Ø Voldria saber \{\textbf{a} \textbf{qui} / *qui\} (\textbf{l’}) atabala el record d’aquell fracàs.\\
+ I would like to know to whom.\textsc{dat} / who.\textsc{acc} (\textsc{cl.acc}) \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ \ex \label{ex:royo:14e}
+ \gll \{\textbf{A} / *Ø\} la Maria\textsubscript{(*},\textsubscript{)} \textbf{l’} atabala el record d’aquell fracàs.\\
+ to / Ø \textsc{art} Maria.\textsc{dat} \textsc{cl.acc} \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ 
+ \z
+ \z
+ 
 
-         a. Ø         És una persona \{\textbf{a}  \textbf{qui}             / *que\}       (\textbf{l’})          atabala         el   record    d’ aquell fracàs.
-
-             He/She is  a     person     to whom.\textsc{dat} / who.\textsc{acc} (\textsc{cl.acc}) overwhelms the memory of that     failure
-
-         b. \{\textbf{A} \textbf{qui}              / *Qui\}       (\textbf{l’})         atabala el  record d’aquell fracàs és \{\textbf{a} / *Ø\} la   Maria.
-
-              to whom.\textsc{dat} /   who.\textsc{acc} (\textsc{cl.acc})                                                      is    to /  Ø  \textsc{art} Maria.\textsc{dat}
-
-       c. \{\textbf{A} \textbf{qui}             / *Qui\}        (\textbf{l’})         atabala el record d’aquell fracàs?
-
-            to whom.\textsc{dat} /   who.\textsc{acc} (\textsc{cl.acc})
-
-       d. Ø Voldria      saber      \{\textbf{a}  \textbf{qui}             / *qui\}         (\textbf{l’})         atabala el record d’aquell fracàs.
-
-             I  would like to know   to whom.\textsc{dat} /   who.\textsc{acc} (\textsc{cl.acc})
-
-       e. \{\textbf{A} / *Ø\} la    Maria\textsubscript{(*},\textsubscript{)}     \textbf{l’}          atabala el record d’aquell fracàs.
-
-            to /   Ø   \textsc{art} Maria.\textsc{dat} \textsc{cl.acc}
+ 
 
 \ea%15
-    \label{ex:key:15}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:15}
+ 
+ \ea\label{ex:royo:15a} Ø És una persona \{a qui / *que\} no (li) agrada el record d’aquell fracàs.\\
+  He/She is a person to whom.\textsc{dat} / who.\textsc{acc} doesn’t (\textsc{cl.dat}) likes\\
+\glt \biberror{translation}
+ 
+ \ex \label{ex:royo:15b}
+ \gll  \{A qui / *Qui\} no (li) agrada el record d’aquell fracàs és \{a / *Ø\} la Maria.\\
+  to whom.\textsc{dat} / who.\textsc{acc} (\textsc{cl.dat}) is to / Ø \textsc{art} Maria.\textsc{dat} \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ 
+ 
+ \ex \label{ex:royo:15c}
+ \gll \{A qui / *Qui\} no (li) agrada el record d’aquell fracàs?\\
+ to whom.\textsc{dat} / who.\textsc{acc} (\textsc{cl.dat}) \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ \ex \label{ex:royo:15d}
+ \gll Ø Voldria saber \{a qui / *qui\} no (li) agrada el record d’aquell fracàs.\\
+  to whom.\textsc{dat} / who.\textsc{acc} (\textsc{cl.dat}) \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ \ex \label{ex:royo:15e}
+ \gll \{A / *Ø\} la Maria\textsubscript{(*},\textsubscript{)} no li agrada el record d’aquell fracàs.\\
+ to / Ø \textsc{art} Maria.\textsc{dat} \textsc{cl.dat} \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ \z
+ \z
 
-         a. Ø          És una persona \{a  qui             / *que\}        no        (li)           agrada el record d’aquell fracàs.
-
-              He/She is  a     person     to whom.\textsc{dat} / who.\textsc{acc} doesn’t (\textsc{cl.dat}) likes
-
-          b. \{A qui             / *Qui\}       no (li)        agrada el record d’aquell fracàs és \{a  / *Ø\} la   Maria.
-
-               to whom.\textsc{dat} / who.\textsc{acc}       (\textsc{cl.dat})                                                  is   to  /   Ø \textsc{art} Maria.\textsc{dat}
-
-        c. \{A  qui            / *Qui\}        no (li)          agrada el record d’aquell fracàs?
-
-             to whom.\textsc{dat} /  who.\textsc{acc}       (\textsc{cl.dat})
-
-          d. Ø Voldria saber \{a  qui              / *qui\}        no (li)          agrada el record d’aquell fracàs.
-
-                                          to whom.\textsc{dat} /   who.\textsc{acc}      (\textsc{cl.dat})
-
-        e. \{A / *Ø\} la    Maria\textsubscript{(*},\textsubscript{)}    no li         agrada el record d’aquell fracàs.
-
-              to /   Ø  \textsc{art} Maria.\textsc{dat}     \textsc{cl.dat}
-
+ 
 \ea%16
-    \label{ex:key:16}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:16}
+ \ea \label{ex:royo:16a}
+ \gll Ø És una persona \{a qui (l’) / que\} Ø han atabalat contínuament amb insídies.\\
+ He/She is a person to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc} somebody.\textsc{pl} overwhelmed.\textsc{aux}+\textsc{part} continuously with malicious acts\\
+\glt \biberror{translation}
+ 
+ \ex \label{ex:royo:16b}
+	\gll \{A qui (l’) / Qui\} Ø han atabalat contínuament amb insídies és \{a / Ø\} la Maria.\\
+	 to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc} overwhelmed continuously is to.\textsc{dom}/ Ø \textsc{art} Maria.\textsc{acc}\\
+	\glt \biberror{translation} 
+	
+% 	\footnote{DOM = Differential object marking (see \citetv{chapters/manzini}).}%moved to list of abbreviations
+	 
+ 
+ \ex \label{ex:royo:16c}
+ \gll \{A qui (l’) / Qui\} Ø han atabalat amb aquestes insídies?\\
+to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc} these \biberror{gloss}   \\
+\glt \biberror{translation}
+ 
+ \ex \label{ex:royo:16d}
+ \gll Ø Voldria saber \{a qui (l’) / qui\} Ø han atabalat amb aquestes insídies.\\
+ to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc} \biberror{gloss}  \\
+\glt \biberror{translation}
+ 
+\ex \label{ex:royo:16e}
+ \gll \{A / Ø\} la Maria Ø l’ han atabalat contínuament amb insídies.\\
+ to.\textsc{dom} / Ø \textsc{art} Maria.\textsc{acc} \textsc{cl.acc} \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ \z
+ \z
 
-          a. Ø        És una persona \{a  qui             (l’)          / que\}        Ø                   han atabalat                      contínuament amb insídies.
-
-                He/She is  a    person   to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc} somebody.\textsc{pl} overwhelmed.\textsc{aux}+\textsc{part} continuously with malicious acts
-
-           b. \{A  qui             (l’)          / Qui\}       Ø han atabalat contínuament amb insídies és \{a              / Ø\} la    Maria.
-
-                 to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc}                                                                     is   to.\textsc{dom}\footnote{Differential object marking or DOM (see Manzani, this volume).} / Ø  \textsc{art} Maria.\textsc{acc}
-
-        c. \{A  qui             (l’)          / Qui\}       Ø han atabalat amb aquestes insídies?
-
-             to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc}                                 these
-
-          d. Ø Voldria saber \{a  qui              (l’)          / qui\}        Ø han atabalat amb aquestes insídies.
-
-                                          to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc}                            
-
-          e. \{A         / Ø\} la   Maria\textsubscript{(},\textsubscript{)}      Ø l’         han atabalat contínuament amb insídies.
-
-               to.\textsc{dom} / Ø  \textsc{art} Maria.\textsc{acc}     \textsc{cl.acc}
 
 \ea%17
-    \label{ex:key:17}
-    \gll\\
-        \\
-    \glt
-    \z
-
-         a. Ø         És una persona \{a  qui              (l’)           / que\}        Ø                    han \{mullat        / vist\}                     amb una mànega.
-
-                He/She is  a     person    to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc} somebody.\textsc{pl} \{wet.\textsc{aux}+\textsc{part} / saw.\textsc{aux}+\textsc{part} \} with  a    hose
-
-          b. \{A qui             (l’)          / Qui\}       Ø han \{mullat / vist\} amb una mànega és \{a          / Ø\} la   Maria.
-
-               to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc}                                                                is  to.\textsc{dom} / Ø \textsc{art} Maria.\textsc{acc}
-
-        c. \{A  qui             (l’)          / Qui\}       Ø han \{mullat / vist\} amb una mànega?
-
-              to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc}
-
-          d. Ø Voldria saber \{a  qui              (l’)          / qui\}        Ø han \{mullat / vist\} amb una mànega.
-
-                                          to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc}
-
-        e. \{A         / Ø\} la    Maria\textsubscript{(},\textsubscript{)}     Ø l’         han \{mullat / vist\} amb una mànega.
-
-             to.\textsc{dom} / Ø   \textsc{art} Maria.\textsc{acc}   \textsc{cl.acc}
+ \label{ex:royo:17}
+ \ea \label{ex:royo:17a}
+ \gll Ø És una persona \{a qui (l’) / que\} Ø han \{mullat / vist\} amb una mànega.\\
+He/She is a person to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc} somebody.\textsc{pl} \{wet.\textsc{aux}+\textsc{part} / saw.\textsc{aux}+\textsc{part} \} with a hose \\
+\glt \biberror{translation}
+ 
+ \ex \label{ex:royo:17b}
+ \gll \{A qui (l’) / Qui\} Ø han \{mullat / vist\} amb una mànega és \{a / Ø\} la Maria.\\
+ to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc} is to.\textsc{dom} / Ø \textsc{art} Maria.\textsc{acc}\\
+\glt \biberror{translation}
+ 
+ \ex \label{ex:royo:17c}
+ \gll \{A qui (l’) / Qui\} Ø han \{mullat / vist\} amb una mànega?\\
+ to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc} \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ \ex \label{ex:royo:17d}
+ \gll Ø Voldria saber \{a qui (l’) / qui\} Ø han \{mullat / vist\} amb una mànega.\\
+ to whom.\textsc{dat} (\textsc{cl.acc}) / who.\textsc{acc} \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ \ex \label{ex:royo:17e}
+ \gll \{A / Ø\} la Maria\textsubscript{(},\textsubscript{)} Ø l’ han \{mullat / vist\} amb una mànega.\\
+ to.\textsc{dom} / Ø \textsc{art} Maria.\textsc{acc} \textsc{cl.acc} \biberror{gloss}\\
+\glt \biberror{translation}
+ 
+ \z
+ \z 
 
 Bearing in mind that stative sentences of AcExp verbs are constructed with a real dative, regardless of the morphology of the experiencer clitic, I use the abbreviation Dat(>{\textbar}<Ac)Exp to differentiate these constructions from both AcExp causatives and DatExp statives. The abbreviation can be used in cases of hesitation between the accusative and the dative form and, at the same time, to differentiate Dat(>Ac)Exp when the morphology is dative and Dat(<Ac)Exp when the morphology is accusative.
 
-\begin{itemize}
-\item \section{Argument structure of stative sentences with AcExp verbs}
-\end{itemize}
+\section{Argument structure of stative sentences with AcExp verbs}\label{sec:royo:5}
 
-According to Rosselló (2008: §S 13.3.6.2\textit{a-b} and §S 13.3.7.2\textit{b}) and GIEC (\sectref{sec:key:21.2.2}\textit{b} and \sectref{sec:key:21.5}\textit{a}), one characteristic of Catalan psychological verbs with an experiencer object (AcExp and DatExp) is that they can elide their object in the absolute use of the verb. Sentences with the absolute use of these predicates can express the property of a stimulus to affect a hypothetical experiencer, a stative construction with both DatExp verbs (18\textit{a}) and AcExp verbs (18\textit{b}), which in this case does not express an action.\footnote{The GIEC (\sectref{sec:key:21.2.2}\textit{c}) points out that in absolute use those verbs that have an instrumental value (\textit{tallar} ‘cut’, \textit{obrir} ‘open’, \textit{tancar} ‘close’, \textit{tapar} ‘cover’, etc.), which like AcExp verbs are generally causative of change of state, express a property of the subject rather than a particular action.}
+According to \citet[Sections 13.3.6.2a-b and 13.3.7.2b]{Rossello2008} and \citet[21.2.2b and 21.5a]{GIEC2016}, one characteristic of Catalan psychological verbs with an experiencer object (AcExp and DatExp) is that they can elide their object in the absolute use of the verb. Sentences with the absolute use of these predicates can express the property of a stimulus to affect a hypothetical experiencer, a stative construction with both DatExp verbs \REF{ex:royo:18a} and AcExp verbs \REF{ex:royo:18b}, which in this case does not express an action.\footnote{The GIEC (Section 21.2.2c) points out that in absolute use those verbs that have an instrumental value (\textit{tallar} ‘cut’, \textit{obrir} ‘open’, \textit{tancar} ‘close’, \textit{tapar} ‘cover’, etc.), which like AcExp verbs are generally causative of change of state, express a property of the subject rather than a particular action.}
 
 \ea%18
-    \label{ex:key:18}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:18}
+ \ea \label{ex:royo:18a}
+ \gll La xocolata agrada (‘és agradable’); La família importa (‘és important’). \\
+ the chocolate likes is pleasant the family matters is important\\
+ \glt \biberror{translation}
+ 
+ \ex \label{ex:royo:18b}
+ \gll Els nens molesten (‘són molestos’); El teu caràcter atabala (‘és atabalador’).\\
+  the kids annoy are annoying \textsc{art} your character overwhelms is overwhelming\\
+ \glt  \biberror{translation}
+ 
+ \z
+ \z
 
-         a. La  xocolata  agrada (‘és agradable’); La  família importa (‘és important’). 
-
-           the chocolate likes       is  pleasant       the family  matters     is important
-
-         b. Els nens molesten (‘són molestos’); El    teu   caràcter   atabala       (‘és atabalador’).
-
-             the kids annoy         are annoying     \textsc{art} your character overwhelms is overwhelming
-
-Following Cuervo’s proposal (2003: \sectref{sec:key:1.3.3.2} \REF{ex:key:25}) for verbs that she calls \textit{predicational} \textit{statives}, all the sentences in \REF{ex:key:18} have an underlying stative unaccusative structure. For sentences with an experiencer, we need a functional head that introduces a dative with experiencer semantics and the characteristics of a subject in a hierarchically superior position and which relates it to the whole event that indicates a property of the stimulus: a high applicative head (external argument), with the dative in the position of specifier (cf. \citealt{Pylkkänen2008}; \citealt{Cuervo2003}, 2010; see also Cuervo, this volume) \REF{ex:key:19}.\footnote{Other authors explain the variability between the stative and the causative reading of these verbs without a high applicative head that introduces the experiencer in the stative construction (see Viñas-de-\citealt{Puig2014}, 2017, and references therein). For example, Viñas-de-Puig proposes that in both readings the experiencer is licensed for a S\textit{v}\textsc{\textsubscript{exp}} head above the root, in a basic stative structure, which will take a causative reading by adding a S\textit{v}\textsc{\textsubscript{caus}} above the S\textit{v}\textsc{\textsubscript{exp}}.}
+Following \citeauthor{Cuervo2003}'s proposal (\citeyear[Section 1.3.3.2]{Cuervo2003}) for verbs that she calls \textit{predicational statives}, all the sentences in \REF{ex:royo:18} have an underlying stative unaccusative structure. For sentences with an experiencer, we need a functional head that introduces a dative with experiencer semantics and the characteristics of a subject in a hierarchically superior position and which relates it to the whole event that indicates a property of the stimulus: a high applicative head (external argument), with the dative in the position of specifier (cf. \citealt{Pylkkänen2008, Cuervo2003, Cuervo2010Cuestiones}; see also \citetv{chapters/cuervo}) \REF{ex:royo:19}.\footnote{Other authors explain the variability between the stative and the causative reading of these verbs without a high applicative head that introduces the experiencer in the stative construction (see \citealt{Viñas-de-Puig2014, Viñas-de-Puig2017}, and references therein). For example, Viñas-de-Puig proposes that in both readings the experiencer is licensed for a S\textit{v}\textsc{\textsubscript{exp}} head above the root, in a basic stative structure, which will take a causative reading by adding a S\textit{v}\textsc{\textsubscript{caus}} above the S\textit{v}\textsc{\textsubscript{exp}}.}
 
 \ea%19
-    \label{ex:key:19}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:19}
+ \ea DatExp\label{ex:royo:19a}\\
+ \gll A la Maria li agrada la xocolata. \\
+ \biberror{gloss}\\
+ \glt (lit.) ‘to Maria chocolate is pleasant’ 
+ 
+ \ex  Dat(>{\textbar}<Ac)Exp\label{ex:royo:19b}\\
+ \gll A la Maria li/la molesten els nens.\\
+ \biberror{gloss}\\
+ \glt (lit.) ‘to Maria kids are annoying’
+ 
+ \z
+ \z
 
-         a. DatExp                                                b. Dat(>{\textbar}<Ac)Exp
 
-           A la Maria li agrada la xocolata.             A la Maria li/la molesten els nens.
+\begin{figure}
+	\begin{forest}
+		[ApplP
+			[DP
+				[a la Maria, name=dp]
+			]
+			[	
+				[Appl
+					[li, name = clitic]
+				]
+				[\liv P
+					[DP
+						[la xocolata]
+					]
+					[
+						[\liv\textsubscript{\textsc{be}}]
+						[Root
+							[√agrad-]
+						]
+					]
+				]
+			]
+		]
+		\draw[->] (clitic) to[out=south west,in=south] (dp);
+	\end{forest}
+	\caption{\label{fig:royo:1}Structure of DatExp verb sentence}
+\end{figure}
+ 
+\begin{figure}
+	\begin{forest}
+		[ApplP
+			[DP
+				[a la Maria, name=dp]
+			]
+			[	
+				[Appl
+					[li/la, name= clitic]
+				]
+				[\liv P
+					[DP
+						[els nens]
+					]
+					[
+						[\liv\textsubscript{\textsc{be}}
+						]
+						[Root
+							[√molest-]
+						]
+					]
+				]
+			]
+		]
+		\draw[->] (clitic) to[out=south west,in=south] (dp);
+	\end{forest}
+	\caption{\label{fig:royo:2}Structure of Dat(>|<Ac)Exp verb sentence}
+\end{figure}
 
-  (lit.) ‘to Maria chocolate is pleasant’      (lit.) ‘to Maria kids are annoying’
+The unaccusative structure of \REF{ex:royo:19a} for DatExp verbs matches \citegen{BellettiRizzi1988} characterisation of type-III predicates. The construction of \REF{ex:royo:19b}, however, requires some additional clarifications. Apparently, we should reject an unaccusative structure with an accusative experiencer – and in Catalan we do not expect an accusative to be an external argument – but if we bear in mind that it is a superficial accusative and that it is really a dative (cf. \sectref{sec:royo:3} and  \sectref{sec:royo:4}), this objection disappears. We also need to be explain how some verbs can optionally use the accusative and dative forms \REF{ex:royo:5}-\REF{ex:royo:7}, and other verbs the accusative form in OVS stative sentences, whether they are AcExp \REF{ex:royo:4a} or causative predicates with a metaphorical psychological meaning \REF{ex:royo:4b}.
 
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-ApplP          ApplP
-
-   DP             DP
-
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-\textit{a} \textit{la} \textit{Maria}        \textit{a} \textit{la} \textit{Maria}
-
-Appl     \textit{v}P      Appl     \textit{v}P
-
-%%[Warning: Draw object ignored]
-     \textbf{\textit{li}}          \textbf{\textit{li}} \textit{/} \textbf{\textit{la}}
-
-     DP           DP
-
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-      \textit{la} \textit{xocolata}                  \textit{els} \textit{nens}
-
-      \textit{v}\textsc{\textsubscript{be}}           Root       \textit{v}\textsc{\textsubscript{be}}           Root
-
-      ${\surd}$\textit{agrad-}              ${\surd}$\textit{molest-}
-
-The unaccusative structure of (19\textit{a}) for DatExp verbs matches Belletti \& Rizzi’s characterisation of type-III predicates. The construction of (19\textit{b}), however, requires some additional clarifications. Apparently, we should reject an unaccusative structure with an accusative experiencer – and in Catalan we do not expect an accusative to be an external argument – but if we bear in mind that it is a superficial accusative and that it is really a dative (cf. \sectref{sec:key:3} i \sectref{sec:key:4}), this objection disappears. We also need to be explain how some verbs can optionally use the accusative and dative forms \REF{ex:key:5}-(7), and other verbs the accusative form in OVS stative sentences, whether they are AcExp (4\textit{a}) or causative predicates with a metaphorical psychological meaning (4\textit{b}).
-
-In these sentences, the experiencer is a non-topicalized element with subject properties and a real dative, regardless of the form it takes. The syntactic mechanism that can explain sentences in which the experiencer has an apparent accusative morphology (20\textit{b}) is differential indirect object marking or DIOM (cf. \citealt{Bilous2011}; \citealt{Pineda2016}; Pineda in press; \citealt{PinedaRoyo2017}), which is not necessary when the clitic takes a dative morphology (20\textit{a}).
+In these sentences, the experiencer is a non-topicalized element with subject properties and a real dative, regardless of the form it takes. The syntactic mechanism that can explain sentences in which the experiencer has an apparent accusative morphology \REF{ex:royo:20b} is differential indirect object marking or DIOM (cf. \citealt{Bilous2011, Pineda2016}, \citeyear{Pineda2019}; \citealt{PinedaRoyo2017}), which is not necessary when the clitic takes a dative morphology \REF{ex:royo:20a}.
 
 \ea%20
-    \label{ex:key:20}
-    \gll\\
-        \\
-    \glt
-    \z
+ \label{ex:royo:20}
+ \ea Dat(>)Exp\label{ex:royo:20a}\\
+ \gll A la Maria \textbf{li} molesten els nens.\\
+ \biberror{gloss}\\
+ \glt (lit.) ‘to Maria kids are annoying’
+ 
+ \ex Dat(<Ac)Exp\label{ex:royo:20b}\\
+ \gll A la Maria \textbf{l}’atabala el teu caràcter.\\
+ \biberror{gloss}\\
+ \glt (lit.) ‘to Maria your character is overwhelming’
+\z
+\z
 
-         a. Dat(>)Exp                                     b. Dat(<Ac)Exp
+  \begin{figure}
+	\begin{forest}
+		[ApplP
+			[DP
+				[a la Maria, name=dp]
+			]
+			[	
+				[Appl
+					[li, name=clitic]
+				]
+				[\liv P
+					[DP
+						[els nens]
+					]
+					[
+						[\liv\textsubscript{\textsc{be}}]
+						[Root
+							[√molest-]
+						]
+					]
+				]
+			]
+		]
+	\draw[->] (clitic) to[out=south west,in=south] (dp);
+	\end{forest}
+	\caption{\label{fig:royo:3}Structure of Dat(>Ac)Exp verb sentence}
+\end{figure}
 
-           A la Maria \textbf{li} molesten els nens.       A la Maria l’atabala el teu caràcter.
+\begin{figure}
+	\begin{forest}
+		[ApplP
+			[DP
+				[a la Maria, name=dp]
+			]
+			[	
+				[Appl
+					[l'\textsubscript{[\textsc{diom}]}, name=clitic]
+				]
+				[\liv P
+					[DP
+						[el teu caràcter]
+					]
+					[
+						[\liv\textsubscript{\textsc{be}}]
+						[Root
+							[√atabal-]
+						]
+					]
+				]
+			]
+		]
+	\draw[->] (clitic) to[out=south west,in=south] (dp);
+	\end{forest}
+	\caption{\label{fig:royo:4}tructure of Dat(<Ac)Exp verb sentence}
+\end{figure}
 
-  (lit.) ‘to Maria kids are annoying’    (lit.) ‘to Maria your character is overwhelming’
 
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-ApplP          ApplP
 
-   DP             DP
+The dative case marking of these sentences is congruent with the semantic and syntactic characteristics of the experiencer and with the function of the high applicative heads in a Romance language like Catalan. A DIOM accusative morphology would allow speakers to use these constructions with verbs that are difficult to conceive as stative, because in the minds of speakers they are closely related to verbs that cause a change of state \REF{ex:royo:4}. The morphological aspect of the experiencer depends on the lexical characteristics of the verb: even though the sentence is always stative, we can regard DIOM as being an anti-stativization mechanism in the minds of speakers. In this sense, it is significant that non-psychological causative verbs with a metaphorical psychological meaning present the superficial accusative form in OVS stative sentences (\textit{destrossar} ‘destroy’, \textit{enfonsar} ‘sink’). Like some psychological verbs (\textit{commoure} ‘move, touch’, \textit{esparverar} ‘terrify’),\footnote{\citet[14, 29--30]{Ginebra2003} offers more examples of OVS stative sentences of this type with a superficial accusative in both verb types, that is, psychological and non-psychological verbs with metaphorical psychological meaning.} they are verbs that speakers conceptualize habitually as being causative of change of state, unlike other verbs that more readily permit a stative conceptualization in certain contexts: for example, \textit{molestar} ‘annoy’, which can sometimes have the meaning of \textit{desagradar molt} (‘displease a lot').\footnote{For an explanation of other factors that intervene so that an AcExp verb can participate in sentences such as Dat(<Ac)Exp or Dat(>Ac)Exp, see \citet[Section 5]{Royo2017}.}
 
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-\textit{a} \textit{la} \textit{Maria}        \textit{a} \textit{la} \textit{Maria}
+This explanation takes into account the conceptual mechanisms that can, according to several authors, affect the construction of sentences and syntactic change: the speakers’ conception of the world (cf. \citealt{Ramos2002}), the linguistic conception of particular communicative contexts (cf. \citealt{Rossello2008}) and the different conceptualisation of transitivity (cf. \citealt{Ynglès2011, Pineda2012}).
 
-Appl     \textit{v}P      Appl     \textit{v}P
-
-%%[Warning: Draw object ignored]
-     \textbf{\textit{li}}            \textbf{\textit{l’}} \textbf{\textsubscript{[DIOM]}}
-
-     DP           DP
-
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-%%[Warning: Draw object ignored]
-          \textit{els} \textit{nens}            \textit{el} \textit{teu} \textit{caràcter}
-
-      \textit{v}\textsc{\textsubscript{be}}           Root       \textit{v}\textsc{\textsubscript{be}}           Root
-
-      ${\surd}$\textit{molest-}              ${\surd}$\textit{atabal-}
-
-The dative case marking of these sentences is congruent with the semantic and syntactic characteristics of the experiencer and with the function of the high applicative heads in a Romance language like Catalan. A DIOM accusative morphology would allow speakers to use these constructions with verbs that are difficult to conceive as stative, because in the minds of speakers they are closely related to verbs that cause a change of state \REF{ex:key:4}. The morphological aspect of the experiencer depends on the lexical characteristics of the verb: even though the sentence is always stative, we can regard DIOM as being an anti-stativization mechanism in the minds of speakers. In this sense, it is significant that non-psychological causative verbs with a metaphorical psychological meaning present the superficial accusative form in OVS stative sentences (\textit{destrossar} ‘destroy’, \textit{enfonsar} ‘sink’). Like some psychological verbs (\textit{commoure} ‘move, touch’, \textit{esparverar} ‘terrify’),\footnote{Ginebra (2003: 14; 29-30) offers more examples of OVS stative sentences of this type with a superficial accusative in both verb types, that is, psychological and non-psychological verbs with metaphorical psychological meaning.} they are verbs that speakers conceptualize habitually as being causative of change of state, unlike other verbs that more readily permit a stative conceptualization in certain contexts: for example, \textit{molestar} ‘annoy’, which can sometimes have the meaning of \textit{desagradar} \textit{molt} (‘displease a lot').\footnote{For an explanation of other factors that intervene so that an AcExp verb can participate in sentences such as Dat(<Ac)Exp or Dat(>Ac)Exp, see Royo (2017: \sectref{sec:key:5}).}
-
-This explanation takes into account the conceptual mechanisms that can, according to several authors, affect the construction of sentences and syntactic change: the speakers’ conception of the world (cf. \citealt{Ramos2002}), the linguistic conception of particular communicative contexts (cf. \citealt{Rosselló2008}) and the different conceptualisation of transitivity (cf. \citealt{Ynglès2011}; \citealt{Pineda2012}).
-
-\begin{itemize}
-\item \section{Conclusions}
-\end{itemize}
+\section{Conclusions}\label{sec:royo:6}
 
 The main argument presented in this article is that in stative sentences of Catalan AcExp predicates, the experiencer is a real dative. In stative sentences of some AcExp verbs and other non-psychological causative verbs with metaphorical psychological semantics, the experiencer may present an external accusative morphology by means of differential indirect object marking (DIOM). DIOM is the manifestation in the minds of speakers of their difficulty to conceive certain verbs as being stative or, in other words, of their tendency to conceive them as being causative of change of state.
 
-\textbf{Acknowledgments.} This study has been supported by research project FFI2014-56258-P (\textit{Ministerio} \textit{de} \textit{Economía} \textit{y} \textit{Competitividad}). I would like to thank Jaume Mateu for specific comments made in relation to this paper and Anna Pineda for encouraging me to present this research in public and to have it published.
-\begin{verbatim}%%move bib entries to  localbibliography.bib
-@incollection{AcedoMatellánAcedo Matellán2015,
-	address = {Madrid},
-	author = {Acedo Matellán, Víctor and Jaume Mateu},
-	booktitle = {\textit{Los} \textit{verbos} \textit{psicológicos}},
-	editor = {Rafael Marín},
-	pages = {81--109},
-	publisher = {Visor Libros},
-	sortname = {Acedo Matellan, Victor and Jaume Mateu},
-	title = {Los verbos psicológicos: {{R}}aíces especiales en estructuras corrientes},
-	year = {2015}
-}
+\section*{Acknowledgments} This study has been supported by research project FFI2014-56258-P ({Ministerio de Economía y Competitividad}). I would like to thank Jaume Mateu for specific comments made in relation to this paper and Anna Pineda for encouraging me to present this research in public and to have it published.
 
+\section*{Abbreviations} 
+\textsc{dom} differential object marking
 
-@book{Alsina2008,
-	address = {In Joan Solà, Maria-Rosa Lloret, Joan Mascaró \& Manuel Pérez Saldanya (dirs.), \textit{Gramàtica} \textit{del} \textit{català} \textit{contemporani}, 3 vol., 4th ed. [2002], 2389-2454. Barcelona},
-	author = {Alsina, Àlex},
-	publisher = {Editorial Empúries},
-	sortname = {Alsina, Alex},
-	title = {L’infinitiu},
-	year = {2008}
-}
-
-
-@article{Arad1999,
-	author = {Arad, Maya},
-	journal = {\textit{MIT} \textit{Working} \textit{Papers} \textit{in} \textit{Linguistics}},
-	pages = {1--25},
-	title = {On “little υ”},
-	volume = {33},
-	year = {1999}
-}
-
-
-@article{BellettiBelletti1988,
-	author = {Belletti, Adriana and Luigi Rizzi},
-	journal = {\textit{Natural} \textit{Language} \textit{and} \textit{Linguistic} \textit{Theory}, 6},
-	pages = {291--352},
-	title = {Psych-Verbs and Theta-Theory},
-	volume = {3},
-	year = {1988}
-}
-
-
-@misc{Bilous2011,
-	author = {Bilous, Rostyslav},
-	note = {PhD diss., University of Toronto.},
-	title = {\textit{Transitivité} \textit{et} \textit{marquage} \textit{d’objet} \textit{différentiel}},
-	year = {2011}
-}
-
-
-@book{Bouchard1995,
-	address = {Chicago, London},
-	author = {Bouchard, Denis},
-	publisher = {University of Chicago Press},
-	title = {\textit{The} \textit{Semantics} \textit{of} \textit{Syntax.} \textit{A} \textit{Minimalist} \textit{Approach} \textit{to} \textit{Grammar}},
-	year = {1995}
-}
-
-
-@article{CabréCabré1998,
-	author = {Cabré, Teresa and Jaume Mateu},
-	journal = {\textit{Quaderns.} \textit{Revista} \textit{de} \textit{traducció}},
-	pages = {65--81},
-	sortname = {Cabre, Teresa and Jaume Mateu},
-	title = {Estructura gramatical i normativa lingüística: {{A}} propòsit dels verbs psicològics en català},
-	volume = {2},
-	year = {1998}
-}
-
-
-@incollection{Campos1999,
-	address = {Madrid},
-	author = {Campos, Héctor},
-	booktitle = {\textit{Gramática} \textit{Descriptiva} \textit{de} \textit{la} \textit{Lengua} \textit{Española}, 3 vol},
-	editor = {Ignacio Bosque and Violeta Demonte},
-	pages = {1519--1574},
-	publisher = {Espasa Calpe},
-	sortname = {Campos, Hector},
-	title = {Transitividad e intransitividad},
-	year = {1999}
-}
-
-
-@article{Cuervo1999,
-	author = {Cuervo, M. Cristina},
-	journal = {\textit{MIT} \textit{Working} \textit{Papers} \textit{in} \textit{Linguistics}},
-	pages = {213--227},
-	title = {Quirky But Not Eccentric: {{D}}ative Subjects in {Spanish}},
-	volume = {34},
-	year = {1999}
-}
-
-
-@misc{Cuervo2003,
-	author = {Cuervo, M. Cristina},
-	note = {PhD diss., MIT.},
-	title = {\textit{Datives} \textit{at} \textit{large}},
-	year = {2003}
-}
-
-
-@incollection{Cuervo2010,
-	address = {Santiago de Chile},
-	author = {Cuervo, M. Cristina},
-	booktitle = {\textit{Cuestiones} \textit{gramaticales} \textit{del} \textit{español,} \textit{últimos} \textit{avances}},
-	editor = {Marta Luján and Mirta Groppi},
-	pages = {194--206},
-	publisher = {ALFAL},
-	title = {{La} estructura de expresiones con verbos livianos y experimentante},
-	year = {2010}
-}
-
-
-Demonte, \citet{Violeta1989}. \textit{Teoria} \textit{sintáctica:} \textit{de} \textit{las} \textit{estructuras} \textit{a} \textit{la} \textit{rección}. Madrid: Síntesis.
-
-@book{DIEC2=Institutd’EstudisCatalans2007,
-	address = {[1995]. Barcelona},
-	author = {DIEC2 = Institut d’Estudis Catalans},
-	note = {Consult online at <http://dlc.iec.cat>.},
-	publisher = {Institut d’Estudis Catalans, Enciclopèdia Catalana, Edicions 62},
-	sortname = {DIEC2 = Institut d’Estudis Catalans},
-	title = {\textit{Diccionari} \textit{de} \textit{la} \textit{llengua} \textit{catalana}, 2nd ed},
-	year = {2007}
-}
-
-
-@book{EgurenEguren2004,
-	address = {Madrid},
-	author = {Eguren, Luis and Olga Fernández Soriano},
-	publisher = {Gredos},
-	sortname = {Eguren, Luis and Olga Fernandez Soriano},
-	title = {\textit{Introducción} \textit{a} \textit{una} \textit{sintaxis} \textit{minimista}},
-	year = {2004}
-}
-
-
-@incollection{Fábregas2015,
-	address = {Madrid},
-	author = {Fábregas, Antonio},
-	booktitle = {\textit{Los} \textit{predicados} \textit{psicológicos}},
-	editor = {Rafel Marín},
-	pages = {51--79},
-	publisher = {Visor Libros},
-	sortname = {Fabregas, Antonio},
-	title = {{No} es experimentante todo lo que experimenta o cómo determinar que un verbo es psicológico},
-	year = {2015}
-}
-
-
-@incollection{FábregasFábregas2012,
-	address = {Amsterdam, Philadelphia},
-	author = {Fábregas, Antonio and Rafael Marín},
-	booktitle = {\textit{{{Romance}}} \textit{Languages} \textit{and} \textit{Linguistic} \textit{\citealt{Theory2010}: {{S}}elected Papers from 'Going {{Romance}}' \citealt{Leiden2010}}, 4},
-	editor = {Irene Franco, Sara Lusini and Andrés Saab},
-	pages = {41--64},
-	publisher = {John Benjamins Publishing Company},
-	sortname = {Fabregas, Antonio and Rafael Marin},
-	title = {State nouns are Kimian states},
-	year = {2012}
-}
-
-
-@incollection{FábregasFábregas2012,
-	address = {New York},
-	author = {Fábregas, Antonio, Rafael Marín and Louise McNally},
-	booktitle = {\textit{Telicity,} \textit{Change,} \textit{and} \textit{State:} \textit{A} \textit{Cross-Categorial} \textit{View} \textit{of} \textit{Event} \textit{Structure}},
-	editor = {Violeta Demonte and Louise McNally},
-	pages = {162--185},
-	publisher = {Oxford University Press},
-	sortname = {Fabregas, Antonio, Rafael Marin and Louise McNally},
-	title = {From psych verbs to nouns},
-	year = {2012}
-}
-
-
-@incollection{Ganeshan2014,
-	address = {Fresno},
-	author = {Ganeshan, Ashwini},
-	booktitle = {\textit{Proceedings} \textit{of} \textit{{WECOL}} \textit{2013} (held at {Arizona} State University, Tempe campus, November 8-10, 2013)},
-	editor = {Claire Renaud, Carla Ghanem, Verónica González López and Kathryn Pruitt},
-	pages = {73--84},
-	publisher = {Department of Linguistics, California State University, Fresno},
-	title = {Revisiting {Spanish} {ObjE}xp Psych Predicates},
-	year = {2014}
-}
-
-
-@book{Ganeshan2019,
-	address = {\textit{Studies} \textit{in} \textit{Hispanic} \textit{and} \textit{Lusophone} \textit{Linguistics}, 12 \REF{ex:key},
-	author = {Ganeshan, Ashwini},
-	note = {1-33.},
-	publisher = {1}},
-	title = {Examining Animacy and Agentivity in {Spanish} Reverse-psych verbs},
-	year = {2019}
-}
-
-
-@book{GIEC=Institutd’EstudisCatalans2016,
-	address = {Barcelona},
-	author = {GIEC = Institut d’Estudis Catalans},
-	publisher = {Institut d’Estudis Catalans},
-	sortname = {GIEC = Institut d’Estudis Catalans},
-	title = {\textit{Gramàtica} \textit{de} \textit{la} \textit{llengua} \textit{catalana}},
-	year = {2016}
-}
-
-
-@misc{Ginebra2003,
-	author = {Ginebra, Jordi},
-	note = {Ms.},
-	title = {El règim verbal i nominal},
-	year = {2003}
-}
-
-
-@book{Ginebra2005,
-	address = {Tarragona},
-	author = {Ginebra, Jordi},
-	publisher = {Servei Lingüístic de la Universitat Rovira i Virgili},
-	title = {\textit{Praxi} \textit{lingüística.} \textit{{III}.} \textit{Criteris} \textit{gramaticals} \textit{i} \textit{d’estil.} \textit{Textos} \textit{de} \textit{normalització} \textit{lingüística} 6},
-	year = {2005}
-}
-
-
-@article{Ginebra2015,
-	author = {Ginebra, Jordi},
-	journal = {\textit{Caplletra}},
-	pages = {137--157},
-	title = {Neologia i gramàtica: {{{E}}}ntre el neologisme lèxic i el neologisme sintàctic},
-	volume = {59},
-	year = {2015}
-}
-
-
-@book{Landau2010,
-	address = {Cambridge, Mass.},
-	author = {Landau, Idan},
-	publisher = {MIT Press},
-	title = {\textit{The} \textit{Locative} \textit{Syntax} \textit{of} \textit{Experiencers}},
-	year = {2010}
-}
-
-
-@book{LevinLevin1995,
-	address = {Cambridge, Mass.},
-	author = {Levin, Beth and Malka Rappaport Hovav},
-	publisher = {MIT Press},
-	title = {\textit{Unaccusativity.} \textit{At} \textit{the} \textit{syntax-lexical} \textit{semantics} \textit{interface}},
-	year = {1995}
-}
-
-
-@article{MarínMarín2011,
-	author = {Marín, Rafael and Louise McNally},
-	journal = {\textit{Natural} \textit{Language} \textit{and} \textit{Linguistic} \textit{Theory}},
-	pages = {467--502},
-	sortname = {Marin, Rafael and Louise McNally},
-	title = {Inchoativity, change of state and telicity},
-	volume = {29},
-	year = {2011}
-}
-
-
-@book{MarínMarín2012,
-	address = {\textit{Borealis–An} \textit{International} \textit{Journal} \textit{of} \textit{Hispanic} \textit{Linguistics}, 1 \REF{ex:key},
-	author = {Marín, Rafael and Cristina Sánchez Marco},
-	note = {91-108.},
-	publisher = {2}},
-	sortname = {Marin, Rafael and Cristina Sanchez Marco},
-	title = {Verbos y nombres psicológicos: {{J}}untos y revueltos},
-	year = {2012}
-}
-
-
-Masullo, Pascual José. 1992. Quirky Datives in Spanish and the Non-Nominative Subject Parameter. In Andrea Kathol \& Jill Beckman (eds.), \textit{Proceedings} \textit{of} \textit{the} \textit{4th} \textit{Meeting} \textit{of} \textit{SCIL,} \textit{MITWPL}, 16. 89-104.
-
-@incollection{MendívilGiró2005,
-	address = {Frankfurt},
-	author = {Mendívil Giró, José Luis},
-	booktitle = {\textit{Entre} \textit{semántica} \textit{léxica,} \textit{teoría} \textit{del} \textit{léxico} \textit{y} \textit{sintaxis}},
-	editor = {Gerd Wotjak and Juan Cuartero Otal},
-	pages = {261--272},
-	publisher = {Peter Lang},
-	sortname = {Mendivil Giro, Jose Luis},
-	title = {El comportamiento variable de \textit{molestar}: \textit{A} \textit{Luisa} \textit{le} \textit{molesta} \textit{que} \textit{la} \textit{molesten}},
-	year = {2005}
-}
-
-
-@book{Pesetsky1995,
-	address = {Cambridge, Mass.},
-	author = {Pesetsky, David},
-	publisher = {MIT Press},
-	title = {\textit{Zero} \textit{Syntax.} \textit{Experiencers} \textit{and} \textit{Cascades}},
-	year = {1995}
-}
-
-
-@book{Pineda2012,
-	address = {In Xulio Viejo (coord.), \textit{Estudios} \textit{sobre} \textit{variación} \textit{sintáctica} \textit{peninsular.} \textit{Seminariu} \textit{de} \textit{Filoloxía} \textit{Asturiana}, Universidá d’Oviéu, 31-73. Oviéu},
-	author = {Pineda, Anna},
-	publisher = {Trabe},
-	title = {Transitividad y afectación en el entorno lingüístico romance y eusquérico},
-	year = {2012}
-}
-
-
-@book{Pineda2016,
-	address = {Barcelona},
-	author = {Pineda, Anna},
-	publisher = {Institut d’Estudis Món Juïc},
-	title = {\textit{Les} \textit{fronteres} \textit{de} \textit{la} \textit{(in)transitivitat.} \textit{Estudi} \textit{dels} \textit{aplicatius} \textit{en} \textit{llengües} \textit{romàniques} \textit{i} \textit{basc}},
-	year = {2016}
-}
-
-
-Pineda, Anna. In press. From Dative to Accusative. An Ongoing Syntactic Change in Romance. \textit{Probus.} \textit{International} \textit{Journal} \textit{of} \textit{Romance} \textit{Linguistics}.
-
-@article{PinedaPineda2017,
-	author = {Pineda, Anna and Carles Royo},
-	journal = {\textit{Revue} \textit{Roumaine} \textit{de} \textit{Linguistique}},
-	pages = {445--462},
-	title = {Differential Indirect Object Marking in {Romance} (and How to Get Rid of it)},
-	volume = {4},
-	year = {2017}
-}
-
-
-@book{Pylkkänen2008,
-	address = {Cambridge, Mass.},
-	author = {Pylkkänen, Liina},
-	publisher = {MIT Press},
-	sortname = {Pylkkanen, Liina},
-	title = {\textit{Introducing} \textit{arguments}},
-	year = {2008}
-}
-
-
-@incollection{Ramos2002,
-	address = {Alacant},
-	author = {Ramos, Joan-Rafael},
-	booktitle = {\textit{Les} \textit{claus} \textit{del} \textit{canvi} \textit{lingüístic} (\textit{Symposia} \textit{Philologica} 5)},
-	editor = {M. Antònia Cano, Josep Martines, Vicent Martines and Joan J. Ponsoda},
-	pages = {397--428},
-	publisher = {Institut Interuniversitari de Filologia Valenciana, Ajuntament de Nucia, Caja de Ahorros del Mediterráneo},
-	title = {Factors del canvi sintàctic},
-	year = {2002}
-}
-
-
-@incollection{Ramos2004,
-	address = {València},
-	author = {Ramos, Joan-Rafael},
-	booktitle = {\textit{Lingüística} \textit{diacrònica} \textit{contrastiva}},
-	editor = {Cesáreo Calvo, Emili Casanova and Fco. Javier Satorre},
-	pages = {119--139},
-	publisher = {Universitat de València},
-	title = {El règim verbal: {{A}}nàlisi contrastiva català-castellà},
-	year = {2004}
-}
-
-
-@book{Rosselló2008,
-	address = {In Joan Solà, Maria-Rosa Lloret, Joan Mascaró \& Manuel Pérez Saldanya (dirs.), \textit{Gramàtica} \textit{del} \textit{català} \textit{contemporani}, 3 vol., 4th ed. [2002], 1853-1949. Barcelona},
-	author = {Rosselló, Joana},
-	publisher = {Editorial Empúries},
-	sortname = {Rossello, Joana},
-	title = {El {SV}, I: {{V}}erbs i arguments verbals},
-	year = {2008}
-}
-
-
-@misc{Royo2017,
-	author = {Royo, Carles},
-	note = {PhD diss., Universitat de Barcelona.},
-	title = {\textit{Alternança} \textit{acusatiu/datiu} \textit{i} \textit{flexibilitat} \textit{semàntica} \textit{i} \textit{sintàctica} \textit{dels} \textit{verbs} \textit{psicològics} \textit{catalans}},
-	year = {2017}
-}
-
-
-@article{vanVoorst1992,
-	author = {van Voorst, Jan},
-	journal = {\textit{Linguistics} \textit{and} \textit{Philosiphy}, 15 No},
-	pages = {65--92},
-	title = {The aspectual semantics of psychological verbs},
-	volume = {1},
-	year = {1992}
-}
-
-
-@book{Viñas-de-Puig2014,
-	address = {\textit{Revista} \textit{de} \textit{Lingüística} \textit{Teórica} \textit{y} \textit{Aplicada}, 52 \REF{ex:key},
-	author = {Viñas-de-Puig, Ricard},
-	note = {165-188.},
-	publisher = {2}},
-	sortname = {Vinas-de-Puig, Ricard},
-	title = {Predicados psicológicos y estructuras con verbo ligero: {{D}}el estado al evento},
-	year = {2014}
-}
-
-
-@incollection{Viñas-de-Puig2017,
-	address = {Columbus, OH},
-	author = {Viñas-de-Puig, Ricard},
-	booktitle = {\textit{Contemporary} \textit{advances} \textit{in} \textit{theoretical} \textit{and} \textit{applied} \textit{{Spanish}} \textit{linguistics} \textit{variation}},
-	editor = {Juan J. Colomina-Almiñana},
-	pages = {201--224},
-	publisher = {The Ohio State University Press},
-	sortname = {Vinas-de-Puig, Ricard},
-	title = {Psych predicates, light verbs, and phase theory: {{O}}n the implications of case assignment to the experiencer in non-\textit{leísta} experience predicates},
-	year = {2017}
-}
-
-
-@incollection{Ynglès1991,
-	address = {Barcelona},
-	author = {Ynglès, M. Teresa},
-	booktitle = {\textit{Homenantge} \textit{a} \textit{Josep} \textit{Roca-Pons.} \textit{Estudis} \textit{de} \textit{llengua} \textit{i} \textit{literatura}},
-	editor = {Jane White Albrecht, Janet Ann DeCesaris, Patricia V. Lunn and Josep Miquel Sobrer},
-	pages = {271--308},
-	publisher = {Publicacions de l’Abadia de Montserrat, Indiana University},
-	sortname = {Yngles, M. Teresa},
-	title = {Les relacions semàntiques del cas datiu},
-	year = {1991}
-}
-
-
-@book{Ynglès2011,
-	address = {Barcelona},
-	author = {Ynglès, M. Teresa},
-	publisher = {Publicacions de l’Abadia de Montserrat},
-	sortname = {Yngles, M. Teresa},
-	title = {\textit{El} \textit{datiu} \textit{en} \textit{català:} \textit{una} \textit{aproximació} \textit{des} \textit{de} \textit{la} \textit{lingüística} \textit{cognitiva}},
-	year = {2011}
-}
-
-
-\end{verbatim}
-\sloppy\printbibliography[heading=subbibliography,notkeyword=this]\end{document}
+\sloppy\printbibliography[heading=subbibliography,notkeyword=this]
+\end{document}
