@@ -1,2 +1,310 @@
-subject terms to index
-oneperline
+Ablaut
+accent distribution
+accommodation
+accommodation theory
+action noun
+active voice
+actuation
+actuate
+actuated
+adstrate
+adverbial clause
+adversative coordination
+affrication
+Amman
+agent noun
+agreement
+analogy
+analogical
+Anatolia
+animacy
+animate
+Arabization
+article
+auxiliary verb(s)
+back-formation
+back-formations
+Banū Hilāl
+Banū Sulaym
+base form
+Beni Amer
+bəḡaḏkəp̄aṯ
+biconsonantal stem
+bilingual suppletion
+bilingual suppletion
+bilingualism
+bipartite negation
+Blemmye
+Borno
+borrowing constraint
+British Empire
+broken plural
+calquing
+calque
+Carthaginians
+causative
+census data
+Christians
+clitic
+cliticize
+cliticized
+cliticization
+clitic doubling
+coda
+codas
+code-switching
+codeswitching
+cognate
+collective
+collocate
+collocates
+colonial
+colonialism
+colour terms
+comparative
+compartmentalisation
+compartmentalization
+complementizer
+complex sentences
+compounds
+compound nouns
+concatenative morphology
+conditional clause
+conditional
+conditionals
+consonant clusters
+constituent order
+word order
+converb
+convergence
+coordination
+copula
+copular
+core vocabulary
+creole
+Croft’s cycle
+cultural identity
+Cyprus
+definiteness
+definite article
+definite
+degemination
+demonstratives
+deranked clause
+derivation
+derivational
+derivation
+desemanticization
+determinism
+devoicing
+dialect contact
+dialect formation
+dialect variant
+diaspora
+diglossia
+differential object marking
+DOM
+diffusion
+diminutive
+diphthong
+diphthongs
+directive
+elative
+emphatic
+emphatic consonant
+emphatic consonants
+emphasis
+endangered
+endangerment
+epenthesis
+European Union
+existential
+expressive formations
+extension
+ezāfe
+focusing
+frequency
+fricative alveolar
+fusion
+future
+future tense
+Gaza Strip
+gender
+gender assignment
+grammaticalization
+contact-induced grammaticalization
+CIG
+grammaticalization chain
+head-marking
+heritage speakers
+hybridization
+identity
+ideophones
+idiomaticity
+idioms
+idiom
+idiomatic
+imāla
+impersonal construction
+implosive consonants
+imposition
+indefinite article
+indefinites
+indefinite pronouns
+infinitive
+inflection
+inflectional
+instrument name
+intensive
+interdialect
+internal object
+internal plural
+intonation
+irregular sound change
+Jespersen’s cycle
+Jews
+Kanem
+kinship terminology
+Koine
+Koiné
+Koinéization
+Koineization
+Kormakiti
+Kurds
+Lake Chad
+language change
+language erosion
+language shift
+leveling
+lexicalization
+lexicalisation
+lexicostatistics
+lexifier
+light verbs
+light verb
+light-verb construction
+loanword
+loanwords
+locative
+long vowel
+Lusignan
+masdar
+matter replication
+matter borrowing
+Mazara del Vallo
+Mecca
+Medjay
+merge
+merger
+merges
+merged
+middle voice
+minoritization
+modal
+modality
+monolingual
+monopthongization
+monophthong
+monophthongs
+Muslims
+negation
+negative concord
+negative polarity item
+new dialect
+formation
+non-concatenative
+non-finite verb form
+Noubades
+noun phrase
+numerals
+n-word
+Oman
+orthography
+parallel system borrowing
+participle
+passive
+pattern replication
+pattern borrowing
+periphrastic causative
+pharyngeal
+pharyngeals
+pharyngealized
+phoneme
+Phoenicians
+pidgin
+pitch contour shape
+prepositions
+preposition
+prestigious
+prestige
+privative
+prosody
+prospective
+qualitative ablaut
+quantifier
+quantifiers
+questions
+Quran
+Quranic memorization
+Rashaida
+reallocation
+reason conjunction
+recipient language
+recipient-language
+RL
+reciprocal
+reduplication
+regionality
+register
+relatedness
+relative
+relativizer
+replaceability
+replication
+root
+roots
+root and pattern
+root-and-pattern
+Saudi Arabia
+second dialect acquisition
+sibilant
+sibilants
+Sicily
+simplification
+social factors
+social identity
+social promotion
+source language
+source-language
+SL
+speech community
+stability gradient
+Standard Average European
+stative
+stem
+stress
+deafness
+strophic
+substrate
+superlative
+superstrate
+syllabic structure
+tāʔ marbūṭa
+temporal clause
+tense
+terminative adverbial clause
+tone
+transfer
+transmission
+triconsonantal
+verb-noun derivation
+vocalic alternation
+vocative
+voiced post-alveolar affricate
+voiceless velar fricative
+voicing neutralization
+vowel length
+vowel raising
+word order
+Yemen
+yes/no-questions

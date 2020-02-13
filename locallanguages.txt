@@ -1,2 +1,370 @@
-languages to index
-oneperline
+Acholi
+Afar
+Afroasiatic
+Agaw
+Akkadian
+Alur
+Amharic
+Arabic
+Abu Dhabi
+Algiers
+Amman
+Anatolian
+Andalusi
+Aswan
+Āzəḫ
+Baggara
+Baghdadi
+Bahraini
+Basra
+Bedouin
+Bongor
+Cairene
+Cairo
+Casablanca
+Central Asian
+Chadian
+Christian
+Cilician
+Cilicia
+Classical
+CA
+Cypriot Maronite
+CyA
+Damascus
+Daragözü
+Dhofar
+Eastern
+Egyptian
+Ghamdi
+Gilit
+Gulf
+Gulf Pidgin
+Hasköy
+Ḥapəs
+Ḥarb
+Ḥassāniyya
+Hass.
+Ḥiǧāzi
+Iraqi
+Janaybi
+Jebel Ansariye
+Jerusalem
+Jordanian
+Jordanian Pidgin
+Juba
+Judaeo-Arabic
+Khuzestan
+Kinderib
+Lebanese
+Levantine
+Maghrebi
+Pre-Hilalian
+Post-Hilalian
+Mali
+Mardin
+Marrakech
+Mesopotamian
+Modern Standard
+Moroccan
+Jewish Morrocan
+Moroccan koiné
+Mosul
+Mutki-Sason
+Najdi
+Nigerian
+Nouakshott
+Omani
+Oman
+Palestinian
+qəltu
+Jewish qəltu
+Romanian Pidgin
+Sana’a
+Ṣanʕānī
+Sfax
+Siirt
+Soukhne
+Sousse
+Sudanese
+Syrian
+Ṣanʕānī
+Šiḥḥī
+Tillo
+Tlemcen
+Tozeur
+Tunis
+Tunisian
+Uzbekistan
+Western
+Western Sudanic
+Yemeni
+Aragonese
+Aramaic
+Imperial
+Jewish Babylonian
+Mandaic
+Mlaḥso
+Nabataean
+Neo-Aramaic
+North-Eastern
+NENA
+Western
+Syriac
+Ṭuroyo
+Ṣurayt
+Armenian
+Western Armenian
+Avokaya
+Azer
+Azeri
+Bagirmi
+Baḫtiārī
+Baka
+Balochi
+Bandarī
+Bari
+Basque
+Baṭḥari
+Beja
+Belanda Bor
+Bengali
+Berber
+Amazigh
+Awjila
+Beni Snous
+Ghomara
+Igli
+Kabyle
+Mozabite
+Proto-Berber
+Senhaja
+Shawiya
+Siwa
+Tamazight
+tamazigt
+Central Atlas Tamazight
+Tarifiyt
+tarifit
+tarifiy
+Tashelhiyt
+Tašelḥit
+Tašlḥiyt
+Tuareg
+tamasheq
+tamajek
+tahaggart
+Zenaga
+Zen.
+Zenati
+Zwara
+Zuwara
+Z(u)wara
+Bongo
+Canaanite
+Catalan
+Majorcan
+Chadic
+Chaoui
+Coptic
+Cushitic
+Lowland East-Cushitic
+Proto-East-Cushitic
+proto-Cushitic
+Dadanitic
+Darī
+Dardic
+Didinga
+Dinka
+Dizfūlī
+Domari
+Antioch
+Beirut/Damascus
+Canonical
+Jerusalem
+Northern
+Palestinian
+Southern
+Dutch
+Egyptian
+Ancient Egyptian
+English
+American
+Southern American
+British
+Maltese
+Fali
+Fīnī
+French
+Fulfulde
+Gaelic
+Gəʕəz
+Gz.
+German
+Gīlakī
+Ghomara
+Greek
+Ancient
+Standard
+Cypriot
+Gulf Arabic
+Gurānī
+Hasaitic
+Hausa
+Hindi
+Hismaic
+Ḥarsūsi
+Ḫānsāri
+Hobyōt
+Hebrew
+Indo-Aryan
+Central Indo-Aryan
+Middle Indo-Aryan
+Indonesian
+Iranian
+New Iranian
+Italian
+Javanese
+Jur
+Kabyle
+Kakwa
+Kanembu
+Kanuri
+Kenyan Kinubi
+Kinubi
+Kirmānī
+Koalib
+Kotoko
+Kuku
+Kumzari
+Kumzārī
+Kurdish
+Badini
+Central
+Kurmanji
+Northern Kurdish
+N. Kurd.
+Sorani
+Southern Kurdish
+Latin
+Classical
+Late
+Vulgar
+Lāristānī
+Lendu
+Lingua Franca
+Lotuho
+Luganda
+Lugbara
+Luo
+Lurī
+Ma’di
+Mahryōt
+Malayalam
+Malgwa
+Maltese
+Mamvu
+Manam
+Masa
+Mbay
+Mehreyyet
+Mehri
+Meroitic
+Moru
+Mundari
+Mundu
+Ngambay
+Nilo-Saharan
+Nubian
+Nuer
+Nuristani
+Occitan
+Omotic
+Ossetic
+Pamir
+Parthian
+Pashtō
+Päri
+Persian
+Colloquial Persian
+Middle Persian
+Modern Persian dialects
+Modern Standard Persian
+New Persian
+Old Persian
+Phoenician
+Pidgin Madame
+Pojulu
+Portuguese
+Punic
+Punjabi
+Quechua
+Romance
+Italo-Romance
+Ibero-Romance
+Iberian
+Romani
+Kurbetça
+Gurbetça
+Romanian
+Russian
+Safaitic
+Saho
+Sami
+Sango
+Sar
+Sara
+Semitic
+Ethio-Semitic
+Proto-Semitic
+South-Semitic
+Shilluk
+Sicilian
+Sinhalese
+Slovak
+Sogdian
+Somali
+Songhay
+Soninke
+Soqoṭri
+South Arabian
+MSAL
+Spanish
+Buenos Aires
+Castillian
+Hakitia
+Majorcan
+Medieval
+Old
+Sudanic
+Swahili
+Śḥerɛt
+Jibbāli
+Tagalog
+Tagoi
+Tajik
+Tamil
+Tālišī
+Tātī
+Thamudic
+Tigre
+Tigrinya
+Tupuri
+Turkic
+Turkish
+Anatolian Turkish
+Modern Turkish
+Ottoman Turkish
+Quechuaman Turkish
+Turkman
+Turkmen
+Turku
+Urdu
+Wandala
+Wolof
+Yaɣnōbi
+Yiddish
+Zande
+Zarma
+Zaza
+Zazaki
