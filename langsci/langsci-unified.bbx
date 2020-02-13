@@ -113,7 +113,7 @@
 % Sort the bibliography, in particular pay
 % respect to the cite order
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\let\DeclareSortingTemplate\DeclareSortingScheme
 \DeclareSortingTemplate{nycot}{%name-year-citeorder-title, based on nyt from biblatex.def
   \sort{
     \field{presort}
