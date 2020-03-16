@@ -1,16 +1,18 @@
-\documentclass[output=paper,colorlinks,citecolor=brown,nonflat]{./langscibook}
+\documentclass[output=paper,colorlinks,citecolor=brown,modfonts,nonflat]{langsci/langscibook}
 \author{Svitlana Antonyuk	\affiliation{University of Connecticut}}
 \title{The puzzle of Russian ditransitives}
 
 \abstract{In this paper I use the Scope Freezing Generalization (SFG), formulated on the basis of Russian quantifier scope freezing data in \citet{Antonyuk2015} to gain insights into the structure of Russian ditransitives. The paper discusses the finding that Russian ditransitive predicates are not a homogeneous group, but instead subdivide into three distinct Groups, each with its distinct set of properties, with further syntactic evidence supporting the conclusion that these Groups have distinct underlying structures. One of the main findings, suggested by the (revised) SFG and supported by syntactic unaccusativity tests is that a group of Russian “direct objects” are not in fact what they seem, but are instead low Oblique arguments receiving Accusative case from a silent P head.
 %\keyword{ditransitives, scope freezing, Russian, unaccusativity, objecthood, Oblique Accusatives.}
 }
- \IfFileExists{../localcommands.tex}{
+
+\addbibresource{localbibliography.bib}
+ \IfFileExists{../localcommands.tex}{  
   \input{../localpackages}
   \input{../localcommands}
   \input{../localhyphenation}
-  \togglepaper[1]%%chapternumber
-  \bibliography{../localbibliography}
+%   \bibliography{../localbibliography}
+  \togglepaper[2]%%chapternumber 
 }{}
 \begin{document}
 \maketitle
@@ -40,19 +42,21 @@ The insight about the non-homogeneous nature of Russian ditransitives comes prim
 % \textit{-to} remains unidentified.\\
 % you cannot use [] in the glossing line. For cased NPs, mark the relevant case for all words where it is overtly realised. You can indicated syntactic constituency in the source line, but there is no need to repeat this in the glossing line.}
 
-Turning to data now, despite arguably being identical to English in terms of quantifier scope possibilities and Quantifier Raising properties as far as transitive sentences are concerned (see \citealt{Antonyuk-Yudina2006, Antonyuk2015}, \citeyear{Antonyuk2019}) there are both significant similarities \textit{and} differences once we look at ditransitive sentences. While the important similarity to English is that Russian ditransitives show the same scope freezing effect as do English DOCs and the \textit{with}-variant of the \textit{Spray-Load} construction, the novel Russian data, briefly exemplified in \REF{ex:antonyuk:2}-\REF{ex:antonyuk:7} below, suggest that the range of constructions in which quantifier scope is surface scope frozen in the language is much broader than it is in English. In all of the examples below the sentences in (a) are ambiguous, whereas the sentences in (b) are surface scope frozen.
+Turning to data now, despite arguably being identical to English in terms of quantifier scope possibilities and Quantifier Raising properties as far as transitive sentences are concerned (see \citealt{Antonyuk-Yudina2006, Antonyuk2015}, \citeyear{Antonyuk2019}) there are both significant similarities \textit{and} differences once we look at ditransitive sentences. While the important similarity to English is that Russian ditransitives show the same scope freezing effect as do English DOCs and the \textit{with}-variant of the \textit{Spray-Load} construction, the novel Russian data, briefly exemplified in \REF{ex:antonyuk:2}-\REF{ex:antonyuk:7} below, suggest that the range of constructions in which quantifier scope is surface scope frozen in the language is much broader than it is in English. In all of the examples below the sentences in (a) are ambiguous, whereas the sentences in (b) are surface scope frozen.\todo{\textsc{fem->f, msc->m, neut->n, imp->ipfv} per LGR.}\todo{Please check the glosses again. Some missing pieces have been added based on data found elsewhere.}
 
 \ea%2
     \label{ex:antonyuk:2}
     Russian Equivalent of the PP Dative and the Double-Object Construction:
     \ea \label{ex:antonyuk:2a}
-    \gll {Učitel’}     {podaril}      {kakuju-to}   {knigu}    {každomu} {studentu}.\\
-    teacher.\textsc{nom} presented [some   book].\textsc{acc.f}  [every student].\textsc{dat.m}\\
-    \glt `The teacher presented some book to every student.´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \gll    Učitel’ po-dari-l [kak-uju-to knig-u] [každ-omu student-u].\\
+            teacher \textsc{po-}present\textsc{-pst.m} \hspaceThis{[}some\textsc{-acc.f-ind} book\textsc{-acc.f} \hspaceThis{[}every\textsc{-dat.m} student\textsc{-dat.m}\\
+    \glt    `The teacher presented some book to every student.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \ex \label{ex:antonyuk:2b}
-    \gll {Učitel’}          {podaril}      {kakomu-to} {student}     {každuju} {knigu}.\\
-    teacher.\textsc{nom} presented [some         student].\textsc{dat.m}   [every book].\textsc{acc.f}\\
-    \glt `The teacher presented some student with every book.´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
+    \gll    Učitel’ po-dari-l [kak-omu-to student-u] [každ-uju knig-u].\\
+            teacher \textsc{po-}present\textsc{-pst.m} \hspaceThis{[}some\textsc{-dat.m-ind} student\textsc{-dat.m} \hspaceThis{[}every\textsc{-acc.f} book\textsc{-acc.f}\\
+    \glt    `The teacher presented some student with every book.´ 
+            \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
 \z
 
@@ -62,13 +66,15 @@ Turning to data now, despite arguably being identical to English in terms of qua
     \label{ex:antonyuk:3}
     Prepositional Ditransitive Construction:
     \ea \label{ex:antonyuk:3a}
-    \gll {Maša}   {potrebovala}  {[kakie-to} {dokumenty]}  {}   {(s}  {každogo}  posetitelja).\\
-    Masha demanded     [some documents].\textsc{acc} [\textsubscript{PP} from every visitor].\textsc{gen}\\
-    \glt `Masha demanded some documents from every visitor.´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \gll    Maša po-trebova-l-a	kak-ie-to document-y (s každ-ogo posetitel’-a).\\
+            Masha \textsc{po-}demand\textsc{-pst-f} some\textsc{-acc.pl-ind} document\textsc{-acc.pl} \hspaceThis{(}from every\textsc{-gen.m} visitor\textsc{-gen.m}\\
+    \glt    `Masha demanded some documents from every visitor.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \ex \label{ex:antonyuk:3b}
-    \gll {Maša}   {potrebovala} {}   {(s} {kakogo-to} {posetitelija)} {[každyj} {document]}.\\
-    Masha demanded [\textsubscript{PP} from some   visitor].\textsc{gen} [every document].\textsc{acc}\\
-    \glt `Masha demanded every document from some visitor.´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
+    \gll    Maša po-trebova-la (s kak-ogo-to posetitel’-a) [každ-yj	document].\\
+            Masha \textsc{po-}demand\textsc{-pst.f} \hspaceThis{(}from some\textsc{-gen.m-ind} visitor\textsc{-gen.m} \hspaceThis{[}every\textsc{-acc.m} document\textsc{.acc.m}\\
+    \glt    `Masha demanded every document from some visitor.´ 
+            \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
 \z
 
@@ -77,29 +83,31 @@ Turning to data now, despite arguably being identical to English in terms of qua
     \label{ex:antonyuk:4}
     The \textit{Spray-Load} Alternation:
     \ea \label{ex:antonyuk:4a}
-    \gll {Vanja} {zagruzil} {[kakoj-to}    {vid}   {sena]}       {[na}  {každyj} {gruzovik]}.\\
-    Vania loaded   [some   type hay].\textsc{gen} [on [every  truck].\textsc{acc}]\\
-    \glt `Vania loaded some type of hay on every truck.´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \gll    Vanja za-gruz-i-l [kak-oj-to vid sen-a] [na každ-yj gruzovik].\\
+            Vania \textsc{za-}load\textsc{-ipfv-pst.m} \hspaceThis{[}some\textsc{-acc.m-ind} type\textsc{.acc.m} hay\textsc{-gen.n} \hspaceThis{[}on every\textsc{-acc.m} truck\textsc{-acc.m}\\
+    \glt    `Vania loaded some type of hay on every truck.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \ex \label{ex:antonyuk:4b}
-    \gll {Vanja} {zagruzil} {[kakoj-to} {gruzovik]}    {[každym} {vidom}          {sena]}.\\
-    Vania loaded  [some       truck].\textsc{acc} [[every    type].\textsc{instr}  hay.\textsc{gen}]\\
-    \glt `Vania loaded some truck with every type of hay.´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
+    \gll    Vanja za-gruz-i-l [kak-oj-to gruzovik] [každy-m	vid-om sen-a].\\
+            Vania \textsc{za-}load\textsc{-ipfv-pst.m} \hspaceThis{[}some\textsc{-acc.m-ind} truck\textsc{.acc.m} \hspaceThis{[}every\textsc{-instr.m} type\textsc{-instr.m} hay\textsc{-gen.n}\\
+    \glt    `Vania loaded some truck with every type of hay.´ 
+            \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
 \z
-
-
 
 \ea%5
     \label{ex:antonyuk:5}
     The \textit{Clear}-Type Alternation:
     \ea \label{ex:antonyuk:5a}
-    \gll {Vanja} {ubral}    {[neskol’ko}  {tarelok]}      {[s}        {každogo} {stola]}.\\
-    Vania cleared [several      dishes].\textsc{acc} [from [every      table].\textsc{acc]}\\
-    \glt `Vania cleared several dishes from every table.´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \gll    Vanja u-bra-l [neskol’ko tarel-ok] [s každ-ogo stol-a].\\
+            Vania \textsc{u-}clear\textsc{-pst.m} \hspaceThis{[}several dish\textsc{-acc.pl} \hspaceThis{[}from every\textsc{-gen.m} table\textsc{-gen.m}\\
+    \glt    `Vania cleared several dishes from every table.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \ex \label{ex:antonyuk:5b}
-    \gll {Vanja} {ubral}   {[neskol’ko} {stolov]}      {[ot}    {každoj} {tarelki]}.\\
-    Vania cleared [several.     tables].\textsc{acc}  [from  [every  dish].\textsc{gen}]\\
-    \glt `Vania cleared several tables of every dish.´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
+    \gll    Vanja u-bra-l [neskol’ko stol-ov] [ot každ-oj tarelk-i].\\
+            Vania \textsc{u-}clear\textsc{-pst.m} \hspaceThis{[}several\textsc{-acc.pl} table\textsc{-acc.pl} \hspaceThis{[}from every\textsc{-gen.f} dish\textsc{-gen.f.sg}\\
+    \glt    `Vania cleared several tables of every dish.´ 
+            \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
 \z
 
@@ -108,13 +116,15 @@ Turning to data now, despite arguably being identical to English in terms of qua
     \label{ex:antonyuk:6}
     Simple Ditransitives:
     \ea \label{ex:antonyuk:6a}
-    \gll {Maša}   {zarazila} {[kakoj-to} {bolezn’ju]}  {[každogo} {pacienta]}.\\
-    Masha infected [some      illness].\textsc{instr}   [every     patient].\textsc{acc}\\
-    \glt `Masha infected with some illness every patient.´ \hfill \textit{${\exists}{\forall}$/${\forall}{\exists}$}
+    \gll    Maša zarazi-l-a	[kak-oj-to bolezn’-ju] [každ-ogo pacient-a].\\
+            Masha infect\textsc{-pst-f} \hspaceThis{[}some\textsc{-instr.f-ind} illness\textsc{-instr.f} \hspaceThis{[}every\textsc{-acc.m} patient\textsc{-acc.m}\\
+    \glt    `Masha infected with some illness every patient.´ 
+            \hfill \textit{${\exists}{\forall}$/${\forall}{\exists}$}
     \ex \label{ex:antonyuk:6b}
-    \gll {Maša}   {zarazila} {[kakogo-to} {pacienta]}   {[každoj} {bolezn’ju]}.\\
-    Masha infected [some         patient].\textsc{acc}   [every  illness].\textsc{instr}\\
-    \glt `Masha got infected with every illness by some patient.´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
+    \gll    Maša zarazi-l-a	[kak-ogo-to	pacient-a] [každ-oj	bolezn’-ju].\\
+            Masha infect\textsc{-pst-f} \hspaceThis{[}some\textsc{-acc.m-ind} patient\textsc{-acc.m} \hspaceThis{[}every\textsc{-instr.f} illness\textsc{-instr.f}\\
+    \glt    `Masha got infected with every illness by some patient.´ 
+            \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
 \z
 
@@ -122,17 +132,19 @@ Turning to data now, despite arguably being identical to English in terms of qua
     \label{ex:antonyuk:7}
     “Reflexive Monotransitives” derived from simple ditransitives:
     \ea \label{ex:antonyuk:7a}
-    \gll {Maša}  {zarazilas’} {[kakoj-to} {bolezn’ju]} {[ot}      {každogo} {pacienta].}\\
-    Masha infected-\textsc{refl}  [some illness].\textsc{instr} [from [every     patient].\textsc{gen}\\
-    \glt `Masha got infected with some illness by every patient.´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \gll    Maša zarazi-l-a-s’ [kak-oj-to bolezn’-ju] [ot každ-ogo pacient-a].\\
+            Masha infect\textsc{-pst-f-refl} \hspaceThis{[}some\textsc{-instr.fem-ind} illness\textsc{-instr.fem} \hspaceThis{[}from every\textsc{-gen.m.sg} patient\textsc{-gen.m.sg}\\
+    \glt    `Masha got infected with some illness by every patient.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \ex \label{ex:antonyuk:7b}
-    \gll {Maša}   {zarazilas’}          {[ot}      {kakogo-to} {pacienta]}      {} {[každoj} bolezn’ju].\\
-    Masha infected-\textsc{refl}   [from [some         patient].\textsc{gen} ] [every illness].\textsc{instr}\\
-    \glt `Masha got infected with every illness by some patient.´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
+    \gll    Maša zarazi-l-a-s’ [ot kak-ogo-to pacient-a] [každ-oj bolezn’-ju].\\
+            Masha infect\textsc{-pst-f-refl} \hspaceThis{[}from some\textsc{-gen.m-ind} patient\textsc{-gen.m.sg} \hspaceThis{[}every\textsc{-instr.fem} illness\textsc{-instr.f}\\
+    \glt    `Masha got infected with every illness by some patient.´ 
+            \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
 \z
 
-What is striking about the above examples is that despite all the differences between these sentences, such as changes in the obligatory morphological marking between the two alternating orders in the \textit{Spray-Load} or \textit{Clear}{}-type alternations or the fact that in some cases one of the internal arguments is realized as a Prepositional Phrase (PP) or, perhaps most strikingly, the “detransitivization” in \REF{ex:antonyuk:7} with scope freezing nevertheless preserved, all the differences notwithstanding, the one constant element in the above pairs is the permuted order of the verb’s internal arguments. The Scope Freezing Generalization in \REF{ex:antonyuk:8} captures this fact:\footnote{The SGF in \REF{ex:antonyuk:8} reflects the important assumption that scope ambiguity is the norm and scope freezing is the “marked”, special case in need of an explanation.} \textsuperscript{,}\footnote{In this paper I argue, contra \citet{Antonyuk2015}, that surface scope freezing observed with ditransitives and captured by SFG in \REF{ex:antonyuk:8} is a categorically distinct phenomenon from the surface scope \textit{bias} found with cases of scrambling of a QP across a higher QP, as the judgments of surface scope freezing found with Groups 1 and 2 are not similarly affected by Information Structure-relevant phenomena such as prosodically realized Contrastive Focus (\citealt{AntonyukLarson2016}) or by Specificity-related Object Shift, as demonstrated for Ukrainian in Antonyuk and Mykhaylyk (under review).}
+What is striking about the above examples is that despite all the differences between these sentences, such as changes in the obligatory morphological marking between the two alternating orders in the \textit{Spray-Load} or \textit{Clear}{}-type alternations or the fact that in some cases one of the internal arguments is realized as a Prepositional Phrase (PP) or, perhaps most strikingly, the “detransitivization” in \REF{ex:antonyuk:7} with scope freezing nevertheless preserved, all the differences notwithstanding, the one constant element in the above pairs is the permuted order of the verb’s internal arguments. The Scope Freezing Generalization in \REF{ex:antonyuk:8} captures this fact:\footnote{The SGF in \REF{ex:antonyuk:8} reflects the important assumption that scope ambiguity is the norm and scope freezing is the “marked”, special case in need of an explanation.} \textsuperscript{,}\footnote{In this paper I argue, contra \citet{Antonyuk2015}, that surface scope freezing observed with ditransitives and captured by SFG in \REF{ex:antonyuk:8} is a categorically distinct phenomenon from the surface scope \textit{bias} found with cases of scrambling of a QP across a higher QP, as the judgments of surface scope freezing found with Groups 1 and 2 are not similarly affected by Information Structure-relevant phenomena such as prosodically realized Contrastive Focus (\citealt{AntonyukLarson2016}) or by Specificity-related Object Shift, as demonstrated for Ukrainian in \citet{AntonyukMykhaylykUR}.}
 
 \ea%8
     \label{ex:antonyuk:8}
@@ -175,13 +187,15 @@ Group 1 is exemplified by Russian verbs such as \textit{podarit’} ('to present
 \ea%12
     \label{ex:antonyuk:12}
     \ea \label{ex:antonyuk:12a}
-    \gll {Vospitatel’}      {podaril}   {[kakuju-to} {igrušku].}       {[každomu} {rebjenku]}.\\
-    Caretaker.\textsc{nom} presented   [some       toy].\textsc{acc.f} [every child].\textsc{dat.m}\\
-    \glt `The teacher presented some book to every student.´ ${\exists}{\forall}$/${\forall}{\exists}$
+    \gll    Vospitatel’ po-dari-l [kak-uju-to igrušk-u] [každ-omu rebjenk-u].\\
+            caretaker \textsc{po-}present\textsc{-pst.m} \hspaceThis{[}some\textsc{-acc.f-ind} toy\textsc{-acc.f} \hspaceThis{[}every\textsc{-dat.m} child\textsc{-dat.m}\\
+    \glt    `The teacher presented some book to every student.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \ex \label{ex:antonyuk:12b}
-    \gll {Vospitatel’}       {podaril}   {[kakomu-to} {rebjenku]}    {[každuju} {igrušku]}.\\
-    Caretaker.\textsc{nom}  presented   [some child].\textsc{dat.m} [every toy].acc.fem\\
-    \glt `The caretaker presented some child with every toy.´ ${\exists}{\forall}$/*${\forall}{\exists}$
+    \gll    Vospitatel’ po-dari-l [kak-omu-to rebjenk-u] [každ-uju igrušk-u].\\
+            caretaker \textsc{po-}present\textsc{-pst.m} \hspaceThis{[}some\textsc{-dat.m-ind} child\textsc{-dat.m} \hspaceThis{[}every\textsc{-acc.f} toy\textsc{-acc.f}\\
+    \glt    `The caretaker presented some child with every toy.´ 
+            \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
 \z
 
@@ -191,14 +205,15 @@ The alternation in (\ref{ex:antonyuk:12a},b) resembles the scope freezing patter
 \ea%13
     \label{ex:antonyuk:13}
     \ea \label{ex:antonyuk:13a}
-    Alice assigned some exercise to every student. \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    Alice assigned some exercise to every student. 
+    \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \ex \label{ex:antonyuk:13b}
-    Alice assigned some student every~exercise. \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
+    Alice assigned some student every~exercise. 
+    \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
 \z
 
 \REF{ex:antonyuk:14} presents a non-exhaustive list of verbs whose behavior with respect to the scope freezing diagnostic places them into Group 1:
-
 
 \ea%14
     \label{ex:antonyuk:14}
@@ -229,17 +244,18 @@ The alternation in (\ref{ex:antonyuk:12a},b) resembles the scope freezing patter
 
 The example in \REF{ex:antonyuk:15} presents a Group 2 verb on its two alternating orders. Here, the order on which the Instrumental-marked phrase precedes the Accusative argument is scopally ambiguous, whereas the opposite order of arguments is surface scope frozen.
 
-
 \ea%15
     \label{ex:antonyuk:15}
     \ea \label{ex:antonyuk:15a}
-    \gll {Maša}   {ugostila} {(kakim-to} {pečenjem)}  {[každogo} {rebenka]}.\\
-    Masha treated  [some        cookie].\textsc{instr} [every child].\textsc{acc}\\
-    \glt `Masha treated every child to some cookie.´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \gll    Maša ugosti-l-a (kak-im-to pečen’je-m) [každ-ogo rebenka].\\
+            Masha treat\textsc{-pst.f} \hspaceThis{(}some\textsc{-instr.m-ind} cookie\textsc{-instr.m} every\textsc{-acc.m} child\textsc{-acc.m}\\
+    \glt    `Masha treated every child to some cookie.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \ex \label{ex:antonyuk:15b}
-    \gll {Maša}   {ugostila} {[kakogo-to} {rebenka]}    {(každym} {pečenjem)}.\\
-    Masha reated    [some child].\textsc{acc} [every    cookie].\textsc{instr}\\
-    \glt `Masha treated some child to every cookie.´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
+    \gll    Maša ugosti-l-a [kak-ogo-to rebenk-a] (každ-ym pečen’je-m).\\
+            Masha treat\textsc{-pst-f} \hspaceThis{[}some\textsc{-acc.m-ind} child\textsc{-acc.m} \hspaceThis{[}every\textsc{-instr.m} cookie\textsc{-instr.m}\\
+    \glt    `Masha treated some child to every cookie.´ 
+            \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
 \z
 
@@ -276,17 +292,18 @@ What differentiates Group 2 from Group 1 is the obvious fact that with Group 2 t
 
 Finally, there are verbs that behave like neither of the above Groups. With Group 3 predicates the scope is free no matter which internal argument comes first. Consider the example in \REF{ex:antonyuk:17}. Here, unlike with the other two Groups, the change in the linear order of quantificational internal arguments yields no truth conditional difference: the sentences remain scopally ambiguous.
 
-
 \ea%17
     \label{ex:antonyuk:17}
     \ea \label{ex:antonyuk:17a}
-    \gll Maša   napisala [kakoj-to slogan] {} (na  každoj stene).\\
-    Masha wrote     [some      slogan].\textsc{acc} [\textsubscript{PP} on [every  wall].\textsc{prep}]\\
-    \glt `Masha wrote some slogan on every wall.´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \gll    Maša na-pisa-l-a [kak-oj-to	slogan] na každ-oj sten-e).\\
+            Masha \textsc{na-}write\textsc{-pst-f} \hspaceThis{[}some\textsc{-acc.m-ind} slogan\textsc{.acc.m} on every\textsc{-prep.f} wall\textsc{-prep.f}\\
+    \glt    `Masha wrote some slogan on every wall.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \ex \label{ex:antonyuk:17b}
-    \gll Maša   napisala {} (na kakoj-to stene)         [každyj slogan].\\
-    Masha wrote [\textsubscript{PP} on [some     wall].\textsc{prep}] [every   slogan].\textsc{acc}\\
-    \glt `Masha wrote every slogan on some wall.´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \gll    Maša na-pisa-l-a na kak-oj-to sten-e) [každ-yj slogan]\\
+            Masha \textsc{na-}write\textsc{-pst-f} on some\textsc{-prep.f-ind} wall\textsc{-prep.f} \hspaceThis{[}every\textsc{-acc.m} slogan\textsc{.acc.m}\\
+    \glt    `Masha wrote every slogan on some wall.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \z
 \z
 
@@ -357,50 +374,50 @@ The scope distribution data together with the SFG suggest that the structures of
 A classic test to use when the status of the direct object is in question is due to \citet{Pesetsky1982}, who noted that direct objects of transitive predicates and subjects of unaccusative predicates may appear as objects of distributive \textit{po} in Russian, while subjects of transitive and unergative predicates typically may not. Indeed, this test, applied to our examples shows that the objects of Group 2 predicates do not distribute, suggesting structural differences from objects of Group 1 and 3 verbs, which do.
 
 
-\ea%22
+\ea{%22
     \label{ex:antonyuk:22}
-    \gll {Učitel’}            {podaril}    {po} {tetradke}            {každomu} {studentu}. \hfill{Group 1}\\
-    Teacher.\textsc{nom} presented po notebook.\textsc{dat} [every      student].\textsc{acc}\\
-    \glt `The teacher presented a notebook to every student.´
+    \gll    Učitel’ po-dari-l po tetradk-e každ-omu student-u.\\
+            Teacher	\textsc{po-}present\textsc{-pst.m} \textsc{distr} notebook\textsc{-dat.f} every\textsc{-dat.m} student\textsc{-dat.m}\\}\jambox*{Group 1}
+    \glt    `The teacher presented a notebook to every student.´
     \z
 
-\ea%23
+\ea[*]{{%23
     \label{ex:antonyuk:23}
-    \gll {*Maša}            {ugostila} {po} {rebenku}     {kakim-to} {pečenjem}.\\
-    Masha.\textsc{nom} treated   po child.\textsc{dat} [some       cookie].\textsc{instr}\\
-    \glt `Masha treated each child to a cookie.´ \hfill{Group 2}
+    \gll    Maša ugosti-l-a po rebenk-u (kak-im-to pečen’je-m).\\
+            Masha treat\textsc{-pst-f} \textsc{distr} child\textsc{-dat} \hspaceThis{[}some\textsc{-instr.m-ind} cookie\textsc{-instr.m}\\}\jambox*{Group 2}
+    \glt    `Masha treated each child to a cookie.´}
     \z
 
-\ea%24
+\ea{%24
     \label{ex:antonyuk:24}
-    \gll {Maša}             {napisala} {po} {sloganu}        {na}  {každoj} {stene}.\\
-    Masha.\textsc{nom}   wrote     po slogan.\textsc{dat} [on [every  wall].\textsc{prep}]\\
-    \glt `Masha wrote a slogan on every wall.´ \hfill{Group 3}
+    \gll    Maša na-pisa-l-a po slogan-u na každ-oj sten-e.\\
+            Masha \textsc{na-}write\textsc{-pst-f} \textsc{distr} slogan\textsc{-dat.m} on every\textsc{-prep.f} wall\textsc{-prep.f}\\}\jambox*{Group 3}
+    \glt    `Masha wrote a slogan on every wall.´
     \z
 
 \subsection{The Genitive of Negation test}\label{sec:antonyuk:3.2}
 
 \citet{Pesetsky1982} also argued that Genitive of Negation can be used as a test of unaccusativity in Russian. Applying it to our data we again see a clear dichotomy between Group 1 and Group 2 verbs:
 
-\ea%25
+\ea{%25
     \label{ex:antonyuk:25}
-    \gll {Učitel’}           {ne}      {podaril}     {tetradki}.\\
-    Teacher.\textsc{nom} \textsc{neg} presented notebook.\textsc{gen.f}\\
-    \glt `The teacher didn’t present a notebook.´ \hfill{Group 1}
+    \gll    Učitel’ ne po-dari-l tetradk-i.\\
+            teacher \textsc{neg} \textsc{po-}present\textsc{-pst.m} notebook\textsc{-gen.f}\\}\jambox*{Group 1}
+    \glt    `The teacher didn’t present a notebook.´
     \z
 
-\ea%26
+\ea[*]{{%26
     \label{ex:antonyuk:26}
-    \gll {*Maša}           {ne}        {ugostila} {podrugi}.\\
-    Masha.\textsc{nom}   \textsc{neg}  treated  girlfriend.\textsc{gen.f}\\
-    \glt `Masha didn’t treat a friend.´ \hfill{Group 2}
+    \gll    Maša ne ugosti-l-a podrug-i.\\
+            Masha \textsc{neg} treat\textsc{-pst-f} girlfriend\textsc{-gen.f}\\}\jambox*{Group 2}
+    \glt    `Masha didn’t treat a friend.´}
     \z
 
-\ea%27
+\ea{%27
     \label{ex:antonyuk:27}
-    \gll {Maša}            {ne}     {napisala} {zapiski}.\\
-    Masha.\textsc{nom}  \textsc{neg} wrote      note.\textsc{gen.f}\\
-    \glt `Masha didn’t write a note.´ \hfill{Group 3}
+    \gll    Maša ne na-pisa-l-a zapisk-i.\\
+            Masha \textsc{neg} \textsc{po-}write\textsc{-pst-f} note\textsc{-gen.f}\\}\jambox*{Group 3}
+    \glt    `Masha didn’t write a note.´
     \z
 
 The two tests strongly suggest that the direct objects of Groups 1 and 3 predicates behave like true objects while the supposed “direct objects” of Group 2 predicates apparently do not possess properties expected of true direct objects. This is fully in line with the proposal that the Accusative-marked objects of Group 2 verbs originate low, inside a PP whose null P head assigns lexical Accusative case.
@@ -428,49 +445,48 @@ In transitive sentences such as \REF{ex:antonyuk:28a} resultatives can be formed
 
 \ea%29
     \label{ex:antonyuk:29}
-    \gll {Učitel’} {dodarilsja} {knig}   {(do} {togo,} {čto} {ostalsja}   {ni}   {s}      {čem)}.\\
-    Teacher \textsc{do}.present.\textsc{refl} books to  that    {}     remained not with what\\
-    \glt `The teacher presented books until he was left with nothing.´
+    \gll    Učitel’ do-dari-l-sja knig (do togo, čto o-sta-l-sja ni s čem).\\
+            teacher \textsc{do-}present\textsc{-pst.sg-refl} book\textsc{.gen.pl} \hspaceThis{(}to that\textsc{.gen} that \textsc{o-}remain\textsc{-pst.sg-refl} not with what\textsc{.instr}\\
+    \glt    `The teacher presented books until he was left with nothing.´
     \z
 
 \ea%30
     \label{ex:antonyuk:30}
-    \gll {Maša}   {dotrebovalas’} {povyšenija} {(do} {togo,} {čto} {ee} {prosto} {uvolili} s raboty).\\
-    Masha \textsc{do}.demand.\textsc{refl} promotion.\textsc{gen} (to  that     {}     her simply fired from work)\\
-    \glt `Masha demanded a promotion to the point of getting herself fired.´
+    \gll    Maša do-trebova-l-a-s’ povyšenij-a (do togo, čto ee prosto uvoli-li s rabot-y).\\
+            Masha \textsc{do-}demand\textsc{-pst.sg-fem-refl} promotion\textsc{-gen.sg} \hspaceThis{(}to that\textsc{.gen} that she\textsc{.gen} simply fire\textsc{-pst.pl} from work\textsc{-gen.sg}\\
+    \glt    `Masha demanded a promotion to the point of getting herself fired.´
     \z
 
 \textbf{Group 2}
 
-
 \ea[*]{%31
     \label{ex:antonyuk:31}
-    \gll {Maša}   {dougoščalas’}     {podrug} {(do} {togo,} {čto} {vse} {popali} {v}  {reanimaciju)}.\\
-    Masha \textsc{do}.treat.\textsc{refl} friends (to that   {}       all  got      in {ICU})\\
-    \glt `Masha treated her girlfriends to the point of everyone ending up in ICU.}´
+    \gll    Maša do-ugošč-a-l-a-s’ podrug (do togo, čto vse popa-li v reanimacij-u).\\
+            Masha \textsc{do-}treat\textsc{-ind-pst.sg-f-refl} friend\textsc{.gen.pl} \hspaceThis{[}to that\textsc{.gen} that all get\textsc{-pst.pl} in ICU\textsc{-prep.f}\\
+    \glt    `Masha treated her girlfriends to the point of everyone ending up in ICU.}´
     \z
 
 \ea[*]{%32
     \label{ex:antonyuk:32}
-    \gll {Maša}   {doobižalas’}         {druzej}            {(do}   {togo,} {čto} {ostalas’}   {odna)}.\\
-    Masha \textsc{do}.insult.\textsc{refl} friends.\textsc{gen}   (until that {}  she remained alone)\\
-    \glt `Masha kept insulting friends to the point that she had noone left.´}
+    \gll    Maša do-obiž-a-l-a-s’ druz-ej (do togo, čto o-sta-la-s’ odn-a).\\
+            Masha \textsc{do-}insult\textsc{-ind-st.sg-fem-refl} friend\textsc{-gen.pl} \hspaceThis{[}to that\textsc{.gen} that \textsc{o-}remain\textsc{-pst.sg.f-refl} alone\textsc{-sg.f}\\
+    \glt    `Masha kept insulting friends to the point that she had noone left.´}
     \z
 
 \textbf{Group 3}
 
 \ea%33
     \label{ex:antonyuk:33}
-    \gll {Maša}   {dopisalas’}            {sloganov}       {(do}     {togo,} {čto} {ee} {stil’} {načali} uznavat’).\\
-    Masha \textsc{do}.write-\textsc{refl}  slogans.\textsc{gen}  (until that   her     style became recognizable)\\
-    \glt `Masha wrote so many slogans that her style became recognizable.´
+    \gll    Maša do-pisa-l-a-s’ slogan-ov (do togo, čto ee stil’ nača-li uznava-t’).\\
+            Masha \textsc{do-}write\textsc{-pst.sg-fem-refl} slogan\textsc{-gen.pl} \hspaceThis{[}to that\textsc{.gen} that she\textsc{.poss.f} style begin\textsc{-pst.pl} recognize\textsc{-inf}\\
+    \glt    `Masha wrote so many slogans that her style became recognizable.´
     \z
 
 \ea%34
     \label{ex:antonyuk:34}
-    \gll {Vanja} {dozagružalsja}    {kirpičej}      {(do}    {polusmerti)}.\\
-    Vania \textsc{do}.load.\textsc{refl} bricks.\textsc{gen} (until half.death)\\
-    \glt `Vania loaded bricks until he was half-alive.´
+    \gll    Vanja do-za-gruž-a-l-sja kirpič-ej (do polu-smert’-i).\\
+            Vania \textsc{do-za-}load\textsc{ipfv-pst.sg.m-refl} brick\textsc{-gen.pl} \hspaceThis{[}to half-death\textsc{-gen.f}\\
+    \glt    `Vania loaded bricks until he was half-alive.´
     \z
 
 Note that despite some obvious differences, the resultative construction exemplified above which I will dub “Russian Unaccusative Resultative” (RUR) bears many similarities to a construction \citet{Tatevosov2010} refers to as a “Russian Intensive Resultative” (RIR) in \REF{ex:antonyuk:35b}, which in turn is very similar to the English Reflexive Resultative (ERR) \REF{ex:antonyuk:36b}.
@@ -479,15 +495,15 @@ Note that despite some obvious differences, the resultative construction exempli
 \ea%35
     \label{ex:antonyuk:35}
     \ea \label{ex:antonyuk:35a}
-    {Turisty} {gulja-l-i}.\\
-    `The tourists walked.´
+    \gll    Turist-y gulja-l-i.\\
+            tourist\textsc{.nom-pl} walk\textsc{-pst-pl}\\
+    \glt    `The tourists walked.´
     \ex \label{ex:antonyuk:35b}
-    \gll \textbf{Turisty} \textbf{na-gulja-l-i-s’}.\\
-    Tourists \textsc{na-}walk\textsc{-pst-pl-refl}\\
-    \glt `By walking, the tourists achieved a state of being satisfied.´ The tourists walked.
+    \gll    \textbf{Turist-y} \textbf{na-gulja-l-i-s’}.\\
+            tourist\textsc{.nom-pl} \textsc{na-}walk\textsc{-pst-pl-refl}\\
+    \glt    `By walking, the tourists achieved a state of being satisfied.´
     \z
 \z
-% \todo{stray translation here}
 
 \ea%36
     \label{ex:antonyuk:36}
@@ -502,36 +518,33 @@ The similarities between RUR and Tatevosov’s RIR (as well as the ERR) are list
 
 \ea%37
     \label{ex:antonyuk:37}
-    \ea \label{ex:antonyuk:37a}
-    \gll {Turisty} {na-gulja-l-i-s’}    {\{za} {čas} {/} {*čas\}}.\\
-    Tourists \textsc{na-}walk\textsc{-pst-pl-refl} in hour / *hour\\
-    \glt `By walking, the tourists achieved a state of being satisfied.´ The tourists walked.
-    \hfill{RIR}
+    \ea{ \label{ex:antonyuk:37a}
+    \gll    Turist-y na-gulja-l-i-s’ \{za čas / *čas\}.\\
+            Tourist\textsc{.nom-pl} \textsc{na-}walk\textsc{-pst-pl-refl} \hspaceThis{\{}in hour / *hour\\}\jambox*{RIR}
+    \glt    ‘By walking, the tourists achieved a state of being satisfied (in an hour)’
     \ex \label{ex:antonyuk:37b}
-    `The tourists walked themselves tired \{in an hour / *for a hour\}.´ \hfill{ERR}
+    `The tourists walked themselves tired \{in an hour / *for an hour\}.´ \hfill{ERR}
     \z
 \z
-% \todo{stray translation here}
 
 \ea%38
     \label{ex:antonyuk:38}
-    \ea \label{ex:antonyuk:38a}
-    \gll {Maša}   {dotrebovalas’}          {povyšenija}        {\{za} {god/*god\}}.\\
-    Masha \textsc{do}.demand.\textsc{refl} promotion.\textsc{gen} in year/*year\\
-    \glt `Masha got herself  a promotion in a year (by demanding it).´ \hfill{RUR}
+    \ea{ \label{ex:antonyuk:38a}
+    \gll    Maša do-trebov-a-la-s’ povyšenij-a \{za god / *god\}.\\
+            Masha \textsc{do-}demand\textsc{-ipfv-pst.sg.f-refl} promotion\textsc{-gen.sg} \hspaceThis{\{}in year / *year\\}\jambox*{RUR}
+    \glt    `Masha got herself  a promotion in a year (by demanding it).´
     \ex \label{ex:antonyuk:38b}
-    \gll {Vanja} {doprinosilsja}      {[ploxix} {novostej]} {\{za} {god/*god}\} (do togo, čto {ego} {izbili)}.\\
-    Vania \textsc{do}.bring.\textsc{refl} [bad    news].\textsc{gen}  in year/*year to that {} him beat.up.\textsc{pst.pl.ind}\\
-    \glt `Vania brought so much bad news in a year that he was beat up for it.´
+    \gll    Vanja do-prinos-i-l-sja [plox-ix novost’-ej] \{za god / *god\} (do togo, čto ego iz-bi-l-i).\\
+            Vania \textsc{do-}bring\textsc{-ipfv-pst.sg.m-refl} \hspaceThis{[}bad\textsc{-gen.pl} news\textsc{-gen.pl} \hspaceThis{\{}in year / *year \hspaceThis{(}to that\textsc{.gen} that he\textsc{.acc.m.sg} \textsc{iz-}beat\textsc{-pst-pl}\\
+    \glt    `Vania brought so much bad news in a year that he got beaten up for it.´
     \ex \label{ex:antonyuk:38c}
-    \gll {Vanja} {dozagružalsja}     {kirpičej}  {\{za} {čas} {/} *čas\} (do     polusmerti).\\
-    Vania \textsc{do}.load.\textsc{refl} bricks.\textsc{gen} in hour / *hour (until half.death)\\
-    \glt `In an hour, Vania loaded bricks until he was feeling half-dead.´
+    \gll    Vanja do-za-gruž-a-l-sja kirpič-ej \{za čas / *čas\} (do polu-smert’-i).\\
+            Vania \textsc{do-za-}load\textsc{-ipfv-pst.sg.m-refl} brick\textsc{-gen.pl} \hspaceThis{\{}in hour / *hour \hspaceThis{(}to half-death\textsc{-gen.f}\\
+    \glt    `In an hour, Vania loaded bricks until he was feeling half-dead.´
     \z
 \z
 
 Furthermore, as noted by \citeauthor{Tatevosov2010}, both RIR and ERR, combined with rate adverbials like ‘quickly’ fail to entail the truth of their non-derived counterparts modified by the same adverbial:
-
 
 \ea%39
     \label{ex:antonyuk:39}
@@ -545,12 +558,13 @@ Furthermore, as noted by \citeauthor{Tatevosov2010}, both RIR and ERR, combined 
 \ea%40
     \label{ex:antonyuk:40}
     \ea \label{ex:antonyuk:40a}
-    {Vasja} {bystro} {begal}.\\
-    `Vasja ran quickly.´
+    \gll    Vasja bystro beg-a-l.\\
+            Vasia quickly run\textsc{-ipfv-pst.sg.m}\\
+    \glt    `Vasja ran quickly.´
     \ex \label{ex:antonyuk:40b}
-    \gll {Vasja} {bystro} {nabegalsja}.\\
-    Vasia quickly \textsc{na}.run.\textsc{refl}\\
-    \glt `Vasja ran himself into a state of being satisfied quickly.´ (≠>‘Vasja ran quickly.’)
+    \gll    Vasja bystro na-beg-a-l-sja.\\
+            Vasia quickly \textsc{na-}run\textsc{-ipfv-pst.sg.m-refl}\\
+    \glt    `Vasja ran himself into a state of being satisfied quickly.´ (≠>‘Vasja ran quickly.’)
     \z
 \z
 
@@ -559,12 +573,12 @@ Interestingly, RUR behaves in exactly the same way, with the resultative combine
 \ea%41
     \label{ex:antonyuk:41}
     \ea \label{ex:antonyuk:41a}
-    \gll {Vanja}         {bystro}   {zagružal} {kirpiči}.\\
-    Vania.\textsc{nom} quickly loaded     bricks.\textsc{acc}\\
+    \gll    Vanja bystro za-gruž-a-l kirpič-i\\
+            Vania quickly \textsc{za-}load\textsc{-ipfv-pst.sg.m} brick\textsc{-acc.pl}\\
     \ex \label{ex:antonyuk:41b}
-    \gll {Vania} {bystro}     {dozagružalsja}   {kirpičej}       {do}  {polusmerti} {≠>} {Vanja}  {bystro}   {zagružal}   {kirpiči}. \\
-    Vania quickly \textsc{do}.load.\textsc{refl}   bricks.\textsc{gen}  to  half.death  ≠> Vania quickly loaded   bricks.\textsc{acc}\\
-    \glt `Vania quickly got himself into the state of being half-dead by loading bricks.´
+    \gll    Vania bystro do-za-gruž-a-l-sja kirpič-ej do polu-smert’-i. ≠> 	Vanja bystro za-gruž-a-l kirpič-i.\\
+            Vania quickly \textsc{do-za-}load\textsc{-ipfv-pst.sg.m-refl} brick\textsc{-gen.pl} to half-death\textsc{-gen.f} ≠> Vania	quickly \textsc{za-}load\textsc{-ipfv-pst.sg.m}  brick\textsc{-acc.pl}\\
+    \glt    `Vania quickly got himself into the state of being half-dead by loading bricks.´
     \z
 \z
 
@@ -573,9 +587,9 @@ Interestingly, RUR behaves in exactly the same way, with the resultative combine
 \ea%42
     \label{ex:antonyuk:42}
     \citep{Tatevosov2010}\\
-    \gll {Turisty} {na-gulja-l-i-s’} {do} {iznemoženija}.\\
-    Tourists   \textsc{na}.walk\textsc{-pst-pl-refl} to exhaustion\\
-    \glt `By walking, the tourists achieved a state of being exhausted.´
+    \gll    Turist-y na-gul’-a-l-i-s’ do iznemoženij-a. \\
+            Tourist\textsc{.nom-pl} \textsc{na-}walk\textsc{-ipfv-pst-pl-refl} to exhaustion\textsc{-gen}\\
+    \glt    `By walking, the tourists achieved a state of being exhausted.´
     \z
 
 Unlike the prefix {na}{}- of RIR, which typically contributes a positive connotation, suggesting the subject enters into a pleasant state, the prefix {do{}-} of RUR typically contributes a negative connotation, suggesting the subject entered a negative state as a result of his or her actions, which is nevertheless also a cancellable implicature (cf. \REF{ex:antonyuk:43a} and \REF{ex:antonyuk:43b}):
@@ -584,13 +598,13 @@ Unlike the prefix {na}{}- of RIR, which typically contributes a positive connota
 \ea%43
     \label{ex:antonyuk:43}
     \ea \label{ex:antonyuk:43a}
-    \gll {Maša}   {dotrebovalas’}          {povyšenija}       {\{za} {god/*god\}}.\\
-    Masha \textsc{do}.demand.\textsc{refl} promotion.\textsc{gen} \{in year/*year\}\\
-    \glt `Masha got herself  a promotion in a year (by demanding it).´
+    \gll    Maša do-trebov-a-l-a-s’ povyšenij-a \{za god / *god\}.\\
+            Masha \textsc{do-}demand\textsc{-ipfv-pst.sg-f-refl} promotion\textsc{-gen.sg} \hspaceThis{\{}in year / *year\\
+    \glt    `Masha got herself a promotion in a year (by demanding it).´
     \ex \label{ex:antonyuk:43b}
-    \gll {Maša}   {dotrebovalas’}            {povyšenija}            {do} {togo,} {čto} {ee}   {prosto} uvolili.\\
-    Masha \textsc{do}.demand.\textsc{refl}   promotion.\textsc{gen}     to that {} her simply fired.\textsc{pst.pl.indef}\\
-    \glt `Masha got herself fired by demanding a promotion too much.´
+    \gll    Maša do-trebov-a-l-a-s’ povyšenij-a	do togo, čto ee prosto uvoli-l-i\\
+            Masha \textsc{do-}demand\textsc{-ipfv-pst.sg-fem-refl} promotion\textsc{-gen.sg} to that\textsc{.gen} that she\textsc{.acc} simply fire\textsc{-pst-pl}\\
+    \glt    `Masha got herself fired by demanding a promotion too much.´
     \z
 \z
 
@@ -600,12 +614,12 @@ With respect to the crucial differences between RIR and RUR, it is important to 
 \ea%44
     \label{ex:antonyuk:44}
     \textbf{Group 1:}
-    \ea \label{ex:antonyuk:44a}
-    \gll * {Maša}   {dotrebovalas’}\\
-    {} Masha   \textsc{do}.demand.\textsc{refl}\\
-    \ex \label{ex:antonyuk:44b}
-    \gll * {Vania}   {doprinosilsja}\\
-    {} Vania   \textsc{do}.bring.\textsc{refl}\\
+    \ea[*]{ \label{ex:antonyuk:44a}
+    \gll    Maša do-trebov-a-l-a-s’.\\
+            Masha \textsc{do-}demand\textsc{-ipfv-pst.sg-f-refl}\\}
+    \ex[*]{ \label{ex:antonyuk:44b}
+    \gll    Vania do-prinos-i-l-sja.\\
+            Vania \textsc{do-}bring\textsc{-ipfv-pst.sg.m-refl}\\}
     \z
 \z
 
@@ -613,23 +627,23 @@ With respect to the crucial differences between RIR and RUR, it is important to 
     \label{ex:antonyuk:45}
     \textbf{Group 2:}
     \ea \label{ex:antonyuk:45a}
-    \gll {Maša}   {doobzivalas’}\\
-    Masha \textsc{do}.insult.\textsc{refl}\\
+    \gll    Maša do-obziva-l-a-s’.\\
+            Masha \textsc{do-}swear\textsc{-pst.sg-fem-refl}\\
     \ex \label{ex:antonyuk:45b}
-    \gll {Maša}  {doobižalas’}\\
-    Masha \textsc{do}.offend.\textsc{refl}\\
+    \gll    Maša do-obiž-a-l-a-s’.\\
+            Masha \textsc{do-}insult\textsc{-ipfv-pst.sg-f-refl}\\
     \z
 \z
 
 \ea%46
     \label{ex:antonyuk:46}
     \textbf{Group 3:}
-    \ea \label{ex:antonyuk:46a}
-    \gll {*/??} {Maša} {dopisalas’}\\
-    { } Masha \textsc{do}.write.\textsc{refl}\\
-    \ex \label{ex:antonyuk:46b}
-    \gll {*} {Vania} {dozagružalsja}\\
-    { } Vania \textsc{do}.load.\textsc{refl}\\
+    \ea[*/??]{ \label{ex:antonyuk:46a}
+    \gll    Maša do-pisa-l-a-s’.\\
+            Masha \textsc{do-}write\textsc{-pst.sg.f-refl}\\}
+    \ex[*]{ \label{ex:antonyuk:46b}
+    \gll    Vania do-za-gruž-a-l-sja.\\
+            Vania \textsc{do-za-}load\textsc{-ipfv-pst.sg.m-refl}\\}
     \z
 \z
 
@@ -695,12 +709,12 @@ Testing this prediction with a Group 1 predicate we get the following results:
 \ea%48
     \label{ex:antonyuk:48}
     \ea \label{ex:antonyuk:48a}
-    \gll {Maša}   {special’no}    {potrebovala} {s}       {Ivana}      {dengi}.\\
-    Masha purposefully demanded     from Ivan.\textsc{gen} money.\textsc{acc}\\
-    \glt `Masha demanded money~from Ivan.´
-    \ex \label{ex:antonyuk:48b}
-    \gll {*Maša}   {potrebovala}  {s}       {Ivana}       {special’no} {dengi}.\\
-    Masha purposefully from Ivan.\textsc{gen} demanded  money.\textsc{acc}\\
+    \gll    Maša special’no po-trebova-l-a s Ivan-a den’g-i.\\
+            Masha purposefully \textsc{po-}demand\textsc{-pst-f} from Ivan\textsc{-gen} money\textsc{.acc-pl}\\
+    \glt    `Masha demanded money from Ivan.´
+    \ex[*]{ \label{ex:antonyuk:48b}
+    \gll    Maša po-trebova-l-a s Ivan-a special’no den’g-i.\\
+            Masha \textsc{po-}demand\textsc{-pst-f} from Ivan\textsc{-gen} purposefully money\textsc{.acc-pl}\\}
     \z
 \z
 
@@ -721,9 +735,9 @@ Regarding the structural possibilities themselves, as was already noted, they ap
 \ea%50
     \label{ex:antonyuk:50}
     \ea \label{ex:antonyuk:50a}{}
-    [PP P DP\textsc{acc~}] raises over OBL and adjoin to VP
+    [PP P DP\textsubscript{ACC}~] raises over OBL and adjoin to VP
     \ex \label{ex:antonyuk:50b}{}
-    [PP P DP\textsc{acc~]} raises over OBL to Spec,ApplP.
+    [PP P DP\textsubscript{ACC}~] raises over OBL to Spec,ApplP.
     \z
 \z
 
@@ -732,13 +746,13 @@ In terms of the Agent-oriented adverbs, the two Groups behave alike, which means
 \ea%51
     \label{ex:antonyuk:51}
     \ea \label{ex:antonyuk:51a}
-    \gll {Maša}   {special’no}    {obozvala} {[vrednogo}  {malčika]} {(nexorošim} {slovom)}.\\
-    Masha purposefully called      [capricious boy].\textsc{acc} [bad word].\textsc{instr}\\
-    \glt `Masha purposefully called a capricious boy with a bad word.´
-    \ex \label{ex:antonyuk:51b}
-    \gll {*Maša}  {obozvala} {[vrednogo} {malčika]}  {special’no}      {(nexorošim} {slovom)}.\\
-    Masha called     [capricious boy].\textsc{acc} purposefully  [bad word].\textsc{instr}\\
-    \glt `Masha purposefully called a capricious boy with a bad word.´
+    \gll    Maša special’no obozva-l-a [vredn-ogo malčik-a] (nexoroš-im slov-om).\\
+            Masha purposefully call\textsc{-pst-f} \hspaceThis{[}capricious\textsc{-acc.m} boy\textsc{-acc.m} \hspaceThis{(}bad\textsc{-instr} word\textsc{-instr}\\
+    \glt    `Masha purposefully called a capricious boy with a bad word.´
+    \ex[*]{ \label{ex:antonyuk:51b}
+    \gll    Maša obozva-l-a [vredn-ogo malčik-a] special’no (nexoroš-im slov-om).\\
+            Masha call\textsc{-pst-f} \hspaceThis{[}capricious\textsc{-acc.m} boy\textsc{-acc.m} purposefully \hspaceThis{(}bad\textsc{-instr} word\textsc{-instr}\\
+    \glt    `Masha purposefully called a capricious boy with a bad word.´}
     \z
 \z
 
@@ -747,13 +761,15 @@ Given these considerations, the structure of a sentence such as \REF{ex:antonyuk
 \ea%52
     \label{ex:antonyuk:52}
     \ea \label{ex:antonyuk:52a}
-    \gll {Maša}   {ugostila} {(kakim-to} {pečenjem)}      {každogo} {rebenka}.\\
-    Masha treated   [some       cookie].\textsc{instr} [every     child].\textsc{acc}\\
-    \glt `Masha treated every child to some cookie.´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \gll    Maša ugosti-l-a (kak-im-to pečen’je-m) každ-ogo rebenk-a.\\
+            Masha treat\textsc{-pst-f} \hspaceThis{[}some\textsc{-instr-ind} cookie\textsc{-instr} \hspaceThis{(}every\textsc{-acc.m} child\textsc{-acc.m}\\
+    \glt    `Masha treated every child to some cookie.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \ex \label{ex:antonyuk:52b}
-    \gll {Maša}   {ugostila} {[kakogo-to} {rebenka]}  {(každym} {pečenjem)}.\\
-    Masha treated   [some         child].\textsc{acc} [every    cookie].\textsc{instr}\\
-    \glt `Masha treated some child to every cookie.´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
+    \gll    Maša ugosti-l-a [kako-go-to rebenk-a] (každ-ym pečen’je-m).\\
+            Masha treat\textsc{-pst-f} \hspaceThis{[}some\textsc{-acc.m-ind} child\textsc{-acc.m} \hspaceThis{(}every\textsc{-instr.n} cookie\textsc{-instr.n}\\
+    \glt    `Masha treated some child to every cookie.´
+            \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
 \z
 
@@ -821,13 +837,15 @@ Incidentally, there is further evidence for the proposal that Group 2 predicates
 \ea%53
     \label{ex:antonyuk:53}
     \ea \label{ex:antonyuk:53a}
-    \gll {Maša}  {pobesedovala} {} {na} {kakuju-to} {temu)}         {}    [s       {každym} {drugom]}.\\
-    Masha talked     [\textsubscript{PP}  on [some      topic].\textsc{acc}] [\textsubscript{PP} with [every friend].\textsc{instr}]\\
-    \glt `Masha had a conversation on some topic with every friend.´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \gll    Maša po-besedov-a-l-a (na kak-uju-to tem-u) [s každ-ym drug-om].\\
+            Masha \textsc{po-}talk\textsc{-ipfv-pst-f} \hspaceThis{(}on some\textsc{-acc.f-ind} topic\textsc{-acc.f} \hspaceThis{[}with every\textsc{-instr.m} friend\textsc{-instr.m}\\
+    \glt    `Masha had a conversation on some topic with every friend.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \ex \label{ex:antonyuk:53b}
-    \gll {Maša.}  {pobesedovala} {} {[s}       {kakim-to} {drugom]} {}           {(na} {každuju-to} {temu)}.\\
-    Masha talked         [\textsubscript{PP} with [some      friend].\textsc{instr}] [\textsubscript{PP} on [every topic].\textsc{acc}]\\
-    \glt `Masha had a conversation with some friend on every topic \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
+    \gll    Maša po-besedov-a-l-a [s kak-im-to drug-om] (na každ-uju tem-u).\\
+            Masha \textsc{po-}talk\textsc{-ipfv-pst-f} \hspaceThis{[}with some\textsc{-instr.m-ind} friend\textsc{-instr.m} \hspaceThis{(}on every\textsc{-acc.f} topic\textsc{-acc.f}\\
+    \glt    `Masha had a conversation with some friend on every topic. 
+            \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
 \z
 
@@ -836,13 +854,15 @@ The example in \REF{ex:antonyuk:53} contains a ditransitive predicate with two o
 \ea%54
     \label{ex:antonyuk:54}
     \ea \label{ex:antonyuk:54a}
-    \gll {Maša}   {otrugala}  {}  {(za}  {kakuju-to} {ošibku)}          {[každogo} {druga]}.\\
-    Masha scolded [\textsubscript{PP} for [some       mistake].\textsc{acc}] [every    friend].\textsc{acc~}\\
-    \glt `Masha scolded every friend for some mistake.´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$\\
+    \gll    Maša ot-ruga-l-a (za ka-kuju-to ošibk-u) [každ-ogo drug-a].\\
+            Masha \textsc{ot-}scold\textsc{-pst-f} \hspaceThis{(}for some\textsc{-acc.f-ind} mistake\textsc{-acc.f} \hspaceThis{[}every\textsc{-acc.m} friend\textsc{-acc.m}\\
+    \glt    `Masha scolded every friend for some mistake.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$\\
     \ex \label{ex:antonyuk:54b}
-    \gll {Maša}   {otrugala} {[kakogo-to} {druga]}    {}        {(za}  {každuju}  {ošibku)}.\\
-    Masha scolded  [some         friend].\textsc{acc} [\textsubscript{PP} for [every     mistake].\textsc{acc}]\\
-    \glt `Masha scolded some friend for every mistake.´ \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
+    \gll    Maša ot-ruga-l-a [kak-ogo-to drug-a] (za každ-uju ošibk-u).\\
+            Masha \textsc{ot-}scold\textsc{-pst-f} \hspaceThis{[}every\textsc{-acc.m-ind} friend\textsc{-acc.m} \hspaceThis{(}for every\textsc{-acc.f} mistake\textsc{-acc.f}\\
+    \glt    `Masha scolded some friend for every mistake.´ 
+            \hfill ${\exists}{\forall}$/*${\forall}{\exists}$
     \z
 \z
 
@@ -851,22 +871,21 @@ What is interesting about this example, and of utmost importance for the structu
 
 \ea%55
     \label{ex:antonyuk:55}
-    \ea \label{ex:antonyuk:55a}
-    \gll {*} {Maša}  {otrugala} {po} {drugu} {} {za} {každuju}             {ošibku}.\\
-    { } Masha scolded  po friend.\textsc{dat} [\textsubscript{PP} for [every mistake].\textsc{acc}]\\
-    \glt ~\hfill{Distributive po test}
-    \ex \label{ex:antonyuk:55b}
-    \gll {??Maša}    {ne}    {otrugala} {podrugi}.\\
-    Masha \textsc{neg} scolded   girlfriend-\textsc{gen}\\
-    \glt ~\hfill{Genitive of Negation}
-    \ex \label{ex:antonyuk:55c}
-    \gll {*Maša}    {dorugalas’}         {druga} {do} {togo,} {čto}  {on} {ušel}.\\
-    Masha  \textsc{do}.scold.\textsc{refl} friend to  that  that  he left\\
-    \glt `Masha scolded her friend into leaving.´ \hfill{RUR}
-    \ex \label{ex:antonyuk:55d}
-    \gll {Maša}    {dorugalas’}\\
-    Masha  \textsc{do}.scold.\textsc{refl}\\
-    \glt `Masha scolded her way to some negative result.´ \hfill{RIR} \citep{Tatevosov2010}
+    \citep{Tatevosov2010}
+    \ea[*]{{ \label{ex:antonyuk:55a}
+    \gll    Maša ot-ruga-l-a po drug-u za každ-uju ošibk-u.\\
+            Masha \textsc{ot-}scold\textsc{-pst-f} \textsc{dist} friend\textsc{-dat} for every\textsc{-acc.f} mistake\textsc{-acc.f}\\}\jambox*{Distributive po test}}
+    \ex[??]{{ \label{ex:antonyuk:55b}
+    \gll    Maša ne ot-ruga-l-a podrug-i.\\
+            Masha \textsc{neg} \textsc{ot-}scold\textsc{-pst-f} girlfriend\textsc{-gen.f}\\}\jambox*{Genitive of Negation}}
+    \ex[*]{{ \label{ex:antonyuk:55c}
+    \gll    Maša do-ruga-l-a-s’ drug-a do togo, čto on uše-l.\\
+            Masha \textsc{do-}scold\textsc{-pst-f-refl} friend\textsc{-acc} to that\textsc{.gen} that he leave\textsc{-pst.m}\\}\jambox*{RUR}
+    \glt    `Masha scolded her friend into leaving.´}
+    \ex{ \label{ex:antonyuk:55d}
+    \gll    Maša do-ruga-l-a-s’.\\
+            Masha \textsc{do-}scold\textsc{-pst-f-refl}\\}\jambox*{RIR}
+    \glt    `Masha scolded her way to some negative result.´
     \z
 \z
 
@@ -915,13 +934,15 @@ The fact that the thematic roles involved in the two alternations are different 
 \ea%59
     \label{ex:antonyuk:59}
     \ea \label{ex:antonyuk:59a}
-    \gll {Maša}  {napisala} {[kakoj-to} {slogan]}   {}    {(na} {každoj} {stene)}.\\
-    Masha wrote    [some     slogan].\textsc{acc} [\textsubscript{PP} on [every wall].\textsc{prep} ]\\
-    \glt `Masha wrote some slogan on every wall.´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \gll    Maša na-pisa-l-a [kak-oj-to slogan] (na každ-oj sten-e).\\
+            Masha \textsc{na-}write\textsc{-pst-f} \hspaceThis{[}some\textsc{-acc.m-ind} slogan\textsc{.acc.m} \hspaceThis{(}on every\textsc{-acc.f} wall\textsc{-acc.f}\\
+    \glt    `Masha wrote some slogan on every wall.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \ex \label{ex:antonyuk:59b}
-    \gll {Maša} {napisala} {} {(na}  {kakoj-to} {stene)}        {[každyj} {slogan]}.\\
-    Masha wrote [\textsubscript{PP} on [some     wall].\textsc{prep}] [every slogan].\textsc{acc}\\
-    \glt `Masha wrote every slogan on some wall.´ \hfill ${\exists}{\forall}$/${\forall}{\exists}$
+    \gll    Maša na-pisa-l-a (na kak-oj-to sten-e) [každ-yj slogan].\\
+            Masha \textsc{na-}write\textsc{-pst-f} \hspaceThis{(}on some\textsc{-acc.f-ind} wall\textsc{-acc.f} \hspaceThis{[}every\textsc{-acc.m} slogan\textsc{.acc.m}\\
+    \glt    `Masha wrote every slogan on some wall.´ 
+            \hfill ${\exists}{\forall}$/${\forall}{\exists}$
     \z
 \z
 
@@ -953,10 +974,9 @@ Consider the derivation of \REF{ex:antonyuk:59b} in \figref{fig:antonyuk:4} belo
 }
 \end{figure}
 
-
 As evident from structural relations in \figref{fig:antonyuk:4}, what is crucially important in relation to my analysis is that the LPR configuration does not lead to a situation where the raised PP/DP is able to c-command the other phrase, by virtue of the interfering v/V' node, thus accounting for the lack of scope freezing in these examples.
 
-  While adopting Larson's LPR analysis provides a straightforward way to account for the lack of scope freezing with Group 3 verbs, in the absence of an independent motivation for the application of such LP Raising with verbs belonging to this group, its adoption here to account for the apparent violation of the SFG with these verbs might seem too stipulative to be persuasive. However, I will argue here that Group 3 predicates are different from those in Group 2 and even from the very similar Group 1 verbs in important respects which explains their syntactic behavior. A careful examination of Group 3 verbs listed in \REF{ex:antonyuk:18} reveals that all such predicates (to the exclusion of a few verbs to be discussed shortly) share the property of taking a direct object marked with structural Accusative case and a Preposition Phrase. I argue that it is precisely the nature of the PP complement that plays the crucial role here and provides an explanation for the observed differences between Group 1 and Group 3. The limited class of PPs observed with Group 3 predicates can be characterized as sharing the property of signifying either direction (of movement) or location (\textit{v/in, na/on, ot/from, iz/from/ k/to} or \textit{towards}). Thus, Group 3 is crucially similar to Group 1 verbs in subcategorizing for a direct object DP marked with structural Accusative case, but unlike Group 1 verbs, Group 3 verbs take a locational/directional PP complement (whereas Group 1 verbs take a Dative case-maked DP complement or a PP which takes a relational preposition (\textit{s/from, s/with, dlja/for}). To put this into terminology used in research on prepositional phrases, Group 3 PPs are those where the P introduces the Ground argument (see \citealt{Svenonius2003,Svenonius2007} and related research). Group 1 prepositional heads, being strictly relational, do not. Finally, another similarity between Groups 1 and 3 which at first glance might suggest that the above differentiation is unjustified, is due to the fact that some verbs classified as Group 3 are verbs like \textit{otdat'} (to give away, to give back), which take an ACC-marked THEME and a DAT-marked GOAL argument, just like the numerous ACC/DAT verbs that belong to Group 1. \textit{Otdat'}, in fact, is related to the verb \textit{dat'} (give), which is a canonical Group 1 ditransitive that exhibits scope freezing on the DAT>ACC order of internal arguments (also discussed in \citealt{BonehNash2017}). As discussed in \citet{Antonyuk2015}, such Group 3 verbs present particular difficulties during classification attempts due to showing strong surface scope bias on DAT>ACC order, which often leads to their initial misclassification as Group 1 verbs. However, additional tests, such as the use of Constrastive Focus (\citealt{AntonyukLarson2016}) help establish that they are in fact Group 3 verbs. Here I argue that the (lexical) prefixes verbs such as \textit{otdat'} occur with is the very reason they behave as Group 3 verbs, unlike their unprefixed Group 1 counterparts. The prefixes taken by Group 3 verbs are crucially distinct from whatever prefixes (if any) may be found with Group 1 or Group 2 verbs in signifying direction/location, just like the PPs that occur as complements of Group 3 verbs do. The unified semantics of the class of the prepositions and prefixes that appear with Group 3 verbs suggests a natural way of explaining their behavior. If prepositions and prefixes are both elements of category P (\citealt{Matushansky2002, Biskup2017}; and esp. \citealt{Svenonius2004Slavic}, \citeyear{Svenonius2008}), then one might argue that the empirical observation that locational/directional prepositions behave in some sense as being \textit{closer} to the verb than other prepositions (including preposition \textit{to} in English which occurs in PP Dative constructions)\footnote{As pointed out to me by Larson (p.c.).} may be explained by the need of such prepositions (and the PPs they project) to occur at LF as syntactic units with the verb. There are two ways in which this can be achieved: either the PP raises and attaches to the verb at LF (which is arguably what happens with Group 3 verbs on their basic order), or the verb raises to its position inside the \liv P together with the PP, which is exactly what happens in cases of Light Predicate Raising. If the latter option is employed, scope freezing does not take place and the lower QP is then free to raise above the structurally higher one at LF, which then accounts for the ambiguous nature of the derived word order with Group 3 predicates, but not with Group 1 and 2. Thus, while the account sketched here needs to be fleshed out, it suggests an intuitive explanation for why Group 3 verbs pattern differently from Groups 1 and 2 as far as QP scope is concerned.
+While adopting Larson's LPR analysis provides a straightforward way to account for the lack of scope freezing with Group 3 verbs, in the absence of an independent motivation for the application of such LP Raising with verbs belonging to this group, its adoption here to account for the apparent violation of the SFG with these verbs might seem too stipulative to be persuasive. However, I will argue here that Group 3 predicates are different from those in Group 2 and even from the very similar Group 1 verbs in important respects which explains their syntactic behavior. A careful examination of Group 3 verbs listed in \REF{ex:antonyuk:18} reveals that all such predicates (to the exclusion of a few verbs to be discussed shortly) share the property of taking a direct object marked with structural Accusative case and a Preposition Phrase. I argue that it is precisely the nature of the PP complement that plays the crucial role here and provides an explanation for the observed differences between Group 1 and Group 3. The limited class of PPs observed with Group 3 predicates can be characterized as sharing the property of signifying either direction (of movement) or location (\textit{v/in, na/on, ot/from, iz/from/ k/to} or \textit{towards}). Thus, Group 3 is crucially similar to Group 1 verbs in subcategorizing for a direct object DP marked with structural Accusative case, but unlike Group 1 verbs, Group 3 verbs take a locational/directional PP complement (whereas Group 1 verbs take a Dative case-maked DP complement or a PP which takes a relational preposition (\textit{s/from, s/with, dlja/for}). To put this into terminology used in research on prepositional phrases, Group 3 PPs are those where the P introduces the Ground argument (see \citealt{Svenonius2003,Svenonius2007} and related research). Group 1 prepositional heads, being strictly relational, do not. Finally, another similarity between Groups 1 and 3 which at first glance might suggest that the above differentiation is unjustified, is due to the fact that some verbs classified as Group 3 are verbs like \textit{otdat'} (to give away, to give back), which take an ACC-marked THEME and a DAT-marked GOAL argument, just like the numerous ACC/DAT verbs that belong to Group 1. \textit{Otdat'}, in fact, is related to the verb \textit{dat'} (give), which is a canonical Group 1 ditransitive that exhibits scope freezing on the DAT>ACC order of internal arguments (also discussed in \citealt{BonehNash2017}). As discussed in \citet{Antonyuk2015}, such Group 3 verbs present particular difficulties during classification attempts due to showing strong surface scope bias on DAT>ACC order, which often leads to their initial misclassification as Group 1 verbs. However, additional tests, such as the use of Constrastive Focus (\citealt{AntonyukLarson2016}) help establish that they are in fact Group 3 verbs. Here I argue that the (lexical) prefixes verbs such as \textit{otdat'} occur with is the very reason they behave as Group 3 verbs, unlike their unprefixed Group 1 counterparts. The prefixes taken by Group 3 verbs are crucially distinct from whatever prefixes (if any) may be found with Group 1 or Group 2 verbs in signifying direction/location, just like the PPs that occur as complements of Group 3 verbs do. The unified semantics of the class of the prepositions and prefixes that appear with Group 3 verbs suggests a natural way of explaining their behavior. If prepositions and prefixes are both elements of category P (\citealt{Matushansky2002, Biskup2017}; and esp. \citealt{Svenonius2004Slavic}, \citeyear{Svenonius2008}), then one might argue that the empirical observation that locational/directional prepositions behave in some sense as being \textit{closer} to the verb than other prepositions (including preposition \textit{to} in English which occurs in PP Dative constructions)\footnote{As pointed out to me by Larson (p.c.).} may be explained by the need of such prepositions (and the PPs they project) to occur at LF as syntactic units with the verb. There are two ways in which this can be achieved: either the PP raises and attaches to the verb at LF (which is arguably what happens with Group 3 verbs on their basic order), or the verb raises to its position inside the \liv P together with the PP, which is exactly what happens in cases of Light Predicate Raising. If the latter option is employed, scope freezing does not take place and the lower QP is then free to raise above the structurally higher one at LF, which then accounts for the ambiguous nature of the derived word order with Group 3 predicates, but not with Group 1 and 2. Thus, while the account sketched here needs to be fleshed out, it suggests an intuitive explanation for why Group 3 verbs pattern differently from Groups 1 and 2 as far as QP scope is concerned.
 
 \section{Conclusions}\label{sec:antonyuk:5}
 
@@ -965,4 +985,6 @@ I have argued that the argument structure of ditransitives can be studied by con
 \section*{Acknowledgements}
 I gratefully acknowledge helpful feedback and suggestions for improvement I received from John F. Bailyn, Richard K. Larson, Viviane Deprez, Gillian Ramchand, Alec Marantz and Peter Hallman that led to significant improvement of this paper, as well as helpful criticisms and questions of two anonymous reviewers. This research was supported by~Austrian Science Fund (FWF), Grant~number: P27384-G23 awarded to Dr. Peter Hallman.
 
-\sloppy\printbibliography[heading=subbibliography,notkeyword=this]\end{document}
+\sloppy
+\printbibliography[heading=subbibliography,notkeyword=this]
+\end{document}
