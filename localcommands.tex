@@ -1,31 +1,31 @@
 \newcommand{\appref}[1]{Appendix \ref{#1}}
-\newcommand{\fnref}[1]{Footnote \ref{#1}} 
+\newcommand{\fnref}[1]{Footnote \ref{#1}}
 
-\newenvironment{langscibars}{\begin{axis}[ybar,xtick=data, xticklabels from table={\mydata}{pos}, 
+\newenvironment{langscibars}{\begin{axis}[ybar,xtick=data, xticklabels from table={\mydata}{pos},
         width  = \textwidth,
 	height = .3\textheight,
-    	nodes near coords, 
+    	nodes near coords,
 	xtick=data,
-	x tick label style={},  
+	x tick label style={},
 	ymin=0,
 	cycle list name=langscicolors
         ]}{\end{axis}}
-        
+
 \newcommand{\langscibar}[1]{\addplot+ table [x=i, y=#1] {\mydata};\addlegendentry{#1};}
 
 \newcommand{\langscidata}[1]{\pgfplotstableread{#1}\mydata;}
 
 \makeatletter
 \let\thetitle\@title
-\let\theauthor\@author 
+\let\theauthor\@author
 \makeatother
 
-\newcommand{\togglepaper}[1][0]{ 
+\newcommand{\togglepaper}[1][0]{
 %   \bibliography{../localbibliography}
   \papernote{\scriptsize\normalfont
     \theauthor.
-    \thetitle. 
-    To appear in: 
+    \thetitle.
+    To appear in:
     Anna Pineda \&  Jaume Mateu
     Datives structures in Romance and beyond
     Berlin: Language Science Press. [preliminary page numbering]
@@ -34,12 +34,12 @@
   \setcounter{chapter}{#1}
   \addtocounter{chapter}{-1}
   \WarningsOff[microtype]
-\WarningFilter{microtype}{Unknown slot} 
+\WarningFilter{microtype}{Unknown slot}
 }
 \newcommand{\orcid}[1]{}
 
 
-%dummy commands 
+%dummy commands
 \newenvironment{styleHeading}{}{}
 \newenvironment{styleStandard}{}{}
 \newenvironment{styleAbstract}{}{}
@@ -61,7 +61,7 @@
 \newenvironment{stylelsSectionii}{}{}
 \newenvironment{stylelsSectioni}{}{}
 \newenvironment{styleNormalWeb}{}{}
-\newenvironment{stylepi}{}{} 
+\newenvironment{stylepi}{}{}
 \newenvironment{styleTextbody}{}{}
 
 \newcommand{\textstyleStrong}[1]{\textbf{#1}}
@@ -95,8 +95,14 @@
   fit=band,
 },
 },
+  wechsler nodes/.style={
+  for tree={
+  inner sep=1pt, s sep=-12pt,
+  fit=band,
+},
+},
 % begin fairly nice empty nodes
-fairly nice empty nodes/.style={ 
+fairly nice empty nodes/.style={
             delay={where content={}{shape=coordinate,for siblings={anchor=north}}{}}
 },
 % end fairly nice empty nodes
@@ -112,7 +118,7 @@ pretty nice empty nodes/.style={
     },
   },
 % end pretty nice empty nodes
-default preamble={ 
+default preamble={
 nice nodes,
 %nice empty nodes, % uncomment the one you want (and delete the ones you don't)
 %fairly nice empty nodes,
@@ -128,3 +134,20 @@ nice nodes,
 ;}
 
 \newcommand{\liv}{\textit{v}}%little v
+
+
+\newcommand*\cgdepthstrut{{\vrule height 0pt depth \arrowht width 0pt}}
+\tikzset{
+    ncbar angle/.initial=90,
+    ncbar/.style={
+        to path=(\tikztostart)
+        -- ($(\tikztostart)!#1!\pgfkeysvalueof{/tikz/ncbar angle}:(\tikztotarget)$)
+        -- ($(\tikztotarget)!($(\tikztostart)!#1!\pgfkeysvalueof{/tikz/ncbar angle}:(\tikztotarget)$)!\pgfkeysvalueof{/tikz/ncbar angle}:(\tikztostart)$)
+        -- (\tikztotarget)
+    },
+    ncbar/.default=2mm,
+}
+\newcommand{\arrow}[2]{\begin{tikzpicture}[remember picture,overlay]
+\draw[->,shorten >=3pt,shorten <=3pt] (#1.base) to [ncbar=12pt] (#2.base);
+\end{tikzpicture}
+}

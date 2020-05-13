@@ -1,15 +1,14 @@
 \documentclass[output=paper,colorlinks,citecolor=brown,modfonts,nonflat]{langsci/langscibook}
-\author{Paola Cépeda\affiliation{Stony Brook University}\lastand 
-Sonia Cyrino\affiliation{University of Campinas}} 
+\ChapterDOI{10.5281/zenodo.3776539}
+\author{Paola Cépeda\affiliation{Stony Brook University}\lastand Sonia Cyrino\affiliation{University of Campinas}}
 \title{Putting objects in order: Asymmetrical relations in Spanish and Portuguese ditransitives}
 
-\abstract{
-Spanish, European Portuguese, and Brazilian Portuguese allow two possible linear orders for the direct (DO) and indirect object (IO) in ditransitives: DO>IO and IO>DO. The goal of this paper is twofold. First, we show that the arguments supporting a Double Object Construction (DOC) in these languages are inconclusive on both semantic and structural grounds. Accordingly, we claim that there is no DOC in these three languages. Second, we provide evidence that DO>IO and IO>DO are derivationally related. We show that DO>IO is the base order and that IO>DO is the result of an information structure operation, the latter order being possible only when IO conveys given information in the discourse and occupies the specifier of a low-periphery TopP. We offer a unified analysis that contributes to a comparative understanding of ditransitives in Romance.
+\abstract{Spanish, European Portuguese, and Brazilian Portuguese allow two possible linear orders for the direct object (DO) and indirect object (IO) in ditransitives: DO>IO and IO>DO. The goal of this paper is twofold. First, we show that the arguments supporting a Double Object Construction (DOC) in these languages are inconclusive on both semantic and structural grounds. Accordingly, we claim that there is no DOC in these three languages. Second, we provide evidence that DO>IO and IO>DO are derivationally related. We show that DO>IO is the base order and that IO>DO is the result of an information structure operation, the latter order being possible only when IO conveys given information in the discourse and occupies the specifier of a low-periphery TopP. We offer a unified analysis that contributes to a comparative understanding of ditransitives in Romance.
 }
 
 \IfFileExists{../localcommands.tex}{
   \input{../localpackages}
-  \input{../localcommands} 
+  \input{../localcommands}
   \input{../localhyphenation}
   \bibliography{../localbibliography}
   \togglepaper[1]%%chapternumber
@@ -22,7 +21,7 @@ Spanish, European Portuguese, and Brazilian Portuguese allow two possible linear
 
 \section{Introduction}\label{sec:cepeda:1}
 
-Spanish, European Portuguese (EP), and Brazilian Portuguese (BP) allow two possible linear orders for the direct (DO) and indirect object (IO) in ditransitive constructions: DO may precede or follow IO; that is, both DO>IO and IO>DO are possible. Examples are offered in (\ref{ex:cepeda:1}) for Spanish and (\ref{ex:cepeda:2}) for EP and BP (with the preposition \textit{a} and \textit{para}, respectively):
+Spanish, European Portuguese (EP), and Brazilian Portuguese (BP) allow two possible linear orders for the direct object (DO) and indirect object (IO) in ditransitive constructions: DO may precede or follow IO; that is, both DO>IO and IO>DO are possible. Examples are offered in (\ref{ex:cepeda:1}) for Spanish and (\ref{ex:cepeda:2}) for EP and BP (with the preposition \textit{a} and \textit{para}, respectively):
 
 \ea%1
     \label{ex:cepeda:1}
@@ -52,7 +51,7 @@ Spanish, European Portuguese (EP), and Brazilian Portuguese (BP) allow two possi
 	\z
 \z
 
-For these three languages, there is a debate in the literature on the availability of a Double Object Construction (DOC), similar to the configuration found in English. Larson (\citeyear{Larson1988, Larson2014}) argues that English ditransitive verbs such as \textit{give} allow both a Prepositional Phrase dative configuration (PP-dative), as in (\ref{ex:cepeda:3a}), and a DOC configuration, as in (\ref{ex:cepeda:3b}), and that these two configurations are derivationally related.\footnote{Other derivational accounts for the relationship between (\ref{ex:cepeda:3a}) and (\ref{ex:cepeda:3b}) in English have been presented in the literature. For an interesting review of arguments, see \citet{RappaportHovavLevin2008} and \citet{Hallman2015}. It is worth noting that the generalizations we arrive at in this paper hold independently of these theoretical positions, since we argue that there is no construction such as (\ref{ex:cepeda:3b}) in Spanish or Portuguese.} 
+For these three languages, there is a debate in the literature on the availability of a Double Object Construction (DOC), similar to the configuration found in English. \citet{Larson1988,Larson2014} argues that English ditransitive verbs such as \textit{give} allow both a Prepositional Phrase dative configuration (PP-dative), as in (\ref{ex:cepeda:3a}), and a DOC configuration, as in (\ref{ex:cepeda:3b}), and that these two configurations are derivationally related.\footnote{Other derivational accounts for the relationship between (\ref{ex:cepeda:3a}) and (\ref{ex:cepeda:3b}) in English have been presented in the literature. For an interesting review of arguments, see \citet{RappaportHovavLevin2008} and \citet{Hallman2015}. It is worth noting that the generalizations we arrive at in this paper hold independently of these theoretical positions, since we argue that there is no construction such as (\ref{ex:cepeda:3b}) in Spanish or Portuguese.}
 
 \ea%3
     \label{ex:cepeda:3}
@@ -65,7 +64,7 @@ For these three languages, there is a debate in the literature on the availabili
 	\z
 \z
 
-\citet{Demonte1995, Bleam2003}; Cuervo (\citeyear{Cuervo2003}, \citeyear{Cuervo2010Proceedings}), a.o., have claimed that, when the IO-doubling clitic appears in Spanish sentences such as those in (\ref{ex:cepeda:1}), the sentences resemble the English DOC. In contrast, the clitic-less ditransitive corresponds, in their view, to a PP-dative. It has also been claimed that the basic order in this kind of constructions is IO>DO. For Portuguese sentences such as those in (\ref{ex:cepeda:2}), \citet{TorresMoraisSalles2010} have claimed that the order IO>DO is equivalent to the English DOC.
+\citet{Demonte1995}, \citet{Bleam2003}, \citet{Cuervo2003}, \citet{Cuervo2010Proceedings}, a.o., have claimed that, when the IO-doubling clitic appears in Spanish sentences such as those in (\ref{ex:cepeda:1}), the sentences resemble the English DOC. In contrast, the clitic-less ditransitive corresponds, in their view, to a PP-dative. It has also been claimed that the basic order in this kind of constructions is IO>DO. For Portuguese sentences such as those in (\ref{ex:cepeda:2}), \citet{TorresMoraisSalles2010} have claimed that the order IO>DO is equivalent to the English DOC.
 
 In this paper, we investigate whether \textit{give}-type verbs in Spanish and Portuguese exhibit the kind of derivational relation they show in English. After analyzing the arguments that have been used to support the existence of DOC in these languages, we claim that there is no DOC in either Spanish, EP, or BP, and that the different linear orders for DO and IO are derivationally related. Our unified analysis aims to contribute to a better understanding of ditransitives in Romance, a topic that has been scarcely analyzed comparatively (except for \citealt{Pineda2016}).
 
@@ -75,11 +74,11 @@ The paper is structured as follows. In \sectref{sec:cepeda:2}, we analyze the ar
 
 In this section, we examine the syntactic and semantic arguments supporting a DOC approach for Spanish, BP and EP (as defended by \citealt{Demonte1995, Cuervo2003, TorresMoraisSalles2010}, a.o.). We claim that these arguments are not conclusive, as DO and IO have asymmetrical properties regardless of their linear order.
 
-\subsection{DO>IO and IO>DO are derivationally related.}\label{sec:cepeda:2.1}
+\subsection{DO>IO and IO>DO are derivationally related}\label{sec:cepeda:2.1}
 
 For English, \citet{Harley1995WCCFL} proposed decomposing verbal units into a \textsc{cause} and another abstract element, either \textsc{loc(ation)} or \textsc{have}. The order DO>IO corresponds to \textsc{cause} + \textsc{loc}, whereas IO>DO corresponds to  \textsc{cause} + \textsc{have}. Therefore, these two orders correlate with two independent structures. Examples in (\ref{ex:cepeda:4}) and (\ref{ex:cepeda:5}) are adapted from \citet{Harley1995WCCFL}.
 
-\ea%4 
+\ea%4
     \label{ex:cepeda:4}
 	\ea\label{ex:cepeda:4a}
 	DO>IO (= \textsc{cause} + \textsc{loc})\\
@@ -88,16 +87,16 @@ For English, \citet{Harley1995WCCFL} proposed decomposing verbal units into a \t
 \begin{forest}
 [\textit{v}P
 	[Olga]
-	[\textit{v}$'$ 
+	[\textit{v}$'$
 		[\textit{v}\\\textsc{cause}]
 		[PP
 		    [{an apple}]
-		    [P$'$ 
+		    [P$'$
 		        [P\\\textsc{loc}]
-		        [Mario] 
-		    ] 
+		        [Mario]
+		    ]
 		]
-	] 
+	]
 ]
 \end{forest}
 	\z
@@ -115,10 +114,10 @@ For English, \citet{Harley1995WCCFL} proposed decomposing verbal units into a \t
 	    [\textit{v}\\\textsc{cause}]
 		[PP
 			[Mario]
-			[P$'$ 
+			[P$'$
 			    [P\\\textsc{have}]
 			    [{an apple}]
-            ] 
+            ]
 		]
 	]
 ]
@@ -126,12 +125,12 @@ For English, \citet{Harley1995WCCFL} proposed decomposing verbal units into a \t
 	\z
 \z
 
-\citeauthor{Harley1995WCCFL}’s independent structures have been applied to the analysis of Romance ditransitives (\citealt{Bleam2003, Costa2009, Brito2014}, \citeyear{Brito2015}). The central argument used has been based on the non-compositionality of idiomatic expressions. Let us consider Brito’s (\citeyear{Brito2014}, \citeyear{Brito2015}) analysis as an example of this approach.
+\citeauthor{Harley1995WCCFL}’s independent structures have been applied to the analysis of Romance ditransitives (\citealt{Bleam2003, Costa2009, Brito2014,Brito2015}). The central argument used has been based on the non-compositionality of idiomatic expressions. Let us consider Brito’s (\citeyear{Brito2014}; \citeyear{Brito2015}) analysis as an example of this approach.
 
-When discussing EP ditransitives, Brito (\citeyear{Brito2014, Brito2015}) concludes that there is no English-like DOC in EP and the DO>IO and IO>DO orders correspond to the different underlying structures in (\ref{ex:cepeda:6}).
-\newpage 
+When discussing EP ditransitives, \citet{Brito2014,Brito2015} concludes that there is no English-like DOC in EP and the DO>IO and IO>DO orders correspond to the different underlying structures in (\ref{ex:cepeda:6}).
+\newpage
 
-\ea%6 
+\ea%6
     \label{ex:cepeda:6}
 	\ea\label{ex:cepeda:6a}
 	{DO>IO}\\
@@ -139,12 +138,12 @@ When discussing EP ditransitives, Brito (\citeyear{Brito2014, Brito2015}) conclu
 [VP
     [V$'$
 		[V]
-		[VP 
+		[VP
 			[DO]
 			[V$'$
-			    [V] 
+			    [V]
 			    [IO]
-            ] 
+            ]
 		]
 	]
 ]
@@ -155,11 +154,11 @@ When discussing EP ditransitives, Brito (\citeyear{Brito2014, Brito2015}) conclu
 [VP
     [V$'$
 		[V]
-		[VP 
+		[VP
 		    [IO]
 		    [V$'$
-		        [V] 
-		        [DO] 
+		        [V]
+		        [DO]
             ]
         ]
     ]
@@ -191,12 +190,12 @@ Using idiomatic expressions to support her claim, \citet{Brito2014} argues that 
 	EP idiomatic IO>DO\\
 	\gll Dar [\textsubscript{IO} a  Deus] [\textsubscript{DO} o que o diabo não quis].\\
 		give \hspaceThis{[\textsubscript{IO}} to God \hspaceThis{[\textsubscript{DO}} the what the devil  not  wanted\\
-	\glt ‘to pass as virtuous despite an immoral past.’
+	\glt ‘To pass as virtuous despite an immoral past.’
 	\ex\label{ex:cepeda:8b}
 	EP non-idiomatic DO>IO\\
 	\gll Dar [\textsubscript{DO} o que o diabo não quis] [\textsubscript{IO} a  Deus]. \\
 		give \hspaceThis{[\textsubscript{DO}} the what the devil  not  wanted \hspaceThis{[\textsubscript{IO}} to God\\
-	\glt ‘to give God what the Devil did not want.’
+	\glt ‘To give God what the Devil did not want.’
 	\z
 \z
 
@@ -217,11 +216,11 @@ In the three languages, some idioms seem to have the form V+DO, with IO in sente
 	\z
 \z
 
-Sentences like (\ref{ex:cepeda:9}) have been used as an argument to claim that V+DO must form a constituent and, therefore, IO must be generated higher than DO \citep{Bleam2003}. However, Larson (\citeyear{Larson2014}, \citeyear{Larson2017}) argues convincingly that idiomatic expressions are not a conclusive argument for the existence of two independent structures, let alone for DOC.
+Sentences like (\ref{ex:cepeda:9}) have been used as an argument to claim that V+DO must form a constituent and, therefore, IO must be generated higher than DO \citep{Bleam2003}. However, \citet{Larson2014,Larson2017} argues convincingly that idiomatic expressions are not a conclusive argument for the existence of two independent structures, let alone for DOC.
 
 First, the so-called \textit{idiomatic reading} is in fact compositional: the objects always receive specific meanings. \citet{Larson2017} shows that speakers can interpret the alleged idiomatic reading in a phrase even in isolation. He finds support for this in the dictionary entries. For instance, the English sentence \textit{Olga gave Mario a kick} can be interpreted as ‘Olga gave Mario some feeling of excitement’. But this meaning is exactly what Larson finds in the dictionary entry for \textit{kick}:
 
-\ea%10 
+\ea%10
     \label{ex:cepeda:10}
 	\textbf{kick} n... \textbf{5} \textit{Slang} a feeling of pleasurable stimulation. (\textit{AHDEL})\\
 	~\hfill \citep[406]{Larson2017}
@@ -248,10 +247,10 @@ This shows that the so-called idiomatic expressions appear to be fully compositi
 
 \citet{May1977} shows that quantifier scope ambiguities offer relevant information about sentence structure. For instance, the sentences in (\ref{ex:cepeda:12}) and (\ref{ex:cepeda:13}) both contain two quantifiers: the universal \textit{every} (represented as $\forall$) and the existential \textit{a} (represented as $\exists$). For each sentence, we show the surface scope (the reading in which the scope of the quantifiers follows the superficial order of the constituents) and the inverse scope (the reading that results from inverting the linear order of the quantifiers):
 
-\ea%12 
-    \label{ex:cepeda:12} 
+\ea%12
+    \label{ex:cepeda:12}
     Every ambassador visited a country.
-	\ea\label{ex:cepeda:12a} 
+	\ea\label{ex:cepeda:12a}
 	Surface scope: $\forall$ > $\exists$\\
 	For every ambassador, there is a (potentially different) country that she/he visited.
 	\ex\label{ex:cepeda:12b}
@@ -260,8 +259,8 @@ This shows that the so-called idiomatic expressions appear to be fully compositi
 	\z
 \z
 
-\ea%13 
-    \label{ex:cepeda:13} 
+\ea%13
+    \label{ex:cepeda:13}
     An ambassador visited every country.
 	\ea\label{ex:cepeda:13a}
 	Surface scope: $\exists$ > $\forall$\\
@@ -303,19 +302,20 @@ We find the same asymmetries in Spanish and Portuguese ditransitives with \texti
 
 Sentence (\ref{ex:cepeda:15a}), DO$_∃$ IO$_∀$, has two possible readings. Its surface scope reading is that there is one gift that Olga gave to every student. Its inverse scope reading is that, for every student, there is a (potentially different) gift that Olga gave to them. In contrast, sentence (\ref{ex:cepeda:15b}), IO$_∃$  DO$_∀$, can only be interpreted with a surface scope reading: there is one student to whom Olga gave every present. The inverse scope is not possible, which means that it has frozen.
 
-\textcitetv{chapters/antonyuk} proposes a theory of scope freezing based on overt movement. Scope freezing occurs when a quantifier raises over another to a c-commanding position as a result of a single instance of movement. We use scope freezing as a diagnostic tool for observing the argument structure of ditransitives. Whereas sentences with no instances of object movement must be scopally ambiguous, sentences in which one object has moved over the other must be interpreted in scope freezing terms.
+\nocite{chapters/antonyuk}
+Antonyuk (\citeyear*{Antonyuk2015}; 2020 [this volume]) proposes a theory of scope freezing based on overt movement. Scope freezing occurs when a quantifier raises over another to a c-com\-man\-ding position as a result of a single instance of movement. We use scope freezing as a diagnostic tool for observing the argument structure of ditransitives. Whereas sentences with no instances of object movement must be scopally ambiguous, sentences in which one object has moved over the other must be interpreted in scope freezing terms.
 
 The interpretation of the sentences in (\ref{ex:cepeda:15}) suggests that they have different structures. Based on the possible scope ambiguity for DO>IO, we claim that there has been no object movement in (\ref{ex:cepeda:15a}). Conversely, in (\ref{ex:cepeda:15b}), based on the frozen scope of IO>DO, IO must have moved from a lower position to a higher one crossing over DO. The same scope asymmetry is also found in EP and Spanish. In the latter, the presence/absence of a dative clitic does not play any role in altering the scope relations between two co-occurring quantifiers. We return to the dative clitic’s role in \sectref{sec:cepeda:2.2}.
 
-This scope asymmetry strongly indicates that DO>IO and IO>DO must be related and that the base order is DO>IO, as proposed by Larson (\citeyear{Larson1988}, \citeyear{Larson2014}). IO>DO must be derived by movement.\footnote{Comparable freezing facts and sensitivity to the different orders of DO and IO have been used to argue for an IO>DO base order in Germanic languages, DO>IO being the result of scrambling (see \citealt{Abraham1986, Choi1996, Bacovcin2017}, a.o.). For reasons of space, we leave a discussion of this proposal for future work.}
+This scope asymmetry strongly indicates that DO>IO and IO>DO must be related and that the base order is DO>IO, as proposed by \citet{Larson1988,Larson2014}. IO>DO must be derived by movement.\footnote{Comparable freezing facts and sensitivity to the different orders of DO and IO have been used to argue for an IO>DO base order in Germanic languages, DO>IO being the result of scrambling (see \citealt{Abraham1986, Choi1996, Bacovcin2017}, a.o.). For reasons of space, we leave a discussion of this proposal for future work.}
 
-\subsection{There is no DOC in Spanish or Portuguese.}\label{sec:cepeda:2.2}
+\subsection{There is no DOC in Spanish or Portuguese}\label{sec:cepeda:2.2}
 
-As already mentioned, scholars such as \citet{Demonte1995}, \citet{Bleam2003}, Cuervo (\citeyear{Cuervo2003}, \citeyear{Cuervo2010Proceedings}), a.o., claim that the presence of the dative clitic in Spanish indicates a DOC. In this section, we show that the presence of the clitic does not support a DOC analysis for Spanish, EP, and BP. Although we refer to examples by \citet{Demonte1995}, our discussion also applies to other scholars’ work, as they use \citet{Demonte1995} as the base of their proposals. In addition, we show that the impossibility of passivization suggests against a DOC analysis for these three languages.
+As already mentioned, scholars such as \citet{Demonte1995}, \citet{Bleam2003}, \citet{Cuervo2003}, \citet{Cuervo2010Proceedings}, a.o., claim that the presence of the dative clitic in Spanish indicates a DOC. In this section, we show that the presence of the clitic does not support a DOC analysis for Spanish, EP, and BP. Although we refer to examples by \citet{Demonte1995}, our discussion also applies to other scholars’ work, as they use \citet{Demonte1995} as the base of their proposals. In addition, we show that the impossibility of passivization suggests against a DOC analysis for these three languages.
 
 \citet{Demonte1995} argues that only with the presence of the clitic can an anaphoric or possessive DO appear higher than an IO. To support her claim, she finds a contrast between (\ref{ex:cepeda:16a})/(\ref{ex:cepeda:17a}), without a clitic, and (\ref{ex:cepeda:16b})/(\ref{ex:cepeda:17b}), with a clitic, respectively (examples based on \citeauthor{Demonte1995}):
 
-\newpage 
+\newpage
 
 \ea%16
     \label{ex:cepeda:16} Spanish
@@ -331,7 +331,7 @@ As already mentioned, scholars such as \citet{Demonte1995}, \citet{Bleam2003}, C
 \z
 
 \ea%17
-    \label{ex:cepeda:17} 
+    \label{ex:cepeda:17}
     Spanish
 	\ea\label{ex:cepeda:17a}
 	\gll La  profesora entregó [\textsubscript{DO} su$_i$ dibujo] [\textsubscript{IO} a  cada  niño$_i$].\\
@@ -345,9 +345,9 @@ As already mentioned, scholars such as \citet{Demonte1995}, \citet{Bleam2003}, C
 	\z
 \z
 
-However, the grammaticality differences offered by Demonte are not informative of the underlying structure of ditransitive constructions. First, the grammaticality difference of the sentences in (\ref{ex:cepeda:16}) is not an effect of the presence of the dative clitic, as the same difference arises when adding the clitic to (\ref{ex:cepeda:16a}) or removing it from (\ref{ex:cepeda:16b}) (also noted by \citealt{Pineda2013}). Rather, the contrast arises from the different internal structure of the DO DPs: [\textsubscript{DO} \textit{a sí misma}] ‘herself’ in (\ref{ex:cepeda:16a}), and [\textsubscript{DO} \textit{la estima de sí misma}] ‘her self-esteem’ in (\ref{ex:cepeda:16b}). The grammaticality of (\ref{ex:cepeda:16b}) is due to the deeper structural position of the anaphor.
+However, the grammaticality differences offered by Demonte are not informative of the underlying structure of ditransitive constructions. First, the grammaticality difference of the sentences in (\ref{ex:cepeda:16}) is not an effect of the presence of the dative clitic, as the same difference arises when adding the clitic to (\ref{ex:cepeda:16a}) or removing it from (\ref{ex:cepeda:16b}) (also noted by \citealt{Pineda2013, Pineda2020}). Rather, the contrast arises from the different internal structure of the DO DPs: [\textsubscript{DO} \textit{a sí misma}] ‘herself’ in (\ref{ex:cepeda:16a}), and [\textsubscript{DO} \textit{la estima de sí misma}] ‘her self-esteem’ in (\ref{ex:cepeda:16b}). The grammaticality of (\ref{ex:cepeda:16b}) is due to the deeper structural position of the anaphor.
 
-Second, against \citegen{Demonte1995} judgment, we consider (\ref{ex:cepeda:17a}) unquestionably grammatical (so does \citealt{Pineda2013}). Thus, there is no real grammaticality differences between (\ref{ex:cepeda:17a}) and (\ref{ex:cepeda:17b}). The grammaticality effects remain the same regardless of the presence or absence of the dative clitic for both sentences. We conclude that the dative clitic in Spanish does not play any role in determining the structural position of DO or IO.
+Second, against \citegen{Demonte1995} judgment, we consider (\ref{ex:cepeda:17a}) unquestionably grammatical (so does \citealt{Pineda2013,Pineda2020}). Thus, there are no real grammaticality differences between (\ref{ex:cepeda:17a}) and (\ref{ex:cepeda:17b}). The grammaticality effects remain the same regardless of the presence or absence of the dative clitic for both sentences. We conclude that the dative clitic in Spanish does not play any role in determining the structural position of DO or IO.
 
 But does the presence of a clitic inform about a DOC? When analyzing English ditransitives, \citet{Oehrle1976} claimed that DO>IO sentences such as (\ref{ex:cepeda:18a}) and IO>DO sentences such as (\ref{ex:cepeda:18b}) have a different interpretation in terms of \textit{possession entailment}. \citeauthor{Oehrle1976} says that the English DOC entails that there is a successful transfer or change of possession, either literally or symbolically. Therefore, by uttering (\ref{ex:cepeda:18a}), the speaker does not have any commitment to whether Mario actually learned Quechua. In contrast, only in (\ref{ex:cepeda:18b}) is there a possession entailment: Mario was transferred knowledge and, therefore, he did in fact learn Quechua.
 
@@ -358,12 +358,12 @@ But does the presence of a clitic inform about a DOC? When analyzing English dit
 	\z
 \z
 
-\citet{Demonte1995} assumes Oehrle’s analysis for English to be directly applicable for Spanish sentences depending on the absence or presence of a clitic. She differentiates between sentences with and without a clitic and argues that the presence of the clitic assures a possession entailment. To test this claim, we analyze the sentences in (\ref{ex:cepeda:19a}) and (\ref{ex:cepeda:19b}) (adapted from \citeauthor{Demonte1995}). We think that these sentences are ideal to test whether the presence of the clitic plays a role in conveying a transfer of possession, because they do not contain a \textit{give}-type verb in the main clause. If the transfer of possession is a property of the clitic, then the sentence containing a clitic must entail a transfer of possession. However, as we show, the presence of the clitic does not generate a possession entailment.
+\citet{Demonte1995} assumes Oehrle’s analysis for English to be directly applicable to Spanish sentences depending on the absence or presence of a clitic. She differentiates between sentences with and without a clitic and argues that the presence of the clitic assures a possession entailment. To test this claim, we analyze the sentences in (\ref{ex:cepeda:19a}) and (\ref{ex:cepeda:19b}) (adapted from \citeauthor{Demonte1995}). We think that these sentences are ideal to test whether the presence of the clitic plays a role in conveying a transfer of possession, because they do not contain a \textit{give}-type verb in the main clause. If the transfer of possession is a property of the clitic, then the sentence containing a clitic must entail a transfer of possession. However, as we show, the presence of the clitic does not generate a possession entailment.
 
 Sentence (\ref{ex:cepeda:19a}) contains no clitic in the main clause and includes a \textit{para}-phrase (‘for’). The fact that the main clause can be continued by \textit{que luego le dio a Mario} ‘which she later gave to Mario’ is interpreted by \citeauthor{Demonte1995} as a suggestion that there is no transfer of possession because there is no clitic supporting that interpretation. Sentence (\ref{ex:cepeda:19b}) contains the clitic \textit{le} in the main clause and an \textit{a}-phrase (‘to’). \citeauthor{Demonte1995} adds a double question mark to the continuation \textit{que luego le dio a Mario} under the assumption that the presence of the clitic conveys a clear transfer of possession. In other words, she assumes that in (\ref{ex:cepeda:19b}) the cake is now in the possession of Olga, so it cannot be further transferred to Mario.
 
 \ea%19
-    \label{ex:cepeda:19} 
+    \label{ex:cepeda:19}
     Spanish
 	\ea\label{ex:cepeda:19a}
 	\gll Hizo [una torta] [\textbf{para} Olga] (que luego le   dio   a  Mario).\\
@@ -381,21 +381,22 @@ However, the semantics proposed by \citeauthor{Demonte1995} for these sentences 
 
 A further argument against a DOC analysis is passivization. English DOCs are able to passivize the argument generated in the IO position. \citet{Larson1988} explains that passivization and the PP-dative/DOC alternation are related processes, since passives advance an object to a subject position, while DOCs advance an indirect object to a direct object position. IO passivization is shown in (\ref{ex:cepeda:20}), where \textit{Mario} was generated as an IO, even though it appears occupying the subject position after spell-out.
 
-\ea%20 
-    \label{ex:cepeda:20} 
+\ea%20
+    \label{ex:cepeda:20}
     English\\
 	Mario was given an apple.
 \z
 
 However, IO passivization is simply not allowed in Spanish, EP, or BP. The examples in (\ref{ex:cepeda:21}) show the impossibility of the counterparts of (\ref{ex:cepeda:20}) in these three languages. Note that the presence of the dative clitic in Spanish does not improve the grammaticality of the sentence (\ref{ex:cepeda:21b}).
 
-\ea%21 
+\ea%21
     \label{ex:cepeda:21}
 	\ea\label{ex:cepeda:21a}
 	EP/BP\\
 	\gll *O Mario  foi   dado uma maçã.\\
 		\hspaceThis{*}the Mario was given an    apple\\
 	\glt Intended: ‘Mario was given an apple.’
+	\newpage
 	\ex\label{ex:cepeda:21b}
 	Spanish\\
 	\gll  *Mario (le) fue dado  una manzana.\\
@@ -406,7 +407,7 @@ However, IO passivization is simply not allowed in Spanish, EP, or BP. The examp
 
 The absence of IO passivization in Spanish, EP, and BP has been largely overlooked as if it did not offer any insights for these languages. But, if IO passivization is not possible, then we need to assume that IO in IO>DO is not occupying any object position (\citealt{Larson2014}), even though its linear order may suggest differently. We return to this issue in \sectref{sec:cepeda:3}. For now, it is safe to say that, if IO is not occupying an object position when it precedes DO, then it is not accurate to claim that IO>DO is a DOC.
 
-We conclude that the claim that there is DOC in Spanish, EP, and BP does not have support in the data, and there is no solid semantic or structural evidence for a DOC in these three languages. 
+We conclude that the claim that there is DOC in Spanish, EP, and BP does not have support in the data, and there is no solid semantic or structural evidence for a DOC in these three languages.
 
 \section{The order of objects and information structure}\label{sec:cepeda:3}
 
@@ -462,11 +463,11 @@ Second, IO>DO also appears when DO is heavy, that is, when it is either a long o
 	\z
 \z
 
-For cases like (\ref{ex:cepeda:23}) and (\ref{ex:cepeda:24}), IO>DO is the most natural order. IO>DO is, therefore, the result of a discourse related configuration that affects the basic order of the arguments of ditransitives. From these facts, we conclude that the IO>DO order should be explained in terms of information structure.
+For cases like (\ref{ex:cepeda:23}) and (\ref{ex:cepeda:24}), IO>DO is the most natural order. IO>DO is, therefore, the result of a discourse-related configuration that affects the basic order of the arguments of ditransitives. From these facts, we conclude that the IO>DO order should be explained in terms of information structure.
 
 \subsection{A low left periphery}\label{sec:cepeda:3.2}
 
-\citet{Belletti2004Chapter} argues that the verb phrase is endowed with a fully-fledged periphery of discourse related structural positions, in parallel with the high left periphery. Her seminal work has been successfully developed in the recent literature (\citealt{Mioto2003, Quarezemin2005, Jiménez-Fernández2009}, a.o.) and is relevant for us to explain the IO>DO order in Spanish, EP, and BP. We propose a low left periphery that minimally contains a Topic Phrase (TopP), a Focus Phrase (FocP), and the verbal domain (\textit{v}P), as shown in (\ref{ex:cepeda:25}). TopP and FocP are motivated by the discursive processes that change the order of sentence constituents.
+\citet{Belletti2004Chapter} argues that the verb phrase is endowed with a fully-fledged periphery of discourse-related structural positions, in parallel with the high left periphery. Her seminal work has been successfully developed in the recent literature (\citealt{Mioto2003, Quarezemin2005, Jiménez-Fernández2009}, a.o.) and is relevant for us to explain the IO>DO order in Spanish, EP, and BP. We propose a low left periphery that minimally contains a Topic Phrase (TopP), a Focus Phrase (FocP), and the verbal domain (\textit{v}P), as shown in (\ref{ex:cepeda:25}). TopP and FocP are motivated by the discursive processes that change the order of sentence constituents.
 
 \ea%25
     \label{ex:cepeda:25}{}
@@ -484,10 +485,11 @@ We propose that IO>DO is possible when IO occupies TopP and DO occupies FocP. Co
 
 As argued in \sectref{sec:cepeda:2.1}, the DO \textit{uma maçã} ‘an apple’ in (\ref{ex:cepeda:26}) is generated higher than the IO \textit{para o Mario} ‘to Mario’. This base order is altered by two movement operations, which are motivated by information structure properties in the low left periphery. First, since DO encodes new information by offering the exact answer to the question ‘what?’, it moves from its verb-internal position to the low FocP. This movement is not surprising as answers to questions are associated with focus (\citealt{Rooth1992}). Second, since IO offers given information, it moves from its initial position to the low TopP, crossing over both DO’s base position and its landing site. Additionally, the complex V+\textit{v} has moved to Tense, as is the general case in Romance. A structure for (\ref{ex:cepeda:26}) is shown in (\ref{ex:cepeda:27}). The arrows mark the movements towards the low left periphery.
 
-\ea%27 
+\ea%27
     \label{ex:cepeda:27}
+    \hspace*{-10mm}
 \fittable{
-\begin{forest} 
+\begin{forest}
 [TP
 	[{\textbf{A Olga}}]
 	[T$'$
@@ -496,7 +498,7 @@ As argued in \sectref{sec:cepeda:2.1}, the DO \textit{uma maçã} ‘an apple’
 	        [\textit{v}
 		        [\textit{v}]
                 [\textbf{deu}]
-            ] 
+            ]
 	    ]
         [TopP
             [\textbf{para o Mario},name=pp2]
@@ -519,7 +521,7 @@ As argued in \sectref{sec:cepeda:2.1}, the DO \textit{uma maçã} ‘an apple’
                                         [\textcolor{gray}{deu}]
                                         [\textcolor{gray}{PP},name=pp1
                                             [\textcolor{gray}{para}]
-                                            [\textcolor{gray}{o Mario}] 
+                                            [\textcolor{gray}{o Mario}]
 								        ]
 								    ]
 							    ]
@@ -552,12 +554,13 @@ The analyses we have proposed for IO>DO and DO>IO apply equally to BP, EP, and S
 
 \section{Conclusions}\label{sec:cepeda:4}
 
-In this paper, we have dismissed the arguments supporting a DOC approach for Spanish and Portuguese while showing that there are no DOCs in these three languages. We have proposed that the internal argument structure of ditransitives is based on a DO>IO order. The IO>DO order is a derived configuration, which we have explained in terms of movement to a low left periphery with discourse-related positions available. Our comparative approach unifies the analysis of ditransitives in Spanish, EP and BP.
+In this paper, we have dismissed the arguments supporting a DOC approach for Spanish and Portuguese while showing that there are no DOCs in these languages. We have proposed that the internal argument structure of ditransitives is based on a DO>IO order. The IO>DO order is a derived configuration, which we have explained in terms of movement to a low left periphery with discourse-related positions available. Our comparative approach unifies the analysis of ditransitives in Spanish, EP and BP.
 
-%\section*{Abbreviations}
+\section*{Abbreviations}
+The abbreviations used in the glosses of this chapter follow the Leipzig Glossing Rules.
 
 \section*{Acknowledgements}
-Both authors thank Richard Larson, the participants at the Syntax Seminar at Stony Brook University (Fall 2015), the audiences at the International Workshop on Dative Structures in Barcelona (Spring 2017), at the 47th Linguistic Symposium on Romance Languages at the University of Delaware (Spring 2017), and at the Department of Linguistics at Stony Brook University (Spring 2017), as well as two anonymous reviewers. Both authors also express their gratitude to Russell Tanenbaum, who proofread the document. The first author thanks the support of the American Council of Learned Societies (Mellon/ACLS Dissertation Completion Fellowship 2017--s2018). The second author thanks the support of CNPq–Conselho Nacional de Desenvolvimento Científico e Tecnológico, Brazil, (Grant 303742/2013-5), FAPESP- Fundação de Amparo à Pesquisa do Estado de São Paulo, Brazil, (Grants 2012/06078-9 and 2014/17477-7), and Ministerio de Economía y Competitividad, España (FFI2014/52015-P).
+Both authors thank Richard Larson, the participants at the Syntax Seminar at Stony Brook University (Fall 2015), the audiences at the International Workshop on Dative Structures in Barcelona (Spring 2017), at the 47th Linguistic Symposium on Romance Languages at the University of Delaware (Spring 2017), and at the Department of Linguistics at Stony Brook University (Spring 2017), as well as two anonymous reviewers. Both authors also express their gratitude to Russell Tanenbaum, who proofread the document. The first author thanks the support of the American Council of Learned Societies (Mellon/ACLS Dissertation Completion Fellowship 2017--2018). The second author thanks the support of CNPq–Conselho Nacional de Desenvolvimento Científico e Tecnológico, Brazil (Grant 303742/2013-5), FAPESP- Fundação de Amparo à Pesquisa do Estado de São Paulo, Brazil (Grants 2012/06078-9 and 2014/17477-7), and Ministerio de Economía y Competitividad, España (FFI2014/52015-P).
 
 \sloppy\printbibliography[heading=subbibliography,notkeyword=this]
 \end{document}
